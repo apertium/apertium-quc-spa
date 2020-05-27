@@ -21,6 +21,9 @@
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
     <sdef n="ND"             c=""/>
+    <sdef n="tn"             c=""/>
+    <sdef n="px1pl"             c=""/>
+    <sdef n="px1sg"             c=""/>
     <sdef n="GD"             c=""/>
     <sdef n="mf"             c=""/>
     <sdef n="rel"             c=""/>
@@ -123,18 +126,19 @@
 
       <!-- SECTION: Determinantes -->
 
-      <e><p><l>le<s n="det"/></l><r>el<s n="det"/><s n="def"/><s n="ND"/><s n="GD"/></r></p><par n="GD_ND"/></e>
+      <e><p><l>le<s n="det"/></l><r>el<s n="det"/><s n="def"/></r></p><par n="GD_ND"/></e>
 
       <!-- SECTION: Sustantivos relacionales -->
 
-      <e r="LR"><p><l>wach<s n="n"/><s n="rel"/></l><r></r></p></e>
+      <e r="LR"><p><l>wach<s n="n"/><s n="rel"/><s n="px1sg"/></l><r>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>wach<s n="n"/><s n="rel"/><s n="px1pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
 
       <!-- SECTION: Sustantivos -->
 
-      <e><p><l>ch’ab’al<s n="n"/></l><r>lengua<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>ch’ab’al<s n="n"/></l><r>idioma<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>ch’ab’al<s n="n"/></l><r>voz<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>k’iche’<s n="n"/></l><r>quiché<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>chʼabʼal<s n="n"/></l><r>lengua<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>chʼabʼal<s n="n"/></l><r>idioma<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>chʼabʼal<s n="n"/></l><r>voz<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kʼicheʼ<s n="n"/></l><r>quiché<s n="n"/><s n="m"/></r></p></e>
 
       <!-- SECTION: Nombres propios -->
 
@@ -142,7 +146,7 @@
 
       <!-- SECTION: Adjetivos -->
 
-      <e><p><l>k’iche’<s n="adj"/></l><r>quiché<s n="adj"/></r></p><par n="mf_ND"/></e>
+      <e><p><l>kʼicheʼ<s n="adj"/></l><r>quiché<s n="adj"/></r></p><par n="mf_ND"/></e>
 
       <!-- SECTION: Adverbios -->
 

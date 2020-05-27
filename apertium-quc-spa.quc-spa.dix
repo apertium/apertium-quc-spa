@@ -92,6 +92,23 @@
     <sdef n="rquot"           c="Right quote"/>
   </sdefs>
 
+   <pardefs>
+      <pardef n="mf_ND">
+        <e r="LR"><l></l><r><s n="mf"/><s n="ND"/></r></p></e>
+        <e r="RL"><l></l><r><s n="mf"/><s n="sg"/></r></p></e>
+        <e r="RL"><l></l><r><s n="mf"/><s n="pl"/></r></p></e>
+      </pardef>
+      <pardef n="GD_ND">
+        <e r="LR"><l></l><r><s n="GD"/><s n="ND"/></r></p></e>
+        <e r="RL"><l></l><r><s n="m"/><s n="sg"/></r></p></e>
+        <e r="RL"><l></l><r><s n="m"/><s n="pl"/></r></p></e>
+        <e r="RL"><l></l><r><s n="f"/><s n="sg"/></r></p></e>
+        <e r="RL"><l></l><r><s n="f"/><s n="pl"/></r></p></e>
+      </pardef>
+
+
+  </pardefs>  
+
    <section id="main" type="standard">
 
       <!-- SECTION: Conjunciones -->
@@ -102,8 +119,7 @@
 
       <!-- SECTION: Determinantes -->
 
-      <e r="LR"><p><l>le<s n="det"/></l><r>el<s n="det"/><s n="def"/><s n="ND"/><s n="GD"/></r></p></e>
-      <e r="RL"><p><l>le<s n="det"/></l><r>el<s n="det"/><s n="def"/></r></p></e>
+      <e><p><l>le<s n="det"/></l><r>el<s n="det"/><s n="def"/><s n="ND"/><s n="GD"/></r></p><par n="GD_ND"/></e>
 
       <!-- SECTION: Sustantivos relacionales -->
 
@@ -114,10 +130,15 @@
       <e><p><l>ch’ab’al<s n="n"/></l><r>lengua<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ch’ab’al<s n="n"/></l><r>idioma<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ch’ab’al<s n="n"/></l><r>voz<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>k’iche’<s n="n"/></l><r>quiché<s n="n"/><s n="m"/></r></p></e>
 
       <!-- SECTION: Nombres propios -->
 
+      <e><p><l>Nela<s n="np"/><s n="ant"/><s n="f"/></l><r>Manuela<s n="np"/><s n="ant"/></r></p></e>
+
       <!-- SECTION: Adjetivos -->
+
+      <e><p><l>k’iche’<s n="adj"/></l><r>quiché<s n="adj"/></r></p><par n="mf_ND"/></e>
 
       <!-- SECTION: Adverbios -->
 

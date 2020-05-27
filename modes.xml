@@ -73,7 +73,7 @@
 
 
 
-  <!-- spa → quc -->
+  <!-- spa → quc 
 
   <mode name="spa-quc" install="yes" gendebug="yes">
     <pipeline>
@@ -119,5 +119,6 @@
       </program>
     </pipeline>
   </mode>
+-->
 </modes>
 

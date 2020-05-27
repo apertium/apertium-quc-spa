@@ -1,7 +1,16 @@
 <transfer>
  <section-def-cats>
+  <def-cat n="V">
+   <cat-item tags="V.*"/>
+   <cat-item tags="V"/>
+  </def-cat>
   <def-cat n="SN">
+   <cat-item tags="SN"/>
    <cat-item tags="SN.*"/>
+  </def-cat>
+  <def-cat n="fin">
+   <cat-item tags="v.*.perf.*"/>
+   <cat-item tags="v.*.impf.*"/>
   </def-cat>
   <def-cat n="prop">
    <cat-item tags="np.*"/>
@@ -35,6 +44,41 @@
   </def-list>
  </section-def-lists>
  <section-rules>
+  <rule comment="V SN">
+   <pattern>
+    <pattern-item n="V"/>
+    <pattern-item n="SN"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk name="SV">
+        <tags>
+         <tag><lit-tag v="V"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="chcontents"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="chcontents"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="fin">
+   <pattern>
+    <pattern-item n="fin"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk name="default">
+        <tags>
+         <tag><lit-tag v="V"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
   <rule comment="det SN">
    <pattern>
     <pattern-item n="adj"/><pattern-item n="n"/>

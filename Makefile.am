@@ -25,11 +25,12 @@ TARGETS_COMMON =		\
 	$(PREFIX2).rlx.bin	\
 	$(PREFIX2).autobil.bin	\
 	$(PREFIX2).autolex.bin	\
-	$(PREFIX2).autogen.bin	\
-	$(PREFIX2).autopgen.bin	\
 	$(PREFIX2).autoseq.bin	\
 	$(PREFIX2).revautoseq.bin	\
 	$(PREFIX2).rtx.bin
+
+#	$(PREFIX2).autogen.bin	
+#	$(PREFIX2).autopgen.bin	
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
 @ap_include@
@@ -62,16 +63,16 @@ $(PREFIX1).automorf.bin: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.p
 	hfst-fst2txt -i .deps/$(PREFIX1).automorf.trimmed -o .deps/$(PREFIX1).automorf.trimmed.att
 	lt-comp lr .deps/$(PREFIX1).automorf.trimmed.att $@
 
-# -------------------
-# quc generation:
-# ---------------------
-
-$(PREFIX2).autogen.hfst: $(AP_SRC1)/$(LANG1).autogen.hfst
-	cp $< $@
-
-$(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
-	cp $< $@
-
+## -------------------
+## quc generation:
+## ---------------------
+#
+#$(PREFIX2).autogen.hfst: $(AP_SRC1)/$(LANG1).autogen.hfst
+#	cp $< $@
+#
+#$(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
+#	cp $< $@
+#
 # -------------------
 # Spanish analysis:
 # -------------------

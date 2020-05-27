@@ -22,6 +22,10 @@
     <sdef n="prn"             c="Pronoun"/>
     <sdef n="ND"             c=""/>
     <sdef n="tn"             c=""/>
+    <sdef n="impf"             c=""/>
+    <sdef n="perf"             c=""/>
+    <sdef n="o_sg3"             c=""/>
+    <sdef n="s_sg3"             c=""/>
     <sdef n="px1pl"             c=""/>
     <sdef n="px1sg"             c=""/>
     <sdef n="GD"             c=""/>
@@ -112,7 +116,11 @@
         <e r="RL"><p><l></l><r><s n="f"/><s n="sg"/></r></p></e>
         <e r="RL"><p><l></l><r><s n="f"/><s n="pl"/></r></p></e>
       </pardef>
-
+      <pardef n="TV">
+        <e r="LR"><p><l><s n="perf"/><s n="o_sg3"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="o_sg3"/><s n="s_sg3"/></l><r></r></p></e>
+        <e><p><l></l><r></r></p></e>
+      </pardef>
 
   </pardefs>  
 
@@ -154,7 +162,7 @@
 
       <!-- SECTION: Verbos -->
 
-      <e><p><l>kʼut<s n="v"/><s n="tv"/></l><r>enseñar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>kʼut<s n="v"/><s n="tv"/></l><r>enseñar<s n="vblex"/></r></p></e>
       <e><p><l>tzelejik<b/>ubik<s n="v"/><s n="iv"/></l><r>volver<s n="vblex"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>

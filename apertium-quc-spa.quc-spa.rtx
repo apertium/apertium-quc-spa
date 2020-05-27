@@ -25,6 +25,7 @@
   </def-cat>
   <def-cat n="det">
    <cat-item tags="det"/>
+   <cat-item tags="det.*"/>
   </def-cat>
   <def-cat n="adj">
    <cat-item tags="adj"/>
@@ -56,7 +57,7 @@
  </section-def-lists>
  <section-rules>
 
-  <rule comment="SV SN">
+  <rule comment="SV SN" firstChunk="S">
    <pattern>
     <pattern-item n="SV"/>
     <pattern-item n="SN"/>
@@ -67,16 +68,16 @@
         <tags>
          <tag><lit-tag v="S"/></tag>
         </tags>
-        <lu> <clip pos="2" side="tl" part="chcontents"/> </lu>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
         <b/>
-        <lu> <clip pos="1" side="tl" part="chcontents"/> </lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
 
 
-  <rule comment="V SN">
+  <rule comment="V SN" firstChunk="SV">
    <pattern>
     <pattern-item n="V"/>
     <pattern-item n="SN"/>
@@ -87,15 +88,15 @@
         <tags>
          <tag><lit-tag v="V"/></tag>
         </tags>
-        <lu> <clip pos="1" side="tl" part="chcontents"/> </lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
         <b/>
-        <lu> <clip pos="2" side="tl" part="chcontents"/> </lu>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
 
-  <rule comment="fin">
+  <rule comment="fin" firstChunk="V">
    <pattern>
     <pattern-item n="fin"/>
    </pattern>
@@ -115,7 +116,7 @@
    </action>
   </rule>
 
-  <rule comment="det SN">
+  <rule comment="det SN" firstChunk="SN">
    <pattern>
     <pattern-item n="det"/><pattern-item n="SN"/>
    </pattern>
@@ -125,15 +126,15 @@
         <tags>
          <tag><lit-tag v="SN"/></tag>
         </tags>
-        <lu> <clip pos="1" side="tl" part="chcontents"/> </lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
         <b/>
-        <lu> <clip pos="2" side="tl" part="chcontents"/> </lu>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
 
-  <rule comment="adj prop">
+  <rule comment="adj prop" firstChunk="SN">
    <pattern>
     <pattern-item n="adj"/> <pattern-item n="prop"/>
    </pattern>
@@ -154,7 +155,7 @@
   </rule>
 
 
-  <rule comment="prop">
+  <rule comment="prop" firstChunk="SN">
    <pattern>
     <pattern-item n="prop"/>
    </pattern>
@@ -173,7 +174,7 @@
   </rule>
 
 
-  <rule comment="adj n">
+  <rule comment="adj n" firstChunk="SN">
    <pattern>
     <pattern-item n="adj"/><pattern-item n="n"/>
    </pattern>

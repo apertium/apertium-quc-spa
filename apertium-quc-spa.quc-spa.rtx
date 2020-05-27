@@ -1,45 +1,136 @@
-!!!!!!!!!!!!!!!
-!! ATTRIBUTE CATEGORIES
-!!!!!!!!!!!!!!!
+<transfer>
+ <section-def-cats>
+  <def-cat n="SN">
+   <cat-item tags="SN.*"/>
+  </def-cat>
+  <def-cat n="prop">
+   <cat-item tags="np.*"/>
+  </def-cat>
+  <def-cat n="n">
+   <cat-item tags="n"/>
+   <cat-item tags="n.*"/>
+  </def-cat>
+  <def-cat n="det">
+   <cat-item tags="det"/>
+  </def-cat>
+  <def-cat n="adj">
+   <cat-item tags="adj"/>
+   <cat-item tags="adj.*"/>
+  </def-cat>
+ </section-def-cats>
+ <section-def-attrs>
+  <def-attr n="a_nbr">
+   <attr-item tags="sg"/>
+   <attr-item tags="pl"/>
+  </def-attr>
+  <def-attr n="a_gen">
+   <attr-item tags="m"/>
+   <attr-item tags="f"/>
+  </def-attr>
+ </section-def-attrs>
+ <section-def-lists>
+  <def-list n="pre_adj">
+   <list-item v="gran"/>
+   <list-item v="buen"/>
+  </def-list>
+ </section-def-lists>
+ <section-rules>
+  <rule comment="det SN">
+   <pattern>
+    <pattern-item n="adj"/><pattern-item n="n"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk name="default">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="chcontents"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
 
-number = (ND sg) sg pl sp ND;
-gender = (GD m) m f mf GD;
-det_type = def ind dem itg;
-tense = pres past fut ifi pri fti;
+  <rule comment="adj prop">
+   <pattern>
+    <pattern-item n="adj"/> <pattern-item n="prop"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk name="adj_prop">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/> </tag>
+         <tag><clip pos="2" side="tl" part="a_nbr"/> </tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
 
-!!!!!!!!!!!!!!!
-!! OUTPUT PATTERNS
-!!!!!!!!!!!!!!!
 
-n: _.gender.number;
-adj: _.gender.number;
-det_default: _.det_type;
-det_def: _.det_type.number;
+  <rule comment="prop">
+   <pattern>
+    <pattern-item n="prop"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk name="prop">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><clip pos="1" side="tl" part="a_gen"/> </tag>
+         <tag><clip pos="1" side="tl" part="a_nbr"/> </tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
 
-NP: _.number;
 
-!!!!!!!!!!!!!!!
-!! TAG-REWRITE RULES
-!!!!!!!!!!!!!!!
+  <rule comment="adj n">
+   <pattern>
+    <pattern-item n="adj"/><pattern-item n="n"/>
+   </pattern>
+   <action>
+    <choose>
+     <when>
+      <test> <in caseless="yes"> <clip pos="1" side="tl" part="lem"/> <list n="pre_adj"/> </in> </test>
+      <out>
+       <chunk name="adj_n">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/> </tag>
+         <tag><clip pos="2" side="tl" part="a_nbr"/> </tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+     </when>
+     <otherwise>
+      <out>
+       <chunk name="n_adj">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/> </tag>
+         <tag><clip pos="2" side="tl" part="a_nbr"/> </tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+     </otherwise>
+    </choose>
+   </action>
+  </rule>
+ </section-rules>
+</transfer>
 
-tense > tense : ifi past, pri pres, fti fut;
-
-!!!!!!!!!!!!!!!
-!! MACROS
-!!!!!!!!!!!!!!!
-
-det: (if (1.det_type = def or 1.det_type = ind)
-         1(det_def)
-      else
-         1(det_default));
-
-!!!!!!!!!!!!!!!
-!! REDUCTION RULES
-!!!!!!!!!!!!!!!
-
-NP -> n.$number adj { 2[gender=1.gender, number=1.number] _1 1 } ;
-
-! Resources:
-! http://wiki.apertium.org/wiki/Apertium-recursive
-! http://wiki.apertium.org/wiki/Apertium-recursive/Formalism
-! http://wiki.apertium.org/wiki/Apertium-recursive/Cookbook

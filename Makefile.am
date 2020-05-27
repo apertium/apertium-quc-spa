@@ -26,9 +26,9 @@ TARGETS_COMMON =		\
 	$(PREFIX2).autobil.bin	\
 	$(PREFIX2).autolex.bin	\
 	$(PREFIX2).autoseq.bin	\
-	$(PREFIX2).revautoseq.bin	\
-	$(PREFIX2).rtx.bin
+	$(PREFIX2).revautoseq.bin	
 
+#	$(PREFIX2).rtx.bin
 #	$(PREFIX2).autogen.bin	
 #	$(PREFIX2).autopgen.bin	
 
@@ -152,10 +152,10 @@ $(PREFIX2).revautoseq.bin: $(BASENAME).$(PREFIX2).lsx
 
 
 $(PREFIX1).rtx.bin: $(BASENAME).$(PREFIX1).rtx
-	rtx-comp $< $@
+	trx-comp $@ $<
 
-$(PREFIX2).rtx.bin: $(BASENAME).$(PREFIX2).rtx
-	rtx-comp $< $@
+#$(PREFIX2).rtx.bin: $(BASENAME).$(PREFIX2).rtx
+#	trx-comp $< $@
 
 ###############################################################################
 ## Postgeneration dictionaries

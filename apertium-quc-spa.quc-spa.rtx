@@ -4,6 +4,10 @@
    <cat-item tags="V.*"/>
    <cat-item tags="V"/>
   </def-cat>
+  <def-cat n="SV">
+   <cat-item tags="SV"/>
+   <cat-item tags="SV.*"/>
+  </def-cat>
   <def-cat n="SN">
    <cat-item tags="SN"/>
    <cat-item tags="SN.*"/>
@@ -44,6 +48,27 @@
   </def-list>
  </section-def-lists>
  <section-rules>
+
+  <rule comment="SV SN">
+   <pattern>
+    <pattern-item n="SV"/>
+    <pattern-item n="SN"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk name="S">
+        <tags>
+         <tag><lit-tag v="S"/></tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="chcontents"/> </lu>
+        <b/>
+        <lu> <clip pos="1" side="tl" part="chcontents"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
   <rule comment="V SN">
    <pattern>
     <pattern-item n="V"/>

@@ -1,12 +1,12 @@
-quc and Spanish: `apertium-quc-spa`
+K’iche’ and Spanish: `apertium-quc-spa`
 ===============================================================================
 
-This is an Apertium language pair for translating between quc and
+This is an Apertium language pair for translating between K’iche’ and
 Spanish. What you can use this language package for:
 
-* Translating between quc and Spanish
-* Morphological analysis of quc and Spanish
-* Part-of-speech tagging of quc and Spanish
+* Translating between K’iche’ and Spanish
+* Morphological analysis of K’iche’ and Spanish
+* Part-of-speech tagging of K’iche’ and Spanish
 
 For information on the latter two points, see subheading "For more
 information" below.

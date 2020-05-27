@@ -117,7 +117,7 @@
 
   <rule comment="det SN">
    <pattern>
-    <pattern-item n="adj"/><pattern-item n="n"/>
+    <pattern-item n="det"/><pattern-item n="SN"/>
    </pattern>
    <action>
       <out>
@@ -125,7 +125,7 @@
         <tags>
          <tag><lit-tag v="SN"/></tag>
         </tags>
-        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <lu> <clip pos="1" side="tl" part="chcontents"/> </lu>
         <b/>
         <lu> <clip pos="2" side="tl" part="chcontents"/> </lu>
        </chunk>

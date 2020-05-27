@@ -8,9 +8,9 @@
     <sdef n="n"               c="Noun"/>
     <sdef n="np"              c="Proper noun"/>
     <sdef n="vblex"           c="Verb, lexical"/>
-    <sdef n="vbmod"           c="Modal verb"/>
-    <sdef n="vaux"            c="Auxiliary verb"/>
-    <sdef n="vbser"           c="'To be' verb"/>
+    <sdef n="v"           c="Verb, lexical"/>
+    <sdef n="iv"            c="Intransitive"/>
+    <sdef n="tv"           c="Transitive"/>
     <sdef n="vbhaver"         c="'To have' verb"/>
     <sdef n="cnjsub"          c="Subordinating conjunction"/>
     <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
@@ -20,6 +20,10 @@
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
+    <sdef n="ND"             c=""/>
+    <sdef n="GD"             c=""/>
+    <sdef n="mf"             c=""/>
+    <sdef n="rel"             c=""/>
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
@@ -94,16 +98,16 @@
 
    <pardefs>
       <pardef n="mf_ND">
-        <e r="LR"><l></l><r><s n="mf"/><s n="ND"/></r></p></e>
-        <e r="RL"><l></l><r><s n="mf"/><s n="sg"/></r></p></e>
-        <e r="RL"><l></l><r><s n="mf"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l></l><r><s n="mf"/><s n="ND"/></r></p></e>
+        <e r="RL"><p><l></l><r><s n="mf"/><s n="sg"/></r></p></e>
+        <e r="RL"><p><l></l><r><s n="mf"/><s n="pl"/></r></p></e>
       </pardef>
       <pardef n="GD_ND">
-        <e r="LR"><l></l><r><s n="GD"/><s n="ND"/></r></p></e>
-        <e r="RL"><l></l><r><s n="m"/><s n="sg"/></r></p></e>
-        <e r="RL"><l></l><r><s n="m"/><s n="pl"/></r></p></e>
-        <e r="RL"><l></l><r><s n="f"/><s n="sg"/></r></p></e>
-        <e r="RL"><l></l><r><s n="f"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l></l><r><s n="GD"/><s n="ND"/></r></p></e>
+        <e r="RL"><p><l></l><r><s n="m"/><s n="sg"/></r></p></e>
+        <e r="RL"><p><l></l><r><s n="m"/><s n="pl"/></r></p></e>
+        <e r="RL"><p><l></l><r><s n="f"/><s n="sg"/></r></p></e>
+        <e r="RL"><p><l></l><r><s n="f"/><s n="pl"/></r></p></e>
       </pardef>
 
 

@@ -1,0 +1,94 @@
+quc and Spanish: `apertium-quc-spa`
+===============================================================================
+
+This is an Apertium language pair for translating between quc and
+Spanish. What you can use this language package for:
+
+* Translating between quc and Spanish
+* Morphological analysis of quc and Spanish
+* Part-of-speech tagging of quc and Spanish
+
+For information on the latter two points, see subheading "For more
+information" below.
+
+Requirements
+-------------------------------------------------------------------------------
+
+You will need the following software installed:
+
+* lttoolbox (>= 3.3.0)
+* apertium (>= 3.3.0)
+* vislcg3 (>= 0.9.9.10297)
+* hfst (>= 3.8.2)
+* apertium-quc
+* apertium-spa
+
+If this does not make any sense, we recommend you look at: www.apertium.org.
+
+Compiling
+-------------------------------------------------------------------------------
+
+Given the requirements being installed, you should be able to just run:
+
+```console
+$ ./configure
+$ make
+# make install
+```
+
+You can use `./autogen.sh` instead of `./configure` in case you're compiling
+from source. If you installed any prerequisite language packages using a
+`--prefix` with `./configure`, make sure to use the same `--prefix` when running
+`./configure` here.
+
+Testing
+-------------------------------------------------------------------------------
+
+If you are in the source directory after running make, the following
+commands should work:
+
+```console
+$ echo "TODO test sentence 1" | apertium -d . quc-spa
+TODO test translated sentence 1
+
+$ echo "TODO test sentence 2" | apertium -d . spa-quc
+TODO test translated sentence 2
+```
+
+After installing somewhere in `$PATH`, you should be able to do e.g.
+
+```console
+$ echo "TODO test sentence 1" | apertium quc-spa
+TODO test translated sentence 1
+```
+
+Files and data
+-------------------------------------------------------------------------------
+
+* [`apertium-quc-spa.quc-spa.dix`](apertium-quc-spa.quc-spa.dix) - Bilingual dictionary
+* [`apertium-quc-spa.quc-spa.rtx`](apertium-quc-spa.quc-spa.rtx) - Structural transfer rules for translating into Spanish
+* [`apertium-quc-spa.spa-quc.rtx`](apertium-quc-spa.spa-quc.rtx) - Structural transfer rules for translating into quc
+* [`apertium-quc-spa.quc-spa.lrx`](apertium-quc-spa.quc-spa.lrx) - Lexical selection rules for translating into Spanish
+* [`apertium-quc-spa.spa-quc.lrx`](apertium-quc-spa.spa-quc.lrx) - Lexical selection rules for translating into quc
+* [`apertium-quc-spa.quc-spa.lsx`](apertium-quc-spa.quc-spa.lsx) - Discontiguous multiword rules for translating into Spanish
+* [`apertium-quc-spa.spa-quc.lsx`](apertium-quc-spa.spa-quc.lsx) - Discontiguous multiword rules for translating into quc
+* [`apertium-quc-spa.quc-spa.arx`](apertium-quc-spa.quc-spa.arx) - Anaphora resolution rules for translating into Spanish
+* [`apertium-quc-spa.spa-quc.arx`](apertium-quc-spa.spa-quc.arx) - Anaphora resolution rules for translating into quc
+* [`modes.xml`](modes.xml) - Translation modes
+
+For more information
+-------------------------------------------------------------------------------
+
+* http://wiki.apertium.org/wiki/Installation
+* http://wiki.apertium.org/wiki/apertium-quc-spa
+* http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+
+Help and support
+-------------------------------------------------------------------------------
+
+If you need help using this language pair or data, you can contact:
+
+* Mailing list: apertium-stuff@lists.sourceforge.net
+* IRC: `#apertium` on irc.freenode.net (irc://irc.freenode.net/#apertium)
+
+See also the file [`AUTHORS`](AUTHORS), included in this distribution.

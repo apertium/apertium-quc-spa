@@ -185,6 +185,9 @@
       <e r="LR"><p><l>wach<s n="n"/><s n="rel"/><s n="px1sg"/></l><r>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>wach<s n="n"/><s n="rel"/><s n="px1pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
 
+      <e r="LR"><p><l>ech<s n="n"/><s n="rel"/><s n="px1sg"/></l><r>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+
+
       <e><par n="N"/><p><l>wiʼ<s n="n"/><s n="rel"/></l><r>encima<s n="pr"/></r></p></e>
 
       <!-- SECTION: Sustantivos -->
@@ -202,6 +205,7 @@
       <e><par n="N"/><p><l>tzij<s n="n"/></l><r>cuento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>wuj<s n="n"/></l><r>libro<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>tijobʼal<s n="n"/></l><r>escuela<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>ja<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ala<s n="n"/></l><r>muchacho<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ala<s n="n"/></l><r>niño<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ala<s n="n"/></l><r>chico<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>

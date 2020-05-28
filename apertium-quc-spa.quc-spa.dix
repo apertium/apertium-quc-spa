@@ -197,14 +197,32 @@
       <!-- SECTION: Determinantes -->
 
       <e><p><l>le<s n="det"/></l><r>el<s n="det"/><s n="def"/></r></p><par n="GD_ND"/></e>
+      <e><p><l>ri<s n="det"/></l><r>el<s n="det"/><s n="def"/></r></p><par n="GD_ND"/></e>
       <e><p><l>jun<s n="num"/></l><r>uno<s n="det"/><s n="ind"/></r></p><par n="GD_ND"/></e>
+
+
+      <!-- SECTION: Pronombres-->
+
+      <e><p><l>jachin<s n="prn"/><s n="itg"/></l><r>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
 
       <!-- SECTION: Sustantivos relacionales -->
 
+      <!-- frente, a -->
       <e r="LR"><p><l>wach<s n="n"/><s n="rel"/><s n="px1sg"/></l><r>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>wach<s n="n"/><s n="rel"/><s n="px1pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>wach<s n="n"/><s n="rel"/><s n="px2sg"/></l><r>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>wach<s n="n"/><s n="rel"/><s n="px2pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>wach<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>wach<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
 
+      <!-- de -->
       <e r="LR"><p><l>ech<s n="n"/><s n="rel"/><s n="px1sg"/></l><r>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ech<s n="n"/><s n="rel"/><s n="px1pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ech<s n="n"/><s n="rel"/><s n="px2sg"/></l><r>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ech<s n="n"/><s n="rel"/><s n="px2pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ech<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>el<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ech<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
+
 
 
       <e><par n="N"/><p><l>wiʼ<s n="n"/><s n="rel"/></l><r>encima<s n="pr"/></r></p></e>
@@ -216,6 +234,7 @@
       <e><par n="N"/><p><l>chʼabʼal<s n="n"/></l><r>voz<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>kʼicheʼ<s n="n"/></l><r>quiché<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>dyos<s n="n"/></l><r>dios<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>Dyos<s n="n"/></l><r>dios<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chikop<s n="n"/></l><r>animal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>winaq<s n="n"/></l><r>persona<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>tinamit<s n="n"/></l><r>pueblo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -293,6 +312,7 @@
       <!-- SECTION: Nombres propios -->
 
       <e><p><l>Nela<s n="np"/><s n="ant"/><s n="f"/></l><r>Manuela<s n="np"/><s n="ant"/></r></p></e>
+      <e><p><l>Pabʼlo<s n="np"/><s n="ant"/><s n="m"/></l><r>Pablo<s n="np"/><s n="ant"/></r></p></e>
 
       <!-- SECTION: Adjetivos -->
 

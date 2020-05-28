@@ -204,6 +204,7 @@
       <!-- SECTION: Pronombres-->
 
       <e><p><l>jachin<s n="prn"/><s n="itg"/></l><r>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>jas<s n="prn"/><s n="itg"/></l><r>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
 
       <!-- SECTION: Sustantivos relacionales -->
 
@@ -261,7 +262,7 @@
       <e><par n="N"/><p><l>ulew<s n="n"/></l><r>tierra<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>tat<s n="n"/></l><r>padre<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>tijoxel<s n="n"/></l><r>estudiante<s n="n"/><s n="mf"/></r></p><par n="pl_ND"/></e>
-      <e><par n="N"/><p><l>animaʼ<s n="n"/></l><r>anima<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>animaʼ<s n="n"/></l><r>ánima<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chak<s n="n"/></l><r>trabajo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>kaj<s n="n"/></l><r>ciel<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>jumul<s n="n"/></l><r>vez<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>

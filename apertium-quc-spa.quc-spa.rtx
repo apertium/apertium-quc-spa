@@ -53,6 +53,10 @@
    <attr-item tags="sg"/>
    <attr-item tags="pl"/>
   </def-attr>
+
+  <def-attr n="a_sust">
+   <attr-item tags="n"/>
+  </def-attr>
   <def-attr n="a_pers">
    <attr-item tags="p1"/>
    <attr-item tags="p2"/>
@@ -405,6 +409,7 @@
            <chunk name="default">
             <tags>
              <tag><lit-tag v="SN"/></tag>
+             <tag><clip pos="2" side="tl" part="a_gen"/></tag>
             </tags>
             <lu> <clip pos="2" side="tl" part="whole"/> </lu>
            </chunk>
@@ -416,6 +421,8 @@
             <chunk name="default">
               <tags>
                 <tag><lit-tag v="SN"/></tag>
+                <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+                <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
               </tags>
               <lu> <clip pos="1" side="tl" part="whole"/> </lu>
               <b/>
@@ -459,7 +466,8 @@
          <tag><clip pos="1" side="tl" part="a_gen"/> </tag>
          <tag><clip pos="1" side="tl" part="a_nbr"/> </tag>
         </tags>
-        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <lu> <clip pos="1" side="tl" part="lem"/> 
+         <clip pos="1" side="tl" part="a_sust"/><lit-tag v="2.3"/> </lu>
        </chunk>
       </out>
    </action>

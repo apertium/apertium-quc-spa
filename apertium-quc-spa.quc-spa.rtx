@@ -76,6 +76,7 @@
     <def-var n="concPrimero" />
     <def-var n="concSegundo" />
     <def-var n="concTercero" />
+    <def-var n="agreeDet" />
  </section-def-vars>
  <section-def-macros>
   <def-macro n="f_concord1" npar="1">
@@ -194,6 +195,115 @@
     <choose>
       <when><test><equal><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="ND"/></equal></test>
        <let><clip pos="2" side="tl" part="a_nbr"/><var n="numero"/></let></when>
+    </choose>
+  </def-macro>
+  
+  <def-macro n="det_agreement" npar="1">
+    <choose>
+      <when>
+        <test>
+          <and>
+            <or>
+              <equal>
+                <clip pos="1" side="tl" part="a_nbr"/>
+                <lit-tag v="sg"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="tl" part="a_nbr"/>
+                <lit-tag v="ND"/>
+              </equal>
+            </or>
+            <equal>
+              <clip pos="1" side="tl" part="a_gen"/>
+              <lit-tag v="f"/>
+            </equal>
+          </and>
+        </test>
+        <let><var n="agreeDet"/><lit v="la"/></let>
+        <append n="agreeDet">
+          <lit-tag v="det.def"/>
+          <clip pos="1" side="tl" part="a_gen"/>
+          <clip pos="1" side="tl" part="a_nbr"/>
+        </append>
+      </when>
+      <when>
+        <test>
+          <and>
+            <or>
+              <equal>
+                <clip pos="1" side="tl" part="a_nbr"/>
+                <lit-tag v="sg"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="tl" part="a_nbr"/>
+                <lit-tag v="ND"/>
+              </equal>
+            </or>
+            <or>
+              <equal>
+                <clip pos="1" side="tl" part="a_gen"/>
+                <lit-tag v="m"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="tl" part="a_gen"/>
+                <lit-tag v="GD"/>
+              </equal>
+            </or>
+          </and>
+        </test>
+        <let><var n="agreeDet"/><lit v="el"/></let>
+        <append n="agreeDet">
+          <lit-tag v="det.def"/>
+          <clip pos="1" side="tl" part="a_gen"/>
+          <clip pos="1" side="tl" part="a_nbr"/>
+        </append>
+      </when>
+      <when>
+        <test>
+          <and>
+          <equal>
+            <clip pos="1" side="tl" part="a_nbr"/>
+            <lit-tag v="pl"/>
+          </equal>
+          <or>
+            <equal>
+              <clip pos="1" side="tl" part="a_gen"/>
+              <lit-tag v="m"/>
+            </equal>
+            <equal>
+                <clip pos="1" side="tl" part="a_gen"/>
+                <lit-tag v="GD"/>
+              </equal>
+          </or>
+          </and>
+        </test>
+        <let><var n="agreeDet"/><lit v="los"/></let>
+        <append n="agreeDet">
+          <lit-tag v="det.def"/>
+          <clip pos="1" side="tl" part="a_gen"/>
+          <clip pos="1" side="tl" part="a_nbr"/>
+        </append>
+      </when>
+      <when>
+        <test>
+          <and>
+          <equal>
+            <clip pos="1" side="tl" part="a_nbr"/>
+            <lit-tag v="pl"/>
+          </equal>
+          <equal>
+            <clip pos="1" side="tl" part="a_gen"/>
+            <lit-tag v="f"/>
+          </equal>
+          </and>
+        </test>
+        <let><var n="agreeDet"/><lit v="las"/></let>
+        <append n="agreeDet">
+          <lit-tag v="det.def"/>
+          <clip pos="1" side="tl" part="a_gen"/>
+          <clip pos="1" side="tl" part="a_nbr"/>
+        </append>
+      </when>
     </choose>
   </def-macro>
 
@@ -400,6 +510,7 @@
       <pattern-item n="prep"/><pattern-item n="SN"/>
     </pattern>
     <action>
+      <call-macro n="det_agreement"><with-param pos="2"/></call-macro>
       <out>
         <chunk name="PP">
           <tags>
@@ -408,6 +519,8 @@
             <tag><clip pos="2" side="tl" part="a_nbr"/> </tag>
           </tags>
           <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+          <b/>
+          <lu> <var n="agreeDet"/> </lu>
           <b/>
           <lu> <clip pos="2" side="tl" part="whole"/> </lu>
         </chunk>

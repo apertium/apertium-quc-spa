@@ -8,7 +8,11 @@
    <cat-item tags="SV"/>
    <cat-item tags="SV.*"/>
   </def-cat>
-  <def-cat n="SN">
+  <def-cat n="SP">
+   <cat-item tags="SP"/>
+   <cat-item tags="SP.*"/>
+  </def-cat>
+   <def-cat n="SN">
    <cat-item tags="SN"/>
    <cat-item tags="SN.*"/>
   </def-cat>
@@ -200,23 +204,11 @@
   
   <def-macro n="det_agreement" npar="1">
     <choose>
-      <when>
-        <test>
-          <and>
-            <or>
-              <equal>
-                <clip pos="1" side="tl" part="a_nbr"/>
-                <lit-tag v="sg"/>
-              </equal>
-              <equal>
-                <clip pos="1" side="tl" part="a_nbr"/>
-                <lit-tag v="ND"/>
-              </equal>
+      <when> <test> <and> <or>
+              <equal> <clip pos="1" side="tl" part="a_nbr"/> <lit-tag v="sg"/> </equal>
+              <equal> <clip pos="1" side="tl" part="a_nbr"/> <lit-tag v="ND"/> </equal>
             </or>
-            <equal>
-              <clip pos="1" side="tl" part="a_gen"/>
-              <lit-tag v="f"/>
-            </equal>
+            <equal> <clip pos="1" side="tl" part="a_gen"/> <lit-tag v="f"/> </equal>
           </and>
         </test>
         <let><var n="agreeDet"/><lit v="la"/></let>
@@ -226,28 +218,13 @@
           <clip pos="1" side="tl" part="a_nbr"/>
         </append>
       </when>
-      <when>
-        <test>
-          <and>
-            <or>
-              <equal>
-                <clip pos="1" side="tl" part="a_nbr"/>
-                <lit-tag v="sg"/>
-              </equal>
-              <equal>
-                <clip pos="1" side="tl" part="a_nbr"/>
-                <lit-tag v="ND"/>
-              </equal>
+      <when> <test> <and> <or>
+              <equal> <clip pos="1" side="tl" part="a_nbr"/> <lit-tag v="sg"/> </equal>
+              <equal> <clip pos="1" side="tl" part="a_nbr"/> <lit-tag v="ND"/> </equal>
             </or>
             <or>
-              <equal>
-                <clip pos="1" side="tl" part="a_gen"/>
-                <lit-tag v="m"/>
-              </equal>
-              <equal>
-                <clip pos="1" side="tl" part="a_gen"/>
-                <lit-tag v="GD"/>
-              </equal>
+              <equal> <clip pos="1" side="tl" part="a_gen"/> <lit-tag v="m"/> </equal>
+              <equal> <clip pos="1" side="tl" part="a_gen"/> <lit-tag v="GD"/> </equal>
             </or>
           </and>
         </test>
@@ -261,19 +238,10 @@
       <when>
         <test>
           <and>
-          <equal>
-            <clip pos="1" side="tl" part="a_nbr"/>
-            <lit-tag v="pl"/>
-          </equal>
+          <equal> <clip pos="1" side="tl" part="a_nbr"/> <lit-tag v="pl"/> </equal>
           <or>
-            <equal>
-              <clip pos="1" side="tl" part="a_gen"/>
-              <lit-tag v="m"/>
-            </equal>
-            <equal>
-                <clip pos="1" side="tl" part="a_gen"/>
-                <lit-tag v="GD"/>
-              </equal>
+            <equal> <clip pos="1" side="tl" part="a_gen"/> <lit-tag v="m"/> </equal>
+            <equal> <clip pos="1" side="tl" part="a_gen"/> <lit-tag v="GD"/> </equal>
           </or>
           </and>
         </test>
@@ -287,14 +255,8 @@
       <when>
         <test>
           <and>
-          <equal>
-            <clip pos="1" side="tl" part="a_nbr"/>
-            <lit-tag v="pl"/>
-          </equal>
-          <equal>
-            <clip pos="1" side="tl" part="a_gen"/>
-            <lit-tag v="f"/>
-          </equal>
+          <equal> <clip pos="1" side="tl" part="a_nbr"/> <lit-tag v="pl"/> </equal>
+          <equal> <clip pos="1" side="tl" part="a_gen"/> <lit-tag v="f"/> </equal>
           </and>
         </test>
         <let><var n="agreeDet"/><lit v="las"/></let>
@@ -328,6 +290,26 @@
       </out>
    </action>
   </rule>
+
+  <rule comment="SV" firstChunk="SV">
+   <pattern>
+    <pattern-item n="SV"/>
+    <pattern-item n="SP"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk name="SV">
+        <tags>
+         <tag><lit-tag v="SV"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
 
 
   <rule comment="V SN" firstChunk="SV">
@@ -505,16 +487,16 @@
    </action>
   </rule>
   
-  <rule comment="PP" firstChunk="PP">
+  <rule comment="SP" firstChunk="SP">
     <pattern>
       <pattern-item n="prep"/><pattern-item n="SN"/>
     </pattern>
     <action>
       <call-macro n="det_agreement"><with-param pos="2"/></call-macro>
       <out>
-        <chunk name="PP">
+        <chunk name="SP">
           <tags>
-            <tag><lit-tag v="PP"/></tag>
+            <tag><lit-tag v="SP"/></tag>
             <tag><clip pos="2" side="tl" part="a_gen"/> </tag>
             <tag><clip pos="2" side="tl" part="a_nbr"/> </tag>
           </tags>

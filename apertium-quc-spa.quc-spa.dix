@@ -145,6 +145,11 @@
       </pardef>
 
       <pardef n="TV">
+        <e r="LR"><p><l><s n="perf"/><s n="o_sg1"/><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="o_sg1"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="o_sg1"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="o_sg1"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="o_sg1"/><s n="s_pl3"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="perf"/><s n="o_sg3"/><s n="s_sg1"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="perf"/><s n="o_sg3"/><s n="s_sg2"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="perf"/><s n="o_sg3"/><s n="s_sg3"/></l><r></r></p></e>
@@ -192,6 +197,8 @@
       <e r="LR"><p><l>e<s n="pl"/></l><r></r></p></e>
 
       <!-- SECTION: Conjunciones -->
+
+      <e><p><l>rumal<b/>rech<s n="cnjadv"/></l><r>por<b/>cuanto<s n="cnjadv"/></r></p></e>
 
       <!-- SECTION: Adpositions -->
 
@@ -359,6 +366,7 @@
       <e><par n="TV"/><p><l>kʼut<s n="v"/><s n="tv"/></l><r>enseñar<s n="vblex"/></r></p></e>
       <e><par n="TV"/><p><l>il<s n="v"/><s n="tv"/></l><r>ver<s n="vblex"/></r></p></e>
       <e><par n="TV"/><p><l>ya<s n="v"/><s n="tv"/></l><r>dar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>jiʼonsaj<s n="v"/><s n="tv"/></l><r>ungir<s n="vblex"/></r></p></e>
       <e><par n="IV"/><p><l>tzelejik<b/>ubik<s n="v"/><s n="iv"/></l><r>volver<s n="vblex"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>

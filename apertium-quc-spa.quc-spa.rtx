@@ -40,6 +40,9 @@
    <cat-item tags="adj"/>
    <cat-item tags="adj.*"/>
   </def-cat>
+  <def-cat n="pers">
+    <cat-item tags="prn.pers.*"/>
+  </def-cat>
   <def-cat n="prep">
     <cat-item tags="pr"/>
   </def-cat>
@@ -49,6 +52,11 @@
    <attr-item tags="ND"/>
    <attr-item tags="sg"/>
    <attr-item tags="pl"/>
+  </def-attr>
+  <def-attr n="a_pers">
+   <attr-item tags="p1"/>
+   <attr-item tags="p2"/>
+   <attr-item tags="p3"/>
   </def-attr>
   <def-attr n="a_gen">
    <attr-item tags="GD"/>
@@ -427,6 +435,26 @@
       </out>
    </action>
   </rule>
+
+  <rule comment="det pers" firstChunk="SN">
+   <pattern>
+    <pattern-item n="det"/> <pattern-item n="pers"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk name="pers">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><clip pos="2" side="tl" part="a_pers"/> </tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/> </tag>
+         <tag><clip pos="2" side="tl" part="a_nbr"/> </tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
 
   <rule comment="prop" firstChunk="SN">
    <pattern>

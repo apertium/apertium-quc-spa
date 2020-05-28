@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary type="separable">
-	<alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
-	<sdefs>
-		<sdef n="adv"/>
-		<sdef n="v"/>
-		<sdef n="iv"/>
-	</sdefs>
+    <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+    <sdefs>
+        <sdef n="adv"/>
+        <sdef n="v"/>
+        <sdef n="iv"/>
+        <sdef n="px3sg"/>
+        <sdef n="n"/>
+        <sdef n="cnjadv"/>
+        <sdef n="rel"/>
+    </sdefs>
 
-	<section id="main" type="standard">
+    <section id="main" type="standard">
 
-		<e lm="tzelej ubʼik" c="volver">
-			<p>
-				<l>tzelejik<s n="v"/><s n="iv"/><t/><j/>ubik<s n="adv"/></l>
-				<r>tzelejik<b/>ubik<s n="v"/><s n="iv"/></r>
-			</p>
-		</e>
-	</section>
+        <e lm="rumal rech" c="por cuanto"><p>
+                <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><j/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><j/></l>
+                <r>rumal<b/>rech<s n="cnjadv"/></r>
+            </p>
+        </e>
+
+        <e lm="tzelej ubʼik" c="volver"><p>
+                <l>tzelejik<s n="v"/><s n="iv"/><t/><j/>ubik<s n="adv"/><j/></l>
+                <r>tzelejik<b/>ubik<s n="v"/><s n="iv"/></r>
+            </p>
+        </e>
+    </section>
 </dictionary>
 
 <!-- 

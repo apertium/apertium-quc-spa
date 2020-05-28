@@ -6,6 +6,11 @@
         <sdef n="v"/>
         <sdef n="iv"/>
         <sdef n="px3sg"/>
+        <sdef n="pr"/>
+        <sdef n="prn"/>
+        <sdef n="pers"/>
+        <sdef n="p3"/>
+        <sdef n="sg"/>
         <sdef n="n"/>
         <sdef n="cnjadv"/>
         <sdef n="rel"/>
@@ -13,11 +18,23 @@
 
     <section id="main" type="standard">
 
-        <e lm="rumal rech" c="por cuanto"><p>
+        <e lm="rumal che" c="porque"><p>
+                <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><j/>chi<s n="pr"/><j/>re<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><j/></l>
+                <r>rumal<b/>che<s n="cnjadv"/></r>
+            </p>
+        </e>
+
+        <e lm="rumal rech che" c="porque"><p>
+                <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><j/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><j/>chi<s n="pr"/><j/>re<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><j/></l>
+                <r>rumal<b/>rech<b/>che<s n="cnjadv"/></r>
+            </p>
+        </e>
+
+<!--        <e lm="rumal rech" c="por cuanto"><p>
                 <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><j/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><j/></l>
                 <r>rumal<b/>rech<s n="cnjadv"/></r>
             </p>
-        </e>
+        </e>-->
 
         <e lm="tzelej ubʼik" c="volver"><p>
                 <l>tzelejik<s n="v"/><s n="iv"/><t/><j/>ubik<s n="adv"/><j/></l>

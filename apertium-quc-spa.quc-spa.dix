@@ -207,6 +207,9 @@
 
       <!-- SECTION: Pronombres-->
 
+      <e><p><l>in<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>at<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+
       <e><p><l>aʼre<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
       <e><p><l>arʼeʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
       <e><p><l>eʼarʼeʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
@@ -316,6 +319,7 @@
       <e><par n="N"/><p><l>jasche<s n="n"/></l><r>razón<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>jasche<s n="n"/></l><r>motivo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>kʼulel<s n="n"/></l><r>enemigo<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>uxlabʼaxel<s n="n"/></l><r>espíritu<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       
 
       <!-- SECTION: Nombres propios -->

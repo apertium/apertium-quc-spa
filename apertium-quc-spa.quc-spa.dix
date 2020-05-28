@@ -22,6 +22,8 @@
     <sdef n="prn"             c="Pronoun"/>
     <sdef n="ND"             c=""/>
     <sdef n="tn"             c=""/>
+    <sdef n="pri"             c=""/>
+    <sdef n="part"             c=""/>
     <sdef n="impf"             c=""/>
     <sdef n="perf"             c=""/>
     <sdef n="o_sg3"             c=""/>
@@ -136,10 +138,12 @@
       <!-- SECTION: Adpositions -->
 
       <e><p><l>chi<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+      <e><p><l>pa<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
 
       <!-- SECTION: Determinantes -->
 
       <e><p><l>le<s n="det"/></l><r>el<s n="det"/><s n="def"/></r></p><par n="GD_ND"/></e>
+      <e><p><l>jun<s n="num"/></l><r>uno<s n="det"/><s n="ind"/></r></p><par n="GD_ND"/></e>
 
       <!-- SECTION: Sustantivos relacionales -->
 
@@ -152,6 +156,16 @@
       <e><p><l>chʼabʼal<s n="n"/></l><r>idioma<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><p><l>chʼabʼal<s n="n"/></l><r>voz<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><p><l>kʼicheʼ<s n="n"/></l><r>quiché<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><p><l>dyos<s n="n"/></l><r>dios<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><p><l>winaq<s n="n"/></l><r>persona<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><p><l>tinamit<s n="n"/></l><r>pueblo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><p><l>tinamit<s n="n"/></l><r>ciudad<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+      <e><p><l>tzij<s n="n"/></l><r>palabra<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+      <e><p><l>tzij<s n="n"/></l><r>cuento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><p><l>tijobʼal<s n="n"/></l><r>escuela<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+      <e><p><l>ala<s n="n"/></l><r>muchacho<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><p><l>ala<s n="n"/></l><r>niño<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><p><l>ala<s n="n"/></l><r>chico<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 
       <!-- SECTION: Nombres propios -->
 
@@ -161,12 +175,15 @@
 
       <e r="LR"><p><l>al<s n="adj"/></l><r></r></p></e> <!-- marcador de joventud feminino -->
       <e><p><l>kʼicheʼ<s n="adj"/></l><r>quiché<s n="adj"/></r></p><par n="mf_ND"/></e>
+      <e><p><l>tzij<s n="adj"/></l><r>verdadero<s n="adj"/></r></p><par n="GD_ND"/></e>
 
       <!-- SECTION: Adverbios -->
 
       <e><p><l>ubik<s n="adv"/></l><r>fuera<s n="adv"/></r></p></e>
 
       <!-- SECTION: Verbos -->
+
+      <e><p><l>kʼo<s n="part"/></l><r>hay<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 
       <e><par n="TV"/><p><l>kʼut<s n="v"/><s n="tv"/></l><r>enseñar<s n="vblex"/></r></p></e>
       <e><p><l>tzelejik<b/>ubik<s n="v"/><s n="iv"/></l><r>volver<s n="vblex"/></r></p></e>

@@ -74,6 +74,7 @@
    <attr-item tags="GD"/>
    <attr-item tags="m"/>
    <attr-item tags="f"/>
+   <attr-item tags="mf"/>
   </def-attr>
   <def-attr n="a_verb">
     <attr-item tags="vblex"/>   
@@ -90,6 +91,14 @@
   <def-attr n="a_prn">
     <attr-item tags="prn"/>
   </def-attr>
+  <def-attr n="a_px">
+    <attr-item tags="px1sg"/>
+    <attr-item tags="px2sg"/>
+    <attr-item tags="px3sg"/>
+    <attr-item tags="px1pl"/>
+    <attr-item tags="px2pl"/>
+    <attr-item tags="px3pl"/>
+  </def-attr>
  </section-def-attrs>
  <section-def-lists>
   <def-list n="pre_adj">
@@ -105,6 +114,7 @@
     <def-var n="concTercero" />
     <def-var n="agreeDet" />
     <def-var n="agr" />
+    <def-var n="adjpos"/>
  </section-def-vars>
  <section-def-macros>
   <def-macro n="f_agr1" npar="1">
@@ -311,7 +321,25 @@
       </when>
     </choose>
   </def-macro>
-
+  
+  <def-macro n="px_adjpos" npar="1">
+    <choose>
+      <when> <test> <equal> <clip pos="1" side="tl" part="a_px"/> <lit-tag v="px1sg"/> </equal> </test>
+        <let> <var n="adjpos"/> ""<concat> <lit v="mío"/> <lit-tag v="adj.pos.m.sg"/> </concat> </let> </when>
+      <when> <test> <equal> <clip pos="1" side="tl" part="a_px"/> <lit-tag v="px2sg"/> </equal> </test>
+      <let> <var n="adjpos"/> ""<concat> <lit v="tuyo"/> <lit-tag v="adj.pos.m.sg"/> </concat> </let> </when>
+      <when> <test>
+      <or>
+        <equal> <clip pos="1" side="tl" part="a_px"/> <lit-tag v="px3sg"/> </equal>
+        <equal> <clip pos="1" side="tl" part="a_px"/> <lit-tag v="px3pl"/> </equal>
+      </or> </test>
+      <let> <var n="adjpos"/> ""<concat> <lit v="suyo"/> <lit-tag v="adj.pos.m.sg"/> </concat> </let> </when>
+      <when> <test> <equal> <clip pos="1" side="tl" part="a_px"/> <lit-tag v="px1pl"/> </equal> </test>
+      <let> <var n="adjpos"/> ""<concat> <lit v="nuestro"/> <lit-tag v="adj.pos.m.sg"/> </concat> </let> </when>
+      <when> <test> <equal> <clip pos="1" side="tl" part="a_px"/> <lit-tag v="px2pl"/> </equal> </test>
+      <let> <var n="adjpos"/> ""<concat> <lit v="vuestro"/> <lit-tag v="adj.pos.m.sg"/> </concat> </let> </when>
+    </choose>
+  </def-macro>
  </section-def-macros>
  <section-rules>
 
@@ -418,6 +446,25 @@
            </chunk>
           </out>
         </when>
+        <when>
+          <test> <not> <equal> <clip pos="2" side="tl" part="a_px"/> <lit v=""/> </equal> </not> </test>
+          <call-macro n="px_adjpos"><with-param pos="2"/></call-macro>
+          <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+          <out>
+            <chunk name="default">
+              <tags>
+                <tag><lit-tag v="SN"/></tag>
+                <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+                <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+              </tags>
+              <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+              <b/>
+              <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+              <b/>
+              <lu> <var n="adjpos"/> </lu>
+            </chunk>
+          </out>
+        </when>
         <otherwise>
           <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
           <out>
@@ -469,6 +516,7 @@
          <tag><clip pos="1" side="tl" part="a_gen"/> </tag>
          <tag><clip pos="1" side="tl" part="a_nbr"/> </tag>
          <tag><clip pos="1" side="tl" part="a_prn"/> </tag>
+         <tag><clip pos="1" side="tl" part="a_px"/> </tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="lem"/> 
          <clip pos="1" side="tl" part="a_sust"/><lit-tag v="2.3"/> </lu>

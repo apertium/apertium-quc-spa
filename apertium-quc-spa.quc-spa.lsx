@@ -18,6 +18,12 @@
 
     <section id="main" type="standard">
 
+        <e lm="xeʼ ja" c="subsuelo"><p>
+                <l>xeʼ<s n="n"/><t/><j/>ja<s n="n"/><j/></l>
+                <r>xeʼ<b/>ja<s n="n"/></r>
+            </p>
+        </e>
+
         <e lm="rumal che" c="porque"><p>
                 <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><j/>chi<s n="pr"/><j/>re<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><j/></l>
                 <r>rumal<b/>che<s n="cnjadv"/></r>
@@ -29,6 +35,7 @@
                 <r>rumal<b/>rech<b/>che<s n="cnjadv"/></r>
             </p>
         </e>
+
 <!--
         <e lm="rumal rech" c="por cuanto"><p>
                 <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><j/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><j/></l>

@@ -222,13 +222,19 @@
 
       <e><p><l>le<s n="det"/></l><r>el<s n="det"/><s n="def"/></r></p><par n="GD_ND"/></e>
       <e><p><l>ri<s n="det"/></l><r>el<s n="det"/><s n="def"/></r></p><par n="GD_ND"/></e>
+      <e><p><l>we<s n="det"/></l><r>este<s n="det"/><s n="def"/></r></p><par n="GD_ND"/></e>
       <e><p><l>jun<s n="num"/></l><r>uno<s n="det"/><s n="ind"/></r></p><par n="GD_ND"/></e>
 
 
       <!-- SECTION: Pronombres-->
 
+      <e><p><l>riʼ<s n="prn"/><s n="dem"/></l><r>ese<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
+      <e><p><l>laʼ<s n="prn"/><s n="dem"/></l><r>este<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
+      <e><p><l>waʼ<s n="prn"/><s n="dem"/></l><r>este<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
+
       <e><p><l>in<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l>at<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>areʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
 
       <e><p><l>aʼre<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
       <e><p><l>arʼeʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
@@ -398,6 +404,7 @@
       <!-- SECTION: Adverbios -->
 
       <e><p><l>ubik<s n="adv"/></l><r>fuera<s n="adv"/></r></p></e>
+      <e><p><l>xuqujʼe<s n="adv"/></l><r>también<s n="adv"/></r></p></e>
 
       <!-- SECTION: Verbos -->
 

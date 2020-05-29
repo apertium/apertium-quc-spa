@@ -45,6 +45,7 @@
     <sdef n="px2sg"             c=""/>
     <sdef n="px3pl"             c=""/>
     <sdef n="px3sg"             c=""/>
+    <sdef n="pron"             c=""/>
     <sdef n="GD"             c=""/>
     <sdef n="mf"             c=""/>
     <sdef n="rel"             c=""/>
@@ -139,8 +140,18 @@
         <e r="RL"><p><l></l><r><s n="f"/><s n="pl"/></r></p></e>
       </pardef>
       <pardef n="IV">
+        <e r="LR"><p><l><s n="perf"/><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_sg2"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="perf"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_pl3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_sg2"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="impf"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_pl3"/></l><r></r></p></e>
         <e><p><l></l><r></r></p></e>
       </pardef>
 
@@ -397,6 +408,53 @@
       <e><par n="TV"/><p><l>ya<s n="v"/><s n="tv"/></l><r>dar<s n="vblex"/></r></p></e>
       <e><par n="TV"/><p><l>jiʼonsaj<s n="v"/><s n="tv"/></l><r>ungir<s n="vblex"/></r></p></e>
       <e><par n="IV"/><p><l>tzelejik<b/>ubik<s n="v"/><s n="iv"/></l><r>volver<s n="vblex"/></r></p></e>
+
+      <e><par n="TV"/><p><l>bij<s n="v"/><s n="tv"/></l><r>decir<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>il<s n="v"/><s n="tv"/></l><r>ver<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>aj<s n="v"/><s n="tv"/></l><r>querer<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>kʼam<s n="v"/><s n="tv"/></l><r>recibir<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>etaʼm<s n="v"/><s n="tv"/></l><r>saber<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>ta<s n="v"/><s n="tv"/></l><r>entender<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>ta<s n="v"/><s n="tv"/></l><r>oír<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>yaʼ<s n="v"/><s n="tv"/></l><r>dar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>yaʼ<s n="v"/><s n="tv"/></l><r>permitir<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>kowinik<s n="v"/><s n="iv"/></l><r>poder<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>chʼawik<s n="v"/><s n="iv"/></l><r>hablar<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>okik<s n="v"/><s n="iv"/></l><r>entrar<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>okik<s n="v"/><s n="iv"/></l><r>volverse<s n="vblex"/><s n="pron"/></r></p></e>
+      <e><par n="IV"/><p><l>kʼojiʼk<s n="v"/><s n="iv"/></l><r>inhabitar<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>kanajik<s n="v"/><s n="iv"/></l><r>quedar<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>kojonik<s n="v"/><s n="iv"/></l><r>creer<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>ij<s n="v"/><s n="tv"/></l><r>prometer<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>chomaj<s n="v"/><s n="tv"/></l><r>pensar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>chomaj<s n="v"/><s n="tv"/></l><r>planear<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>opanik<s n="v"/><s n="iv"/></l><r>llegar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>etaʼmaj<s n="v"/><s n="tv"/></l><r>aprender<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>kämik<s n="v"/><s n="iv"/></l><r>morir<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>loqʼoqʼej<s n="v"/><s n="tv"/></l><r>amar<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>tzaqik<s n="v"/><s n="iv"/></l><r>caer<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>tzaqik<s n="v"/><s n="iv"/></l><r>perder<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>taʼ<s n="v"/><s n="tv"/></l><r>preguntar<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>bixik<s n="v"/><s n="iv"/></l><r>cantar<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>taqanik<s n="v"/><s n="iv"/></l><r>mandar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>taq<s n="v"/><s n="tv"/></l><r>mandar<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>tzukuj<s n="v"/><s n="tv"/></l><r>buscar<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>tzukuj<s n="v"/><s n="tv"/></l><r>investigar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>petik<s n="v"/><s n="iv"/></l><r>venir<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>petik<s n="v"/><s n="iv"/></l><r>aparecer<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>sachik<s n="v"/><s n="iv"/></l><r>estar<g><b/>perdido</g><s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>kämisaj<s n="v"/><s n="tv"/></l><r>matar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>jach<s n="v"/><s n="tv"/></l><r>dividir<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>jach<s n="v"/><s n="tv"/></l><r>entregar<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>binik<s n="v"/><s n="iv"/></l><r>caminar<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>binik<s n="v"/><s n="iv"/></l><r>viajar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>sikʼij<s n="v"/><s n="tv"/></l><r>llamar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>sikʼij<s n="v"/><s n="tv"/></l><r>gritar<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>makunik<s n="v"/><s n="iv"/></l><r>pecar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>etzelaj<s n="v"/><s n="tv"/></l><r>romper<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>etzelaj<s n="v"/><s n="tv"/></l><r>odiar<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>waʼik<s n="v"/><s n="iv"/></l><r>comer<s n="vblex"/></r></p></e>
+
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>

@@ -303,6 +303,7 @@
       <e><par n="N"/><p><l>kʼaslemal<s n="n"/></l><r>vida<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>achi<s n="n"/></l><r>hombre<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>kʼojolaxel<s n="n"/></l><r>príncipe<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>kʼojolaxel<s n="n"/></l><r>hijo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>kojonik<s n="n"/></l><r>fé<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>utzil<s n="n"/></l><r>bien<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>utzil<s n="n"/></l><r>paz<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -392,6 +393,7 @@
       <e><p><l>Nela<s n="np"/><s n="ant"/><s n="f"/></l><r>Manuela<s n="np"/><s n="ant"/></r></p></e>
       <e><p><l>Pabʼlo<s n="np"/><s n="ant"/><s n="m"/></l><r>Pablo<s n="np"/><s n="ant"/></r></p></e>
       <e><p><l>Jesus<s n="np"/><s n="ant"/><s n="m"/></l><r>Jesús<s n="np"/><s n="ant"/></r></p></e>
+      <e><p><l>Abʼraham<s n="np"/><s n="ant"/><s n="m"/></l><r>Abraham<s n="np"/><s n="ant"/></r></p></e>
 
       <!-- SECTION: Adjetivos -->
 

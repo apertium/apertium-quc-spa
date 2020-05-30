@@ -49,6 +49,7 @@
     <sdef n="GD"             c=""/>
     <sdef n="mf"             c=""/>
     <sdef n="rel"             c=""/>
+    <sdef n="clf"             c=""/>
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
@@ -206,6 +207,12 @@
 
       <e r="LR"><p><l>la<s n="qst"/></l><r></r></p></e>
       <e r="LR"><p><l>e<s n="pl"/></l><r></r></p></e>
+
+      <e r="LR"><p><l>ali<s n="clf"/><s n="f"/></l><r></r></p></e>
+      <e r="LR"><p><l>ala<s n="clf"/><s n="m"/></l><r></r></p></e> 
+      <e r="LR"><p><l>nan<s n="clf"/><s n="f"/></l><r></r></p></e>
+      <e r="LR"><p><l>tat<s n="clf"/><s n="m"/></l><r></r></p></e> 
+
 
       <!-- SECTION: Conjunciones -->
 
@@ -397,7 +404,6 @@
 
       <!-- SECTION: Adjetivos -->
 
-      <e r="LR"><p><l>al<s n="adj"/></l><r></r></p></e> <!-- marcador de joventud feminino -->
       <e><p><l>rajawaxik<s n="adj"/></l><r>necesario<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 
       <e><p><l>kʼicheʼ<s n="adj"/></l><r>quiché<s n="adj"/></r></p><par n="mf_ND"/></e>

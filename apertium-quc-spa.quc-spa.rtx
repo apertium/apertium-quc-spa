@@ -32,9 +32,8 @@
    <cat-item tags="det"/>
    <cat-item tags="det.*"/>
   </def-cat>
-  <def-cat n="prop-det">
-   <cat-item lemma="al" tags="adj"/>
-   <cat-item lemma="al" tags="adj.*"/>
+  <def-cat n="clf">
+   <cat-item tags="clf.*"/>
   </def-cat>
   <def-cat n="adj">
    <cat-item tags="adj"/>
@@ -484,9 +483,9 @@
    </action>
   </rule>
 
-  <rule comment="adj prop" firstChunk="SN">
+  <rule comment="clf prop" firstChunk="SN">
    <pattern>
-    <pattern-item n="prop-det"/> <pattern-item n="prop"/>
+    <pattern-item n="clf"/> <pattern-item n="prop"/>
    </pattern>
    <action>
       <out>

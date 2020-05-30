@@ -55,6 +55,7 @@
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
+    <sdef n="loc"             c="Toponym"/>
     <sdef n="ant"             c="Anthroponym"/>
     <sdef n="cog"             c="Cognomen"/>
     <sdef n="org"             c="Organisation"/>
@@ -210,6 +211,7 @@
       <e r="LR"><p><l>la<s n="qst"/></l><r></r></p></e>
       <e r="LR"><p><l>e<s n="pl"/></l><r></r></p></e>
       <e r="LR"><p><l>taq<s n="pl"/></l><r></r></p></e>
+      <e r="LR"><p><l>jetaq<s n="pl"/></l><r></r></p></e>
 
       <e r="LR"><p><l>na<s n="adv"/><s n="fut"/></l><r></r></p></e>
       <e r="LR"><p><l>na<s n="neg"/></l><r>no<s n="adv"/></r></p></e>
@@ -418,6 +420,7 @@
       <e><p><l>Pabʼlo<s n="np"/><s n="ant"/><s n="m"/></l><r>Pablo<s n="np"/><s n="ant"/></r></p></e>
       <e><p><l>Jesus<s n="np"/><s n="ant"/><s n="m"/></l><r>Jesús<s n="np"/><s n="ant"/></r></p></e>
       <e><p><l>Abʼraham<s n="np"/><s n="ant"/><s n="m"/></l><r>Abraham<s n="np"/><s n="ant"/></r></p></e>
+      <e><p><l>Jerusalem<s n="np"/><s n="top"/></l><r>Jerusalem<s n="np"/><s n="loc"/></r></p></e>
 
       <!-- SECTION: Adjetivos -->
 

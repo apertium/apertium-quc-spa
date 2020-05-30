@@ -9,6 +9,8 @@
         <sdef n="pr"/>
         <sdef n="prn"/>
         <sdef n="pers"/>
+        <sdef n="adj"/>
+        <sdef n="det"/>
         <sdef n="p3"/>
         <sdef n="sg"/>
         <sdef n="n"/>
@@ -17,6 +19,24 @@
     </sdefs>
 
     <section id="main" type="standard">
+
+        <e lm="qʼaxal tzij ri Dyos" c="profeta"><p>
+                <l>qʼaxal<s n="adj"/><j/>tzij<s n="n"/><s n="px3sg"/><j/>ri<s n="det"/><j/>dyos<s n="n"/><j/></l>
+                <r>qʼaxal<b/>tzij<b/>ri<b/>Dyos<s n="n"/></r>
+            </p>
+        </e>
+<!--
+        <e lm="qʼaxal tzij" c="traductor"><p>
+                <l>qʼaxal<s n="adj"/><j/>tzij<s n="n"/><t/><j/></l>
+                <r>qʼaxal<b/>tzij<s n="n"/></r>
+            </p>
+        </e>
+-->
+        <e lm="qʼatbʼal tzij" c="gobernador"><p>
+                <l>qʼatbʼal<s n="adj"/><j/>tzij<s n="n"/><j/></l>
+                <r>qʼatbʼal<b/>tzij<s n="n"/></r>
+            </p>
+        </e>
 
         <e lm="xaq wuj" c="página"><p>
                 <l>xaq<s n="n"/><t/><j/>wuj<s n="n"/><j/></l>

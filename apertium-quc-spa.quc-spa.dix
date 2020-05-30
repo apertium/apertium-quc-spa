@@ -228,6 +228,7 @@
       <e><p><l>rumal<b/>rech<s n="cnjadv"/></l><r>por<b/>cuanto<s n="cnjadv"/></r></p></e>
       <e><p><l>rumal<b/>rech<b/>che<s n="cnjadv"/></l><r>porque<s n="cnjadv"/></r></p></e>
       <e><p><l>rumal<b/>che<s n="cnjadv"/></l><r>porque<s n="cnjadv"/></r></p></e>
+      <e><p><l>kʼut<s n="cnjsub"/></l><r>pero<s n="cnjsub"/></r></p></e>
 
       <!-- SECTION: Adpositions -->
 
@@ -288,6 +289,7 @@
       <e r="LR"><par n="N"/><p><l>umal<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
 
 
+      <e r="LR"><par n="N"/><p><l>onojel<s n="n"/><s n="rel"/></l><r>todo<s n="prn"/><s n="tn"/><s n="GD"/><s n="ND"/></r></p></e>
 
 
       <e><par n="N"/><p><l>wiʼ<s n="n"/><s n="rel"/></l><r>encima<s n="pr"/></r></p></e>
@@ -406,6 +408,7 @@
       <e><par n="N"/><p><l>toqʼobʼ<s n="n"/></l><r>favor<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>toqʼobʼ<s n="n"/></l><r>piedad<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>qastzij<s n="n"/></l><r>verdad<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>qʼaxal<b/>tzij<b/>ri<b/>Dyos<s n="n"/></l><r>profeta<s n="n"/><s n="mf"/></r></p><par n="pl_ND"/></e>
 
       
 
@@ -418,6 +421,8 @@
 
       <!-- SECTION: Adjetivos -->
 
+      <e><p><l>qʼaxal<s n="adj"/></l><r></r></p></e> <!-- esto qué significa ? -->
+
       <e><p><l>rajawaxik<s n="adj"/></l><r>necesario<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 
       <e><p><l>kʼicheʼ<s n="adj"/></l><r>quiché<s n="adj"/></r></p><par n="mf_ND"/></e>
@@ -425,6 +430,7 @@
 
       <!-- SECTION: Adverbios -->
 
+      <e><p><l>kʼatekʼuriʼ<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
       <e><p><l>ubik<s n="adv"/></l><r>fuera<s n="adv"/></r></p></e>
       <e><p><l>xuqujʼe<s n="adv"/></l><r>también<s n="adv"/></r></p></e>
       <e><p><l>kamik<s n="adv"/></l><r>hoy<s n="adv"/></r></p></e>

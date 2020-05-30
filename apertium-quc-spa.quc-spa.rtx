@@ -1,8 +1,12 @@
 <transfer>
  <section-def-cats>
-  <def-cat n="V">
-   <cat-item tags="V.*"/>
-   <cat-item tags="V"/>
+  <def-cat n="VI">
+   <cat-item tags="V.iv.*"/>
+   <cat-item tags="V.iv"/>
+  </def-cat>
+  <def-cat n="VT">
+   <cat-item tags="V.tv.*"/>
+   <cat-item tags="V.tv"/>
   </def-cat>
   <def-cat n="SV">
    <cat-item tags="SV"/>
@@ -86,6 +90,10 @@
     <attr-item tags="ant"/>
     <attr-item tags="al"/>
     <attr-item tags="org"/>
+  </def-attr>
+  <def-attr n="a_val">
+    <attr-item tags="iv"/>
+    <attr-item tags="tv"/>
   </def-attr>
   <def-attr n="a_prn">
     <attr-item tags="prn"/>
@@ -371,6 +379,7 @@
        <chunk name="SV">
         <tags>
          <tag><lit-tag v="SV"/></tag>
+          <tag><clip pos="1" side="tl" part="a_val"/></tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
         <b/>
@@ -382,9 +391,28 @@
 
 
 
-  <rule comment="V SN" firstChunk="SV">
+  <rule comment="VI" firstChunk="SV">
    <pattern>
-    <pattern-item n="V"/>
+    <pattern-item n="VI"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk name="SV">
+        <tags>
+         <tag><lit-tag v="SV"/></tag>
+          <tag><clip pos="1" side="tl" part="a_val"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+
+  <rule comment="VT SN" firstChunk="SV">
+   <pattern>
+    <pattern-item n="VT"/>
     <pattern-item n="SN"/>
    </pattern>
    <action>
@@ -392,6 +420,7 @@
        <chunk name="SV">
         <tags>
          <tag><lit-tag v="SV"/></tag>
+          <tag><clip pos="1" side="tl" part="a_val"/></tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
         <b/>
@@ -408,9 +437,10 @@
    <action>
       <call-macro n="f_agr1"><with-param pos="1"/></call-macro>
       <out>
-       <chunk name="default">
+       <chunk name="fin">
         <tags>
          <tag><lit-tag v="V"/></tag>
+          <tag><clip pos="1" side="sl" part="a_val"/></tag>
         </tags>
         <lu> 
           <clip pos="1" side="tl" part="lem"/>

@@ -24,6 +24,7 @@
     <sdef n="tn"             c=""/>
     <sdef n="pri"             c=""/>
     <sdef n="part"             c=""/>
+    <sdef n="aux"             c=""/>
     <sdef n="qst"             c=""/>
     <sdef n="impf"             c=""/>
     <sdef n="perf"             c=""/>
@@ -224,6 +225,7 @@
       <e r="LR"><p><l>nan<s n="clf"/><s n="f"/></l><r></r></p></e>
       <e r="LR"><p><l>tat<s n="clf"/><s n="m"/></l><r></r></p></e> 
 
+      <e r="LR"><p><l>tajin<s n="aux"/></l><r></r></p></e>  <!-- progresivo -->
 
       <!-- SECTION: Conjunciones -->
 
@@ -231,11 +233,15 @@
       <e><p><l>rumal<b/>rech<b/>che<s n="cnjadv"/></l><r>porque<s n="cnjadv"/></r></p></e>
       <e><p><l>rumal<b/>che<s n="cnjadv"/></l><r>porque<s n="cnjadv"/></r></p></e>
       <e><p><l>kʼut<s n="cnjsub"/></l><r>pero<s n="cnjsub"/></r></p></e>
+<e><p><l>xane<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e>
+
 
       <!-- SECTION: Adpositions -->
 
       <e><p><l>chi<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
       <e><p><l>pa<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
+
+<e><p><l>kʼateʼ<s n="pr"/></l><r>hasta<s n="pr"/></r></p></e>
 
       <!-- SECTION: Determinantes -->
 
@@ -250,13 +256,19 @@
       <e><p><l>riʼ<s n="prn"/><s n="dem"/></l><r>ese<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
       <e><p><l>laʼ<s n="prn"/><s n="dem"/></l><r>este<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
       <e><p><l>waʼ<s n="prn"/><s n="dem"/></l><r>este<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
+<e><p><l>weriʼ<s n="prn"/><s n="dem"/></l><r>éste<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
 
-      <e><p><l>in<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e><p><l>at<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e><p><l>areʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
-
+      <e><p><l>in<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>at<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>areʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
+      <e><p><l>areʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
+      <e><p><l>oj<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e><p><l>uj<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e><p><l>ix<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></r></p></e>
       <e><p><l>aʼre<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
       <e><p><l>arʼeʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e><p><l>eʼare<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e><p><l>eʼarʼeʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
       <e><p><l>eʼarʼeʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
       <e><p><l>jachin<s n="prn"/><s n="itg"/></l><r>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>jas<s n="prn"/><s n="itg"/></l><r>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -279,7 +291,18 @@
       <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/><s n="px2sg"/></l><r>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/><s n="px2pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></r></p></e>
       <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
-      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
+
+
+      <!-- con -->
+      <e r="LR"><par n="N"/><p><l>ukʼ<s n="n"/><s n="rel"/></l><r></r></p></e>
+      <e r="LR"><par n="N"/><p><l>ukʼ<s n="n"/><s n="rel"/><s n="px1sg"/></l><r>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>ukʼ<s n="n"/><s n="rel"/><s n="px1pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>ukʼ<s n="n"/><s n="rel"/><s n="px2sg"/></l><r>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>ukʼ<s n="n"/><s n="rel"/><s n="px2pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>ukʼ<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>ukʼ<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
+
 
       <!-- por -->
       <e r="LR"><par n="N"/><p><l>umal<s n="n"/><s n="rel"/></l><r></r></p></e>
@@ -288,7 +311,17 @@
       <e r="LR"><par n="N"/><p><l>umal<s n="n"/><s n="rel"/><s n="px2sg"/></l><r>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><par n="N"/><p><l>umal<s n="n"/><s n="rel"/><s n="px2pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></r></p></e>
       <e r="LR"><par n="N"/><p><l>umal<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
-      <e r="LR"><par n="N"/><p><l>umal<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>umal<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
+
+      <!-- bajo -->
+      <e r="LR"><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/></l><r></r></p></e>
+      <e r="LR"><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/><s n="px1sg"/></l><r>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/><s n="px1pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/><s n="px2sg"/></l><r>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/><s n="px2pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
+
 
 
       <e r="LR"><par n="N"/><p><l>onojel<s n="n"/><s n="rel"/></l><r>todo<s n="prn"/><s n="tn"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -417,6 +450,50 @@
       <e><par n="N"/><p><l>sinagoga<s n="n"/></l><r>sinagoga<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chuqʼabʼ<s n="n"/></l><r>fuerza<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>qʼaxal<b/>tzij<b/>ri<b/>Dyos<s n="n"/></l><r>profeta<s n="n"/><s n="mf"/></r></p><par n="pl_ND"/></e>
+
+<e><par n="N"/><p><l>qʼatojtzij<s n="n"/></l><r>alcalde<s n="n"/><s n="mf"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>bʼe<s n="n"/></l><r>viaje<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>achij<s n="n"/></l><r>hombre<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>Tatxel<s n="n"/></l><r>padre<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>anjel<s n="n"/></l><r>ángel<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>cheʼ<s n="n"/></l><r>árbol<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kaxlanwa<s n="n"/></l><r>pan<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>qʼabʼ<s n="n"/></l><r>posesión<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>ixoq<s n="n"/></l><r>mujer<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kʼuʼx<s n="n"/></l><r>ser<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>uxlabʼal<s n="n"/></l><r>espíritu<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>qʼatojtzij<s n="n"/></l><r>juez<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>aqan<s n="n"/></l><r>concha<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>qʼijil<s n="n"/></l><r>gloria<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>chij<s n="n"/></l><r>oveja<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kajbʼal<s n="n"/></l><r>hoja<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>atzʼyaq<s n="n"/></l><r>tela<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kʼuʼx<s n="n"/></l><r>ánima<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>atzʼyaq<s n="n"/></l><r>ropa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>abʼaj<s n="n"/></l><r>piedra<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>ixoqilom<s n="n"/></l><r>esposa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>jolom<s n="n"/></l><r>idiota<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>nan²<s n="n"/></l><r>señor<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kowil<s n="n"/></l><r>testículo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e><par n="N"/><p><l>jukubʼ<s n="n"/></l><r>barco<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>makaj<s n="n"/></l><r>pecado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>mak<s n="n"/></l><r>pecado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>uwachulew<s n="n"/></l><r>mundo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>pam<s n="n"/></l><r>estómago<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>ajjudiʼo<s n="n"/></l><r>judio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>qʼabʼ<s n="n"/></l><r>dominio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>woqʼoch<s n="n"/></l><r>ojo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>cheʼ<s n="n"/></l><r>palo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kʼutbʼal<s n="n"/></l><r>signo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>ajawibʼal<s n="n"/></l><r>reino<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>bʼe<s n="n"/></l><r>camino<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>alkʼuwaʼl<s n="n"/></l><r>niño<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>atzʼyaq<s n="n"/></l><r>trapo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>tzʼibʼatalik<s n="n"/></l><r>escrito<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>tyox<s n="n"/></l><r>santo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>komon<s n="n"/></l><r>comunidad<s n="n"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>juyubʼ<s n="n"/></l><r>montaña<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+
 
       
 
@@ -553,7 +630,7 @@
 <e><p><l>Bʼabʼiloniʼa<s n="np"/><s n="top"/></l><r>Babilonia<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Korinto<s n="np"/><s n="top"/></l><r>Corinto<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Efeso<s n="np"/><s n="top"/></l><r>Efeso<s n="np"/><s n="loc"/></r></p></e>
-<e><p><l>Sesareʼa<s n="np"/><s n="top"/></l><r>Sesareʼa<s n="np"/><s n="loc"/></r></p></e>
+<e><p><l>Sesareʼa<s n="np"/><s n="top"/></l><r>Cesaria<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Tesalonika<s n="np"/><s n="top"/></l><r>Tesalonika<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Sirakusa<s n="np"/><s n="top"/></l><r>Sirakusa<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Sinaʼi<s n="np"/><s n="top"/></l><r>Sinaʼi<s n="np"/><s n="loc"/></r></p></e>
@@ -615,8 +692,47 @@
 
       <e><p><l>kʼicheʼ<s n="adj"/></l><r>quiché<s n="adj"/></r></p><par n="mf_ND"/></e>
       <e><p><l>tzij<s n="adj"/></l><r>verdadero<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>naqaj<s n="adj"/></l><r>cerca<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>nimalaj<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>nim<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>junam<s n="adj"/></l><r>equivalente<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>juyubʼ<s n="n"/></l><r>monte<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>junam<s n="adj"/></l><r>igual<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>kʼax<s n="adj"/></l><r>difícil<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>akʼal<s n="adj"/></l><r>joven<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>naj<s n="adj"/></l><r>lejos<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>junam<s n="adj"/></l><r>idéntico<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>chʼoʼj<s n="adj"/></l><r>enfadado<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>juyubʼ<s n="adj"/></l><r>inclinado<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>yaʼtal<s n="adj"/></l><r>permitido<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>cho<s n="adj"/></l><r>profundo<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>komon<s n="adj"/></l><r>todo<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>cho<s n="n"/></l><r>lago<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>sukʼ<s n="adj"/></l><r>derecho<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>kʼi<s n="adj"/></l><r>mucho<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>sibʼalaj<s n="adj"/></l><r>mucho<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>itzel<s n="adj"/></l><r>malo<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>kʼax<s n="adj"/></l><r>malo<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>tyoxlaj<s n="adj"/></l><r>santísimo<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>utz<s n="adj"/></l><r>bueno<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>jujun<s n="adj"/></l><r>alguno<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>alaj<s n="adj"/></l><r>pequeño<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>qastzij<s n="adj"/></l><r>verdadero<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>nabe<s n="adj"/></l><r>primero<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>qas<s n="adj"/></l><r>seguro<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>kʼax<s n="adj"/></l><r>doloroso<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>sukʼ<s n="adj"/></l><r>recto<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>yaʼtal<s n="adj"/></l><r>lícito<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>sukʼ<s n="adj"/></l><r>justo<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>kʼakʼ<s n="adj"/></l><r>nuevo<s n="adj"/></r></p><par n="GD_ND"/></e>
+
+<e><p><l>petinaq<s n="adj"/></l><r>venir<s n="vblex"/><s n="pp"/></r></p></e>
+<e><p><l>utzalaj<s n="adj"/></l><r>bueno<s n="adj"/><s n="sup"/></r></p></e>
 
       <!-- SECTION: Adverbios -->
+
+<e><p><l>jawi<s n="adv"/><s n="itg"/></l><r>dónde<s n="adv"/><s n="itg"/></r></p></e>
+<e><p><l>jawijeʼ<s n="adv"/><s n="itg"/></l><r>dónde<s n="adv"/><s n="itg"/></r></p></e>
 
       <e><p><l>kʼatekʼuriʼ<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
       <e><p><l>ubik<s n="adv"/></l><r>fuera<s n="adv"/></r></p></e>
@@ -626,6 +742,20 @@
       <e><p><l>kamik<s n="adv"/></l><r>ahora<s n="adv"/></r></p></e>
       <e><p><l>oxmul<s n="adv"/></l><r>tres<b/>veces<s n="adv"/></r></p></e>
       <e><p><l>jeriʼ<s n="adv"/></l><r>así<s n="adv"/></r></p></e>
+      <e><p><l>weneʼ<s n="adv"/></l><r>quizás<s n="adv"/></r></p></e>
+      <e><p><l>weneʼ<s n="adv"/></l><r>tal<b/>vez<s n="adv"/></r></p></e>
+<e><p><l>xuwi<s n="adv"/></l><r>solamente<s n="adv"/></r></p></e>
+<e><p><l>chilaʼ<s n="adv"/></l><r>allí<s n="adv"/></r></p></e>
+<e><p><l>jeʼ<s n="adv"/></l><r>sí<s n="adv"/></r></p></e>
+<e><p><l>waral<s n="adv"/></l><r>aquí<s n="adv"/></r></p></e>
+<e><p><l>chikaj<s n="adv"/></l><r>en el cielo<s n="adv"/></r></p></e>
+<e><p><l>xuwi<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
+<e><p><l>jacha<s n="adv"/></l><r>como<s n="adv"/></r></p></e>
+<e><p><l>majaʼ<s n="adv"/></l><r>todavía no<s n="adv"/></r></p></e>
+<e><p><l>chanim<s n="adv"/></l><r>pronto<s n="adv"/></r></p></e>
+<e><p><l>ojer<s n="adv"/></l><r>antes<s n="adv"/></r></p></e>
+<e><p><l>ojer<s n="adv"/></l><r>en tiempos pasados<s n="adv"/></r></p></e>
+
 
       <!-- SECTION: Verbos -->
 
@@ -688,11 +818,36 @@
       <e><par n="IV"/><p><l>waʼik<s n="v"/><s n="iv"/></l><r>comer<s n="vblex"/></r></p></e>
       <e><par n="IV"/><p><l>kʼastajik<s n="v"/><s n="iv"/></l><r>despertarse<s n="vblex"/></r></p></e>
       <e><par n="IV"/><p><l>kʼastajik<s n="v"/><s n="iv"/></l><r>resucitar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>sach<s n="v"/><s n="tv"/></l><r>olvidar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>kʼol<s n="v"/><s n="tv"/></l><r>guardar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>kʼex<s n="v"/><s n="tv"/></l><r>cambiar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>chʼobʼ<s n="v"/><s n="tv"/></l><r>adivinar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>chap<s n="v"/><s n="tv"/></l><r>agarrar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>sach<s n="v"/><s n="tv"/></l><r>desgastar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>tzaq<s n="v"/><s n="tv"/></l><r>dejar caer<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>chʼobʼ<s n="v"/><s n="tv"/></l><r>saber<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>bʼan<s n="v"/><s n="tv"/></l><r>hacer<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>tzij<s n="v"/><s n="tv"/></l><r>encender<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>chʼobʼ<s n="v"/><s n="tv"/></l><r>comprender<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>sach<s n="v"/><s n="tv"/></l><r>perder<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>riqʼ<s n="v"/><s n="tv"/></l><r>lamer<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>tij<s n="v"/><s n="tv"/></l><r>comer<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>kʼol<s n="v"/><s n="tv"/></l><r>tener<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>koj<s n="v"/><s n="tv"/></l><r>poner<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>tzʼibʼaj<s n="v"/><s n="tv"/></l><r>escribir<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>kikotik<s n="v"/><s n="iv"/></l><r>estar feliz<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>chakunik<s n="v"/><s n="iv"/></l><r>trabajar<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>kaʼyik<s n="v"/><s n="iv"/></l><r>observar<s n="vblex"/></r></p></e>
+
 
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
 <!--      <e><re>[0-9.]+</re>    <p><l><s n="num"/></l>  <r><s n="num"/></r></p></e>-->
+
+
+<!-- =========================================================================================== -->
+
    </section>
 </dictionary>
 

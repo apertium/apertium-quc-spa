@@ -24,6 +24,10 @@
    <cat-item tags="v.*.perf.*"/>
    <cat-item tags="v.*.impf.*"/>
   </def-cat>
+  <def-cat n="taj">
+   <cat-item tags="pl.*"/>
+   <cat-item tags="pl"/>
+  </def-cat>
   <def-cat n="prop">
    <cat-item tags="np.*"/>
   </def-cat>
@@ -617,6 +621,27 @@
 
   <rule comment="n" firstChunk="SN">
    <pattern>
+    <pattern-item n="taj"/> <pattern-item n="n"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk name="n">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/> </tag>
+         <tag><clip pos="1" side="sl" part="a_nbr"/> </tag>
+         <tag><clip pos="2" side="tl" part="a_px"/> </tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="lem"/> 
+         <clip pos="2" side="tl" part="a_sust"/><lit-tag v="2.3"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="n" firstChunk="SN">
+   <pattern>
     <pattern-item n="n"/>
    </pattern>
    <action>
@@ -674,9 +699,9 @@
   </rule>
 
 
-  <rule comment="adj n" firstChunk="SN">
+  <rule comment="adj SN" firstChunk="SN">
    <pattern>
-    <pattern-item n="adj"/><pattern-item n="n"/>
+    <pattern-item n="adj"/><pattern-item n="SN"/>
    </pattern>
    <action>
     <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>

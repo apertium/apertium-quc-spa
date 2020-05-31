@@ -389,7 +389,10 @@
       <e><par n="N"/><p><l>sipanik<s n="n"/></l><r>regalo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ja<s n="n"/></l><r>edificio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>kämikal<s n="n"/></l><r>muerte<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
-      <e><par n="N"/><p><l>chuchqajaw<s n="n"/></l><r>zahorín<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <!--<e><par n="N"/><p><l>chuchqajaw<s n="n"/></l><r>zahorín<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>-->
+      <e><par n="N"/><p><l>chuchqajaw<s n="n"/></l><r>chamán<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>chuchqajaw<s n="n"/></l><r>curandero<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>chuchqajaw<s n="n"/></l><r>sacerdote<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ajpatanel<s n="n"/></l><r>servidor<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>sukʼil<s n="n"/></l><r>justícia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>sukʼil<s n="n"/></l><r>rectitud<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -744,6 +747,7 @@
 <e><p><l>naqaj<s n="adj"/></l><r>cerca<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>nimalaj<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>nim<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>nim<s n="adj"/></l><r>principal<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>junam<s n="adj"/></l><r>equivalente<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>juyubʼ<s n="n"/></l><r>monte<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>junam<s n="adj"/></l><r>igual<s n="adj"/></r></p><par n="mf_ND"/></e>

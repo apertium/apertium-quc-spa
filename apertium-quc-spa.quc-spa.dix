@@ -594,10 +594,10 @@
 <e><p><l>Timoteʼo<s n="np"/><s n="ant"/><s n="m"/></l><r>Timoteo<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Felipe<s n="np"/><s n="ant"/><s n="m"/></l><r>Felipe<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jesukristo<s n="np"/><s n="ant"/><s n="m"/></l><r>Jesucristo<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Lasaro<s n="np"/><s n="ant"/><s n="m"/></l><r>Lasaro<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Lasaro<s n="np"/><s n="ant"/><s n="m"/></l><r>Lázaro<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Silas<s n="np"/><s n="ant"/><s n="m"/></l><r>Silas<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Xwaʼn<s n="np"/><s n="ant"/><s n="m"/></l><r>Xwaʼn<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Simon<s n="np"/><s n="ant"/><s n="m"/></l><r>Simon<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Xwaʼn<s n="np"/><s n="ant"/><s n="m"/></l><r>Juán<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Simon<s n="np"/><s n="ant"/><s n="m"/></l><r>Simón<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bʼernabʼe<s n="np"/><s n="ant"/><s n="m"/></l><r>Bʼernabʼe<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Korneliʼo<s n="np"/><s n="ant"/><s n="m"/></l><r>Cornelio<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Eliʼas<s n="np"/><s n="ant"/><s n="m"/></l><r>Elias<s n="np"/><s n="ant"/></r></p></e>
@@ -638,7 +638,7 @@
 <e><p><l>Luʼs<s n="np"/><s n="ant"/><s n="f"/></l><r>Luʼs<s n="np"/><s n="ant"/></r></p></e><!-- "Lucía" -->
 <e><p><l>Max<s n="np"/><s n="ant"/><s n="m"/></l><r>Max<s n="np"/><s n="ant"/></r></p></e><!-- "Tomás" -->
 <e><p><l>Maʼx<s n="np"/><s n="ant"/><s n="f"/></l><r>Maʼx<s n="np"/><s n="ant"/></r></p></e><!-- "Tomasa" -->
-<e><p><l>Mariʼy<s n="np"/><s n="ant"/><s n="f"/></l><r>Mariʼy<s n="np"/><s n="ant"/></r></p></e><!-- "María" -->
+<e><p><l>Mariʼy<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/></r></p></e><!-- "María" -->
 <e><p><l>Mink<s n="np"/><s n="ant"/><s n="m"/></l><r>Mink<s n="np"/><s n="ant"/></r></p></e><!-- "Domigo" -->
 <e><p><l>Mink<s n="np"/><s n="ant"/><s n="f"/></l><r>Mink<s n="np"/><s n="ant"/></r></p></e><!-- "Domiga" -->
 <e><p><l>Poʼx<s n="np"/><s n="ant"/><s n="m"/></l><r>Poʼx<s n="np"/><s n="ant"/></r></p></e><!-- "Sebastián" -->

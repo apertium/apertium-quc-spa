@@ -314,7 +314,7 @@
       <e r="LR"><par n="N"/><p><l>umal<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
       <e r="LR"><par n="N"/><p><l>umal<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
 
-      <!-- bajo -->
+      <!-- XE’ chi +E+ –xe: bajo-->
       <e r="LR"><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/></l><r></r></p></e>
       <e r="LR"><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/><s n="px1sg"/></l><r>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/><s n="px1pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
@@ -322,6 +322,16 @@
       <e r="LR"><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/><s n="px2pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></r></p></e>
       <e r="LR"><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
       <e r="LR"><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
+
+      <!-- XO’L chi + E + xo’l: entre -->
+      <e r="LR"><par n="N"/><p><l>xoʼl<s n="n"/><s n="rel"/></l><r></r></p></e>
+      <e r="LR"><par n="N"/><p><l>xoʼl<s n="n"/><s n="rel"/><s n="px1sg"/></l><r>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>xoʼl<s n="n"/><s n="rel"/><s n="px1pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>xoʼl<s n="n"/><s n="rel"/><s n="px2sg"/></l><r>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>xoʼl<s n="n"/><s n="rel"/><s n="px2pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>xoʼl<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>xoʼl<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
+
 
 
 

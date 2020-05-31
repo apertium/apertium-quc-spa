@@ -444,7 +444,7 @@
 <e><p><l>Félix<s n="np"/><s n="ant"/><s n="m"/> </l><r>Félix<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jose<s n="np"/><s n="ant"/><s n="m"/> </l><r>Jose<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Atrix<s n="np"/><s n="ant"/><s n="m"/> </l><r>Atrix<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Kristo<s n="np"/><s n="ant"/><s n="m"/></l><r>Kristo<s n="np"/><s n="ant"/></r></p></e><!-- TODO -->
+<e><p><l>Kristo<s n="np"/><s n="ant"/><s n="m"/></l><r>Cristo<s n="np"/><s n="ant"/></r></p></e><!-- TODO -->
 <e><p><l>Tun<s n="np"/><s n="ant"/><s n="m"/> </l><r>Tun<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Satanas<s n="np"/><s n="ant"/><s n="m"/> </l><r>Satanas<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jesus<s n="np"/><s n="ant"/><s n="m"/> </l><r>Jesús<s n="np"/><s n="ant"/></r></p></e>
@@ -452,7 +452,7 @@
 <e><p><l>Carlos<s n="np"/><s n="ant"/><s n="m"/> </l><r>Carlos<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Wel<s n="np"/><s n="ant"/><s n="m"/> </l><r>Wel<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Pabʼlo<s n="np"/><s n="ant"/><s n="m"/> </l><r>Pablo<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Isaʼak<s n="np"/><s n="ant"/><s n="m"/> </l><r>Isaʼak<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Isaʼak<s n="np"/><s n="ant"/><s n="m"/> </l><r>Isaac<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Moʼises <s n="np"/><s n="ant"/><s n="m"/> </l><r>Moises<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>David<s n="np"/><s n="ant"/><s n="m"/> </l><r>David<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Santiʼago<s n="np"/><s n="ant"/><s n="m"/> </l><r>Santiago<s n="np"/><s n="ant"/></r></p></e>
@@ -469,13 +469,13 @@
 <e><p><l>Xwaʼn<s n="np"/><s n="ant"/><s n="m"/> </l><r>Xwaʼn<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Simon<s n="np"/><s n="ant"/><s n="m"/> </l><r>Simon<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Bʼernabʼe<s n="np"/><s n="ant"/><s n="m"/> </l><r>Bʼernabʼe<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Korneliʼo<s n="np"/><s n="ant"/><s n="m"/> </l><r>Korneliʼo<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Eliʼas<s n="np"/><s n="ant"/><s n="m"/> </l><r>Eliʼas<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Saʼulo<s n="np"/><s n="ant"/><s n="m"/> </l><r>Saʼulo<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Jakobʼ<s n="np"/><s n="ant"/><s n="m"/> </l><r>Jakobʼ<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Isaʼiʼas<s n="np"/><s n="ant"/><s n="m"/> </l><r>Isaʼiʼas<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Korneliʼo<s n="np"/><s n="ant"/><s n="m"/> </l><r>Cornelio<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Eliʼas<s n="np"/><s n="ant"/><s n="m"/> </l><r>Elias<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Saʼulo<s n="np"/><s n="ant"/><s n="m"/> </l><r>Saulo<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Jakobʼ<s n="np"/><s n="ant"/><s n="m"/> </l><r>Jacob<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Isaʼiʼas<s n="np"/><s n="ant"/><s n="m"/> </l><r>Isaias<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Salomon<s n="np"/><s n="ant"/><s n="m"/> </l><r>Salomon<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Mariʼy<s n="np"/><s n="ant"/><s n="f"/> </l><r>Mariʼy<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Mariʼy<s n="np"/><s n="ant"/><s n="f"/> </l><r>María<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Marta<s n="np"/><s n="ant"/><s n="f"/> </l><r>Marta<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>María<s n="np"/><s n="ant"/><s n="f"/> </l><r>María<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Ixkikʼ<s n="np"/><s n="ant"/><s n="f"/> </l><r>Ixkikʼ<s n="np"/><s n="ant"/></r></p></e>
@@ -485,12 +485,12 @@
 <e><p><l>Agripa<s n="np"/><s n="ant"/><s n="m"/> </l><r>Agripa<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Jonas<s n="np"/><s n="ant"/><s n="m"/> </l><r>Jonas<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Apolo<s n="np"/><s n="ant"/><s n="m"/> </l><r>Apolo<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Bʼarrabʼas<s n="np"/><s n="ant"/><s n="m"/> </l><r>Bʼarrabʼas<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Sesar<s n="np"/><s n="ant"/><s n="m"/> </l><r>Sesar<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Iskariʼote<s n="np"/><s n="ant"/><s n="m"/> </l><r>Iskariʼote<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Sebʼedeʼo<s n="np"/><s n="ant"/><s n="m"/> </l><r>Sebʼedeʼo<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Bʼarrabʼas<s n="np"/><s n="ant"/><s n="m"/> </l><r>Barrabas<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Sesar<s n="np"/><s n="ant"/><s n="m"/> </l><r>Cesar<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Iskariʼote<s n="np"/><s n="ant"/><s n="m"/> </l><r>Iskariote<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Sebʼedeʼo<s n="np"/><s n="ant"/><s n="m"/> </l><r>Sebedeo<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Juda<s n="np"/><s n="ant"/><s n="m"/> </l><r>Juda<s n="np"/><s n="ant"/></r></p></e>
-<e><p><l>Sakariʼas<s n="np"/><s n="ant"/><s n="m"/> </l><r>Sakariʼas<s n="np"/><s n="ant"/></r></p></e>
+<e><p><l>Sakariʼas<s n="np"/><s n="ant"/><s n="m"/> </l><r>Zakarias<s n="np"/><s n="ant"/></r></p></e>
 <e><p><l>Auen<s n="np"/><s n="ant"/><s n="f"/></l><r>Auen<s n="np"/><s n="ant"/></r></p></e><!-- "Elena" -->
 <e><p><l>Maʼt<s n="np"/><s n="ant"/><s n="f"/></l><r>Maʼt<s n="np"/><s n="ant"/></r></p></e><!-- "Magdalena" -->
 <e><p><l>Achep<s n="np"/><s n="ant"/><s n="m"/></l><r>Achep<s n="np"/><s n="ant"/></r></p></e><!-- "José" -->

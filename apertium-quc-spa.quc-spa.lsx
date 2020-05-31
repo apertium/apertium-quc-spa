@@ -6,6 +6,7 @@
         <sdef n="v"/>
         <sdef n="iv"/>
         <sdef n="px3sg"/>
+        <sdef n="itg"/>
         <sdef n="pr"/>
         <sdef n="prn"/>
         <sdef n="pers"/>
@@ -49,6 +50,13 @@
                 <r>xeʼ<b/>ja<s n="n"/></r>
             </p>
         </e>
+
+        <e lm="jas che" c="por qué"><p>
+                <l>jas<s n="prn"/><s n="itg"/><j/>chi<s n="pr"/><j/>re<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><j/></l>
+                <r>jas<b/>che<s n="adv"/><s n="itg"/></r>
+            </p>
+        </e>
+
 
         <e lm="rumal che" c="porque"><p>
                 <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><j/>chi<s n="pr"/><j/>re<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><j/></l>

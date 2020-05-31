@@ -253,6 +253,7 @@
 
       <!-- SECTION: Pronombres-->
 
+
       <e><p><l>riʼ<s n="prn"/><s n="dem"/></l><r>ese<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
       <e><p><l>laʼ<s n="prn"/><s n="dem"/></l><r>este<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
       <e><p><l>waʼ<s n="prn"/><s n="dem"/></l><r>este<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
@@ -262,8 +263,8 @@
       <e><p><l>at<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>areʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
       <e><p><l>areʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
-      <e><p><l>oj<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
-      <e><p><l>uj<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e><p><l>oj<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e><p><l>uj<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
       <e><p><l>ix<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></r></p></e>
       <e><p><l>aʼre<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
       <e><p><l>arʼeʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>ellos<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
@@ -733,6 +734,7 @@
 
 <e><p><l>jawi<s n="adv"/><s n="itg"/></l><r>dónde<s n="adv"/><s n="itg"/></r></p></e>
 <e><p><l>jawijeʼ<s n="adv"/><s n="itg"/></l><r>dónde<s n="adv"/><s n="itg"/></r></p></e>
+      <e><p><l>jas<b/>che<s n="adv"/><s n="itg"/></l><r>por<b/>qué<s n="adv"/><s n="itg"/></r></p></e>
 
       <e><p><l>kʼatekʼuriʼ<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
       <e><p><l>ubik<s n="adv"/></l><r>fuera<s n="adv"/></r></p></e>

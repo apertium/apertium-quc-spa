@@ -111,6 +111,9 @@
     <attr-item tags="iv"/>
     <attr-item tags="tv"/>
   </def-attr>
+  <def-attr n="a_pron"> <!-- verbs with -se -->
+    <attr-item tags="pron"/>
+  </def-attr>
   <def-attr n="a_prn">
     <attr-item tags="prn"/>
   </def-attr>
@@ -147,6 +150,7 @@
     <def-var n="CI"/>
     <def-var n="chunkName"/>
     <def-var n="sntype"/>
+    <def-var n="pron"/>
  </section-def-vars>
  <section-def-macros>
   
@@ -513,12 +517,19 @@
    </pattern>
    <action>
       <call-macro n="f_agr1"><with-param pos="1"/></call-macro>
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_pron"/><lit-tag v="pron"/></equal></test>
+                    <let><var n="pron"/><concat><lit v="se"/><lit-tag v="prn.pro.ref.p3.mf.sp"/></concat></let>
+                    <let><clip pos="1" side="tl" part="a_pron"/><lit v=""/></let>
+              </when>
+      </choose>
       <out>
        <chunk name="fin">
         <tags>
          <tag><lit-tag v="V"/></tag>
           <tag><clip pos="1" side="sl" part="a_val"/></tag>
         </tags>
+        <var n="pron"/><b/>
         <lu> 
           <clip pos="1" side="tl" part="lem"/>
           <clip pos="1" side="tl" part="a_verb"/>
@@ -526,6 +537,7 @@
         </lu>
        </chunk>
       </out>
+      <let><var n="pron"/><lit v=""/></let>
    </action>
   </rule>
 

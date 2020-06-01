@@ -3,7 +3,13 @@
 <!--ixim ulew = tierra dura-->
 
   <rule>
-    <match lemma="wind"/>
-    <match lemma="power" tags="n.*"> <select lemma="energía" tags="n.*"/> </match>
+<!--ukʼojol ri kʼaslik Dyos-->
+    <match lemma="kʼojolaxel" tags="n.*"> <select lemma="hijo" tags="n.*"/> </match>
+    <match/> <match lemma="kʼaslik"/>
   </rule>
+  <rule>
+    <match lemma="kʼaslik" tags="adj"> <select lemma="viviente"/> </match>
+    <match lemma="dyos"/>
+  </rule>
+
 </rules>

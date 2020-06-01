@@ -5,7 +5,12 @@
         <sdef n="adv"/>
         <sdef n="v"/>
         <sdef n="iv"/>
+        <sdef n="px1sg"/>
+        <sdef n="px2sg"/>
         <sdef n="px3sg"/>
+        <sdef n="px1pl"/>
+        <sdef n="px2pl"/>
+        <sdef n="px3pl"/>
         <sdef n="itg"/>
         <sdef n="pr"/>
         <sdef n="prn"/>
@@ -18,18 +23,37 @@
         <sdef n="cnjadv"/>
         <sdef n="rel"/>
     </sdefs>
+    <pardefs>
+      <pardef n="poss">
+        <e><i><s n="px1sg"/></i></e>
+        <e><i><s n="px2sg"/></i></e>
+        <e><i><s n="px3sg"/></i></e>
+        <e><i><s n="px1pl"/></i></e>
+        <e><i><s n="px2pl"/></i></e>
+        <e><i><s n="px3pl"/></i></e>
+      </pardef>
+    </pardefs>
 
     <section id="main" type="standard">
 <!--chipaqʼij chi chaqʼabʼ = de día y de noche-->
 <!-- qʼax pa -jolom (v) to understand -->
 <!--siwan tinimit = habitantes de un lugar -->
 
+        <e lm="wiʼ ri kowil" c="prepucio"><p>
+                <l>wiʼ<s n="n"/><s n="rel"/><s n="px3sg"/><j/>ri<s n="det"/><j/>kowil<s n="n"/></l>
+                <r>wiʼ<b/>ri<b/>kowil<s n="n"/></r>
+            </p><par n="poss"/>
+            <i><j/></i>
+        </e>
+
         <e lm="qʼaxal tzij ri Dyos" c="profeta"><p>
                 <l>qʼaxal<s n="adj"/><j/>tzij<s n="n"/><s n="px3sg"/><j/>ri<s n="det"/><j/>dyos<s n="n"/><j/></l>
                 <r>qʼaxal<b/>tzij<b/>ri<b/>Dyos<s n="n"/></r>
             </p>
         </e>
+
 <!--
+
         <e lm="qʼaxal tzij" c="traductor"><p>
                 <l>qʼaxal<s n="adj"/><j/>tzij<s n="n"/><t/><j/></l>
                 <r>qʼaxal<b/>tzij<s n="n"/></r>

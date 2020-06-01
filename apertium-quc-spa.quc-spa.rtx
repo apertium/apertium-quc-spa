@@ -16,10 +16,15 @@
    <cat-item tags="SP"/>
    <cat-item tags="SP.*"/>
   </def-cat>
+   <def-cat n="SN_pos">
+   <cat-item tags="SN.pos.*"/>
+   <cat-item tags="SN.pos.*"/>
+  </def-cat>
    <def-cat n="SN">
    <cat-item tags="SN"/>
    <cat-item tags="SN.*"/>
   </def-cat>
+
   <def-cat n="fin">
    <cat-item tags="v.*.perf.*"/>
    <cat-item tags="v.*.impf.*"/>
@@ -141,10 +146,12 @@
     <def-var n="CD"/>
     <def-var n="CI"/>
     <def-var n="chunkName"/>
+    <def-var n="sntype"/>
  </section-def-vars>
  <section-def-macros>
   
   <def-macro n="f_cdo1" npar="2">
+      <let><var n="CI"/><lit v=""/></let>
       <choose> 
         <when> <test><and><equal><clip pos="2" side="tl" part="a_pers"/><lit-tag v="p1"/></equal>
                           <equal><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal> </and></test>
@@ -177,6 +184,7 @@
       </choose>
   </def-macro>
   <def-macro n="f_agr1" npar="1">
+    <let><var n="CI"/><lit v=""/></let>
     <choose>
       <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg1"/></equal></test>
                   <let><var n="agr"/><lit-tag v="p1.sg"/></let></when>
@@ -526,14 +534,9 @@
    <action>
    <choose>
       <when>
-        <test>
-          <equal>
-            <clip pos="2" side="tl" part="np_type"/>
-            <lit-tag v="ant"/>
-          </equal>
-        </test>
+        <test> <equal> <clip pos="2" side="tl" part="np_type"/> <lit-tag v="ant"/> </equal> </test>
           <out>
-           <chunk name="default">
+           <chunk name="ant">
             <tags>
              <tag><lit-tag v="SN"/></tag>
              <tag><clip pos="2" side="tl" part="a_gen"/></tag>
@@ -543,13 +546,16 @@
           </out>
         </when>
         <when>
-          <test> <not> <equal> <clip pos="2" side="tl" part="a_px"/> <lit v=""/> </equal> </not> </test>
+          <test> <or><equal> <clip pos="2" side="tl" part="a_px"/> <lit-tag v="px1sg"/> </equal> 
+                             <equal> <clip pos="2" side="tl" part="a_px"/> <lit-tag v="px1pl"/></equal>
+                             <equal> <clip pos="2" side="tl" part="a_px"/> <lit-tag v="px2sg"/></equal>
+                             <equal> <clip pos="2" side="tl" part="a_px"/> <lit-tag v="px2pl"/></equal></or> </test>
           <call-macro n="px_adjpos"><with-param pos="2"/></call-macro>
           <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
           <out>
             <chunk name="default">
               <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="SN.pos"/></tag>
                 <tag><clip pos="2" side="tl" part="a_gen"/></tag>
                 <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
               </tags>
@@ -561,6 +567,25 @@
             </chunk>
           </out>
         </when>
+        <when>
+          <test> <or><equal> <clip pos="2" side="tl" part="a_px"/> <lit-tag v="px3sg"/> </equal> 
+                             <equal> <clip pos="2" side="tl" part="a_px"/> <lit-tag v="px3pl"/></equal></or> </test>
+          <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+          <out>
+            <chunk name="default">
+              <tags>
+                <tag><lit-tag v="SN.pos"/></tag>
+                <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+                <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+              </tags>
+              <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+              <b/>
+              <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+           </chunk>
+          </out>
+        </when>
+
+
         <otherwise>
           <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
           <out>
@@ -627,8 +652,9 @@
     <pattern-item n="prn-pro"/> <pattern-item n="SN"/>
    </pattern>
    <action>
+    <call-macro n="f_concord2"><with-param pos="1"/><with-param pos="2"/></call-macro>
       <out>
-       <chunk name="n">
+       <chunk name="pred">
         <tags>
          <tag><lit-tag v="SV.iv.cop"/></tag>
          <tag><clip pos="1" side="sl" part="a_pers"/> </tag>
@@ -721,6 +747,30 @@
       </out>
    </action>
   </rule>
+
+  <rule comment="SN_pos SN" firstChunk="SN">
+   <pattern>
+    <pattern-item n="SN_pos"/>
+    <pattern-item n="SN"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk name="SN">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><clip pos="1" side="tl" part="a_gen"/> </tag>
+         <tag><clip pos="1" side="tl" part="a_nbr"/> </tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu><lit v="de"/><lit-tag v="pr"/></lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
 
 
   <rule comment="adj SN" firstChunk="SN">

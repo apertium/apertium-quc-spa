@@ -22,6 +22,7 @@
     <sdef n="prn"             c="Pronoun"/>
     <sdef n="ND"             c=""/>
     <sdef n="tn"             c=""/>
+    <sdef n="pro"             c=""/>
     <sdef n="pri"             c=""/>
     <sdef n="part"             c=""/>
     <sdef n="aux"             c=""/>
@@ -269,6 +270,13 @@
       <e><p><l>waʼ<s n="prn"/><s n="dem"/></l><r>este<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
 <e><p><l>weriʼ<s n="prn"/><s n="dem"/></l><r>éste<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
 
+      <!-- Set B agreement markers on non-verbal predicates -->
+      <e r="LR"><p><l>in<s n="prn"/><s n="pro"/><s n="p1"/><s n="sg"/></l><r></r></p></e>
+      <e r="LR"><p><l>at<s n="prn"/><s n="pro"/><s n="p2"/><s n="sg"/></l><r></r></p></e>
+      <e r="LR"><p><l>oj<s n="prn"/><s n="pro"/><s n="p1"/><s n="pl"/></l><r></r></p></e>
+      <e r="LR"><p><l>uj<s n="prn"/><s n="pro"/><s n="p1"/><s n="pl"/></l><r></r></p></e>
+
+      <!-- Independent pronouns -->
       <e><p><l>in<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>at<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>areʼ<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>

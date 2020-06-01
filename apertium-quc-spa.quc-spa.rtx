@@ -28,7 +28,10 @@
    <cat-item tags="pl.*"/>
    <cat-item tags="pl"/>
   </def-cat>
-  <def-cat n="prop">
+  <def-cat n="prn-pro">
+   <cat-item tags="prn.pro.*"/>
+  </def-cat>
+   <def-cat n="prop">
    <cat-item tags="np.*"/>
   </def-cat>
   <def-cat n="n-rel">
@@ -613,6 +616,27 @@
          <tag><clip pos="1" side="tl" part="a_nbr"/> </tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="prn-pro SN" firstChunk="SV">
+   <pattern>
+    <pattern-item n="prn-pro"/> <pattern-item n="SN"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk name="n">
+        <tags>
+         <tag><lit-tag v="SV.iv.cop"/></tag>
+         <tag><clip pos="1" side="sl" part="a_pers"/> </tag>
+         <tag><clip pos="1" side="sl" part="a_nbr"/> </tag>
+        </tags>
+        <lu> <lit v="ser"/><lit-tag v="vbser.pri.4.5"/></lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>

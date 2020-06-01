@@ -1,79 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
 <ref>
-	
-	<section-parameters>
-		<anaphor>
-			<parameter-item has-tags="det pos"/>
-			<parameter-item has-tags="prn"/>
-		</anaphor>
-		<antecedent>
-			<parameter-item has-tags="n"/>
-			<parameter-item has-tags="np"/>
-		</antecedent>
-		<delimiter>
-			<parameter-item has-tags="sent"/>
-		</delimiter>
-	</section-parameters>
+  
+  <section-parameters>
 
-	<section-def-cats>
-		
-		<def-cat n="det">
-			<cat-item has-tags="det"/>
-			<cat-item has-tags="det pos"/>
-		</def-cat>
+    <delimiter>
+        <parameter-item has-tags="sent"/>
+    </delimiter>
 
-		<def-cat n="nom">
-			<cat-item has-tags="n"/>
-		</def-cat>
+    <def-parameter n="nom">
+      <anaphor>
+        <parameter-item has-tags="n"/>
+        <parameter-item has-tags="np"/>
+      </anaphor>
 
-		<def-cat n="np">
-			<cat-item has-tags="np"/>
-		</def-cat>
+      <antecedent>
+        <parameter-item has-tags="n"/>
+        <parameter-item has-tags="np"/>
+      </antecedent>
+    </def-parameter>
 
-		<def-cat n="prep">
-			<cat-item has-tags="pr"/>
-		</def-cat>
+  </section-parameters>
 
-	</section-def-cats>
+  <section-def-cats>
 
-	<section-markables>
+    <def-cat n="nom">
+      <cat-item has-tags="n"/>
+      <cat-item has-tags="np"/>
+    </def-cat>
 
-		<markable n="PP">
-			<pattern>
-				<pattern-item n="prep"/>
-				<pattern-item n="det"/>
-				<pattern-item n="nom" head="t"/>
-			</pattern>
-			<pattern>
-				<pattern-item n="prep"/>
-				<pattern-item n="nom" head="t"/>
-			</pattern>
+    <def-cat n="np">
+      <cat-item has-tags="np"/>
+    </def-cat>
+    
+    <def-cat n="v">
+      <cat-item has-tags="v"/>
+      <cat-item has-tags="tv"/>
+    </def-cat>
 
-			<score n="-1"/> <!-- This gives a -1 score to any antecedent that is part of a PP -->
-		</markable>
+  </section-def-cats>
 
-		<markable n="IP">
-			<pattern>
-				<pattern-item n="ind"/>
-				<pattern-item n="nom"/>
-			</pattern>
+  <section-markables>
+ 
+    <markable n="Voc">
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="v"/>
+      </pattern>
 
-			<score n="-1"/> <!-- This gives a -1 score to any antecedent that is part of a Indefinite Noun Phrase -->
-		</markable>
-
-		<markable n="PNP">
-			<pattern>
-				<pattern-item n="np"/>
-			</pattern>
-
-			<score n="1"/> <!-- This gives a +1 score to any antecedent that is part of a Proper Noun -->
-		</markable>
-
-	</section-markables>
-	
+      <score n="+5" parameter="nom"/>
+    </markable>
+  </section-markables>
+  
 </ref>
 
-<!--
-Resources:
-		http://wiki.apertium.org/wiki/Anaphora_Resolution_Module
--->

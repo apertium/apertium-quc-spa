@@ -237,6 +237,9 @@
       <e><p><l>rumal<b/>rech<b/>che<s n="cnjadv"/></l><r>porque<s n="cnjadv"/></r></p></e>
       <e><p><l>rumal<b/>che<s n="cnjadv"/></l><r>porque<s n="cnjadv"/></r></p></e>
       <e><p><l>kʼut<s n="cnjsub"/></l><r>pero<s n="cnjsub"/></r></p></e>
+      <e><p><l>arechiʼ<s n="cnjsub"/></l><r>cuando<s n="cnjadv"/></r></p></e>
+      <e><p><l>arech<s n="cnjsub"/></l><r>para<b/>que<s n="cnjadv"/></r></p></e>
+      <e><p><l>arechaʼ<s n="cnjsub"/></l><r>para<b/>que<s n="cnjadv"/></r></p></e>
 <e><p><l>xane<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e>
 <e><p><l>xaneʼ<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e>
 <e><p><l>tekʼuriʼ<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
@@ -501,7 +504,7 @@
 <e><par n="N"/><p><l>mak<s n="n"/></l><r>pecado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>uwachulew<s n="n"/></l><r>mundo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>pam<s n="n"/></l><r>estómago<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>ajjudiʼo<s n="n"/></l><r>judio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>ajjudiʼo<s n="n"/></l><r>judío<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼabʼ<s n="n"/></l><r>dominio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>woqʼoch<s n="n"/></l><r>ojo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>cheʼ<s n="n"/></l><r>palo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -580,7 +583,7 @@
 <e><par n="N"/><p><l>tukur<s n="n"/></l><r>buho<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ajil<s n="n"/></l><r>precio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kunanik<s n="n"/></l><r>remedio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>judiʼo<s n="n"/></l><r>judio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>judiʼo<s n="n"/></l><r>judío<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ajtzʼibʼ<s n="n"/></l><r>secretario<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>riʼj<s n="n"/></l><r>viejo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ismal<s n="n"/></l><r>pellejo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>

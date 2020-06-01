@@ -10,7 +10,6 @@
     <def-parameter n="nom">
       <anaphor>
         <parameter-item has-tags="n"/>
-        <parameter-item has-tags="np"/>
       </anaphor>
 
       <antecedent>

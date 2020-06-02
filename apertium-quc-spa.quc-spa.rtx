@@ -355,7 +355,7 @@
     <def-macro n="f_conj_fin_verb1" npar="1">
       <choose>
         <when><test><equal><clip pos="1" side="sl" part="a_asp"/><lit-tag v="impf"/></equal></test>
-                    <let><clip pos="1" side="tl" part="a_asp"/><lit-tag v="pii"/></let></when>
+                    <let><clip pos="1" side="tl" part="a_asp"/><lit-tag v="pri"/></let></when>
         <when><test><equal><clip pos="1" side="sl" part="a_asp"/><lit-tag v="perf"/></equal></test>
                     <let><clip pos="1" side="tl" part="a_asp"/><lit-tag v="ifi"/></let></when>
       </choose>
@@ -523,7 +523,7 @@
          <tag><clip pos="1" side="tl" part="a_gen"/></tag>
          <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="chcontent"/></lu>
+        <lu><clip pos="1" side="tl" part="whole"/></lu>
        </chunk>
       </out>
    </action>

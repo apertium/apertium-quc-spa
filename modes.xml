@@ -51,6 +51,18 @@
   </mode>
 
 
+  <mode name="quc-spa-tagger">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="quc-spa.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -1 -n">
+        <file name="quc-spa.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <mode name="quc-spa-disam">
     <pipeline>
       <program name="hfst-proc -w">
@@ -133,6 +145,26 @@
       </program>
     </pipeline>
   </mode>
+
+  <mode name="quc-spa-biltrans">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="quc-spa.automorf.hfst"/>
+      </program>
+
+      <program name="cg-proc -w -1 -n">
+        <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc">
+        <file name="quc-spa.autoseq.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="quc-spa.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
 
   <mode name="quc-spa-transfer">

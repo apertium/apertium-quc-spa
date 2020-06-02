@@ -1,46 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary type="separable">
-	<alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
-	<sdefs>
-		<sdef n="adj"/>
-		<sdef n="adv"/>
-		<sdef n="pr"/>
-		<sdef n="n"/>
-		<sdef n="v"/>
-		<sdef n="f"/>
-		<sdef n="mf"/>
-		<sdef n="sg"/>
-		<sdef n="vblex"/>
-		<sdef n="vbser"/>
-		<sdef n="det"/>
-	</sdefs>
+  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  <sdefs>
+    <sdef n="adj"/>
+    <sdef n="adv"/>
+    <sdef n="pr"/>
+    <sdef n="n"/>
+    <sdef n="num"/>
+    <sdef n="sp"/>
+    <sdef n="pl"/>
+    <sdef n="v"/>
+    <sdef n="f"/>
+    <sdef n="mf"/>
+    <sdef n="sg"/>
+    <sdef n="vblex"/>
+    <sdef n="vbser"/>
+    <sdef n="det"/>
+  </sdefs>
 
-	<pardefs>
-		<pardef n="adj">
-			<e><i><w/><s n="adj"/><j/></i></e>
-			<e><i><w/><s n="adj"/><t/><j/></i></e>
-		</pardef>
-		<pardef n="adv">
-			<e><i><w/><s n="adv"/><j/></i></e>
-			<e><i><w/><s n="adv"/><t/><j/></i></e>
-		</pardef>
-		<pardef n="n">
-			<e><i><w/><s n="n"/><t/><j/></i></e>
-		</pardef>
-		<pardef n="det">
-			<e><i><w/><s n="det"/><t/><j/></i></e>
-		</pardef>
-		<pardef n="SN">
-			<e><par n="n"/></e>
-			<e><par n="adj"/><par n="n"/></e>
-			<e><par n="adj"/><par n="adj"/><par n="n"/></e>
-			<e><par n="det"/><par n="n"/></e>
-			<e><par n="det"/><par n="adj"/><par n="n"/></e>
-			<e><par n="det"/><par n="adj"/><par n="adj"/><par n="n"/></e>
-		</pardef>
-	</pardefs>
+  <pardefs>
+    <pardef n="adj">
+      <e><i><w/><s n="adj"/><j/></i></e>
+      <e><i><w/><s n="adj"/><t/><j/></i></e>
+    </pardef>
+    <pardef n="adv">
+      <e><i><w/><s n="adv"/><j/></i></e>
+      <e><i><w/><s n="adv"/><t/><j/></i></e>
+    </pardef>
+    <pardef n="n">
+      <e><i><w/><s n="n"/><t/><j/></i></e>
+    </pardef>
+    <pardef n="det">
+      <e><i><w/><s n="det"/><t/><j/></i></e>
+    </pardef>
+    <pardef n="SN">
+      <e><par n="n"/></e>
+      <e><par n="adj"/><par n="n"/></e>
+      <e><par n="adj"/><par n="adj"/><par n="n"/></e>
+      <e><par n="det"/><par n="n"/></e>
+      <e><par n="det"/><par n="adj"/><par n="n"/></e>
+      <e><par n="det"/><par n="adj"/><par n="adj"/><par n="n"/></e>
+    </pardef>
+  </pardefs>
 
-	<section id="main" type="standard">
+  <section id="main" type="standard">
 
   <!--
       This replaces
@@ -49,13 +52,22 @@
       ^take# out<vblex>...$ [noun phrase]
   -->
 
-		<e lm="estrella polar" c="">
-			<p>
-				<l>estrella<s n="n"/><s n="f"/><s n="sg"/><j/>polar<s n="adj"/><s n="mf"/><s n="sg"/><j/></l>
-				<r>estrella<b/>polar<s n="n"/><s n="f"/><s n="sg"/><j/></r>
-			</p>
-		</e>
-	</section>
+    <e lm="dos veces" c="">
+      <p><l>dos<s n="num"/><s n="mf"/><s n="sp"/><j/>vez<s n="n"/><s n="f"/><s n="pl"/><j/></l><r>dos<b/>veces<s n="adv"/><j/></r></p>
+    </e>
+    <e lm="tres veces" c="">
+      <p><l>tres<s n="num"/><s n="mf"/><s n="sp"/><j/>vez<s n="n"/><s n="f"/><s n="pl"/><j/></l><r>tres<b/>veces<s n="adv"/><j/></r></p>
+    </e>
+    <e lm="de noche" c="">
+      <p><l>de<s n="pr"/><j/>noche<s n="n"/><s n="f"/><s n="sg"/><j/></l><r>de<b/>noche<s n="adv"/><j/></r></p>
+    </e>
+    <e lm="estrella polar" c="">
+      <p><l>estrella<s n="n"/><s n="f"/><s n="sg"/><j/>polar<s n="adj"/><s n="mf"/><s n="sg"/><j/></l>
+      <r>estrella<b/>polar<s n="n"/><s n="f"/><s n="sg"/><j/></r>
+      </p>
+    </e>
+
+  </section>
 </dictionary>
 
 <!-- 

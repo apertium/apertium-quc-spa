@@ -162,6 +162,18 @@
         <e r="LR"><p><l><s n="impf"/><s n="s_pl1"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="impf"/><s n="s_pl2"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="impf"/><s n="s_pl3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="s_pl3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="s_pl3"/></l><r></r></p></e>
         <e><p><l></l><r></r></p></e>
       </pardef>
 
@@ -196,6 +208,35 @@
         <e r="LR"><p><l><s n="impf"/><s n="o_pl3"/><s n="s_pl1"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="impf"/><s n="o_pl3"/><s n="s_pl2"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="impf"/><s n="o_pl3"/><s n="s_pl3"/></l><r></r></p></e>
+
+        <e r="LR"><p><l><s n="imp"/><s n="o_sg3"/><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="o_sg3"/><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="o_sg3"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="o_sg3"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="o_sg3"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="o_sg3"/><s n="s_pl3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="o_pl3"/><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="o_pl3"/><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="o_pl3"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="o_pl3"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="o_pl3"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="o_pl3"/><s n="s_pl3"/></l><r></r></p></e>
+
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="o_sg3"/><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="o_sg3"/><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="o_sg3"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="o_sg3"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="o_sg3"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="o_sg3"/><s n="s_pl3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="o_pl3"/><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="o_pl3"/><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="o_pl3"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="o_pl3"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="o_pl3"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="o_pl3"/><s n="s_pl3"/></l><r></r></p></e>
+
+
+
         <e><p><l></l><r></r></p></e>
       </pardef>
 

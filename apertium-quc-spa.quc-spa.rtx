@@ -148,6 +148,9 @@
     <def-cat n="np_cog">
       <cat-item tags="np.cog.*"/>
     </def-cat>
+    <def-cat n="@det">
+      <cat-item tags="prn.dem.@det"/>
+    </def-cat>
     <!-- Syntactic categories -->
 
     <def-cat n="Det">
@@ -163,6 +166,11 @@
     <def-cat n="A">
       <cat-item tags="A.*"/>
       <cat-item tags="A"/>
+    </def-cat>
+    
+    <def-cat n="Dem.@det">
+      <cat-item tags="Dem.@det.*"/>
+      <cat-item tags="Dem.@det"/>
     </def-cat>
 
     <!-- Syntactic phrases -->
@@ -501,7 +509,25 @@
 
   <section-rules>
 
-
+  <rule comment="SD Dem.@det" firstChunk="SD">
+   <pattern>
+    <pattern-item n="SD"/>
+    <pattern-item n="Dem.@det"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+         <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+        </tags>
+        <lu><clip pos="1" side="tl" part="chcontent"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
 
   <rule comment="SDPsor SD" firstChunk="SD">
    <pattern>
@@ -672,6 +698,24 @@
       <e r="LR"><par n="N"/><p><l>pam<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
       <e r="LR"><par n="N"/><p><l>pam<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
 -->
+
+  <rule comment="@det" firstChunk="Dem.@det">
+   <pattern>
+    <pattern-item n="@det"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="Dem.@det"/></tag>
+        </tags>
+        <lu><clip pos="1" side="tl" part="whole"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
 
   <rule comment="rel" firstChunk="N">
    <pattern>

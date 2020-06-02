@@ -265,6 +265,11 @@
     </def-attr>
 
 
+    <def-attr n="a_imp">
+     <attr-item tags="imp.neg"/>
+     <attr-item tags="imp"/>
+    </def-attr>
+
     <def-attr n="a_asp">
      <attr-item tags="impf"/>
      <attr-item tags="perf"/>
@@ -297,9 +302,14 @@
     <def-var n="concSegundo"/>
     <def-var n="predAdj"/>
     <def-var n="refPron"/>
+    <def-var n="negación"/>
   </section-def-vars>
 
   <section-def-macros>
+    <def-macro n="f_reset_verb1" npar="1">  
+      <let><var n="negación"/><lit v=""/></let>
+      <let><var n="refPron"/><lit v=""/></let>
+    </def-macro>
     <def-macro n="f_reset_vars1" npar="1">  
       <let><var n="numero"/><lit v=""/></let>
       <let><var n="genero"/><lit v=""/></let>
@@ -358,6 +368,9 @@
                     <let><clip pos="1" side="tl" part="a_asp"/><lit-tag v="pri"/></let></when>
         <when><test><equal><clip pos="1" side="sl" part="a_asp"/><lit-tag v="perf"/></equal></test>
                     <let><clip pos="1" side="tl" part="a_asp"/><lit-tag v="ifi"/></let></when>
+        <when><test><equal><clip pos="1" side="sl" part="a_imp"/><lit-tag v="imp.neg"/></equal></test>
+                    <let><var n="negación"/><concat><lit v="no"/><lit-tag v="adv"/></concat></let>
+                    <let><clip pos="1" side="tl" part="a_imp"/><lit-tag v="prs"/></let></when>
       </choose>
     </def-macro>
 
@@ -808,11 +821,13 @@
          <tag><lit-tag v="V.tv"/></tag>
          <tag><clip pos="1" side="tl" part="tags"/></tag>
         </tags>
+        <var n="negación"/><b/>
         <lu><clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="tags"/>
             <clip pos="1" side="tl" part="lemq"/></lu>
        </chunk>
       </out>
+      <call-macro n="f_reset_verb1"><with-param pos="1"/></call-macro>
    </action>
   </rule>
 
@@ -839,6 +854,7 @@
            <tag><clip pos="1" side="tl" part="a_gen"/></tag>
            <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
           </tags>
+          <var n="negación"/><b/>
           <lu><lit v="estar"/><lit-tag v="vblex"/><clip pos="1" side="tl" part="a_temps"/><clip pos="1" side="tl" part="a_agr"/></lu><b/>
           <lu><var n="predAdj"/></lu>
          </chunk>
@@ -858,6 +874,7 @@
             <tag><clip pos="1" side="tl" part="a_gen"/></tag>
             <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
            </tags>
+           <var n="negación"/><b/>
            <lu><var n="refPron"/></lu><b/>
            <lu><clip pos="1" side="tl" part="whole"/></lu>
           </chunk>
@@ -872,6 +889,7 @@
            <tag><lit-tag v="V.iv"/></tag>
            <tag><clip pos="1" side="tl" part="tags"/></tag>
           </tags>
+        <var n="negación"/><b/>
         <lu><clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="tags"/>
             <clip pos="1" side="tl" part="lemq"/></lu>
@@ -879,6 +897,7 @@
         </out>
        </otherwise>
      </choose>
+      <call-macro n="f_reset_verb1"><with-param pos="1"/></call-macro>
    </action>
   </rule>
 

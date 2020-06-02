@@ -7,6 +7,9 @@
 		<sdef n="pr"/>
 		<sdef n="n"/>
 		<sdef n="v"/>
+		<sdef n="f"/>
+		<sdef n="mf"/>
+		<sdef n="sg"/>
 		<sdef n="vblex"/>
 		<sdef n="vbser"/>
 		<sdef n="det"/>
@@ -46,16 +49,10 @@
       ^take# out<vblex>...$ [noun phrase]
   -->
 
-		<e lm="take out" c="sacar">
+		<e lm="estrella polar" c="">
 			<p>
-				<l>take<s n="vblex"/></l>
-				<r>take<b/>out<s n="vblex"/></r>
-			</p>
-			<i><t/><j/></i>
-			<par n="SN"/>
-			<p>
-				<l>out<s n="adv"/><j/></l>
-				<r></r>
+				<l>estrella<s n="n"/><s n="f"/><s n="sg"/><j/>polar<s n="adj"/><s n="mf"/><s n="sg"/><j/></l>
+				<r>estrella<b/>polar<s n="n"/><s n="f"/><s n="sg"/><j/></r>
 			</p>
 		</e>
 	</section>

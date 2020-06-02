@@ -24,6 +24,7 @@
     <sdef n="ND"             c=""/>
     <sdef n="tn"             c=""/>
     <sdef n="pro"             c=""/>
+    <sdef n="dir"             c=""/>
     <sdef n="pred"             c=""/>
     <sdef n="pri"             c=""/>
     <sdef n="predet"             c=""/>
@@ -281,7 +282,8 @@
 
 <e><p><l>jat<s n="ij"/></l><r>fuera<s n="ij"/></r></p></e>
 <e><p><l>jat<s n="ij"/></l><r>vete<s n="ij"/></r></p></e>
-<e><p><l>aaa<s n="ij"/></l><r>aaa<s n="ij"/></r></p></e>
+<e><p><l>aaa<s n="ij"/></l><r>ah<s n="ij"/></r></p></e>
+<e><p><l>bʼaʼ<s n="ij"/></l><r></r></p></e> <!-- qué es eso? -->
 
       <!-- SECTION: Conjunciones -->
 
@@ -609,7 +611,7 @@
 <e><par n="N"/><p><l>ajkun<s n="n"/></l><r>médico<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>sachom<s n="n"/></l><r>olvidado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ajchʼoʼj<s n="n"/></l><r>soldado<s n="n"/><s n="mf"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>tajkil<s n="n"/></l><r>mandado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>tajkil<s n="n"/></l><r>mandar<s n="vblex"/><s n="pp"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>mokom<s n="n"/></l><r>empleado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼaʼnal<s n="n"/></l><r>enfado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>opanem<s n="n"/></l><r>llegar<s n="vblex"/><s n="pp"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -631,7 +633,7 @@
 <e><par n="N"/><p><l>tuʼ<s n="n"/></l><r>pecho<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>xotal<s n="n"/></l><r>techo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>wajxaqlajuj<s n="n"/></l><r>dieciocho<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
-<e><par n="N"/><p><l>tukur<s n="n"/></l><r>buho<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>tukur<s n="n"/></l><r>búho<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ajil<s n="n"/></l><r>precio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kunanik<s n="n"/></l><r>remedio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>judiʼo<s n="n"/></l><r>judío<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -842,6 +844,7 @@
 <e><par n="N"/><p><l>yawabʼ<s n="n"/></l><r>enfermo<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>polow<s n="n"/></l><r>mar<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>polow<s n="n"/></l><r>mar<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kolonel<s n="n"/></l><r>salvador<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 
 
 <e><par n="N"/><p><l>qax<s n="n"/></l><r>resto<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1056,6 +1059,7 @@
 
       <e><p><l>kʼicheʼ<s n="adj"/></l><r>quiché<s n="adj"/></r></p><par n="mf_ND"/></e>
       <e><p><l>tzij<s n="adj"/></l><r>verdadero<s n="adj"/></r></p><par n="GD_ND"/></e>
+      <e><p><l>junalik<s n="adj"/></l><r>eterno<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>naqaj<s n="adj"/></l><r>cerca<s n="adv"/></r></p></e>
 <e><p><l>naj<s n="adj"/></l><r>lejos<s n="adv"/></r></p></e>
 <e><p><l>nimalaj<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="mf_ND"/></e>
@@ -1200,9 +1204,14 @@
 <e><p><l>jawijeʼ<s n="adv"/><s n="itg"/></l><r>dónde<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>jas<b/>che<s n="adv"/><s n="itg"/></l><r>por<b/>qué<s n="adv"/><s n="itg"/></r></p></e>
 
+      <e><p><l>apan<s n="adv"/><s n="dir"/></l><r>cerca<s n="adv"/></r></p></e>
+      <e><p><l>apan<s n="adv"/><s n="dir"/></l><r>fuera<s n="adv"/></r></p></e>
+
       <e><p><l>chiʼ<s n="adv"/></l><r>aquí<s n="adv"/></r></p></e>
       <e><p><l>chi<s n="adv"/></l><r>otra<b/>vez<s n="adv"/></r></p></e>
       <e><p><l>chi<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
+      <e><p><l>chik<s n="adv"/></l><r>otra<b/>vez<s n="adv"/></r></p></e>
+      <e><p><l>chik<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
 
       <e><p><l>kʼatekʼuriʼ<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
       <e><p><l>kʼatekʼut<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
@@ -1220,14 +1229,14 @@
 <e><p><l>chilaʼ<s n="adv"/></l><r>allí<s n="adv"/></r></p></e>
 <e><p><l>jeʼ<s n="adv"/></l><r>sí<s n="adv"/></r></p></e>
 <e><p><l>waral<s n="adv"/></l><r>aquí<s n="adv"/></r></p></e>
-<e><p><l>chikaj<s n="adv"/></l><r>en el cielo<s n="adv"/></r></p></e>
+<e><p><l>chikaj<s n="adv"/></l><r>en<b/>el<b/>cielo<s n="adv"/></r></p></e>
 <e><p><l>xuwi<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
 <e><p><l>jacha<s n="adv"/></l><r>como<s n="adv"/></r></p></e>
 <e><p><l>majaʼ<s n="adv"/></l><r>todavía<b/>no<s n="adv"/></r></p></e>
 <e><p><l>majaʼ<s n="adv"/></l><r>aún<b/>no<s n="adv"/></r></p></e>
 <e><p><l>chanim<s n="adv"/></l><r>pronto<s n="adv"/></r></p></e>
 <e><p><l>ojer<s n="adv"/></l><r>antes<s n="adv"/></r></p></e>
-<e><p><l>ojer<s n="adv"/></l><r>en tiempos pasados<s n="adv"/></r></p></e>
+<e><p><l>ojer<s n="adv"/></l><r>en<b/>tiempos<b/>pasados<s n="adv"/></r></p></e>
 <e><p><l>jelaʼ<s n="adv"/></l><r>allá<s n="adv"/></r></p></e>
 <e><p><l>aninaq<s n="adv"/></l><r>de<b/>prisa<s n="adv"/></r></p></e>
 <e><p><l>chaqʼabʼ<s n="adv"/></l><r>de<b/>noche<s n="adv"/></r></p></e>

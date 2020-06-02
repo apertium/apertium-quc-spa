@@ -6,6 +6,7 @@
         <sdef n="v"/>
         <sdef n="iv"/>
         <sdef n="px1sg"/>
+        <sdef n="cnjsub"/>
         <sdef n="px2sg"/>
         <sdef n="px3sg"/>
         <sdef n="px1pl"/>
@@ -83,6 +84,13 @@
                 <r>jas<b/>che<s n="adv"/><s n="itg"/></r>
             </p>
         </e>
+
+        <e lm="aretaq chiʼ" c="cuando"><p>
+                <l>aretaq<s n="adv"/><j/>chiʼ<s n="adv"/><j/></l>
+                <r>aretaq<b/>chiʼ<s n="cnjsub"/></r>
+            </p>
+        </e>
+
 
 
         <e lm="rumal che" c="porque"><p>

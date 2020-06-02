@@ -73,18 +73,29 @@
     <e lm="de noche" c="">
       <p><l>de<s n="pr"/><j/>noche<s n="n"/><s n="f"/><s n="sg"/><j/></l><r>de<b/>noche<s n="adv"/><j/></r></p>
     </e>
+    <e lm="todavía no" c="">
+      <p><l>todavía<s n="adv"/><j/>no<s n="adv"/><j/></l><r>todavía<b/>no<s n="adv"/><j/></r></p>
+    </e>
+    <e lm="aún no" c="">
+      <p><l>aún<s n="adv"/><j/>no<s n="adv"/><j/></l><r>aún<b/>no<s n="adv"/><j/></r></p>
+    </e>
     <e lm="estrella polar" c="">
       <p><l>estrella<s n="n"/><s n="f"/><s n="sg"/><j/>polar<s n="adj"/><s n="mf"/><s n="sg"/><j/></l>
       <r>estrella<b/>polar<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
     </e>
-    <e lm="estación seco" c="">
+    <e lm="estación seca" c="">
       <p><l>estación<s n="n"/><s n="f"/><s n="sg"/><j/>seco<s n="adj"/><s n="f"/><s n="sg"/><j/></l>
-      <r>estación<b/>seco<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <r>estación<b/>seca<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
     </e>
     <e lm="hoja de maguey" c="">
       <p><l>hoja<s n="n"/><s n="f"/><s n="sg"/><j/>de<s n="pr"/><j/>maguey<s n="n"/><s n="m"/><s n="sg"/><j/></l>
       <r>hoja<b/>de<b/>maguey<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
     </e>
+    <e lm="hojas de maguey" c="">
+      <p><l>hoja<s n="n"/><s n="f"/><s n="pl"/><j/>de<s n="pr"/><j/>maguey<s n="n"/><s n="m"/><s n="sg"/><j/></l>
+      <r>hoja<b/>de<b/>maguey<s n="n"/><s n="f"/><s n="pl"/><j/></r></p>
+    </e>
+
 
   </section>
 </dictionary>

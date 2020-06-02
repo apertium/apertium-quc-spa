@@ -8,11 +8,17 @@
     <match/> <match lemma="kʼaslik"/>
   </rule>
   <rule>
+    <or><match lemma="opanik"/><match lemma="kʼatekʼut"/></or>
+    <match/>
+    <match lemma="kajbʼal" tags="n.*"> <select lemma="tiempo"/> </match>
+  </rule>
+  <rule>
     <match lemma="kʼaslik" tags="adj"> <select lemma="viviente"/> </match>
     <match lemma="dyos"/>
   </rule>
   <rule>
     <match lemma="Luʼ" tags="np.*"> <select lemma="Pedro"/> </match>
   </rule>
+
 
 </rules>

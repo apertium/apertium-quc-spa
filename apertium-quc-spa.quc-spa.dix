@@ -575,8 +575,8 @@
 <e><par n="N"/><p><l>pek<s n="n"/></l><r>acantilado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>yataj<s n="n"/></l><r>puñado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chapom<s n="n"/></l><r>agarrar<s n="vblex"/><s n="pp"/><s n="m"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>okem<s n="n"/></l><r>entrado<s n="vblex"/><s n="pp"/><s n="m"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>chʼakoj<s n="n"/></l><r>descapacitado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>okem<s n="n"/></l><r>entrar<s n="vblex"/><s n="pp"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>chʼakoj<s n="n"/></l><r>discapacitado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>xoqʼol<s n="n"/></l><r>lodo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼam<s n="n"/></l><r>cuerda<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼaʼm<s n="n"/></l><r>cuerda<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -780,11 +780,12 @@
 <e><par n="N"/><p><l>tzam<s n="n"/></l><r>licor<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ajmak<s n="n"/></l><r>pecador<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chajinel<s n="n"/></l><r>cuidador<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>tal<s n="n"/></l><r>escuchador<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<!--<e><par n="N"/><p><l>tal<s n="n"/></l><r>escuchador<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>-->
+<e><par n="N"/><p><l>tal<s n="n"/></l><r>oyente<s n="n"/><s n="mf"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼaxeltzij<s n="n"/></l><r>mediador<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chʼäkanel<s n="n"/></l><r>ganador<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>jatʼibʼal<s n="n"/></l><r>amarrador<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>jatʼim<s n="n"/></l><r>amarrador<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>jatʼim<s n="n"/></l><r>amarrador<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ajkʼay<s n="n"/></l><r>vendedor<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kotzʼiʼj<s n="n"/></l><r>flor<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>tataʼ<s n="n"/></l><r>señor<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -804,6 +805,7 @@
 
 <e><par n="N"/><p><l>qax<s n="n"/></l><r>resto<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e><par n="N"/><p><l>ajtarso<s n="n"/></l><r>tarseño<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>fariseʼo<s n="n"/></l><r>fariseo<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ajgriʼego<s n="n"/></l><r>griego<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 
       
@@ -813,6 +815,7 @@
       <e><p><l>Nela<s n="np"/><s n="ant"/><s n="f"/></l><r>Manuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Pabʼlo<s n="np"/><s n="ant"/><s n="m"/></l><r>Pablo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Jesus<s n="np"/><s n="ant"/><s n="m"/></l><r>Jesús<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Adam<s n="np"/><s n="ant"/><s n="m"/></l><r>Adam<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Abʼraham<s n="np"/><s n="ant"/><s n="m"/></l><r>Abraham<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Jerusalem<s n="np"/><s n="top"/></l><r>Jerusalén<s n="np"/><s n="loc"/></r></p></e>
       <e><p><l>Silisiʼa<s n="np"/><s n="top"/></l><r>Cilicia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1015,8 +1018,10 @@
 <e><p><l>naqaj<s n="adj"/></l><r>cerca<s n="adv"/></r></p></e>
 <e><p><l>naj<s n="adj"/></l><r>lejos<s n="adv"/></r></p></e>
 <e><p><l>nimalaj<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="mf_ND"/></e>
-<e><p><l>nim<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="mf_ND"/></e>
-<e><p><l>nim<s n="adj"/></l><r>principal<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>nim<s n="adj"/></l><r>grande<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>nim<s n="adj"/><s n="pl"/></l><r>grande<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>nim<s n="adj"/></l><r>principal<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>nim<s n="adj"/><s n="pl"/></l><r>principal<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>junam<s n="adj"/></l><r>equivalente<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>juyubʼ<s n="n"/></l><r>monte<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>junam<s n="adj"/></l><r>igual<s n="adj"/></r></p><par n="mf_ND"/></e>
@@ -1099,7 +1104,7 @@
 <e><p><l>mokom<s n="adj"/></l><r>contratado<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>sikʼim<s n="adj"/></l><r>invitado<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>qʼalajisam<s n="adj"/></l><r>manifestado<s n="adj"/></r></p><par n="GD_ND"/></e>
-<e><p><l>kʼotom<s n="adj"/></l><r>cavado<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>kʼotom<s n="adj"/></l><r>cavar<s n="vblex"/><s n="pp"/></r></p><par n="GD_ND"/></e>
 <e><p><l>kʼäj<s n="adj"/></l><r>pulverizar<s n="vblex"/><s n="pp"/></r></p><par n="GD_ND"/></e>
 <e><p><l>chʼäm<s n="adj"/></l><r>ácido<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>jeqelik<s n="adj"/></l><r>establecido<s n="adj"/></r></p><par n="GD_ND"/></e>
@@ -1110,7 +1115,8 @@
 <e><p><l>mesom<s n="adj"/></l><r>barrer<s n="vblex"/><s n="pp"/></r></p><par n="GD_ND"/></e>
 <e><p><l>tʼon<s n="adj"/></l><r>blando<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>mox<s n="adj"/></l><r>izquierdo<s n="adj"/></r></p><par n="GD_ND"/></e>
-<e><p><l>chom<s n="adj"/></l><r>gordo<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>chom<s n="adj"/></l><r>gordo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>chom<s n="adj"/><s n="pl"/></l><r>gordo<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
 <e><p><l>täk<s n="adj"/></l><r>sordo<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>soʼr<s n="adj"/></l><r>sordo<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>latzʼ<s n="adj"/></l><r>estrecho<s n="adj"/></r></p><par n="GD_ND"/></e>

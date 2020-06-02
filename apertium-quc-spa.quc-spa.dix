@@ -261,7 +261,7 @@
       <e><p><l>pa<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
 
 <e><p><l>kʼateʼ<s n="pr"/></l><r>hasta<s n="pr"/></r></p></e>
-<e><p><l>ikim<s n="pr"/></l><r>abajo<s n="pr"/></r></p></e>
+<e><p><l>ikim<s n="pr"/></l><r>abajo<s n="adv"/></r></p></e> <!-- FIXME -->
 
       <!-- SECTION: Determinantes -->
 
@@ -373,7 +373,7 @@
       <e r="LR"><par n="N"/><p><l>onojel<s n="n"/><s n="rel"/></l><r>todo<s n="prn"/><s n="tn"/><s n="GD"/><s n="ND"/></r></p></e>
 
 
-      <e><par n="N"/><p><l>wiʼ<s n="n"/><s n="rel"/></l><r>encima<s n="pr"/></r></p></e>
+      <e><par n="N"/><p><l>wiʼ<s n="n"/><s n="rel"/></l><r>encima<s n="adv"/></r></p></e>
 
       <!-- SECTION: Numerales -->
 
@@ -820,6 +820,8 @@
 <e><par n="N"/><p><l>wakäx<s n="n"/></l><r>vaca<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>apostol<s n="n"/></l><r>apóstol<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>yawabʼ<s n="n"/></l><r>enfermo<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>polow<s n="n"/></l><r>mar<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>polow<s n="n"/></l><r>mar<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 
 
 <e><par n="N"/><p><l>qax<s n="n"/></l><r>resto<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -848,14 +850,14 @@
 <e><p><l>Vicente<s n="np"/><s n="ant"/><s n="m"/></l><r>Vicente<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Ajpu<s n="np"/><s n="ant"/><s n="m"/></l><r>Ajpu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Rubʼen<s n="np"/><s n="ant"/><s n="m"/></l><r>Rubén<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>Samson<s n="np"/><s n="ant"/><s n="m"/></l><r>Sanson<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>Saʼul<s n="np"/><s n="ant"/><s n="m"/></l><r>Saúl<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Samson<s n="np"/><s n="ant"/><s n="m"/></l><r>Sansón<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Saʼul<s n="np"/><s n="ant"/><s n="m"/></l><r>Saulo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Tito<s n="np"/><s n="ant"/><s n="m"/></l><r>Tito<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>Levi<s n="np"/><s n="ant"/><s n="m"/></l><r>Levi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Levi<s n="np"/><s n="ant"/><s n="m"/></l><r>Leví<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Festo<s n="np"/><s n="top"/></l><r>Festo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Félix<s n="np"/><s n="ant"/><s n="m"/></l><r>Félix<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Jose<s n="np"/><s n="ant"/><s n="m"/></l><r>Jose<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>Atrix<s n="np"/><s n="ant"/><s n="m"/></l><r>Atrix<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Atrix<s n="np"/><s n="ant"/><s n="m"/></l><r>Andrés<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Kristo<s n="np"/><s n="ant"/><s n="m"/></l><r>Cristo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- TODO -->
 <e><p><l>Tun<s n="np"/><s n="ant"/><s n="m"/></l><r>Tun<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Satanas<s n="np"/><s n="ant"/><s n="m"/></l><r>Satanás<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -868,10 +870,12 @@
 <e><p><l>Moʼises <s n="np"/><s n="ant"/><s n="m"/></l><r>Moises<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>David<s n="np"/><s n="ant"/><s n="m"/></l><r>David<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Santiʼago<s n="np"/><s n="ant"/><s n="m"/></l><r>Santiago<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Santiʼago<s n="np"/><s n="ant"/><s n="m"/></l><r>Jacobo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Pedro<s n="np"/><s n="ant"/><s n="m"/></l><r>Pedro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Judas<s n="np"/><s n="ant"/><s n="m"/></l><r>Judas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>Herodiʼas<s n="np"/><s n="ant"/><s n="m"/></l><r>Herodiʼas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Herodiʼas<s n="np"/><s n="ant"/><s n="f"/></l><r>Herodías<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Pilato<s n="np"/><s n="ant"/><s n="m"/></l><r>Pilato<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bʼartolome<s n="np"/><s n="ant"/><s n="m"/></l><r>Bartolomé<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Herodes<s n="np"/><s n="ant"/><s n="m"/></l><r>Herodes<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Timoteʼo<s n="np"/><s n="ant"/><s n="m"/></l><r>Timoteo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Felipe<s n="np"/><s n="ant"/><s n="m"/></l><r>Felipe<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -888,23 +892,23 @@
 <e><p><l>Saʼulo<s n="np"/><s n="ant"/><s n="m"/></l><r>Saulo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Jakobʼ<s n="np"/><s n="ant"/><s n="m"/></l><r>Jacob<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Isaʼiʼas<s n="np"/><s n="ant"/><s n="m"/></l><r>Isaías<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>Salomon<s n="np"/><s n="ant"/><s n="m"/></l><r>Salomon<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Salomon<s n="np"/><s n="ant"/><s n="m"/></l><r>Salomón<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Mariʼy<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Marta<s n="np"/><s n="ant"/><s n="f"/></l><r>Marta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>María<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Ixkikʼ<s n="np"/><s n="ant"/><s n="f"/></l><r>Ixkikʼ<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>Bʼerenise<s n="np"/><s n="ant"/><s n="f"/></l><r>Bʼerenise<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Bʼerenise<s n="np"/><s n="ant"/><s n="f"/></l><r>Berenice<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Susana<s n="np"/><s n="ant"/><s n="f"/></l><r>Susana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Stefano<s n="np"/><s n="ant"/><s n="m"/></l><r>Stefano<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Agripa<s n="np"/><s n="ant"/><s n="m"/></l><r>Agripa<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>Jonas<s n="np"/><s n="ant"/><s n="m"/></l><r>Jonas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Jonas<s n="np"/><s n="ant"/><s n="m"/></l><r>Jonás<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Apolo<s n="np"/><s n="ant"/><s n="m"/></l><r>Apolo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>Bʼarrabʼas<s n="np"/><s n="ant"/><s n="m"/></l><r>Barrabas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bʼarrabʼas<s n="np"/><s n="ant"/><s n="m"/></l><r>Barrabás<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Sesar<s n="np"/><s n="ant"/><s n="m"/></l><r>César<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Iskariʼote<s n="np"/><s n="ant"/><s n="m"/></l><r>Iscariote<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Sebʼedeʼo<s n="np"/><s n="ant"/><s n="m"/></l><r>Sebedeo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Juda<s n="np"/><s n="ant"/><s n="m"/></l><r>Judá<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>Sakariʼas<s n="np"/><s n="ant"/><s n="m"/></l><r>Zakarias<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Sakariʼas<s n="np"/><s n="ant"/><s n="m"/></l><r>Zacarías<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Auen<s n="np"/><s n="ant"/><s n="f"/></l><r>Auen<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Elena" -->
 <e><p><l>Maʼt<s n="np"/><s n="ant"/><s n="f"/></l><r>Maʼt<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Magdalena" -->
 <e><p><l>Achep<s n="np"/><s n="ant"/><s n="m"/></l><r>Achep<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "José" -->
@@ -921,7 +925,7 @@
 <e><p><l>Kulaʼx<s n="np"/><s n="ant"/><s n="f"/></l><r>Kulaʼx<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Nicolasa" -->
 <e><p><l>Luʼ<s n="np"/><s n="ant"/><s n="m"/></l><r>Luʼ<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Pedro" -->
 <e><p><l>Luʼs<s n="np"/><s n="ant"/><s n="f"/></l><r>Luʼs<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Lucía" -->
-<e><p><l>Max<s n="np"/><s n="ant"/><s n="m"/></l><r>Max<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Tomás" -->
+<e><p><l>Max<s n="np"/><s n="ant"/><s n="m"/></l><r>Tomás<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Tomás" -->
 <e><p><l>Maʼx<s n="np"/><s n="ant"/><s n="f"/></l><r>Maʼx<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Tomasa" -->
 <e><p><l>Mariʼy<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "María" -->
 <e><p><l>Mink<s n="np"/><s n="ant"/><s n="m"/></l><r>Mink<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Domigo" -->
@@ -945,7 +949,7 @@
 <e><p><l>Chirijquiac<s n="np"/><s n="top"/></l><r>Chirijquiac<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Tzʼunil<s n="np"/><s n="top"/></l><r>Tzʼunil<s n="np"/><s n="loc"/></r></p></e><!-- "" ! Src/Cuentos -->
 <e><p><l>Chuatroj<s n="np"/><s n="top"/></l><r>Chuatroj<s n="np"/><s n="loc"/></r></p></e>
-<e><p><l>Sidon<s n="np"/><s n="top"/></l><r>Sidon<s n="np"/><s n="loc"/></r></p></e>
+<e><p><l>Sidon<s n="np"/><s n="top"/></l><r>Sidón<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Kafarnaʼum<s n="np"/><s n="top"/></l><r>Cafarnaúm<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Asiʼa<s n="np"/><s n="top"/></l><r>Asia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Israʼel<s n="np"/><s n="top"/></l><r>Israel<s n="np"/><s n="loc"/></r></p></e>
@@ -1179,7 +1183,6 @@
       <e><p><l>kamik<s n="adv"/></l><r>hoy<s n="adv"/></r></p></e>
       <e><p><l>kamik<s n="adv"/></l><r>ahora<s n="adv"/></r></p></e>
       <e><p><l>oxmul<s n="adv"/></l><r>tres<b/>veces<s n="adv"/></r></p></e>
-      <e><p><l>jeriʼ<s n="adv"/></l><r>así<s n="adv"/></r></p></e>
       <e><p><l>weneʼ<s n="adv"/></l><r>quizás<s n="adv"/></r></p></e>
       <e><p><l>weneʼ<s n="adv"/></l><r>tal<b/>vez<s n="adv"/></r></p></e>
 <e><p><l>xuwi<s n="adv"/></l><r>solamente<s n="adv"/></r></p></e>
@@ -1199,12 +1202,14 @@
 <e><p><l>aninaq<s n="adv"/></l><r>rápidamente<s n="adv"/></r></p></e>
 <e><p><l>aninaq<s n="adv"/></l><r>inmediatemente<s n="adv"/></r></p></e>
 <e><p><l>jelaʼ<s n="adv"/></l><r>ahí<s n="adv"/></r></p></e>
+      <e><p><l>jeriʼ<s n="adv"/></l><r>así<s n="adv"/></r></p></e>
 <e><p><l>jelaʼ<s n="adv"/></l><r>así<s n="adv"/></r></p></e>
 <e><p><l>xuqujeʼ<s n="adv"/></l><r>también<s n="adv"/></r></p></e>
 <e><p><l>jubʼiqʼ<s n="adv"/></l><r>un<b/>poco<s n="adv"/></r></p></e>
-<e><p><l>chʼaqap<s n="adv"/></l><r>otro<b/>lado<s n="adv"/></r></p></e>
-<e><p><l>chʼaqap<s n="n"/></l><r>pedazo<s n="adv"/></r></p></e>
-<e><p><l>jewaʼ<s n="adv"/></l><r>así<b/>es<s n="adv"/></r></p></e>
+<e><p><l>chʼaqap<s n="adv"/></l><r>al<b/>otro<b/>lado<s n="adv"/></r></p></e>
+<e><p><l>chʼaqap<s n="n"/></l><r>pedazo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><p><l>jewaʼ<s n="adv"/></l><r>así<s n="adv"/></r></p></e>
+<e><p><l>jewa<s n="adv"/></l><r>así<s n="adv"/></r></p></e>
 <e><p><l>weneʼ<s n="adv"/></l><r>tal<b/>vez<s n="adv"/></r></p></e>
 
 <e><p><l>mawi<s n="adv"/></l><r>nunca<s n="adv"/></r></p></e>
@@ -1214,8 +1219,7 @@
 <e><p><l>mawi<s n="adv"/></l><r>ni<s n="cnjcoo"/></r></p></e>
 <e><p><l>chiriʼ<s n="adv"/></l><r>aquí<s n="adv"/></r></p></e>
 <e><p><l>xuquje<s n="adv"/></l><r>también<s n="adv"/></r></p></e>
-<e><p><l>jujunal<s n="adv"/></l><r>cada uno<s n="adv"/></r></p></e>
-<e><p><l>jewa<s n="adv"/></l><r>así<b/>es<s n="adv"/></r></p></e>
+<e><p><l>jujunal<s n="adv"/></l><r>cada<b/>uno<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>kamul<s n="adv"/></l><r>dos<b/>veces<s n="adv"/></r></p></e>
 <e><p><l>majoq<s n="adv"/></l><r>antes<s n="adv"/></r></p></e>
 
@@ -1336,6 +1340,7 @@
 <e><par n="IV"/><p><l>kʼulmatäjik<s n="v"/><s n="iv"/></l><r>suceder<s n="vblex"/></r></p></e>
 
 <e><par n="IV"/><p><l>elaqʼanik<s n="v"/><s n="iv"/></l><r>robar<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>aqʼanik<s n="v"/><s n="iv"/></l><r>subir<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>molonik<s n="v"/><s n="iv"/></l><r>suplicar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>yoqʼonik<s n="v"/><s n="iv"/></l><r>criticar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>chajinik<s n="v"/><s n="iv"/></l><r>guardar<s n="vblex"/></r></p></e>

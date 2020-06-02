@@ -9,6 +9,10 @@
     <sdef n="num"/>
     <sdef n="sp"/>
     <sdef n="pl"/>
+    <sdef n="ind"/>
+    <sdef n="det"/>
+    <sdef n="m"/>
+    <sdef n="def"/>
     <sdef n="v"/>
     <sdef n="f"/>
     <sdef n="mf"/>
@@ -52,6 +56,14 @@
       ^take# out<vblex>...$ [noun phrase]
   -->
 
+    <e lm="en el cielo" c="">
+      <p><l>a<s n="pr"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/>otro<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/><j/>lado<s n="n"/><s n="m"/><s n="sg"/><j/></l>
+         <r>al<b/>otro<b/>lado<s n="adv"/><j/></r></p>
+    </e>
+    <e lm="en el cielo" c="">
+      <p><l>en<s n="pr"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/>cielo<s n="n"/><s n="m"/><s n="sg"/><j/></l>
+         <r>en<b/>el<b/>cielo<s n="adv"/><j/></r></p>
+    </e>
     <e lm="dos veces" c="">
       <p><l>dos<s n="num"/><s n="mf"/><s n="sp"/><j/>vez<s n="n"/><s n="f"/><s n="pl"/><j/></l><r>dos<b/>veces<s n="adv"/><j/></r></p>
     </e>
@@ -63,8 +75,15 @@
     </e>
     <e lm="estrella polar" c="">
       <p><l>estrella<s n="n"/><s n="f"/><s n="sg"/><j/>polar<s n="adj"/><s n="mf"/><s n="sg"/><j/></l>
-      <r>estrella<b/>polar<s n="n"/><s n="f"/><s n="sg"/><j/></r>
-      </p>
+      <r>estrella<b/>polar<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+    </e>
+    <e lm="estación seco" c="">
+      <p><l>estación<s n="n"/><s n="f"/><s n="sg"/><j/>seco<s n="adj"/><s n="f"/><s n="sg"/><j/></l>
+      <r>estación<b/>seco<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+    </e>
+    <e lm="hoja de maguey" c="">
+      <p><l>hoja<s n="n"/><s n="f"/><s n="sg"/><j/>de<s n="pr"/><j/>maguey<s n="n"/><s n="m"/><s n="sg"/><j/></l>
+      <r>hoja<b/>de<b/>maguey<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
     </e>
 
   </section>

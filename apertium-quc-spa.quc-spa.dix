@@ -359,14 +359,7 @@
       <e r="LR"><par n="N"/><p><l>wach<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
 
       <!-- de -->
-      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/></l><r></r></p></e>
-      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/><s n="px1sg"/></l><r>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/><s n="px1pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
-      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/><s n="px2sg"/></l><r>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/><s n="px2pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></r></p></e>
-      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
-      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
-
+      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/></l><r>de<s n="pr"/></r></p></e>
 
       <!-- UK’: con -->
       <e><par n="N"/><p><l>ukʼ<s n="n"/><s n="rel"/></l><r>con<s n="pr"/></r></p></e>
@@ -391,6 +384,8 @@
       <e><par n="N"/><p><l>ij<s n="n"/><s n="rel"/></l><r>sobre<s n="pr"/></r></p></e>
       <e><par n="N"/><p><l>ij<s n="n"/><s n="rel"/></l><r>después<s n="adv"/></r></p></e>
 
+      <!-- IBʼ: a sí mismo -->
+      <e><par n="N"/><p><l>ibʼ<s n="n"/><s n="rel"/></l><r>a<s n="pr"/></r></p></e>
 
       <e r="LR"><par n="N"/><p><l>onojel<s n="n"/><s n="rel"/></l><r>todo<s n="prn"/><s n="tn"/><s n="GD"/><s n="ND"/></r></p></e>
 
@@ -864,6 +859,7 @@
       <e><p><l>Jerusalem<s n="np"/><s n="top"/></l><r>Jerusalén<s n="np"/><s n="loc"/></r></p></e>
       <e><p><l>Silisiʼa<s n="np"/><s n="top"/></l><r>Cilicia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Siriʼa<s n="np"/><s n="top"/></l><r>Siria<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Nahuala<s n="np"/><s n="top"/></l><r>Nahualá<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Italiʼa<s n="np"/><s n="top"/></l><r>Italia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Sara<s n="np"/><s n="ant"/><s n="f"/></l><r>Sara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Nela<s n="np"/><s n="ant"/><s n="f"/></l><r>Nela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1204,6 +1200,7 @@
 <e><p><l>jawijeʼ<s n="adv"/><s n="itg"/></l><r>dónde<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>jas<b/>che<s n="adv"/><s n="itg"/></l><r>por<b/>qué<s n="adv"/><s n="itg"/></r></p></e>
 
+      <e><p><l>wi<s n="adv"/><s n="dir"/></l><r></r></p></e>
       <e><p><l>apan<s n="adv"/><s n="dir"/></l><r>cerca<s n="adv"/></r></p></e>
       <e><p><l>apan<s n="adv"/><s n="dir"/></l><r>fuera<s n="adv"/></r></p></e>
 
@@ -1541,6 +1538,8 @@
 <e><par n="TV"/><p><l>wok<s n="v"/><s n="tv"/></l><r>construir<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>kajmaj<s n="v"/><s n="tv"/></l><r>servir<s n="vblex"/></r></p></e>
 
+<e><par n="IV"/><p><l>warik<s n="v"/><s n="iv"/></l><r>dormir<s n="vblex"/></r></p></e>
+
 
 <e><par n="TV"/><p><l>chʼaʼ<s n="v"/><s n="tv"/></l><r>quejar<s n="vblex"/></r></p></e>
 
@@ -1568,6 +1567,7 @@
 <e><par n="TV"/><p><l>poqʼisaj<s n="v"/><s n="tv"/></l><r>hacer explotar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>poqʼisaj<s n="v"/><s n="tv"/></l><r>explotar<s n="vblex"/></r></p></e>
 
+<e><par n="IV"/><p><l>utz<b/>il<s n="v"/><s n="iv"/></l><r>gustar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="TV"/><p><l>tzeʼj<s n="v"/><s n="tv"/></l><r>reír<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>chaqiʼjarik<s n="v"/><s n="iv"/></l><r>secar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>jiqʼik<s n="v"/><s n="iv"/></l><r>ahogar<s n="vblex"/><s n="pron"/></r></p></e>

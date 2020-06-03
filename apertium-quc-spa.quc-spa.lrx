@@ -2,8 +2,7 @@
 <rules>
 <!--ixim ulew = tierra dura-->
 
-  <rule>
-<!--ukʼojol ri kʼaslik Dyos-->
+  <rule><!--ukʼojol ri kʼaslik Dyos-->
     <match lemma="kʼojolaxel" tags="n.*"> <select lemma="hijo" tags="n.*"/> </match>
     <match/> <match lemma="kʼaslik"/>
   </rule>
@@ -19,6 +18,15 @@
   <rule>
     <match lemma="Luʼ" tags="np.*"> <select lemma="Pedro"/> </match>
   </rule>
-
+  <rule><!-- taq we tzij ri’ -->
+    <match lemma="taq"/>
+    <match/>
+    <match lemma="tzij"> <select lemma="palabra" tags="n.*"/> </match>
+  </rule>
+  <rule><!-- sipanik ri Ajawaxel -->
+    <match lemma="sipanik"> <select lemma="gracia" tags="n.*"/> </match>
+    <match/>
+    <match lemma="Ajawaxel"/>
+  </rule>
 
 </rules>

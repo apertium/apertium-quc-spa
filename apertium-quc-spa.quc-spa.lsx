@@ -40,6 +40,29 @@
 <!--chipaqʼij chi chaqʼabʼ = de día y de noche-->
 <!-- qʼax pa -jolom (v) to understand -->
 <!--siwan tinimit = habitantes de un lugar -->
+<!--       4 		 nak’ut: pues -->
+<!--       2 		 xoquje’ ejeri’ nak’ut: de la misma manera -->
+<!--       2 		 qastzij nak’ut: en efecto -->
+<!--       1 		 xoquje’ nak’ut: así también -->
+<!--       1 		 xa jeri’ nak’ut: así -->
+<!--       1 		 xa jek’uri’: entonces -->
+<!--       1 		 xa jek’uri’: así que -->
+<!--       1 		 tzij nak’ut: ciertamente -->
+<!--       1 		 rumal nak’ut che: porque así como -->
+<!--       1 		 qastzij nak’ut: en todo caso -->
+<!--       1 		 qastzij nak’ut: de hecho -->
+<!--       1 		 qastzij nak’ut: ciertamente -->
+<!--       1 		 qastzij nak’ut: aunque -->
+<!--       1 		 qastzij nak’ut: ahora bien -->
+<!--       1 		 jeri’ nak’ut: y así -->
+<!--       1 		 jeri’ nak’ut: por tanto -->
+<!--       1 		 jeri’ nak’ut: por lo tanto -->
+<!--       1 		 jeri’ nak’ut: en efecto -->
+<!--       1 		 jeri’ nak’ut: como -->
+<!--       1 		 jeri’ nak’ut: así que -->
+<!--       1 		 jeri’ nak’ut: así como -->
+<!--       1 		 je’ nak’ut: ciertamente -->
+<!--       1 		 chuwach nak’ut weri’: por lo tanto -->
 
         <e lm="wiʼ ri kowil" c="prepucio"><p>
                 <l>wiʼ<s n="n"/><s n="rel"/><s n="px3sg"/><j/>ri<s n="det"/><j/>kowil<s n="n"/></l>
@@ -62,6 +85,12 @@
             </p>
         </e>
 -->
+        <e lm="komon tyox" c="iglesia"><p>
+                <l>komon<s n="adj"/><j/>tyox<s n="n"/><j/></l>
+                <r>komon<b/>tyox<s n="n"/></r>
+            </p>
+        </e>
+
         <e lm="qʼatbʼal tzij" c="gobernador"><p>
                 <l>qʼatbʼal<s n="adj"/><j/>tzij<s n="n"/><j/></l>
                 <r>qʼatbʼal<b/>tzij<s n="n"/></r>

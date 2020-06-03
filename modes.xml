@@ -165,6 +165,28 @@
     </pipeline>
   </mode>
 
+  <mode name="quc-spa-lextor">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="quc-spa.automorf.hfst"/>
+      </program>
+
+      <program name="cg-proc -w -1 -n">
+        <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc">
+        <file name="quc-spa.autoseq.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="quc-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m -t">
+        <file name="quc-spa.autolex.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
 
   <mode name="quc-spa-transfer">

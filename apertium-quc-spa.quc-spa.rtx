@@ -190,6 +190,11 @@
       <cat-item tags="SD.px3sg"/>
     </def-cat>
 
+    <def-cat n="Pl">
+      <cat-item tags="Pl.*"/>
+      <cat-item tags="Pl"/>
+    </def-cat>
+
     <def-cat n="SD">
       <cat-item tags="SD.*"/>
       <cat-item tags="SD"/>
@@ -281,9 +286,18 @@
      <attr-item tags="det.ind"/>
     </def-attr>
 
- 
+  
+    <def-attr n="a_inv">
+     <attr-item tags="inv"/>
+    </def-attr>
+
     <def-attr n="a_pron">
      <attr-item tags="pron"/>
+    </def-attr>
+
+    <def-attr n="a_sust">
+     <attr-item tags="n"/>
+     <attr-item tags="n.rel"/>
     </def-attr>
 
     <def-attr n="a_pred">
@@ -341,19 +355,39 @@
     </def-macro>
 
     <def-macro n="f_agr_fin_verb1" npar="1">
-      <choose>
-        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg1"/></equal></test>
-                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.sg"/></let></when>
-        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg2"/></equal></test>
-                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.sg"/></let></when>
-        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg3"/></equal></test>
-                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.sg"/></let></when>
-        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl1"/></equal></test>
-                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.pl"/></let></when>
-        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl2"/></equal></test>
-                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.pl"/></let></when>
-        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl3"/></equal></test>
-                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.pl"/></let></when>
+        <choose><when><test><equal><clip pos="1" side="tl" part="a_inv"/><lit-tag v="inv"/></equal></test>
+                      <choose>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_sg1"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.sg"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_sg2"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.sg"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_sg3"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.sg"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_pl1"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.pl"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_pl2"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.pl"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_pl3"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.pl"/></let></when>
+                      </choose>
+                      <let><clip pos="1" side="tl" part="a_inv"/><lit v=""/></let>
+                </when>
+                <otherwise>
+                      <choose>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg1"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.sg"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg2"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.sg"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg3"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.sg"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl1"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.pl"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl2"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.pl"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl3"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.pl"/></let></when>
+                      </choose>
+                </otherwise>
       </choose>
       <let><clip pos="1" side="tl" part="a_agr_obj"/><lit v=""/></let>
     </def-macro>
@@ -542,13 +576,34 @@
    </action>
   </rule>
 
+  <rule comment="Pl SD" firstChunk="SD">
+   <pattern>
+    <pattern-item n="Pl"/>
+    <pattern-item n="SD"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="pl"/></let>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+         <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+        </tags>
+        <lu><clip pos="2" side="tl" part="whole"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
   <rule comment="SDPsor SD" firstChunk="SD">
    <pattern>
     <pattern-item n="SDPsor"/>
     <pattern-item n="SD"/>
    </pattern>
    <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
@@ -682,6 +737,27 @@
 
   <!-- Rules for individual parts of speech -->
 
+  <rule comment="rel" firstChunk="Rel">
+   <pattern>
+    <pattern-item n="n_rel"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_conv_poss1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="Rel"/></tag>
+        <tag><clip pos="1" side="tl" part="tags"/></tag>
+        <tag><clip pos="1" side="sl" part="a_poss"/></tag>
+        </tags>
+        <lu><clip pos="1" side="tl" part="whole"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
   <rule comment="n" firstChunk="N">
    <pattern>
     <pattern-item n="n"/>
@@ -723,25 +799,6 @@
        <chunk namefrom="chunkName">
         <tags>
          <tag><lit-tag v="Dem.@det"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="rel" firstChunk="N">
-   <pattern>
-    <pattern-item n="n_rel"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_conv_poss1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Rel"/></tag>
         </tags>
         <lu><clip pos="1" side="tl" part="whole"/></lu>
        </chunk>
@@ -862,8 +919,8 @@
       </when>
        <when><test><equal><clip pos="1" side="tl" part="a_pron"/><lit-tag v="pron"/></equal></test>
          <let><clip pos="1" side="tl" part="a_pron"/><lit v=""/></let>
-         <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
          <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
+         <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
          <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
          <out>
           <chunk namefrom="chunkName">
@@ -919,7 +976,7 @@
    </action>
   </rule>
 
-  <rule comment="pl" firstChunk="X">
+  <rule comment="pl" firstChunk="Pl">
    <pattern>
     <pattern-item n="pl"/>
    </pattern>
@@ -928,7 +985,7 @@
       <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="X"/></tag>
+         <tag><lit-tag v="Pl"/></tag>
          <tag><clip pos="1" side="sl" part="tags"/></tag>
         </tags>
         <lu><clip pos="1" side="tl" part="whole"/></lu>

@@ -415,7 +415,6 @@
       <!-- SECTION: Numerales -->
 
       <e><p><l>kebʼ<s n="num"/></l><r>dos<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
-<e><p><l>jun<s n="num"/></l><r>uno<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e><p><l>kebʼ<s n="num"/></l><r>dos<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e><p><l>oxibʼ<s n="num"/></l><r>tres<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e><p><l>oxibʼ<s n="num"/></l><r>tres<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -1268,6 +1267,7 @@
       <e><p><l>wi<s n="adv"/><s n="dir"/></l><r></r></p></e>
       <e><p><l>apan<s n="adv"/><s n="dir"/></l><r>cerca<s n="adv"/></r></p></e>
       <e><p><l>apan<s n="adv"/><s n="dir"/></l><r>fuera<s n="adv"/></r></p></e>
+      <e><p><l>uloq<s n="adv"/><s n="dir"/></l><r>aquí<s n="adv"/></r></p></e>
 
       <e><p><l>nakʼut<s n="adv"/></l><r>pues<s n="cnjadv"/></r></p></e>
 
@@ -1355,8 +1355,8 @@
       <e><par n="IV"/><p><l>tzelejik<b/>ubik<s n="v"/><s n="iv"/></l><r>volver<s n="vblex"/></r></p></e>
       <e><par n="IV"/><p><l>bʼe<s n="v"/><s n="iv"/></l><r>ir<s n="vblex"/></r></p></e>
 
-<!--      <e><par n="TV-Irr"/><p><l>etaʼm<s n="v"/><s n="tv"/></l><r>saber<s n="vblex"/></r></p></e>-->
-<!--      <e><par n="TV-Irr"/><p><l>etaʼm<s n="v"/><s n="tv"/></l><r>conocer<s n="vblex"/></r></p></e>-->
+      <e><par n="TV-Irr"/><p><l>etaʼm<s n="v"/><s n="tv"/></l><r>saber<s n="vblex"/></r></p></e>
+      <e><par n="TV-Irr"/><p><l>etaʼm<s n="v"/><s n="tv"/></l><r>conocer<s n="vblex"/></r></p></e>
       <e><par n="TV"/><p><l>bij<s n="v"/><s n="tv"/></l><r>decir<s n="vblex"/></r></p></e>
       <e><par n="TV"/><p><l>il<s n="v"/><s n="tv"/></l><r>ver<s n="vblex"/></r></p></e>
       <e><par n="TV"/><p><l>aj<s n="v"/><s n="tv"/></l><r>querer<s n="vblex"/></r></p></e>

@@ -23,6 +23,18 @@
     <match/>
     <match lemma="tzij"> <select lemma="palabra" tags="n.*"/> </match>
   </rule>
+  <rule><!-- Ri Utzij ri Ajawxel -->
+    <match lemma="tzij"> <select lemma="palabra" tags="n.*"/> </match>
+    <match/>
+    <match lemma="Ajawaxel"/>
+  </rule>
+  <rule><!-- ri utoqʼobʼ ri Ajawxel  -->
+    <match lemma="toqʼobʼ"> <select lemma="gracia" tags="n.*"/> </match>
+    <match/>
+    <match lemma="Ajawaxel"/>
+  </rule>
+
+
   <rule><!-- sipanik ri Ajawaxel -->
     <match lemma="sipanik"> <select lemma="gracia" tags="n.*"/> </match>
     <match/>

@@ -1005,6 +1005,7 @@
        <chunk namefrom="chunkName">
         <tags>
          <tag><lit-tag v="Pers"/></tag>
+         <tag><clip pos="1" side="tl" part="tags"/></tag>
         </tags>
         <lu><clip pos="1" side="tl" part="whole"/></lu>
        </chunk>

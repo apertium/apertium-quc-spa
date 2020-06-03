@@ -355,13 +355,7 @@
       <!-- SECTION: Sustantivos relacionales -->
 
       <!-- frente, a -->
-      <e r="LR"><par n="N"/><p><l>wach<s n="n"/><s n="rel"/></l><r></r></p></e>
-      <e r="LR"><par n="N"/><p><l>wach<s n="n"/><s n="rel"/><s n="px1sg"/></l><r>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e r="LR"><par n="N"/><p><l>wach<s n="n"/><s n="rel"/><s n="px1pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
-      <e r="LR"><par n="N"/><p><l>wach<s n="n"/><s n="rel"/><s n="px2sg"/></l><r>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e r="LR"><par n="N"/><p><l>wach<s n="n"/><s n="rel"/><s n="px2pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></r></p></e>
-      <e r="LR"><par n="N"/><p><l>wach<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
-      <e r="LR"><par n="N"/><p><l>wach<s n="n"/><s n="rel"/><s n="px3pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>wach<s n="n"/><s n="rel"/></l><r>a<s n="pr"/></r></p></e>
 
       <!-- de -->
       <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/></l><r>de<s n="pr"/></r></p></e>
@@ -548,6 +542,7 @@
 <e><par n="N"/><p><l>kajbʼal<s n="n"/></l><r>tiempo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kajbʼal<s n="n"/></l><r>cruz<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>atzʼyaq<s n="n"/></l><r>tela<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>atzʼyaq<s n="n"/></l><r>ropa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼuʼx<s n="n"/></l><r>ánima<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>atzʼyaq<s n="n"/></l><r>ropa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>abʼaj<s n="n"/></l><r>piedra<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -857,6 +852,7 @@
 <e><par n="N"/><p><l>ajtikonel<s n="n"/></l><r>sembrador<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 
 <e><par n="N"/><p><l>sabʼado<s n="n"/></l><r>sábado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>achoch<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chomabʼal<s n="n"/></l><r>actitud<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chomabʼal<s n="n"/></l><r>pensamiento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>komon<b/>tyox<s n="n"/></l><r>iglesia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -888,6 +884,7 @@
 <e><p><l>Skaʼ<s n="np"/><s n="ant"/><s n="f"/></l><r>Skaʼ<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Rebʼeka<s n="np"/><s n="ant"/><s n="f"/></l><r>Rebeca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Prissilla<s n="np"/><s n="ant"/><s n="f"/></l><r>Prisila<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Xper<s n="np"/><s n="ant"/><s n="f"/></l><r>Elisabet<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Mariy<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Migueʼl<s n="np"/><s n="ant"/><s n="m"/></l><r>Miguel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Vicente<s n="np"/><s n="ant"/><s n="m"/></l><r>Vicente<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1619,6 +1616,10 @@
 
 <e><par n="TV"/><p><l>naʼtisaj<s n="v"/><s n="tv"/></l><r>recordar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>tik<s n="v"/><s n="tv"/></l><r>sembrar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>junamataj<s n="v"/><s n="tv"/></l><r>comparar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>junamatisaj<s n="v"/><s n="tv"/></l><r>comparar<s n="vblex"/></r></p></e>
+
+<e><par n="TV"/><p><l>ya<b/>jun<b/>rutzil<s n="v"/><s n="iv"/></l><r>saludar<s n="vblex"/></r></p></e>
 
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>

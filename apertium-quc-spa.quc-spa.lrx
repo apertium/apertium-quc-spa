@@ -16,6 +16,9 @@
     <match lemma="dyos"/>
   </rule>
   <rule>
+    <match lemma="tzij" tags="n.*"> <select lemma="palabra"/> </match>
+  </rule>
+  <rule>
     <match lemma="Luʼ" tags="np.*"> <select lemma="Pedro"/> </match>
   </rule>
   <rule><!-- taq we tzij ri’ -->

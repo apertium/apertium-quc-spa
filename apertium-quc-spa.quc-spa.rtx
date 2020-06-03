@@ -153,6 +153,11 @@
     </def-cat>
     <!-- Syntactic categories -->
 
+    <def-cat n="Ant">
+      <cat-item tags="Ant.*"/>
+      <cat-item tags="Ant"/>
+    </def-cat>
+
     <def-cat n="Det">
       <cat-item tags="Det.*"/>
       <cat-item tags="Det"/>
@@ -641,6 +646,26 @@
         <lu><clip pos="1" side="tl" part="whole"/></lu>
         <b/>
         <lu><clip pos="2" side="tl" part="whole"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+ 
+  <rule comment="SN" firstChunk="SN">
+   <pattern>
+    <pattern-item n="Ant"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><clip pos="1" side="tl" part="a_poss"/></tag>
+         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+         <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+        </tags>
+        <lu><clip pos="1" side="tl" part="whole"/></lu>
        </chunk>
       </out>
    </action>

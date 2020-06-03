@@ -19,6 +19,12 @@
     <match lemma="kʼojolaxel" tags="n.*"> <select lemma="hijo"/> </match>
   </rule>
   <rule>
+    <match lemma="nan²" tags="n.*"> <select lemma="madre"/> </match>
+  </rule>
+  <rule>
+    <match lemma="majij" tags="v.*"> <select lemma="comenzar"/> </match>
+  </rule>
+  <rule>
     <match lemma="tzij" tags="n.*"> <select lemma="palabra"/> </match>
   </rule>
   <rule>

@@ -261,7 +261,7 @@
       <e r="LR"><p><l>o<s n="mark"/></l><r></r></p></e>
       <e r="LR"><p><l>ik<s n="mark"/></l><r></r></p></e>
       <e r="LR"><p><l>oq<s n="mark"/></l><r></r></p></e>
-      <e r="LR"><p><l>a<s n="mark"/></l><r></r></p></e>
+      <e r="LR"><p><l>aʼ<s n="mark"/></l><r></r></p></e>
       <e r="LR"><p><l>u<s n="mark"/></l><r></r></p></e>
 
       <e r="LR"><p><l>are<s n="foc"/></l><r></r></p></e>
@@ -294,6 +294,7 @@
       <e><p><l>rumal<b/>rech<b/>che<s n="cnjadv"/></l><r>porque<s n="cnjadv"/></r></p></e>
       <e><p><l>rumal<b/>che<s n="cnjadv"/></l><r>porque<s n="cnjadv"/></r></p></e>
       <e><p><l>kʼut<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e>
+      <e><p><l>on<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
       <e><p><l>aretaq<b/>chiʼ<s n="cnjsub"/></l><r>cuando<s n="rel"/><s n="adv"/></r></p></e>
       <e><p><l>chi<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
       <e><p><l>arechiʼ<s n="cnjsub"/></l><r>cuando<s n="rel"/><s n="adv"/></r></p></e>
@@ -854,6 +855,8 @@
 <e><par n="N"/><p><l>kikʼel<s n="n"/></l><r>sangre<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ajtikonel<s n="n"/></l><r>sembrador<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 
+<e><par n="N"/><p><l>chomabʼal<s n="n"/></l><r>actitud<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>chomabʼal<s n="n"/></l><r>pensamiento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>komon<b/>tyox<s n="n"/></l><r>iglesia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 
 

@@ -9,8 +9,12 @@
         <sdef n="cnjsub"/>
         <sdef n="px2sg"/>
         <sdef n="px3sg"/>
+        <sdef n="o_sg3"/>
+        <sdef n="s_sg3"/>
         <sdef n="px1pl"/>
+        <sdef n="impf"/>
         <sdef n="px2pl"/>
+        <sdef n="dir"/>
         <sdef n="px3pl"/>
         <sdef n="itg"/>
         <sdef n="pr"/>
@@ -170,10 +174,42 @@
 <p><l>qʼatojtzij<s n="n"/><j/></l><r></r></p>
 </e>
 
+        <e lm="el uloq" c=""><p>
+                <l>el<s n="v"/><s n="iv"/></l>
+                <r>el<b/>uloq<s n="v"/><s n="iv"/></r>
+            </p>
+   <i><t/><j/></i> <p><l>uloq<s n="adv"/><s n="dir"/><j/></l><r></r></p>
+        </e>
+
+        <e lm="el wi" c=""><p>
+                <l>el<s n="v"/><s n="iv"/></l>
+                <r>el<b/>wi<s n="v"/><s n="iv"/></r>
+            </p>
+   <i><t/><j/></i> <p><l>wi<s n="adv"/><s n="dir"/><j/></l><r></r></p>
+        </e>
+
+        <e lm="el kubij" c=""><p>
+                <l>el<s n="v"/><s n="iv"/></l>
+                <r>el<b/>kubij<s n="v"/><s n="iv"/></r>
+            </p>
+   <i><t/><j/></i> <p><l>bij<s n="v"/><s n="tv"/><s n="impf"/><s n="o_sg3"/><s n="s_sg3"/><j/></l><r></r></p>
+        </e>
+
+        <e lm="el ubʼik" c=""><p>
+                <l>el<s n="v"/><s n="iv"/></l>
+                <r>el<b/>ubik<s n="v"/><s n="iv"/></r>
+            </p>
+   <i><t/><j/></i>
+<p><l>ubik<s n="adv"/><j/></l><r></r></p>
+        </e>
+
+
         <e lm="tzelej ubʼik" c="volver"><p>
-                <l>tzelejik<s n="v"/><s n="iv"/><t/><j/>ubik<s n="adv"/><j/></l>
+                <l>tzelejik<s n="v"/><s n="iv"/></l>
                 <r>tzelejik<b/>ubik<s n="v"/><s n="iv"/></r>
             </p>
+   <i><t/><j/></i>
+<p><l>ubik<s n="adv"/><j/></l><r></r></p>
         </e>
 
     </section>

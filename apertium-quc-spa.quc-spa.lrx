@@ -16,6 +16,9 @@
     <match lemma="dyos"/>
   </rule>
   <rule>
+    <match lemma="kʼojolaxel" tags="n.*"> <select lemma="hijo"/> </match>
+  </rule>
+  <rule>
     <match lemma="tzij" tags="n.*"> <select lemma="palabra"/> </match>
   </rule>
   <rule>
@@ -36,8 +39,6 @@
     <match/>
     <match lemma="Ajawaxel"/>
   </rule>
-
-
   <rule><!-- sipanik ri Ajawaxel -->
     <match lemma="sipanik"> <select lemma="gracia" tags="n.*"/> </match>
     <match/>

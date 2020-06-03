@@ -12,6 +12,7 @@
     <sdef n="tv"           c="Transitive"/>
     <sdef n="vbhaver"         c="'To have' verb"/>
     <sdef n="vbmod"         c=""/>
+    <sdef n="vbser"         c=""/>
     <sdef n="cnjsub"          c="Subordinating conjunction"/>
     <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
     <sdef n="cnjadv"          c="Adverbial conjunction"/>
@@ -1670,6 +1671,12 @@
 <e><par n="TV"/><p><l>bʼan<b/>qʼatojtzij<s n="v"/><s n="iv"/></l><r>juzgar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>bʼan<b/>qʼatojtzij<s n="v"/><s n="iv"/></l><r>criticar<s n="vblex"/></r></p></e>
 
+<e><par n="IV"/><p><l>el<s n="v"/><s n="iv"/></l><r>ir<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>el<b/>ubik<s n="v"/><s n="iv"/></l><r>salir<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>el<b/>ubik<s n="v"/><s n="iv"/></l><r>ir<s n="vblex"/><s n="pron"/></r></p></e>
+<e><par n="IV"/><p><l>el<b/>uloq<s n="v"/><s n="iv"/></l><r>venir<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>el<b/>kubij<s n="v"/><s n="iv"/></l><r>significar<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>el<b/>wi<s n="v"/><s n="iv"/></l><r>ser<s n="vbser"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>

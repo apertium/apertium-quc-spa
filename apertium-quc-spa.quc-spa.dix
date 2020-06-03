@@ -393,6 +393,27 @@
       <!-- SECTION: Numerales -->
 
       <e><p><l>kebʼ<s n="num"/></l><r>dos<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>jun<s n="num"/></l><r>uno<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>kebʼ<s n="num"/></l><r>dos<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>oxibʼ<s n="num"/></l><r>tres<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>oxibʼ<s n="num"/></l><r>tres<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>kajibʼ<s n="num"/></l><r>cuatro<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>kijebʼ<s n="num"/></l><r>cuatro<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>jobʼ<s n="num"/></l><r>cinco<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>waqibʼ<s n="num"/></l><r>seis<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>wuqubʼ<s n="num"/></l><r>siete<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>wajxaqibʼ<s n="num"/></l><r>ocho<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>bʼelejebʼ<s n="num"/></l><r>nueve<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>lajuj<s n="num"/></l><r>diez<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>julajuj<s n="num"/></l><r>once<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>kablajuj<s n="num"/></l><r>doce<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>oxlajuj<s n="num"/></l><r>trece<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>kajlajuj<s n="num"/></l><r>catorce<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>oʼlajuj<s n="num"/></l><r>quince<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>waqlajuj<s n="num"/></l><r>dieciséis<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>wuqlajuj<s n="num"/></l><r>diecisiete<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>uwajxaqlajuj<s n="num"/></l><r>dieciocho<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>belejlajuj<s n="num"/></l><r>diecinueve<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 
       <!-- SECTION: Sustantivos -->
 
@@ -1615,6 +1636,7 @@
       <e><par n="IV"/><p><l>okik<s n="v"/><s n="iv"/></l><r>volver<s n="vblex"/><s n="pron"/></r></p></e>
       <e><par n="IV"/><p><l>kʼastajik<s n="v"/><s n="iv"/></l><r>despertar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="TV"/><p><l>nataj<s n="v"/><s n="tv"/></l><r>acordar<s n="vblex"/><s n="pron"/></r></p></e>
+<e><par n="IV"/><p><l>kosik<s n="v"/><s n="iv"/></l><r>cansar<s n="vblex"/><s n="pron"/></r></p></e>
 
 <e><par n="TV"/><p><l>naʼtisaj<s n="v"/><s n="tv"/></l><r>recordar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>tik<s n="v"/><s n="tv"/></l><r>sembrar<s n="vblex"/></r></p></e>
@@ -1623,6 +1645,7 @@
 
 <e><par n="TV"/><p><l>ya<b/>jun<b/>rutzil<s n="v"/><s n="iv"/></l><r>saludar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>bʼan<b/>qʼatojtzij<s n="v"/><s n="iv"/></l><r>juzgar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>bʼan<b/>qʼatojtzij<s n="v"/><s n="iv"/></l><r>criticar<s n="vblex"/></r></p></e>
 
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>

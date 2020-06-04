@@ -22,6 +22,9 @@
     <match lemma="nan²" tags="n.*"> <select lemma="madre"/> </match>
   </rule>
   <rule>
+    <match lemma="cheʼ" tags="n"> <select lemma="árbol"/> </match>
+  </rule>
+  <rule>
     <match lemma="majij" tags="v.*"> <select lemma="comenzar"/> </match>
   </rule>
   <rule>

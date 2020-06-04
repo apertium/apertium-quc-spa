@@ -152,7 +152,7 @@
         <file name="quc-spa.automorf.hfst"/>
       </program>
 
-      <program name="cg-proc -w -1 -n">
+      <program name="cg-proc -1 -n">
         <file name="quc-spa.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>

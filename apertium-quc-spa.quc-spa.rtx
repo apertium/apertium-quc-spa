@@ -153,6 +153,12 @@
     </def-cat>
     <!-- Syntactic categories -->
 
+    <def-cat n="Num">
+      <cat-item tags="Num.*"/>
+      <cat-item tags="Num"/>
+    </def-cat>
+
+
     <def-cat n="Ant">
       <cat-item tags="Ant.*"/>
       <cat-item tags="Ant"/>
@@ -358,6 +364,21 @@
       <call-macro n="f_link_concord1"><with-param pos="2"/></call-macro>
     </def-macro>
 
+    <def-macro n="f_set_determiner2" npar="2">
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px1sg"/></equal></test>
+                    <let><clip pos="2" side="tl" part="whole"/><concat><lit v="mío"/><lit-tag v="det.pos.mf.ND"/></concat></let></when>
+        <when><test><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px2sg"/></equal></test>
+                    <let><clip pos="2" side="tl" part="whole"/><concat><lit v="tuyo"/><lit-tag v="det.pos.mf.ND"/></concat></let></when>
+        <when><test><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px1pl"/></equal></test>
+                    <let><clip pos="2" side="tl" part="whole"/><concat><lit v="nuestro"/><lit-tag v="det.pos.GD.ND"/></concat></let></when>
+        <when><test><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px2pl"/></equal></test>
+                    <let><clip pos="2" side="tl" part="whole"/><concat><lit v="vuestro"/><lit-tag v="det.pos.GD.ND"/></concat></let></when>
+        <when><test><or><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px3sg"/></equal>
+                        <equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px3pl"/></equal></or></test>
+                    <let><clip pos="2" side="tl" part="whole"/><concat><lit v="suyo"/><lit-tag v="det.pos.mf.ND"/></concat></let></when>
+      </choose>
+    </def-macro>
 
     <def-macro n="f_gen_ref_pron1" npar="1">
       <choose>
@@ -659,6 +680,7 @@
       <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
       <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
       <call-macro n="f_link_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_determiner2"><with-param pos="2"/><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
@@ -674,6 +696,32 @@
       </out>
    </action>
   </rule>
+
+  <rule comment="Num SN" firstChunk="SN">
+   <pattern>
+    <pattern-item n="Num"/>
+    <pattern-item n="SN"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+      <call-macro n="f_link_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+         <tag><var n="numero"/></tag>
+         <tag><clip pos="2" side="tl" part="a_poss"/></tag>
+        </tags>
+        <lu><clip pos="1" side="tl" part="whole"/></lu>
+        <b/>
+        <lu><clip pos="2" side="tl" part="whole"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+ 
  
   <rule comment="SN" firstChunk="SN">
    <pattern>

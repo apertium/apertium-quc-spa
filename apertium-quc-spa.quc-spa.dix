@@ -304,6 +304,7 @@
 
       <e r="LR"><p><l>tajin<s n="aux"/></l><r></r></p></e>  <!-- progresivo -->
 
+<e><p><l>amen<s n="ij"/></l><r>amén<s n="ij"/></r></p></e>
 <e><p><l>jat<s n="ij"/></l><r>fuera<s n="ij"/></r></p></e>
 <e><p><l>jat<s n="ij"/></l><r>vete<s n="ij"/></r></p></e>
 <e><p><l>aaa<s n="ij"/></l><r>ah<s n="ij"/></r></p></e>
@@ -955,6 +956,7 @@
 <e><par n="N"/><p><l>tzaʼm<s n="n"/></l><r>nariz<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>wakäx<s n="n"/></l><r>vaca<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>apostol<s n="n"/></l><r>apóstol<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>taqoʼnel<s n="n"/></l><r>apóstol<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>yawabʼ<s n="n"/></l><r>enfermo<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>polow<s n="n"/></l><r>mar<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>polow<s n="n"/></l><r>mar<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>

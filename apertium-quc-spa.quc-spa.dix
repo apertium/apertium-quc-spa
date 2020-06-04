@@ -358,8 +358,10 @@
       <!-- Set B agreement markers on non-verbal predicates -->
       <e r="LR"><p><l>in<s n="prn"/><s n="pro"/><s n="p1"/><s n="sg"/></l><r></r></p></e>
       <e r="LR"><p><l>at<s n="prn"/><s n="pro"/><s n="p2"/><s n="sg"/></l><r></r></p></e>
+      <e r="LR"><p><l>areʼ<s n="prn"/><s n="pro"/><s n="p3"/><s n="sg"/></l><r></r></p></e> <!-- check -->
       <e r="LR"><p><l>oj<s n="prn"/><s n="pro"/><s n="p1"/><s n="pl"/></l><r></r></p></e>
       <e r="LR"><p><l>uj<s n="prn"/><s n="pro"/><s n="p1"/><s n="pl"/></l><r></r></p></e>
+      <e r="LR"><p><l>e<s n="prn"/><s n="pro"/><s n="p3"/><s n="pl"/></l><r></r></p></e>
 
       <!-- Independent pronouns -->
       <e><p><l>in<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -519,7 +521,10 @@
       <e><par n="N"/><p><l>tem<s n="n"/></l><r>banco<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>neʼ<s n="n"/></l><r>bebé<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chʼichʼ<s n="n"/></l><r>metal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
-      <e><par n="N"/><p><l>chʼichʼ<s n="n"/></l><r>espada<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>chʼichʼ<s n="n"/></l><r>coche<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>chʼichʼ<s n="n"/></l><r>vehículo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>chʼichʼ<s n="n"/></l><r>autobús<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>chʼichʼ<s n="n"/></l><r>espada<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>nimal<s n="n"/></l><r>líder<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>nimal<s n="n"/></l><r>jefe<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>nimal<s n="n"/></l><r>tamaño<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -541,7 +546,6 @@
       <e><par n="N"/><p><l>jasche<s n="n"/></l><r>razón<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>jasche<s n="n"/></l><r>motivo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>kʼulel<s n="n"/></l><r>enemigo<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
-      <e><par n="N"/><p><l>uxlabʼaxel<s n="n"/></l><r>espíritu<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>itzel<s n="n"/></l><r>mal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>aqil<s n="n"/></l><r>mal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>aqil<s n="n"/></l><r>malo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -589,7 +593,6 @@
       <e><par n="N"/><p><l>qʼaxal<b/>tzij<b/>ri<b/>Dyos<s n="n"/></l><r>profeta<s n="n"/><s n="mf"/></r></p><par n="pl_ND"/></e>
 
 <e><par n="N"/><p><l>qʼatojtzij<s n="n"/></l><r>alcalde<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>bʼe<s n="n"/></l><r>viaje<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼantajik<s n="n"/></l><r>ser<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼantajik<s n="n"/></l><r>importancia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>achij<s n="n"/></l><r>hombre<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -641,6 +644,8 @@
 <e><par n="N"/><p><l>kʼutbʼal<s n="n"/></l><r>señal<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ajawibʼal<s n="n"/></l><r>reino<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼe<s n="n"/></l><r>camino<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>bʼe<s n="n"/></l><r>viaje<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>bʼe<s n="n"/></l><r>senda<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>alkʼuwaʼl<s n="n"/></l><r>niño<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>alkʼuwaʼl<s n="n"/></l><r>hijo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>atzʼyaq<s n="n"/></l><r>trapo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -986,7 +991,8 @@
 <e><par n="N"/><p><l>loqʼoqʼebʼal<s n="n"/></l><r>amistad<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>loqʼoqʼebʼal<s n="n"/></l><r>misericordia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼaqilal<s n="n"/></l><r>cuerpo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>Uxlabʼxel<s n="n"/></l><r>espíritu<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>uxlabʼaxel<s n="n"/></l><r>espíritu<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>uxlabʼaxel<s n="n"/></l><r>espíritu<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>saqalajtzij<s n="n"/></l><r>verdad<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>saqalajtzij<s n="n"/></l><r>testimonio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>tabʼal<s n="n"/></l><r>ofrenda<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -1128,6 +1134,8 @@
 <e><p><l>Apolo<s n="np"/><s n="ant"/><s n="m"/></l><r>Apolo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Bʼarrabʼas<s n="np"/><s n="ant"/><s n="m"/></l><r>Barrabás<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Sesar<s n="np"/><s n="ant"/><s n="m"/></l><r>César<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Jason<s n="np"/><s n="ant"/><s n="m"/></l><r>Jason<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Iskariʼote<s n="np"/><s n="ant"/><s n="m"/></l><r>Iscariote<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Iskariʼote<s n="np"/><s n="ant"/><s n="m"/></l><r>Iscariote<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Sebʼedeʼo<s n="np"/><s n="ant"/><s n="m"/></l><r>Sebedeo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Juda<s n="np"/><s n="ant"/><s n="m"/></l><r>Judá<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>

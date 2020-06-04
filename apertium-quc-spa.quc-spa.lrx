@@ -31,6 +31,9 @@
     <match lemma="tzij" tags="n.*"> <select lemma="palabra"/> </match>
   </rule>
   <rule>
+    <match lemma="chʼichʼ" tags="n"> <select lemma="coche"/> </match>
+  </rule>
+  <rule>
     <match lemma="Luʼ" tags="np.*"> <select lemma="Pedro"/> </match>
   </rule>
   <rule><!-- taq we tzij ri’ -->
@@ -53,5 +56,275 @@
     <match/>
     <match lemma="Ajawaxel"/>
   </rule>
+<rule weight="1.2406"><!-- dar<vblex>/permitir<vblex> -->
+<match lemma="ya" tags="v.tv.*"><select lemma="dar"/></match>
+</rule>
+<rule weight="1.1444"><!-- pensar<vblex>/planear<vblex> -->
+<match lemma="chomaj" tags="v.tv.*"><select lemma="pensar"/></match>
+</rule>
+<rule weight="1.1429"><!-- antes<adv>/en_tiempos_pasados<adv> -->
+<match lemma="ojer" tags="adv"><select lemma="antes"/></match>
+</rule>
+<rule weight="1.7012"><!-- usted<prn><tn>/vosotros<prn><tn> -->
+<match lemma="ix" tags="prn.pers"><select lemma="usted"/></match>
+</rule>
+<rule weight="1.4231"><!-- reparar<vblex>/preparar<vblex>/organizar<vblex> -->
+<match lemma="sukʼumaj" tags="v.tv.*"><select lemma="preparar"/></match>
+</rule>
+<rule weight="1.1186"><!-- sólo<adv>/solamente<adv> -->
+<match lemma="xuwi" tags="adv"><select lemma="sólo"/></match>
+</rule>
+<rule weight="1.0339"><!-- sólo<adv>/solamente<adv> -->
+<match lemma="xuwi" tags="adv"><select lemma="solamente"/></match>
+</rule>
+<rule weight="1.3714"><!-- servir<vblex>/utilizar<vblex> -->
+<match lemma="patanij" tags="v.tv.*"><select lemma="servir"/></match>
+</rule>
+<rule weight="1.0642"><!-- ya<adv>/otra_vez<adv> -->
+<match lemma="chik" tags="adv"><select lemma="ya"/></match>
+</rule>
+<rule weight="1.0025"><!-- ya<adv>/otra_vez<adv> -->
+<match lemma="chik" tags="adv"><select lemma="ot"/></match>
+</rule>
+<rule weight="1.4373"><!-- pero<cnjcoo>/sino<cnjcoo> -->
+<match lemma="xane" tags="cnjcoo"><select lemma="sino"/></match>
+</rule>
+<rule weight="1.0072"><!-- pero<cnjcoo>/sino<cnjcoo> -->
+<match lemma="xane" tags="cnjcoo"><select lemma="si"/></match>
+</rule>
+<rule weight="1.4463"><!-- hoy<adv>/ahora<adv> -->
+<match lemma="kamik" tags="adv"><select lemma="ahora"/></match>
+</rule>
+<rule weight="1.1818"><!-- hoy<adv>/ahora<adv> -->
+<match lemma="kamik" tags="adv"><select lemma="hoy"/></match>
+</rule>
+<rule weight="1.3223"><!-- oír<vblex>/entender<vblex> -->
+<match lemma="ta" tags="v.tv.*"><select lemma="oír"/></match>
+</rule>
+<rule weight="1.0424"><!-- saber<vblex>/adivinar<vblex>/comprender<vblex> -->
+<match lemma="chʼobʼ" tags="v.tv.*"><select lemma="comprender"/></match>
+</rule>
+<rule weight="1.5145"><!-- entrar<vblex>/volver<vblex> -->
+<match lemma="okik" tags="v.iv.*"><select lemma="entrar"/></match>
+</rule>
+<rule weight="1.1509"><!-- levantar<vblex>/construir<vblex> -->
+<match lemma="yak" tags="v.tv.*"><select lemma="construir"/></match>
+</rule>
+<rule weight="1.0943"><!-- levantar<vblex>/construir<vblex> -->
+<match lemma="yak" tags="v.tv.*"><select lemma="levantar"/></match>
+</rule>
+<rule weight="1.1548"><!-- dividir<vblex>/entregar<vblex> -->
+<match lemma="jach" tags="v.tv.*"><select lemma="entregar"/></match>
+</rule>
+<rule weight="1.3333"><!-- creer<vblex>/obedecer<vblex> -->
+<match lemma="nimaj" tags="v.tv.*"><select lemma="obedecer"/></match>
+</rule>
+<rule weight="1.0299"><!-- romper<vblex>/odiar<vblex> -->
+<match lemma="etzelaj" tags="v.tv.*"><select lemma="odiar"/></match>
+</rule>
+<rule weight="1.1092"><!-- otro<det><ind>/alguno<det><ind> -->
+<match lemma="jujun" tags="adj"><select lemma="alguno"/></match>
+</rule>
+<rule weight="1.0084"><!-- otro<det><ind>/alguno<det><ind> -->
+<match lemma="jujun" tags="adj"><select lemma="otro"/></match>
+</rule>
+<rule weight="1.4632"><!-- enviar<vblex>/mandar<vblex> -->
+<match lemma="taq" tags="v.tv.*"><select lemma="enviar"/></match>
+</rule>
+<rule weight="1.1474"><!-- enviar<vblex>/mandar<vblex> -->
+<match lemma="taq" tags="v.tv.*"><select lemma="mandar"/></match>
+</rule>
+<rule weight="1.2609"><!-- dar<vblex>/permitir<vblex> -->
+<match lemma="yaʼ" tags="v.tv.*"><select lemma="dar"/></match>
+</rule>
+<rule weight="1.0290"><!-- dar<vblex>/permitir<vblex> -->
+<match lemma="yaʼ" tags="v.tv.*"><select lemma="permitir"/></match>
+</rule>
+<rule weight="1.2750"><!-- recto<adj>/justo<adj>/derecho<adj> -->
+<match lemma="sukʼ" tags="adj"><select lemma="justo"/></match>
+</rule>
+<rule weight="1.0943"><!-- tener<vblex>/guardar<vblex> -->
+<match lemma="kʼol" tags="v.tv.*"><select lemma="guardar"/></match>
+</rule>
+<rule weight="1.0476"><!-- atrás<adv><px3sg>/sobre<pr><px3sg>/después<adv><px3sg> -->
+<match lemma="ij" tags="n"><select lemma="sobre"/></match>
+</rule>
+<rule weight="1.1848"><!-- perder<vblex>/olvidar<vblex>/desgastar<vblex> -->
+<match lemma="sach" tags="v.tv.*"><select lemma="perder"/></match>
+</rule>
+<rule weight="1.3977"><!-- resucitar<vblex>/despertar<vblex> -->
+<match lemma="kʼastajik" tags="v.iv.*"><select lemma="resucitar"/></match>
+</rule>
+<rule weight="1.0341"><!-- resucitar<vblex>/despertar<vblex> -->
+<match lemma="kʼastajik" tags="v.iv.*"><select lemma="despertar"/></match>
+</rule>
+<rule weight="1.7500"><!-- vigilar<vblex>/cuidar<vblex>/guardar<vblex> -->
+<match lemma="chajinik" tags="v.iv.*"><select lemma="cuidar"/></match>
+</rule>
+<rule weight="1.3529"><!-- iluminar<vblex>/explicar<vblex>/declarar<vblex>/revelar<vblex>/manifestar<vblex>/testigar<vblex> -->
+<match lemma="qʼalajisaj" tags="v.tv.*"><select lemma="manifestar"/></match>
+</rule>
+<rule weight="1.1765"><!-- iluminar<vblex>/explicar<vblex>/declarar<vblex>/revelar<vblex>/manifestar<vblex>/testigar<vblex> -->
+<match lemma="qʼalajisaj" tags="v.tv.*"><select lemma="revelar"/></match>
+</rule>
+<rule weight="1.8571"><!-- cortar<vblex>/circuncidar<vblex> -->
+<match lemma="pusik" tags="v.iv.*"><select lemma="circuncidar"/></match>
+</rule>
+<rule weight="1.3194"><!-- tocar<vblex>/agarrar<vblex> -->
+<match lemma="chap" tags="v.tv.*"><select lemma="tocar"/></match>
+</rule>
+<rule weight="1.2157"><!-- gritar<vblex>/llamar<vblex> -->
+<match lemma="sikʼij" tags="v.tv.*"><select lemma="llamar"/></match>
+</rule>
+<rule weight="1.0345"><!-- sólo<adv>/solamente<adv> -->
+<match lemma="xaq" tags="adv"><select lemma="sólo"/></match>
+</rule>
+<rule weight="1.1636"><!-- vivo<adj>/viviente<adj>/despierto<adj> -->
+<match lemma="kʼaslik" tags="adj"><select lemma="vivo"/></match>
+</rule>
+<rule weight="1.8571"><!-- pero<cnjcoo>/sino<cnjcoo> -->
+<match lemma="xaneʼ" tags="cnjcoo"><select lemma="sino"/></match>
+</rule>
+<rule weight="1.4231"><!-- venir<vblex>/aparecer<vblex> -->
+<match lemma="petik" tags="v.tv.*"><select lemma="venir"/></match>
+</rule>
+<rule weight="1.3750"><!-- condenar<vblex>/criticar<vblex>/juzgar<vblex> -->
+<match lemma="bʼan_qʼatojtzij" tags="v.iv.*"><select lemma="juzgar"/></match>
+</rule>
+<rule weight="1.1625"><!-- condenar<vblex>/criticar<vblex>/juzgar<vblex> -->
+<match lemma="bʼan_qʼatojtzij" tags="v.iv.*"><select lemma="condenar"/></match>
+</rule>
+<rule weight="1.4333"><!-- llevar<vblex>/empezar<vblex>/comenzar<vblex> -->
+<match lemma="majij" tags="v.tv.*"><select lemma="comenzar"/></match>
+</rule>
+<rule weight="1.6667"><!-- enseñar<vblex>/aparecer<vblex> -->
+<match lemma="kʼutunik" tags="v.iv.*"><select lemma="enseñar"/></match>
+</rule>
+<rule weight="1.5652"><!-- perder<vblex>/caer<vblex> -->
+<match lemma="tzaqik" tags="v.iv.*"><select lemma="caer"/></match>
+</rule>
+<rule weight="1.3077"><!-- ir<vblex>/salir<vblex> -->
+<match lemma="el_ubik" tags="v.iv.*"><select lemma="salir"/></match>
+</rule>
+<rule weight="1.1724"><!-- claro<adj>/limpio<adj>/blanco<adj> -->
+<match lemma="saq" tags="adj"><select lemma="blanco"/></match>
+</rule>
+<rule weight="1.4074"><!-- venir<vblex>/aparecer<vblex> -->
+<match lemma="petik" tags="v.iv.*"><select lemma="venir"/></match>
+</rule>
+<rule weight="1.3333"><!-- allá<adv>/así<adv>/ahí<adv> -->
+<match lemma="jelaʼ" tags="adv"><select lemma="allá"/></match>
+</rule>
+<rule weight="1.5968"><!-- salir<vblex>/venir<vblex> -->
+<match lemma="el_uloq" tags="v.iv.*"><select lemma="salir"/></match>
+</rule>
+<rule weight="1.5000"><!-- permitir<vblex>/perdonar<vblex>/soportar<vblex>/absolver<vblex> -->
+<match lemma="kuy" tags="v.tv.*"><select lemma="soportar"/></match>
+</rule>
+<rule weight="1.3056"><!-- cruzar<vblex>/pasar<vblex> -->
+<match lemma="qʼaxik" tags="v.iv.*"><select lemma="pasar"/></match>
+</rule>
+<rule weight="1.1389"><!-- cruzar<vblex>/pasar<vblex> -->
+<match lemma="qʼaxik" tags="v.iv.*"><select lemma="cruzar"/></match>
+</rule>
+<rule weight="1.4615"><!-- levantar<vblex>/incorporar<vblex> -->
+<match lemma="waʼlajik" tags="v.iv.*"><select lemma="levantar"/></match>
+</rule>
+<rule weight="1.0192"><!-- levantar<vblex>/incorporar<vblex> -->
+<match lemma="waʼlajik" tags="v.iv.*"><select lemma="incorporar"/></match>
+</rule>
+<rule weight="1.6000"><!-- llorar<vblex>/plañir<vblex> -->
+<match lemma="oqʼej" tags="v.tv.*"><select lemma="llorar"/></match>
+</rule>
+<rule weight="1.8347"><!-- Juan<np><ant><m>/Xwan<np><ant><m> -->
+<match lemma="Xwan" tags="np.ant.m"><select lemma="Juan"/></match>
+</rule>
+<rule weight="1.2571"><!-- andar<vblex>/viajar<vblex>/caminar<vblex> -->
+<match lemma="binik" tags="v.iv.*"><select lemma="caminar"/></match>
+</rule>
+<rule weight="1.1429"><!-- andar<vblex>/viajar<vblex>/caminar<vblex> -->
+<match lemma="binik" tags="v.iv.*"><select lemma="andar"/></match>
+</rule>
+<rule weight="1.7143"><!-- Santiago<np><ant><m>/Jacobo<np><ant><m> -->
+<match lemma="Santiʼago" tags="np.ant.m"><select lemma="Jacobo"/></match>
+</rule>
+<rule weight="1.3333"><!-- cortar<vblex>/podar<vblex> -->
+<match lemma="qupij" tags="v.tv.*"><select lemma="cortar"/></match>
+</rule>
+<rule weight="1.2167"><!-- ver<vblex>/observar<vblex> -->
+<match lemma="kaʼyik" tags="v.iv.*"><select lemma="ver"/></match>
+</rule>
+<rule weight="1.5000"><!-- vacío<adj>/espacioso<adj> -->
+<match lemma="jamalik" tags="adj"><select lemma="vacío"/></match>
+</rule>
+<rule weight="1.1667"><!-- vacío<adj>/espacioso<adj> -->
+<match lemma="jamalik" tags="adj"><select lemma="espacioso"/></match>
+</rule>
+<rule weight="1.6667"><!-- azotar<vblex>/empujar<vblex> -->
+<match lemma="chʼikmij" tags="v.tv.*"><select lemma="azotar"/></match>
+</rule>
+<rule weight="1.8280"><!-- Luʼ<np><ant><m>/Pedro<np><ant><m> -->
+<match lemma="Luʼ" tags="np.ant.m"><select lemma="Pedro"/></match>
+</rule>
+<rule weight="1.5455"><!-- Max<np><ant><m>/Tomás<np><ant><m> -->
+<match lemma="Max" tags="np.ant.m"><select lemma="Tomás"/></match>
+</rule>
+<rule weight="1.7500"><!-- danzar<vblex>/bailar<vblex> -->
+<match lemma="xojowik" tags="v.iv.*"><select lemma="bailar"/></match>
+</rule>
+<rule weight="1.7143"><!-- cosechar<vblex>/visitar<vblex>/pasar<vblex> -->
+<match lemma="qʼatanik" tags="v.iv.*"><select lemma="pasar"/></match>
+</rule>
+<rule weight="1.5000"><!-- marchitar<vblex>/secar<vblex> -->
+<match lemma="chaqiʼjarik" tags="v.iv.*"><select lemma="marchitar"/></match>
+</rule>
+<rule weight="1.2581"><!-- pasar<vblex>/resultar<vblex>/seguir<vblex>/suceder<vblex> -->
+<match lemma="kʼulmatäjik" tags="v.iv.*"><select lemma="suceder"/></match>
+</rule>
+<rule weight="1.0645"><!-- pasar<vblex>/resultar<vblex>/seguir<vblex>/suceder<vblex> -->
+<match lemma="kʼulmatäjik" tags="v.iv.*"><select lemma="resultar"/></match>
+</rule>
+<rule weight="1.0645"><!-- pasar<vblex>/resultar<vblex>/seguir<vblex>/suceder<vblex> -->
+<match lemma="kʼulmatäjik" tags="v.iv.*"><select lemma="pasar"/></match>
+</rule>
+<rule weight="2.0000"><!-- escardar<vblex>/arrancar<vblex> -->
+<match lemma="michʼ" tags="v.tv.*"><select lemma="arrancar"/></match>
+</rule>
+<rule weight="1.5000"><!-- hinchar<vblex>/inflamar<vblex>/fermentar<vblex> -->
+<match lemma="sipoj" tags="v.tv.*"><select lemma="fermentar"/></match>
+</rule>
+<rule weight="1.6667"><!-- cambiar<vblex>/cruzar<vblex>/profetizar<vblex> -->
+<match lemma="qʼaxaj" tags="v.tv.*"><select lemma="profetizar"/></match>
+</rule>
+<rule weight="1.2500"><!-- visitar<vblex>/inspectar<vblex> -->
+<match lemma="solij" tags="v.tv.*"><select lemma="visitar"/></match>
+</rule>
+<rule weight="2.0000"><!-- resucitar<vblex>/despertar<vblex> -->
+<match lemma="kʼastajisaj" tags="v.tv.*"><select lemma="resucitar"/></match>
+</rule>
+<rule weight="1.5000"><!-- derribar<vblex>/destruir<vblex>/colapsar<vblex> -->
+<match lemma="wilij" tags="v.tv.*"><select lemma="destruir"/></match>
+</rule>
+<rule weight="2.0000"><!-- negro<adj>/oscuro<adj> -->
+<match lemma="qʼeq" tags="adj"><select lemma="negro"/></match>
+</rule>
+<rule weight="1.6667"><!-- susurrar<vblex>/reír<vblex> -->
+<match lemma="jaʼjatik" tags="v.iv.*"><select lemma="reír"/></match>
+</rule>
+<rule weight="1.7500"><!-- curar<vblex>/sanar<vblex> -->
+<match lemma="kunanik" tags="v.iv.*"><select lemma="sanar"/></match>
+</rule>
+<rule weight="1.6667"><!-- prestar<vblex>/alquiler<vblex> -->
+<match lemma="qaj" tags="v.tv.*"><select lemma="prestar"/></match>
+</rule>
+<rule weight="2.0000"><!-- Silas<np><ant><m>/Silvano<np><ant><m> -->
+<match lemma="Silas" tags="np.ant.m"><select lemma="Silas"/></match>
+</rule>
+<rule weight="1.6667"><!-- evitar<vblex>/rechazar<vblex>/abandonar<vblex> -->
+<match lemma="xutuj" tags="v.tv.*"><select lemma="rechazar"/></match>
+</rule>
+<rule weight="1.6667"><!-- seguir<vblex>/injertar<vblex> -->
+<match lemma="nakʼik" tags="v.iv.*"><select lemma="injertar"/></match>
+</rule>
 
 </rules>

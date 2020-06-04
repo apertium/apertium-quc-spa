@@ -114,6 +114,12 @@
         </e>
 
         <e lm="jas che" c="por qué"><p>
+                <l>jeʼ<s n="adv"/><j/>jas<s n="prn"/><s n="itg"/><j/></l>
+                <r>jeʼ<b/>jas<s n="adv"/></r>
+            </p>
+        </e>
+
+        <e lm="jas che" c="por qué"><p>
                 <l>jas<s n="prn"/><s n="itg"/><j/>chi<s n="pr"/><j/>re<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><j/></l>
                 <r>jas<b/>che<s n="adv"/><s n="itg"/></r>
             </p>
@@ -211,6 +217,16 @@
    <i><t/><j/></i>
 <p><l>ubik<s n="adv"/><j/></l><r></r></p>
         </e>
+
+<!--
+        <e lm="bij ri tzij" c="profetizar"><p>
+                <l>bij<s n="v"/><s n="tv"/></l>
+                <r>bij<b/>ri<b/>tzij<s n="v"/><s n="iv"/></r>
+            </p>
+   <i><t/><j/></i>
+<p><l>ri<s n="det"/><j/>tzij<s n="n"/><j/></l><r></r></p>
+        </e>
+-->
 
     </section>
 </dictionary>

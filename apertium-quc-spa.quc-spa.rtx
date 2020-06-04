@@ -303,6 +303,11 @@
     </def-attr>
 
   
+    <def-attr n="a_mov">
+     <attr-item tags="abl"/>
+     <attr-item tags="lat"/>
+    </def-attr>
+
     <def-attr n="a_inv">
      <attr-item tags="inv"/>
     </def-attr>
@@ -460,6 +465,7 @@
                     <let><var n="negación"/><concat><lit v="no"/><lit-tag v="adv"/></concat></let>
                     <let><clip pos="1" side="tl" part="a_imp"/><lit-tag v="prs"/></let></when>
       </choose>
+      <let><clip pos="1" side="tl" part="a_mov"/><lit v=""/></let>
     </def-macro>
 
     <def-macro n="f_concord1" npar="1">

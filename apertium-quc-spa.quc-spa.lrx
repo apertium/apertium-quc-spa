@@ -28,6 +28,9 @@
     <match lemma="majij" tags="v.*"> <select lemma="comenzar"/> </match>
   </rule>
   <rule>
+    <match lemma="tzij"> <select lemma="palabra"/> </match>
+  </rule>
+  <rule>
     <match lemma="tzij" tags="n.*"> <select lemma="palabra"/> </match>
   </rule>
   <rule>

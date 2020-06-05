@@ -6,6 +6,14 @@
         <sdef n="v"/>
         <sdef n="iv"/>
         <sdef n="px1sg"/>
+        <sdef n="vblex"/>
+        <sdef n="imp"/>
+        <sdef n="ref"/>
+        <sdef n="ij"/>
+        <sdef n="sp"/>
+        <sdef n="mf"/>
+        <sdef n="enc"/>
+        <sdef n="pl"/>
         <sdef n="cnjsub"/>
         <sdef n="px2sg"/>
         <sdef n="px3sg"/>

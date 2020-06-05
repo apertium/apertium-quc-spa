@@ -2,24 +2,48 @@
 <dictionary type="separable">
   <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
   <sdefs>
-    <sdef n="adj"/>
-    <sdef n="adv"/>
-    <sdef n="pr"/>
-    <sdef n="n"/>
-    <sdef n="num"/>
-    <sdef n="sp"/>
-    <sdef n="pl"/>
-    <sdef n="ind"/>
-    <sdef n="det"/>
-    <sdef n="m"/>
-    <sdef n="def"/>
-    <sdef n="v"/>
-    <sdef n="f"/>
-    <sdef n="mf"/>
-    <sdef n="sg"/>
-    <sdef n="vblex"/>
-    <sdef n="vbser"/>
-    <sdef n="det"/>
+<sdef n="adj"/>
+<sdef n="adv"/>
+<sdef n="cnjadv"/>
+<sdef n="cnjsub"/>
+<sdef n="def"/>
+<sdef n="det"/>
+<sdef n="dir"/>
+<sdef n="enc"/>
+<sdef n="inf"/>
+<sdef n="f"/>
+<sdef n="ij"/>
+<sdef n="imp"/>
+<sdef n="impf"/>
+<sdef n="ind"/>
+<sdef n="itg"/>
+<sdef n="iv"/>
+<sdef n="m"/>
+<sdef n="mf"/>
+<sdef n="n"/>
+<sdef n="num"/>
+<sdef n="o_sg3"/>
+<sdef n="p3"/>
+<sdef n="pers"/>
+<sdef n="pl"/>
+<sdef n="pr"/>
+<sdef n="prn"/>
+<sdef n="px1pl"/>
+<sdef n="px1sg"/>
+<sdef n="px2pl"/>
+<sdef n="px2sg"/>
+<sdef n="px3pl"/>
+<sdef n="px3sg"/>
+<sdef n="ref"/>
+<sdef n="rel"/>
+<sdef n="sg"/>
+<sdef n="sp"/>
+<sdef n="s_sg3"/>
+<sdef n="tv"/>
+<sdef n="v"/>
+<sdef n="vblex"/>
+<sdef n="vbser"/>
+
   </sdefs>
 
   <pardefs>
@@ -95,6 +119,69 @@
       <p><l>hoja<s n="n"/><s n="f"/><s n="pl"/><j/>de<s n="pr"/><j/>maguey<s n="n"/><s n="m"/><s n="sg"/><j/></l>
       <r>hoja<b/>de<b/>maguey<s n="n"/><s n="f"/><s n="pl"/><j/></r></p>
     </e>
+
+        <e lm="váyanse" c=""><p>
+                <l>ir<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/>+se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></l>
+                <r>váyanse<s n="ij"/><j/></r>
+            </p>
+        </e>
+
+
+        <e lm="cambiar de lugar" c=""><p>
+                <l>cambiar<s n="vblex"/></l>
+                <r>cambiar<b/>de<b/>lugar<s n="vblex"/></r>
+            </p>
+   <i><t/><j/></i>
+<p><l>de<s n="pr"/><j/>lugar<s n="n"/><s n="m"/><s n="sg"/><j/></l><r></r></p>
+        </e>
+
+        <e lm="ir de prisa" c=""><p>
+                <l>ir<s n="vblex"/></l>
+                <r>ir<b/>de<b/>prisa<s n="vblex"/></r>
+            </p>
+   <i><t/><j/></i>
+<p><l>de<s n="pr"/><j/>prisa<s n="n"/><s n="f"/><s n="sg"/><j/></l><r></r></p>
+        </e>
+
+        <e lm="dar las gracias" c=""><p>
+                <l>dar<s n="vblex"/></l>
+                <r>dar<b/>las<b/>gracias<s n="vblex"/></r>
+            </p>
+   <i><t/><j/></i>
+<p><l>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/><j/>gracia<s n="n"/><s n="f"/><s n="pl"/><j/></l><r></r></p>
+        </e>
+
+        <e lm="dejar caer" c=""><p>
+                <l>dejar<s n="vblex"/></l>
+                <r>dejar<b/>caer<s n="vblex"/></r>
+            </p>
+   <i><t/><j/></i>
+<p><l>caer<s n="vblex"/><s n="inf"/><j/></l><r></r></p>
+        </e>
+
+        <e lm="volver loco" c=""><p>
+                <l>volver<s n="vblex"/></l>
+                <r>volver<b/>loco<s n="vblex"/></r>
+            </p>
+   <i><t/><j/></i>
+<p><l>loco<s n="adj"/><s n="m"/><s n="sg"/><j/></l><r></r></p>
+        </e>
+
+        <e lm="dar fuerza" c=""><p>
+                <l>dar<s n="vblex"/></l>
+                <r>dar<b/>fuerza<s n="vblex"/></r>
+            </p>
+   <i><t/><j/></i>
+<p><l>fuerza<s n="n"/><s n="f"/><s n="sg"/><j/></l><r></r></p>
+        </e>
+
+        <e lm="tener paciencia" c=""><p>
+                <l>tener<s n="vblex"/></l>
+                <r>tener<b/>paciencia<s n="vblex"/></r>
+            </p>
+   <i><t/><j/></i>
+<p><l>paciencia<s n="n"/><s n="f"/><s n="sg"/><j/></l><r></r></p>
+        </e>
 
 
   </section>

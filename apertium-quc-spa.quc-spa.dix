@@ -25,6 +25,7 @@
     <sdef n="ND"             c=""/>
     <sdef n="tn"             c=""/>
     <sdef n="inv"             c=""/>
+    <sdef n="an"             c=""/>
     <sdef n="abl"             c=""/>
     <sdef n="preadv"             c=""/>
     <sdef n="lat"             c=""/>
@@ -474,6 +475,8 @@
       <e><p><l>laʼ<s n="prn"/><s n="dem"/></l><r>éste<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
       <e><p><l>waʼ<s n="prn"/><s n="dem"/></l><r>éste<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
 <e><p><l>weriʼ<s n="prn"/><s n="dem"/></l><r>éste<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
+
+<e><p><l>ri<s n="prn"/><s n="rel"/></l><r>que<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
 
       <!-- Set B agreement markers on non-verbal predicates -->
       <e r="LR"><p><l>in<s n="prn"/><s n="pro"/><s n="p1"/><s n="sg"/></l><r></r></p></e>
@@ -1320,6 +1323,7 @@
 <e><p><l>Weʼl<s n="np"/><s n="ant"/><s n="f"/></l><r>Weʼl<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Manuela" -->
 <e><p><l>Tuʼr<s n="np"/><s n="ant"/><s n="m"/></l><r>Tuʼr<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Venturo" -->
 <e><p><l>Totonicap<s n="np"/><s n="top"/></l><r>Totonicap<s n="np"/><s n="loc"/></r></p></e>
+<e><p><l>Chwitzʼaq<s n="np"/><s n="top"/></l><r>Totonicapán<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Chirijquiac<s n="np"/><s n="top"/></l><r>Chirijquiac<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Tzʼunil<s n="np"/><s n="top"/></l><r>Tzʼunil<s n="np"/><s n="loc"/></r></p></e><!-- "" ! Src/Cuentos -->
 <e><p><l>Chuatroj<s n="np"/><s n="top"/></l><r>Chuatroj<s n="np"/><s n="loc"/></r></p></e>

@@ -334,6 +334,7 @@
 
     <def-attr n="a_func">
      <attr-item tags="@det"/>
+     <attr-item tags="@acl"/>
     </def-attr>
 
     <def-attr n="a_pred">
@@ -434,7 +435,8 @@
         <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl1"/></equal></test>
                     <let><var n="refPron"/><concat><lit v="nos"/><lit-tag v="prn.pro.p1.mf.pl"/></concat></let></when>
         <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl2"/></equal></test>
-                    <let><var n="refPron"/><concat><lit v="os"/><lit-tag v="prn.pro.p2.mf.pl"/></concat></let></when>
+                    <!--<let><var n="refPron"/><concat><lit v="os"/><lit-tag v="prn.pro.p2.mf.pl"/></concat></let></when>-->
+                    <let><var n="refPron"/><concat><lit v="les"/><lit-tag v="prn.pro.p3.mf.pl"/></concat></let></when>
         <otherwise>
                     <let><var n="refPron"/><concat><lit v="se"/><lit-tag v="prn.pro.ref.p3.mf.sp"/></concat></let>
         </otherwise>
@@ -453,7 +455,8 @@
                         <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_pl1"/></equal></test>
                                     <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.pl"/></let></when>
                         <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_pl2"/></equal></test>
-                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.pl"/></let></when>
+                                    <!--<let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.pl"/></let></when>-->
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.pl"/></let></when>
                         <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_pl3"/></equal></test>
                                     <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.pl"/></let></when>
                       </choose>
@@ -470,7 +473,8 @@
                         <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl1"/></equal></test>
                                     <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.pl"/></let></when>
                         <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl2"/></equal></test>
-                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.pl"/></let></when>
+                                    <!--<let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.pl"/></let></when>-->
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.pl"/></let></when>
                         <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl3"/></equal></test>
                                     <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.pl"/></let></when>
                       </choose>
@@ -876,6 +880,28 @@
       </out>
    </action>
   </rule>
+
+
+  <rule comment="det Ant" firstChunk="Ant">
+   <pattern>
+    <pattern-item n="det"/>
+    <pattern-item n="Ant"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+         <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+        </tags>
+        <lu><clip pos="2" side="tl" part="whole"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
 
 
   <rule comment="Clf Ant" firstChunk="Ant">

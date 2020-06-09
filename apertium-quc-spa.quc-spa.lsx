@@ -75,6 +75,34 @@
 <!--       1 		 jeri’ nak’ut: así como -->
 <!--       1 		 je’ nak’ut: ciertamente -->
 <!--       1 		 chuwach nak’ut weri’: por lo tanto -->
+<!-- e pa ukʼabʼ : pero -->
+<!--
+!charchatej ubik:charchatej ub V-IV ; ! "drag away (child who doesnʼt want to go)"
+!el ubik:el ub V-IV ; ! "leave"
+!esäj <u>bik:esäj <u>b V-IV ; ! "throw out"
+!etaʼm chik:etaʼm ch V-IV ; ! "discover"
+!jach ubik:jach ub V-IV ; ! "separate"
+!kʼam ubik:kʼam ub V-IV ; ! "carry away"
+!kʼiäq ubik:kʼiäq ub V-IV ; ! "throw out"
+!kämik che numik:kämik che num V-IV ; ! "die of hunger"
+!kayej bik:kayej b V-IV ; ! "carry away in teeth"
+!kikuch u-banik:kikuch u-ban V-IV ; ! "get together (to do something)"
+!man utz taj -taʼtajik:man utz taj -taʼtaj V-IV ; ! "not sound good"
+!paq ubik:paq ub V-IV ; ! "blow away (ri kiäqʼiqʼ xupaq ubik ri sutzʼ)"
+!pu saqirik:pu saqir V-IV ; ! "become clear (weather"
+!qʼoxow chik:qʼoxow ch V-IV ; ! "need to urinate or defecate"
+!qaj ubik:qaj ub V-IV ; ! "go down (away from the speaker)"
+!qebesaj ubik:qebesaj ub V-IV ; ! "push away"
+!taʼ pa qajik:taʼ pa qaj V-IV ; ! "borrow"
+!takej ubik:takej ub V-IV ; ! "lift and carry in hands a long, heavy wooden object"
+!taq ubik:taq ub V-IV ; ! "send away"
+!taqanik che resaxik:taqanik che resax V-IV ; ! "order release"
+!toʼ -ib che u banik:toʼ -ib che u ban V-IV ; ! "help one another to do something"
+!toʼyej ubik:toʼyej ub V-IV ; ! "steal something"
+!tzelej ubik:tzelej ub V-IV ; ! "return (away from speaker)"
+!yaʼ pa qajik:yaʼ pa qaj V-IV ; ! "lend"
+!yaʼ -wiʼ ri kätzijonik:yaʼ -wiʼ ri kätzijon V-IV ; ! "exaggerate"
+-->
 
         <e lm="wiʼ ri kowil" c="prepucio"><p>
                 <l>wiʼ<s n="n"/><s n="rel"/><s n="px3sg"/><j/>ri<s n="det"/><j/>kowil<s n="n"/></l>

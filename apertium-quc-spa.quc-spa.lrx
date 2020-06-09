@@ -16,6 +16,9 @@
     <match lemma="dyos"/>
   </rule>
   <rule>
+    <match lemma="polow" tags="n"> <select lemma="mar"/> </match>
+  </rule>
+  <rule>
     <match lemma="kʼojolaxel" tags="n.*"> <select lemma="hijo"/> </match>
   </rule>
   <rule>

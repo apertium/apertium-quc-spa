@@ -506,6 +506,7 @@
       <e><p><l>jas<s n="prn"/><s n="itg"/></l><r>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>su<s n="prn"/><s n="itg"/></l><r>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>joropaʼ<s n="num"/></l><r>cuánto<s n="adj"/><s n="itg"/><s n="GD"/><s n="ND"/></r></p></e>
+      <e><p><l>jachke<s n="prn"/><s n="itg"/></l><r>cuál<s n="det"/><s n="itg"/><s n="mf"/><s n="ND"/></r></p></e>
 
       <!-- SECTION: Sustantivos relacionales -->
 
@@ -1423,6 +1424,8 @@
 <e><p><l>nikʼaj<s n="adj"/></l><r>otro<s n="adj"/><s n="ind"/></r></p><par n="GD_ND"/></e>
 <e><p><l>nimalaj<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>chi<s n="adj"/></l><r>solo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>chaqiʼjilaj<s n="adj"/></l><r>seco<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>kyaq<s n="adj"/></l><r>rojo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>nim<s n="adj"/></l><r>grande<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>nim<s n="adj"/><s n="pl"/></l><r>grande<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>nim<s n="adj"/></l><r>principal<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
@@ -1430,6 +1433,8 @@
 <e><p><l>junam<s n="adj"/></l><r>equivalente<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>juyubʼ<s n="n"/></l><r>monte<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>junam<s n="adj"/></l><r>igual<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>tuqar<s n="adj"/></l><r>débil<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>tuqeʼr<s n="adj"/></l><r>débil<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>kʼax<s n="adj"/></l><r>difícil<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>akʼal<s n="adj"/></l><r>joven<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>junam<s n="adj"/></l><r>idéntico<s n="adj"/></r></p><par n="GD_ND"/></e>
@@ -1718,7 +1723,8 @@
 <e><par n="TV"/><p><l>chap<s n="v"/><s n="tv"/></l><r>agarrar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>chap<s n="v"/><s n="tv"/></l><r>tocar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>sach<s n="v"/><s n="tv"/></l><r>desgastar<s n="vblex"/></r></p></e>
-<e><par n="TV"/><p><l>tzaq<s n="v"/><s n="tv"/></l><r>dejar caer<s n="vblex"/></r></p></e>
+<!--<e><par n="TV"/><p><l>tzaq<s n="v"/><s n="tv"/></l><r>dejar caer<s n="vblex"/></r></p></e>-->
+<e><par n="TV"/><p><l>tzaq<s n="v"/><s n="tv"/></l><r>perder<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>chʼobʼ<s n="v"/><s n="tv"/></l><r>saber<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>bʼan<s n="v"/><s n="tv"/></l><r>hacer<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>tzij<s n="v"/><s n="tv"/></l><r>encender<s n="vblex"/></r></p></e>
@@ -1965,7 +1971,8 @@
 <!--<e><par n="IV"/><p><l>bʼison<s n="v"/><s n="iv"/></l><r>lamentar<s n="vblex"/></r></p></e>-->
 <e><par n="IV"/><p><l>bʼison<s n="v"/><s n="iv"/></l><r>triste<s n="adj"/><s n="pred"/><s n="mf"/></r></p></e>
 <e><par n="IV"/><p><l>sach<s n="v"/><s n="iv"/></l><r>perdido<s n="adj"/><s n="pred"/><s n="GD"/></r></p></e>
-<e><par n="IV"/><p><l>niman<s n="v"/><s n="iv"/></l><r>ser obediente<s n="vblex"/></r></p></e>
+<!--<e><par n="IV"/><p><l>niman<s n="v"/><s n="iv"/></l><r>ser obediente<s n="vblex"/></r></p></e>-->
+<e><par n="IV"/><p><l>niman<s n="v"/><s n="iv"/></l><r>someter<s n="vblex"/><s n="pron"/></r></p></e>
 <!--<e><par n="IV"/><p><l>patanaj<s n="v"/><s n="iv"/></l><r>ser útil<s n="vblex"/></r></p></e>-->
 <e><par n="IV"/><p><l>patanaj<s n="v"/><s n="iv"/></l><r>servir<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>taʼtaj<s n="v"/><s n="iv"/></l><r>ser escuchado<s n="vblex"/></r></p></e>
@@ -2002,6 +2009,8 @@
 <e><par n="TV"/><p><l>junamataj<s n="v"/><s n="tv"/></l><r>comparar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>junamatisaj<s n="v"/><s n="tv"/></l><r>comparar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>kochʼ<s n="v"/><s n="tv"/></l><r>tener<b/>paciencia<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>kojiʼ<s n="v"/><s n="tv"/></l><r>cobrar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>chʼikimej<s n="v"/><s n="tv"/></l><r>atropellar<s n="vblex"/></r></p></e>
 
 <e><par n="TV"/><p><l>ya<b/>jun<b/>rutzil<s n="v"/><s n="iv"/></l><r>saludar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>bʼan<b/>qʼatojtzij<s n="v"/><s n="iv"/></l><r>juzgar<s n="vblex"/></r></p></e>

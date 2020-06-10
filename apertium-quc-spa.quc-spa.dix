@@ -757,7 +757,9 @@
 <e><par n="N"/><p><l>kʼuʼx¹<s n="n"/></l><r>alma<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>uxlabʼal<s n="n"/></l><r>espíritu<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼatojtzij<s n="n"/></l><r>juez<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>aqan<s n="n"/></l><r>concha<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<!--<e><par n="N"/><p><l>aqan<s n="n"/></l><r>concha<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>-->
+<e><par n="N"/><p><l>aqan<s n="n"/></l><r>pie<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>aqän<s n="n"/></l><r>pie<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼijil<s n="n"/></l><r>gloria<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chij<s n="n"/></l><r>oveja<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chij<s n="n"/></l><r>cordero<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -960,6 +962,7 @@
 <e><par n="N"/><p><l>wonon<s n="n"/></l><r>abeja<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>jukʼulaj<s n="n"/></l><r>pareja<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kux<s n="n"/></l><r>comadreja<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kux<s n="n"/></l><r>talón<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>woʼs<s n="n"/></l><r>esponja<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>xikʼ<s n="n"/></l><r>ala<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>tzʼalam<s n="n"/></l><r>tabla<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -1200,6 +1203,10 @@
 <e><par n="N"/><p><l>oʼch<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼay<s n="n"/></l><r>puesto<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 
+<e><par n="N"/><p><l>alabʼom<s n="n"/></l><r>muchacho<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>alitom<s n="n"/></l><r>muchacho<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>altom<s n="n"/></l><r>muchacho<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>sutaq<s n="n"/></l><r>cosa<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
       <!-- SECTION: Nombres propios -->
 

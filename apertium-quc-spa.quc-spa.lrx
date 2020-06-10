@@ -12,6 +12,10 @@
     <match lemma="kajbʼal" tags="n.*"> <select lemma="tiempo"/> </match>
   </rule>
   <rule>
+    <match lemma="kux" tags="n.px3sg"> <select lemma="talón"/> </match>
+    <match lemma="aqan"/>
+  </rule>
+  <rule>
     <match lemma="kʼaslik" tags="adj"> <select lemma="viviente"/> </match>
     <match lemma="dyos"/>
   </rule>

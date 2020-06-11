@@ -207,6 +207,39 @@
       </pardef>
 
       <pardef n="TV">
+        <!-- Passive -->
+        <e r="LR"><p><l><s n="perf"/><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_pl3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_pl3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="perf"/><s n="s_pl3"/></l><r></r></p></e>
+
+        <e r="LR"><p><l><s n="impf"/><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_pl3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="impf"/><s n="s_pl3"/></l><r></r></p></e>
+
+
         <e r="LR"><p><l><s n="perf"/><s n="o_sg1"/><s n="s_sg2"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="perf"/><s n="o_sg1"/><s n="s_sg3"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="perf"/><s n="o_sg1"/><s n="s_pl1"/></l><r></r></p></e>
@@ -983,6 +1016,7 @@
 <e><par n="N"/><p><l>tzaq<s n="n"/></l><r>ruina<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>aqänaj<s n="n"/></l><r>pierna<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>tuj<s n="n"/></l><r>sauna<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>tuj<s n="n"/></l><r>temazcal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>uwosaq<s n="n"/></l><r>montaña<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>tol<s n="n"/></l><r>copa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>muj<s n="n"/></l><r>sombra<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -1208,6 +1242,12 @@
 <e><par n="N"/><p><l>alitom<s n="n"/></l><r>muchacho<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>altom<s n="n"/></l><r>muchacho<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>sutaq<s n="n"/></l><r>cosa<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e><par n="N"/><p><l>uwaʼl<s n="n"/></l><r>jugo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>nimaʼ<s n="n"/></l><r>río<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>bʼi<s n="n"/></l><r>nombre<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>sok<s n="n"/></l><r>nido<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>lochʼ<s n="n"/></l><r>recién<b/>nacido<s n="adj"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>lochʼ<s n="n"/></l><r>bebé<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 
       <!-- SECTION: Nombres propios -->
 
@@ -1338,7 +1378,7 @@
 <e><p><l>Totonicap<s n="np"/><s n="top"/></l><r>Totonicap<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Chwitzʼaq<s n="np"/><s n="top"/></l><r>Totonicapán<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Chirijquiac<s n="np"/><s n="top"/></l><r>Chirijquiac<s n="np"/><s n="loc"/></r></p></e>
-<e><p><l>Tzʼunil<s n="np"/><s n="top"/></l><r>Tzʼunil<s n="np"/><s n="loc"/></r></p></e><!-- "" ! Src/Cuentos -->
+<e><p><l>Tzʼunil<s n="np"/><s n="top"/></l><r>Tzʼunil<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "" ! Src/Cuentos -->
 <e><p><l>Chuatroj<s n="np"/><s n="top"/></l><r>Chuatroj<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Sidon<s n="np"/><s n="top"/></l><r>Sidón<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Kafarnaʼum<s n="np"/><s n="top"/></l><r>Cafarnaúm<s n="np"/><s n="loc"/></r></p></e>
@@ -1581,6 +1621,7 @@
       <e><p><l>jeʼ<b/>jas<s n="adv"/></l><r>como<s n="pr"/></r></p></e>
 
       <e><p><l>wi<s n="adv"/><s n="dir"/></l><r></r></p></e>
+      <e><p><l>bʼi<s n="adv"/><s n="dir"/></l><r></r></p></e>
       <e><p><l>apan<s n="adv"/><s n="dir"/></l><r>cerca<s n="adv"/></r></p></e>
       <e><p><l>apan<s n="adv"/><s n="dir"/></l><r>fuera<s n="adv"/></r></p></e>
       <e><p><l>uloq<s n="adv"/><s n="dir"/></l><r>aquí<s n="adv"/></r></p></e>
@@ -1597,6 +1638,7 @@
 
 <e><p><l>sibʼalaj<s n="adv"/></l><r>muy<s n="preadv"/></r></p></e>
 
+<e><p><l>je<s n="adv"/></l><r>como<s n="rel"/><s n="adv"/></r></p></e>
 <e><p><l>jeʼ<s n="adv"/></l><r>sí<s n="adv"/></r></p></e>
 <e><p><l>jeʼ<b/>nakʼut<s n="adv"/></l><r>sí<s n="adv"/></r></p></e>
 <e><p><l>jeʼ<b/>nakʼut<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
@@ -2019,6 +2061,7 @@
 <e><par n="TV"/><p><l>kochʼ<s n="v"/><s n="tv"/></l><r>tener<b/>paciencia<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>kojiʼ<s n="v"/><s n="tv"/></l><r>cobrar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>chʼikimej<s n="v"/><s n="tv"/></l><r>atropellar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>chʼaj<s n="v"/><s n="tv"/></l><r>lavar<s n="vblex"/></r></p></e>
 
 <e><par n="TV"/><p><l>ya<b/>jun<b/>rutzil<s n="v"/><s n="iv"/></l><r>saludar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>bʼan<b/>qʼatojtzij<s n="v"/><s n="iv"/></l><r>juzgar<s n="vblex"/></r></p></e>

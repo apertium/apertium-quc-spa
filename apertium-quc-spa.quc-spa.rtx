@@ -323,6 +323,10 @@
      <attr-item tags="inv"/>
     </def-attr>
 
+    <def-attr n="a_pass">
+     <attr-item tags="pass"/>
+    </def-attr>
+
     <def-attr n="a_pron">
      <attr-item tags="pron"/>
     </def-attr>
@@ -1065,6 +1069,28 @@
     <pattern-item n="v_tv"/>
    </pattern>
    <action>
+      <choose>
+       <when><test><equal><clip pos="1" side="tl" part="a_pass"/><lit-tag v="pass"/></equal></test>
+         <let><clip pos="1" side="tl" part="a_pass"/><lit v=""/></let>
+         <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
+         <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
+         <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
+         <out>
+          <chunk namefrom="chunkName">
+           <tags>
+            <tag><lit-tag v="V.tv.pass"/></tag>
+            <tag><clip pos="1" side="tl" part="a_temps"/></tag>
+            <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+            <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+            <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+           </tags>
+           <var n="negación"/><b/>
+           <lu><var n="refPron"/></lu><b/>
+           <lu><clip pos="1" side="tl" part="whole"/></lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
       <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
@@ -1080,6 +1106,8 @@
             <clip pos="1" side="tl" part="lemq"/></lu>
        </chunk>
       </out>
+      </otherwise>
+     </choose>
       <call-macro n="f_reset_verb1"><with-param pos="1"/></call-macro>
    </action>
   </rule>

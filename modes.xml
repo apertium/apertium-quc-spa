@@ -102,10 +102,10 @@
       <program name="cg-proc -w -1 -n">
         <file name="quc-spa.rlx.bin"/>
       </program>
+      <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
         <file name="quc-spa.autoseq.bin"/>
       </program>
-      <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="quc-spa.autobil.bin"/>
       </program>
@@ -131,10 +131,10 @@
       <program name="cg-proc -w -1 -n">
         <file name="quc-spa.rlx.bin"/>
       </program>
+      <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
         <file name="quc-spa.autoseq.bin"/>
       </program>
-      <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="quc-spa.autobil.bin"/>
       </program>

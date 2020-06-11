@@ -143,6 +143,14 @@
 <p><l>de<s n="pr"/><j/>prisa<s n="n"/><s n="f"/><s n="sg"/><j/></l><r></r></p>
         </e>
 
+        <e lm="dar gracias" c=""><p>
+                <l>dar<s n="vblex"/></l>
+                <r>dar<b/>gracias<s n="vblex"/></r>
+            </p>
+   <i><t/><j/></i>
+<p><l>gracia<s n="n"/><s n="f"/><s n="pl"/><j/></l><r></r></p>
+        </e>
+
         <e lm="dar las gracias" c=""><p>
                 <l>dar<s n="vblex"/></l>
                 <r>dar<b/>las<b/>gracias<s n="vblex"/></r>

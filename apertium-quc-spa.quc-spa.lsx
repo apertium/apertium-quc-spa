@@ -10,6 +10,7 @@
         <sdef n="imp"/>
         <sdef n="ref"/>
         <sdef n="ij"/>
+        <sdef n="pass"/>
         <sdef n="sp"/>
         <sdef n="mf"/>
         <sdef n="enc"/>
@@ -189,7 +190,7 @@
         </e>
 -->
         <e lm="utz il" c="gustarse"><p>
-                <l>utz<s n="adj"/><j/>il<s n="v"/><s n="tv"/></l>
+                <l>utz<s n="adj"/><j/>il<s n="v"/><s n="tv"/><s n="pass"/></l>
                 <r>utz<b/>il<s n="v"/><s n="iv"/></r>
             </p><i><t/><j/></i>
         </e>

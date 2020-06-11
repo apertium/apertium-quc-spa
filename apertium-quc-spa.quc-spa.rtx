@@ -30,6 +30,14 @@
       <cat-item tags="adj.*"/>
       <cat-item tags="adj"/>
     </def-cat>
+    <def-cat n="v_iv_pp">
+      <cat-item tags="v.iv.pp.*"/>
+      <cat-item tags="v.iv.pp"/>
+    </def-cat>
+    <def-cat n="v_tv_pp">
+      <cat-item tags="v.tv.pp.*"/>
+      <cat-item tags="v.tv.pp"/>
+    </def-cat>
     <def-cat n="v_tv">
       <cat-item tags="v.tv.*"/>
     </def-cat>
@@ -319,12 +327,22 @@
      <attr-item tags="lat"/>
     </def-attr>
 
+    <def-attr n="a_ints">
+     <attr-item tags="ints"/>
+    </def-attr>
+
     <def-attr n="a_inv">
      <attr-item tags="inv"/>
     </def-attr>
 
     <def-attr n="a_pass">
      <attr-item tags="pass"/>
+     <attr-item tags="pass.stat"/>
+    </def-attr>
+
+    <def-attr n="a_anti">
+     <attr-item tags="anti"/>
+     <attr-item tags="anti.agfoc"/>
     </def-attr>
 
     <def-attr n="a_pron">
@@ -440,7 +458,7 @@
                     <let><var n="refPron"/><concat><lit v="nos"/><lit-tag v="prn.pro.p1.mf.pl"/></concat></let></when>
         <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl2"/></equal></test>
                     <!--<let><var n="refPron"/><concat><lit v="os"/><lit-tag v="prn.pro.p2.mf.pl"/></concat></let></when>-->
-                    <let><var n="refPron"/><concat><lit v="les"/><lit-tag v="prn.pro.p3.mf.pl"/></concat></let></when>
+                    <let><var n="refPron"/><concat><lit v="le"/><lit-tag v="prn.pro.p3.mf.pl"/></concat></let></when>
         <otherwise>
                     <let><var n="refPron"/><concat><lit v="se"/><lit-tag v="prn.pro.ref.p3.mf.sp"/></concat></let>
         </otherwise>
@@ -448,7 +466,8 @@
     </def-macro>
 
     <def-macro n="f_agr_fin_verb1" npar="1">
-        <choose><when><test><equal><clip pos="1" side="tl" part="a_inv"/><lit-tag v="inv"/></equal></test>
+        <choose><when><test><and><equal><clip pos="1" side="tl" part="a_inv"/><lit-tag v="inv"/></equal>
+                                 <not><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit v=""/></equal></not></and></test>
                       <choose>
                         <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_sg1"/></equal></test>
                                     <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.sg"/></let></when>
@@ -464,7 +483,6 @@
                         <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_pl3"/></equal></test>
                                     <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.pl"/></let></when>
                       </choose>
-                      <let><clip pos="1" side="tl" part="a_inv"/><lit v=""/></let>
                 </when>
                 <otherwise>
                       <choose>
@@ -484,6 +502,7 @@
                       </choose>
                 </otherwise>
       </choose>
+      <let><clip pos="1" side="tl" part="a_inv"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_agr_obj"/><lit v=""/></let>
     </def-macro>
 
@@ -1051,6 +1070,53 @@
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
       <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
+      <let><clip pos="1" side="tl" part="a_ints"/><lit v=""/></let> <!-- do something better 'muy' -->
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="A"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+        </tags>
+        <lu><clip pos="1" side="tl" part="whole"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="v_iv_pp" firstChunk="A">
+   <pattern>
+    <pattern-item n="v_iv_pp"/>
+   </pattern>
+   <action>
+      <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="whole"/><lit-tag v="GD.ND"/></concat></let>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="A"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+        </tags>
+        <lu><clip pos="1" side="tl" part="whole"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="v_tv_pp" firstChunk="A">
+   <pattern>
+    <pattern-item n="v_tv_pp"/>
+   </pattern>
+   <action>
+      <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="whole"/><lit-tag v="GD.ND"/></concat></let>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
@@ -1069,8 +1135,11 @@
     <pattern-item n="v_tv"/>
    </pattern>
    <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better -->
       <choose>
-       <when><test><equal><clip pos="1" side="tl" part="a_pass"/><lit-tag v="pass"/></equal></test>
+       <when><test><or><equal><clip pos="1" side="tl" part="a_pass"/><lit-tag v="pass"/></equal>
+                       <equal><clip pos="1" side="tl" part="a_pass"/><lit-tag v="pass.stat"/></equal></or></test>
          <let><clip pos="1" side="tl" part="a_pass"/><lit v=""/></let>
          <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
          <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
@@ -1091,7 +1160,6 @@
         </out>
       </when>
       <otherwise>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
       <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
       <out>

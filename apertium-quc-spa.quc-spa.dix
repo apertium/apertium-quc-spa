@@ -659,6 +659,7 @@
 <e><p><l>lajuj<s n="num"/></l><r>diez<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e><p><l>julajuj<s n="num"/></l><r>once<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e><p><l>kabʼlajuj<s n="num"/></l><r>doce<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>kabʼlajuj<s n="n"/></l><r>doce<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e><p><l>oxlajuj<s n="num"/></l><r>trece<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e><p><l>kajlajuj<s n="num"/></l><r>catorce<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e><p><l>oʼlajuj<s n="num"/></l><r>quince<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -691,6 +692,7 @@
       <e><par n="N"/><p><l>chʼabʼal<s n="n"/></l><r>voz<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>kʼicheʼ<s n="n"/></l><r>quiché<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>dyos<s n="n"/></l><r>dios<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>dyos²<s n="n"/></l><r>dios<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>Dyos<s n="n"/></l><r>dios<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chikop<s n="n"/></l><r>animal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chikop<s n="n"/></l><r>bestia<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -752,6 +754,7 @@
       <e><par n="N"/><p><l>wa<s n="n"/></l><r>comida<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>jaʼ<s n="n"/></l><r>agua<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ajawinel<s n="n"/></l><r>rey<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>ajpop<s n="n"/></l><r>rey<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>qʼaqʼ<s n="n"/></l><r>fuego<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>qʼaqʼ<s n="n"/></l><r>fiebre<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chomanik<s n="n"/></l><r>pensamiento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -960,6 +963,7 @@
 <e><par n="N"/><p><l>kʼam<s n="n"/></l><r>cuerda<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼaʼm<s n="n"/></l><r>cuerda<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>malkaʼn<s n="n"/></l><r>viudo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>melkaʼn<s n="n"/></l><r>viudo<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>sotzʼ<s n="n"/></l><r>murciélago<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>saqʼor<s n="n"/></l><r>vago<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>griʼego<s n="n"/></l><r>griego<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>

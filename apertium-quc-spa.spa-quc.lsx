@@ -7,6 +7,7 @@
 <sdef n="cnjadv"/>
 <sdef n="cnjsub"/>
 <sdef n="def"/>
+<sdef n="pp"/>
 <sdef n="det"/>
 <sdef n="dir"/>
 <sdef n="enc"/>
@@ -99,6 +100,10 @@
     </e>
     <e lm="todavía no" c="">
       <p><l>todavía<s n="adv"/><j/>no<s n="adv"/><j/></l><r>todavía<b/>no<s n="adv"/><j/></r></p>
+    </e>
+    <e lm="curado" c="">
+      <p><l>curar<s n="vblex"/><s n="pp"/></l><r>curado<s n="adj"/></r></p>
+      <i><t/><j/></i>
     </e>
     <e lm="aún no" c="">
       <p><l>aún<s n="adv"/><j/>no<s n="adv"/><j/></l><r>aún<b/>no<s n="adv"/><j/></r></p>

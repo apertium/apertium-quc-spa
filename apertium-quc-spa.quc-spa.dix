@@ -554,6 +554,7 @@
       <e><p><l>pa<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
 
 <e><p><l>kʼateʼ<s n="pr"/></l><r>hasta<s n="pr"/></r></p></e>
+<e><p><l>jachaʼ<s n="pr"/></l><r>como<s n="pr"/></r></p></e> <!-- FIXME -->
 <e><p><l>ikim<s n="pr"/></l><r>abajo<s n="adv"/></r></p></e> <!-- FIXME -->
 <e><p><l>panikʼaj<s n="pr"/></l><r>en<b/>medio<s n="adv"/></r></p></e> <!-- FIXME -->
 
@@ -610,7 +611,7 @@
       <e r="LR"><par n="N"/><p><l>wach<s n="n"/><s n="rel"/></l><r>en<b/>frente<s n="adv"/></r></p></e>
 
       <!-- de -->
-      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/></l><r>de<s n="pr"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/></l><r>a<s n="pr"/></r></p></e>
 
       <!-- UKʼ: con -->
       <e><par n="N"/><p><l>ukʼ<s n="n"/><s n="rel"/></l><r>con<s n="pr"/></r></p></e>
@@ -718,6 +719,7 @@
       <e><par n="N"/><p><l>kʼojolaxel<s n="n"/></l><r>hijo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>kojonik<s n="n"/></l><r>fe<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>utzil<s n="n"/></l><r>bien<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>utzilal<s n="n"/></l><r>paz<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>utzil<s n="n"/></l><r>paz<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ulew<s n="n"/></l><r>tierra<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>tat<s n="n"/></l><r>padre<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1362,8 +1364,8 @@
 <e><par n="N"/><p><l>chʼat<s n="n"/></l><r>cama<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>palomäx<s n="n"/></l><r>paloma<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>roxox<s n="n"/></l><r>rosa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>kumatz<s n="n"/></l><r>serpiente<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>bʼeyaʼ<s n="n"/></l><r>valle<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kumatz<s n="n"/></l><r>serpiente<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>bʼeyaʼ<s n="n"/></l><r>valle<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>jäbʼ<s n="n"/></l><r>lluvia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>nonochʼ<s n="n"/></l><r>sombra<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼatzʼ<s n="n"/></l><r>mono<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1374,6 +1376,7 @@
 
       <e><p><l>Nela<s n="np"/><s n="ant"/><s n="f"/></l><r>Manuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Pabʼlo<s n="np"/><s n="ant"/><s n="m"/></l><r>Pablo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Juʼl<s n="np"/><s n="ant"/><s n="m"/></l><r>Juʼl<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Jesus<s n="np"/><s n="ant"/><s n="m"/></l><r>Jesús<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Jesuskristo<s n="np"/><s n="ant"/><s n="m"/></l><r>Jesucristo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Lot<s n="np"/><s n="ant"/><s n="m"/></l><r>Lot<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1382,7 +1385,9 @@
       <e><p><l>Abʼraham<s n="np"/><s n="ant"/><s n="m"/></l><r>Abraham<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Bʼeliʼar<s n="np"/><s n="ant"/><s n="m"/></l><r>Belial<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Jerusalem<s n="np"/><s n="top"/></l><r>Jerusalén<s n="np"/><s n="loc"/></r></p></e>
+      <e><p><l>Xechpup<s n="np"/><s n="top"/></l><r>Xechpup<s n="np"/><s n="loc"/></r></p></e>
       <e><p><l>Jeriko<s n="np"/><s n="top"/></l><r>Jericó<s n="np"/><s n="loc"/></r></p></e>
+      <e><p><l>Perez<s n="np"/><s n="cog"/></l><r>Pérez<s n="np"/><s n="ant"/></r></p></e>
       <e><p><l>Joppe<s n="np"/><s n="top"/></l><r>Jope<s n="np"/><s n="loc"/></r></p></e>
       <e><p><l>Silisiʼa<s n="np"/><s n="top"/></l><r>Cilicia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Siriʼa<s n="np"/><s n="top"/></l><r>Siria<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1589,6 +1594,7 @@
       <e><p><l>tzij<s n="adj"/></l><r>verdadero<s n="adj"/></r></p><par n="GD_ND"/></e>
       <e><p><l>junalik<s n="adj"/></l><r>eterno<s n="adj"/></r></p><par n="GD_ND"/></e>
       <e><p><l>yawabʼ<s n="adj"/></l><r>enfermo<s n="adj"/></r></p><par n="GD_ND"/></e>
+      <e><p><l>yabʼ<s n="adj"/></l><r>enfermo<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>naqaj<s n="adj"/></l><r>cerca<s n="adv"/></r></p></e>
 <e><p><l>naj<s n="adj"/></l><r>lejos<s n="adv"/></r></p></e>
 <e><p><l>nikʼaj<s n="adj"/></l><r>otro<s n="adj"/><s n="ind"/></r></p><par n="GD_ND"/></e>
@@ -1596,6 +1602,7 @@
 <e><p><l>chi<s n="adj"/></l><r>solo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>chaqiʼjilaj<s n="adj"/></l><r>seco<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>kyaq<s n="adj"/></l><r>rojo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>kaxlan<s n="adj"/></l><r>extranjero<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>nim<s n="adj"/></l><r>grande<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>nim<s n="adj"/><s n="pl"/></l><r>grande<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>nim<s n="adj"/></l><r>principal<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
@@ -1623,6 +1630,7 @@
 <e><p><l>jujun<s n="adj"/></l><r>alguno<s n="det"/><s n="ind"/></r></p><par n="GD_ND"/></e>
 <e><p><l>jujun<s n="adj"/></l><r>otro<s n="det"/><s n="ind"/></r></p><par n="GD_ND"/></e>
 <e><p><l>alaj<s n="adj"/></l><r>pequeño<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>nitzʼ<s n="adj"/></l><r>pequeño<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>qastzij<s n="adj"/></l><r>verdadero<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>nabe<s n="adj"/></l><r>primero<s n="adj"/><s n="ord"/></r></p><par n="GD_ND"/></e>
 <e><p><l>qas<s n="adj"/></l><r>seguro<s n="adj"/></r></p><par n="GD_ND"/></e>

@@ -498,6 +498,7 @@
       <e r="LR"><p><l>oq<s n="mark"/></l><r></r></p></e>
       <e r="LR"><p><l>u<s n="mark"/></l><r></r></p></e>
       <e r="LR"><p><l>uʼ<s n="mark"/></l><r></r></p></e>
+      <e r="LR"><p><l>a<s n="mark"/></l><r></r></p></e>
 
       <e r="LR"><p><l>are<s n="foc"/></l><r></r></p></e>
       <e r="LR"><p><l>la<s n="qst"/></l><r></r></p></e>
@@ -1375,6 +1376,41 @@
 <e><par n="N"/><p><l>bʼatzʼ<s n="n"/></l><r>mono<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>sutzʼ<s n="n"/></l><r>nube<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 
+<e><par n="N"/><p><l>ajpataninel<s n="n"/></l><r>siervo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>ajpataninel<s n="n"/></l><r>esclavo<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>tzʼibʼanel<s n="n"/></l><r>escritor<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>ul<s n="n"/></l><r>deslave<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>bʼanal<s n="n"/></l><r>hacedor<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>xkut<s n="n"/></l><r>lado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kojonel<s n="n"/></l><r>creyente<s n="n"/><s n="mf"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>qʼatal<s n="n"/></l><r>juez<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kamisanel<s n="n"/></l><r>homicida<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>qʼinom¹<s n="n"/></l><r>rico<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>okinaq<s n="n"/></l><r>entrar<s n="vblex"/><s n="pp"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>ij<s n="n"/></l><r>sarampión<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>ajjudey<s n="n"/></l><r>judío<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>qʼat<s n="n"/></l><r>manada<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kʼisïkʼ<s n="n"/></l><r>cabra<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>iyaʼ<s n="n"/></l><r>pericón<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>äm<s n="n"/></l><r>araña<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>xik<s n="n"/></l><r>cernícalo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kʼisbʼal<s n="n"/></l><r>final<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kʼisbʼal<s n="n"/></l><r>fin<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>il<s n="n"/></l><r>daño<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>eyeʼbʼal<s n="n"/></l><r>esperanza<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>chaʼbʼal<s n="n"/></l><r>tamiz<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>cha<s n="n"/></l><r>obsidiano<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>wachibʼal<s n="n"/></l><r>aparencia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>wachibʼal<s n="n"/></l><r>escultura<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>sikʼin<s n="n"/></l><r>invitado<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>nan¹<s n="n"/></l><r>madre<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>loqʼomanel<s n="n"/></l><r>comprador<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>lem<s n="n"/></l><r>luciérnaga<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>la<s n="n"/></l><r>ortiga<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kʼuläm<s n="n"/></l><r>cuerda<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>juwinaq<s n="n"/></l><r>veinte<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><par n="N"/><p><l>ikyaqʼabʼ<s n="n"/></l><r>derecha<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+
 
       <!-- SECTION: Nombres propios -->
 
@@ -1743,6 +1779,31 @@
 <e><p><l>sukʼumam<s n="adj"/></l><r>listo<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>sakʼäj<s n="adj"/></l><r>activo<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>chapom<s n="adj"/></l><r>agarrar<s n="vblex"/><s n="pp"/></r></p><par n="GD_ND"/></e>
+
+<e><par n="N"/><p><l>warinaq<s n="adj"/></l><r>dormir<s n="vblex"/><s n="pp"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>sachinaq<s n="adj"/></l><r>perder<s n="vblex"/><s n="pp"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kʼisbʼal<s n="adj"/></l><r>final<s n="adj"/><s n="mf"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kʼisbʼal<s n="adj"/></l><r>último<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>sikʼitalik<s n="adj"/></l><r>llamar<s n="vblex"/><s n="pp"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>sibʼalaj<s n="adj"/></l><r>mucho<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>laj<s n="adj"/></l><r>pequeño<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>riʼj<s n="adj"/></l><r>anciano<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>ojer<s n="adj"/></l><r>antiguo<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>menchoʼr<s n="adj"/></l><r>estéril<s n="adj"/><s n="mf"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>mem<s n="adj"/></l><r>mudo<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>chʼanalik<s n="adj"/></l><r>desnudo<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>tʼuyulik<s n="adj"/></l><r>sentar<s n="vblex"/><s n="pp"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>qʼinom<s n="adj"/></l><r>rico<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>tzʼaqat<s n="adj"/></l><r>completo<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>sukʼalaj<s n="adj"/></l><r>recto<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>loqʼ<s n="adj"/></l><r>querido<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>chʼuʼj<s n="adj"/></l><r>loco<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>amaʼ<s n="adj"/></l><r>masculino<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>wonobʼam<s n="adj"/></l><r>abandonado<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>qʼatom<s n="adj"/></l><r>cortar<s n="vblex"/><s n="pp"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>qʼän<s n="adj"/></l><r>amarillo<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>mebʼaʼ<s n="adj"/></l><r>huérfano<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>chaʼtal<s n="adj"/></l><r>elegir<s n="vblex"/><s n="pp"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 
 
       <!-- SECTION: Adverbios -->

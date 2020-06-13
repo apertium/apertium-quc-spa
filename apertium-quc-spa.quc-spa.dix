@@ -207,7 +207,16 @@
       </pardef>
 
       <pardef n="TV">
+        <!-- Participle -->
+        <e r="LR"><p><l><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="s_pl3"/></l><r></r></p></e>
+ 
         <!-- Passive -->
+
         <e r="LR"><p><l><s n="perf"/><s n="s_sg2"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="perf"/><s n="s_sg3"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="perf"/><s n="s_pl1"/></l><r></r></p></e>
@@ -709,6 +718,8 @@
       <e><par n="N"/><p><l>wuj<s n="n"/></l><r>libro<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>tijobʼal<s n="n"/></l><r>escuela<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ja<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>kʼul<s n="n"/></l><r>persona<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>kʼul<b/>ja<s n="n"/></l><r>vecino<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ala<s n="n"/></l><r>muchacho<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ala<s n="n"/></l><r>niño<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ala<s n="n"/></l><r>chico<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>

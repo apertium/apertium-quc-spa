@@ -46,6 +46,7 @@
         <e><i><s n="px1pl"/></i></e>
         <e><i><s n="px2pl"/></i></e>
         <e><i><s n="px3pl"/></i></e>
+        <e><i></i></e>
       </pardef>
     </pardefs>
 
@@ -104,6 +105,21 @@
 !yaʼ pa qajik:yaʼ pa qaj V-IV ; ! "lend"
 !yaʼ -wiʼ ri kätzijonik:yaʼ -wiʼ ri kätzijon V-IV ; ! "exaggerate"
 -->
+
+        <e lm="kʼul taq ja" c="vecino"><p>
+                <l>kʼul<s n="n"/><s n="px3sg"/><j/>taq<s n="pl"/><j/>ja<s n="n"/></l>
+                <r>kʼul<b/>ja<s n="n"/><s n="pl"/></r>
+            </p><par n="poss"/>
+            <i><j/></i>
+        </e>
+
+        <e lm="kʼul ja" c="vecino"><p>
+                <l>kʼul<s n="n"/><s n="px3sg"/><j/>ja<s n="n"/></l>
+                <r>kʼul<b/>ja<s n="n"/></r>
+            </p><par n="poss"/>
+            <i><j/></i>
+        </e>
+
 
         <e lm="wiʼ ri kowil" c="prepucio"><p>
                 <l>wiʼ<s n="n"/><s n="rel"/><s n="px3sg"/><j/>ri<s n="det"/><j/>kowil<s n="n"/></l>

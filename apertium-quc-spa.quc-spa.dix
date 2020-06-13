@@ -1411,6 +1411,7 @@
 <e><par n="N"/><p><l>juwinaq<s n="n"/></l><r>veinte<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e><par n="N"/><p><l>ikyaqʼabʼ<s n="n"/></l><r>derecha<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>joʼq<s n="n"/></l><r>doblador<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>ikan¹<s n="n"/></l><r>tío<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 
 
       <!-- SECTION: Nombres propios -->
@@ -1641,6 +1642,8 @@
 <e><p><l>nikʼaj<s n="adj"/></l><r>otro<s n="adj"/><s n="ind"/></r></p><par n="GD_ND"/></e>
 <e><p><l>nimalaj<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>chi<s n="adj"/></l><r>solo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>utukel<s n="adj"/></l><r>solo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>utukel<s n="adj"/></l><r>solitario<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>chaqiʼjilaj<s n="adj"/></l><r>seco<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>kyaq<s n="adj"/></l><r>rojo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>kaxlan<s n="adj"/></l><r>extranjero<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -2383,6 +2386,7 @@
 <e><par n="IV"/><p><l>uxlan<s n="v"/><s n="iv"/></l><r>reposar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>xibʼij<s n="v"/><s n="tv"/></l><r>atemorizar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>xibʼin<s n="v"/><s n="iv"/></l><r>atemorizar<s n="vblex"/><s n="pron"/></r></p></e>
+<e><par n="IV"/><p><l>sikʼix<s n="v"/><s n="iv"/></l><r>llamar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>yaj<s n="v"/><s n="iv"/></l><r>regañar<s n="vblex"/></r></p></e>
 
 

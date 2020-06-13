@@ -676,7 +676,7 @@
 <e><p><l>ukaj<s n="num"/><s n="ord"/></l><r>cuarto<s n="adj"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>uroʼ<s n="num"/><s n="ord"/></l><r>quinto<s n="adj"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>uwaqaq<s n="num"/><s n="ord"/></l><r>sexto<s n="adj"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
-<e><p><l>uwaq<s n="num"/><s n="ord"/></l><r>séptimo<s n="adj"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>uwaq<s n="num"/><s n="ord"/></l><r>sexto<s n="adj"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>uwuq<s n="num"/><s n="ord"/></l><r>séptimo<s n="adj"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>uwajxaq<s n="num"/><s n="ord"/></l><r>octavo<s n="adj"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>ubʼelej<s n="num"/><s n="ord"/></l><r>noveno<s n="adj"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -2182,6 +2182,7 @@
 <e><par n="TV"/><p><l>tur<s n="v"/><s n="tv"/></l><r>deshacer<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>taqchiʼj<s n="v"/><s n="tv"/></l><r>convencer<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>kʼatisaj<s n="v"/><s n="tv"/></l><r>encender<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>kʼatisaj<s n="v"/><s n="tv"/></l><r>quemar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>qaj<s n="v"/><s n="tv"/></l><r>alquiler<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>qʼaj<s n="v"/><s n="tv"/></l><r>romper<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>raqij<s n="v"/><s n="tv"/></l><r>romper<s n="vblex"/></r></p></e>

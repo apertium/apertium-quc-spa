@@ -157,7 +157,7 @@
         </e>
 
         <e lm="jas che" c="por qué"><p>
-                <l>jas<s n="prn"/><s n="itg"/><j/>chi<s n="pr"/><j/>re<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><j/></l>
+                <l>jas<s n="prn"/><s n="itg"/><j/>chi<s n="pr"/><j/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><j/></l>
                 <r>jas<b/>che<s n="adv"/><s n="itg"/></r>
             </p>
         </e>
@@ -169,9 +169,8 @@
         </e>
 
 
-
         <e lm="rumal che" c="porque"><p>
-                <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><j/>chi<s n="pr"/><j/>re<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><j/></l>
+                <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><j/>chi<s n="pr"/><j/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><j/></l>
                 <r>rumal<b/>che<s n="cnjadv"/></r>
             </p>
         </e>
@@ -182,13 +181,12 @@
             </p>
         </e>
 
-<!--
         <e lm="rumal rech" c="por cuanto"><p>
                 <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><j/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><j/></l>
                 <r>rumal<b/>rech<s n="cnjadv"/></r>
             </p>
         </e>
--->
+
         <e lm="utz il" c="gustarse"><p>
                 <l>utz<s n="adj"/><j/>il<s n="v"/><s n="tv"/><s n="pass"/></l>
                 <r>utz<b/>il<s n="v"/><s n="iv"/></r>

@@ -29,6 +29,7 @@
       <program name="rtx-proc -a">
         <file name="quc-spa.rtx.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lsx-proc">
         <file name="quc-spa.revautoseq.bin"/>
       </program>

@@ -12,6 +12,9 @@
     <match lemma="kajbʼal" tags="n.*"> <select lemma="tiempo"/> </match>
   </rule>
   <rule>
+    <match lemma="teʼ" tags="adv"> <select lemma="ahora"/> </match>
+  </rule>
+  <rule>
     <match lemma="tuj" tags="n"> <select lemma="temazcal"/> </match>
   </rule>
   <rule>

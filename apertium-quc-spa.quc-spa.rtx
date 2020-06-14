@@ -1584,6 +1584,81 @@
    </action>
   </rule>
 
+  <rule comment="aux v_iv" firstChunk="V">
+   <pattern>
+    <pattern-item n="aux"/>
+    <pattern-item n="v_iv"/>
+   </pattern>
+   <action>
+     <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+     <choose>
+       <when><test><equal><clip pos="2" side="tl" part="a_pred"/><lit-tag v="adj.pred"/></equal></test>
+        <let><clip pos="2" side="tl" part="a_pred"/><lit-tag v="adj"/></let>
+        <call-macro n="f_agr_fin_verb1"><with-param pos="2"/></call-macro>
+        <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+        <let><var n="predAdj"/><concat><clip pos="2" side="tl" part="lem"/>
+                                       <clip pos="2" side="tl" part="a_pred"/><lit-tag v="5.6"/></concat></let>
+        <call-macro n="f_conj_fin_verb1"><with-param pos="2"/></call-macro>
+        <out>
+         <chunk namefrom="chunkName">
+          <tags>
+           <tag><lit-tag v="V.iv"/></tag>
+           <tag><clip pos="2" side="tl" part="a_temps"/></tag>
+           <tag><clip pos="2" side="tl" part="a_pers"/></tag>
+           <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+           <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+          </tags>
+          <var n="negación"/><b/>
+          <lu><lit v="estar"/><lit-tag v="vblex"/><clip pos="2" side="tl" part="a_temps"/><clip pos="2" side="tl" part="a_agr"/></lu><b/>
+          <lu><var n="predAdj"/></lu>
+         </chunk>
+        </out>
+      </when>
+       <when><test><equal><clip pos="2" side="tl" part="a_pron"/><lit-tag v="pron"/></equal></test>
+         <let><clip pos="2" side="tl" part="a_pron"/><lit v=""/></let>
+         <call-macro n="f_gen_ref_pron1"><with-param pos="2"/></call-macro>
+         <call-macro n="f_agr_fin_verb1"><with-param pos="2"/></call-macro>
+         <call-macro n="f_conj_fin_verb1"><with-param pos="2"/></call-macro>
+         <out>
+          <chunk namefrom="chunkName">
+           <tags>
+            <tag><lit-tag v="V.iv"/></tag>
+            <tag><clip pos="2" side="tl" part="a_temps"/></tag>
+            <tag><clip pos="2" side="tl" part="a_pers"/></tag>
+            <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+            <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+           </tags>
+           <var n="negación"/><b/>
+           <lu><lit v="estar"/><clip pos="2" side="tl" part="tags"/></lu><b/>
+           <lu><clip pos="2" side="tl" part="lem"/><lit-tag v="vblex.ger"/></lu>
+           <lu><var n="refPron"/></lu><b/>
+          </chunk>
+        </out>
+      </when>
+      <otherwise> 
+        <call-macro n="f_agr_fin_verb1"><with-param pos="2"/></call-macro>
+        <call-macro n="f_conj_fin_verb1"><with-param pos="2"/></call-macro>
+        <out>
+         <chunk namefrom="chunkName">
+          <tags>
+           <tag><lit-tag v="V.iv"/></tag>
+           <tag><clip pos="2" side="tl" part="tags"/></tag>
+          </tags>
+        <var n="negación"/><b/>
+        <lu><lit v="estar"/><clip pos="2" side="tl" part="tags"/></lu><b/>
+        <lu><clip pos="2" side="tl" part="lemh"/>
+             <lit-tag v="vblex.ger"/>
+            <clip pos="2" side="tl" part="lemq"/></lu>
+         </chunk>
+        </out>
+       </otherwise>
+     </choose>
+      <call-macro n="f_reset_verb1"><with-param pos="1"/></call-macro>
+   </action>
+  </rule>
+
+
+
   <rule comment="v_iv" firstChunk="VI">
    <pattern>
     <pattern-item n="v_iv"/>

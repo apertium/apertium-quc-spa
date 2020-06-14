@@ -7,7 +7,7 @@
         <parameter-item has-tags="sent"/>
     </delimiter>
 
-    <def-parameter n="nom">
+    <def-parameter n="nominal">
       <anaphor>
         <parameter-item has-tags="n"/>
       </anaphor>
@@ -46,7 +46,7 @@
         <pattern-item n="v"/>
       </pattern>
 
-      <score n="+5" parameter="nom"/>
+      <score n="+5" parameter="nominal"/>
     </markable>
   </section-markables>
   

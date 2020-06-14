@@ -394,6 +394,13 @@
      <attr-item tags="pr"/>
     </def-attr>
 
+    <def-attr n="a_phrase">
+     <attr-item tags="SD"/>
+     <attr-item tags="SA"/>
+     <attr-item tags="SN"/>
+     <attr-item tags="SV"/>
+    </def-attr>
+
     <def-attr n="a_pred">
      <attr-item tags="adj.pred"/>
      <attr-item tags="adj"/>
@@ -442,24 +449,43 @@
     </def-macro>
 
     <def-macro n="f_link_concord1" npar="1">
-      <choose>
-        <when><test><not><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sp"/></equal></not></test>
-                    <let><var n="chunkNumero"/><clip pos="1" side="tl" part="a_nbr"/></let>
-                    <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="3"/></let>
+      <!-- If we reached SA and we still don't know the gender, set it to m.sg, until variables work again -->
+      <choose><when><test><equal><clip pos="1" side="tl" part="a_phrase"/><lit-tag v="SA"/></equal></test>
+        <choose>
+            <when><test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="ND"/></equal></test>
+              <let><var n="chunkNumero"/><lit-tag v="sg"/></let>
+            </when>
+        </choose>
+       <choose>
+            <when><test><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="GD"/></equal></test>
+              <let><var n="chunkGenero"/><lit-tag v="m"/></let>
+            </when>
+        </choose>
         </when>
         <otherwise>
-            <let><var n="chunkNumero"/><lit-tag v="ND"/></let><!--<clip pos="1" side="tl" part="a_nbr"/></let>-->
+      <let><var n="chunkNumero"/><lit-tag v="ND"/></let><!--<clip pos="1" side="tl" part="a_nbr"/></let>-->
+      <let><var n="chunkGenero"/><lit-tag v="GD"/></let><!--<clip pos="1" side="tl" part="a_gen"/></let>-->
+          <choose>
+            <when><test><and><not><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sp"/></equal></not>
+                             <not><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="ND"/></equal></not></and></test>
+                        <let><var n="chunkNumero"/><clip pos="1" side="tl" part="a_nbr"/></let>
+                        <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="3"/></let>
+            </when>
+            <when><test><not><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sp"/></equal></not></test>
+                        <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="3"/></let>
+            </when>
+          </choose> 
+          <choose>
+            <when><test><and><not><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mf"/></equal></not>
+                             <not><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="GD"/></equal></not></and></test>
+                        <let><var n="chunkGenero"/><clip pos="1" side="tl" part="a_gen"/></let>
+                        <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="2"/></let>
+            </when>
+                <when><test><not><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mf"/></equal></not></test>
+                        <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="2"/></let></when>
+          </choose> 
         </otherwise>
-      </choose> 
-      <choose>
-        <when><test><not><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mf"/></equal></not></test>
-                    <let><var n="chunkGenero"/><clip pos="1" side="tl" part="a_gen"/></let>
-                    <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="2"/></let>
-        </when>
-        <otherwise>
-             <let><var n="chunkGenero"/><lit-tag v="GD"/></let><!--<clip pos="1" side="tl" part="a_gen"/></let>-->
-        </otherwise>
-      </choose> 
+      </choose>
     </def-macro>
 
     <def-macro n="f_link_concord2" npar="2">
@@ -972,7 +998,7 @@
 
   <rule comment="SN" firstChunk="SN">
    <pattern>
-    <pattern-item n="SA"/>
+    <pattern-item n="A"/>
     <pattern-item n="SN"/>
    </pattern>
    <action>
@@ -995,14 +1021,13 @@
    </action>
   </rule>
 
-
   <rule comment="SA" firstChunk="SA">
    <pattern>
     <pattern-item n="A"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <!--<call-macro n="f_concord1"><with-param pos="1"/></call-macro>-->
       <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
@@ -1016,7 +1041,6 @@
       </out>
    </action>
   </rule>
-
    
 
   <rule comment="Pr SN" firstChunk="SP">
@@ -1370,7 +1394,7 @@
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <!--<call-macro n="f_concord1"><with-param pos="1"/></call-macro>-->
       <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
       <let><clip pos="1" side="tl" part="a_ints"/><lit v=""/></let> <!-- do something better 'muy' -->
       <out>

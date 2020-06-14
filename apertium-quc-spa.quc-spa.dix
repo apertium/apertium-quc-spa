@@ -621,7 +621,7 @@
       <e r="LR"><par n="N"/><p><l>wach<s n="n"/><s n="rel"/></l><r>en<b/>frente<s n="adv"/></r></p></e>
 
       <!-- de -->
-      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/></l><r>a<s n="pr"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/></l><r>para<s n="pr"/></r></p></e>
 
       <!-- UKʼ: con -->
       <e><par n="N"/><p><l>ukʼ<s n="n"/><s n="rel"/></l><r>con<s n="pr"/></r></p></e>
@@ -1866,6 +1866,7 @@
 
       <e><p><l>kʼatekʼuriʼ<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
       <e><p><l>kʼatekʼut<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
+      <e><p><l>kʼatekʼu<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
       <e><p><l>ubʼik<s n="adv"/></l><r>fuera<s n="adv"/></r></p></e>
       <e><p><l>xaq<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
       <e><p><l>xaq<s n="adv"/></l><r>solamente<s n="adv"/></r></p></e>
@@ -2237,12 +2238,12 @@
 <e><par n="IV"/><p><l>an<s n="v"/><s n="iv"/></l><r>correr<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>choman<s n="v"/><s n="iv"/></l><r>pensar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>abʼan<s n="v"/><s n="iv"/></l><r>inventar<s n="vblex"/></r></p></e>
-<e><par n="IV"/><p><l>rapin<s n="v"/><s n="iv"/></l><r>voler<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>rapin<s n="v"/><s n="iv"/></l><r>volar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>atin<s n="v"/><s n="iv"/></l><r>bañar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>tzijon<s n="v"/><s n="iv"/></l><r>hablar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>yuqʼun<s n="v"/><s n="iv"/></l><r>pastorear<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>tzeʼn<s n="v"/><s n="iv"/></l><r>reír<s n="vblex"/><s n="pron"/></r></p></e>
-<e><par n="IV"/><p><l>rapap<s n="v"/><s n="iv"/></l><r>voler<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>rapap<s n="v"/><s n="iv"/></l><r>volar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>muq<s n="v"/><s n="iv"/></l><r>enterrar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>utzir<s n="v"/><s n="iv"/></l><r>mejorar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>kʼis<s n="v"/><s n="iv"/></l><r>acabar<s n="vblex"/></r></p></e>
@@ -2398,10 +2399,13 @@
 <e><par n="IV"/><p><l>uxlan<s n="v"/><s n="iv"/></l><r>descansar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>uxlan<s n="v"/><s n="iv"/></l><r>reposar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>xibʼij<s n="v"/><s n="tv"/></l><r>atemorizar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>xibʼij<s n="v"/><s n="tv"/></l><r>dar<b/>miedo<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>mewaj<s n="v"/><s n="iv"/></l><r>ayunar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>xibʼin<s n="v"/><s n="iv"/></l><r>atemorizar<s n="vblex"/><s n="pron"/></r></p></e>
+<e><par n="IV"/><p><l>xibʼin<s n="v"/><s n="iv"/></l><r>dar<b/>miedo<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>sikʼix<s n="v"/><s n="iv"/></l><r>llamar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>yaj<s n="v"/><s n="iv"/></l><r>regañar<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>paqʼ<s n="v"/><s n="iv"/></l><r>partir<s n="vblex"/></r></p></e>
 
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>

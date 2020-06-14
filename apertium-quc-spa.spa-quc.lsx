@@ -188,6 +188,14 @@
 <p><l>loco<s n="adj"/><s n="m"/><s n="sg"/><j/></l><r></r></p>
         </e>
 
+        <e lm="dar miedo" c=""><p>
+                <l>dar<s n="vblex"/></l>
+                <r>dar<b/>miedo<s n="vblex"/></r>
+            </p>
+   <i><t/><j/></i>
+<p><l>miedo<s n="n"/><s n="m"/><s n="sg"/><j/></l><r></r></p>
+        </e>
+
         <e lm="dar fuerza" c=""><p>
                 <l>dar<s n="vblex"/></l>
                 <r>dar<b/>fuerza<s n="vblex"/></r>

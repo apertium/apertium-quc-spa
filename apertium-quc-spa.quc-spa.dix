@@ -1037,7 +1037,7 @@
 <e><par n="N"/><p><l>laq<s n="n"/></l><r>plato<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>yoqʼonik<s n="n"/></l><r>insulto<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kosik<s n="n"/></l><r>agotamiento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>kosik<s n="n"/></l><r>fatiga<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kosik<s n="n"/></l><r>fatiga<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>etamabʼal<s n="n"/></l><r>conocimiento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kaqiqʼ<s n="n"/></l><r>viento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>aninäqil<s n="n"/></l><r>momento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1420,6 +1420,7 @@
 <e><par n="N"/><p><l>la<s n="n"/></l><r>ortiga<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼuläm<s n="n"/></l><r>cuerda<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>juwinaq<s n="n"/></l><r>veinte<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><par n="N"/><p><l>kawinaq<s n="n"/></l><r>cuarenta<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e><par n="N"/><p><l>ikyaqʼabʼ<s n="n"/></l><r>derecha<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>joʼq<s n="n"/></l><r>doblador<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ikan¹<s n="n"/></l><r>tío<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -2397,6 +2398,7 @@
 <e><par n="IV"/><p><l>uxlan<s n="v"/><s n="iv"/></l><r>descansar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>uxlan<s n="v"/><s n="iv"/></l><r>reposar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>xibʼij<s n="v"/><s n="tv"/></l><r>atemorizar<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>mewaj<s n="v"/><s n="iv"/></l><r>ayunar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>xibʼin<s n="v"/><s n="iv"/></l><r>atemorizar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>sikʼix<s n="v"/><s n="iv"/></l><r>llamar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>yaj<s n="v"/><s n="iv"/></l><r>regañar<s n="vblex"/></r></p></e>

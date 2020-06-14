@@ -156,6 +156,14 @@
 <p><l>gracia<s n="n"/><s n="f"/><s n="pl"/><j/></l><r></r></p>
         </e>
 
+        <e lm="dar la bienvenida" c=""><p>
+                <l>dar<s n="vblex"/></l>
+                <r>dar<b/>la<b/>bienvenida<s n="vblex"/></r>
+            </p>
+   <i><t/><j/></i>
+<p><l>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><j/>bienvenida<s n="n"/><s n="f"/><s n="sg"/><j/></l><r></r></p>
+        </e>
+
         <e lm="dar las gracias" c=""><p>
                 <l>dar<s n="vblex"/></l>
                 <r>dar<b/>las<b/>gracias<s n="vblex"/></r>
@@ -186,6 +194,14 @@
             </p>
    <i><t/><j/></i>
 <p><l>fuerza<s n="n"/><s n="f"/><s n="sg"/><j/></l><r></r></p>
+        </e>
+
+        <e lm="tener hambre" c=""><p>
+                <l>tener<s n="vblex"/></l>
+                <r>tener<b/>hambre<s n="vblex"/></r>
+            </p>
+   <i><t/><j/></i>
+<p><l>hambre<s n="n"/><s n="f"/><s n="sg"/><j/></l><r></r></p>
         </e>
 
         <e lm="tener paciencia" c=""><p>

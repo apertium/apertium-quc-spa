@@ -1208,7 +1208,8 @@
 <e><par n="N"/><p><l>jatʼibʼal<s n="n"/></l><r>cadena<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>jatʼim<s n="n"/></l><r>amarrador<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ajkʼay<s n="n"/></l><r>vendedor<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>kotzʼiʼj<s n="n"/></l><r>flor<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kotzʼiʼj<s n="n"/></l><r>flor<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>siʼjal<s n="n"/></l><r>flor<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>tataʼ<s n="n"/></l><r>señor<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>maltyox<s n="n"/></l><r>gracia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e><par n="N"/><p><l>sakʼ<s n="n"/></l><r>saltamontes<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
@@ -1660,6 +1661,7 @@
 <e><p><l>kyaq<s n="adj"/></l><r>rojo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>kaxlan<s n="adj"/></l><r>extranjero<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>nim<s n="adj"/></l><r>grande<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>mayabʼ<s n="adj"/></l><r>maya<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>rax<s n="adj"/></l><r>verde<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>kʼokʼ<s n="adj"/></l><r>fragrante<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>kʼokʼ<s n="adj"/></l><r>aromático<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -1869,6 +1871,8 @@
       <e><p><l>kʼatekʼu<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
       <e><p><l>ubʼik<s n="adv"/></l><r>fuera<s n="adv"/></r></p></e>
       <e><p><l>xaq<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
+      <e><p><l>xu<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
+      <e><p><l>xu<s n="adv"/></l><r>únicamente<s n="adv"/></r></p></e>
       <e><p><l>xaq<s n="adv"/></l><r>solamente<s n="adv"/></r></p></e>
       <e><p><l>aretaq<s n="adv"/></l><r>mientras<s n="adv"/></r></p></e>
       <e><p><l>xuqujʼe<s n="adv"/></l><r>también<s n="adv"/></r></p></e>

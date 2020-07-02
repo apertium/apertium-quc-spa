@@ -7,6 +7,7 @@
         <sdef n="iv"/>
         <sdef n="px1sg"/>
         <sdef n="vblex"/>
+        <sdef n="neg"/>
         <sdef n="imp"/>
         <sdef n="ref"/>
         <sdef n="ij"/>
@@ -54,29 +55,29 @@
 <!--chipaqʼij chi chaqʼabʼ = de día y de noche-->
 <!-- qʼax pa -jolom (v) to understand -->
 <!--siwan tinimit = habitantes de un lugar -->
-<!--       4 		 nak’ut: pues -->
-<!--       2 		 xoquje’ ejeri’ nak’ut: de la misma manera -->
-<!--       2 		 qastzij nak’ut: en efecto -->
-<!--       1 		 xoquje’ nak’ut: así también -->
-<!--       1 		 xa jeri’ nak’ut: así -->
-<!--       1 		 xa jek’uri’: entonces -->
-<!--       1 		 xa jek’uri’: así que -->
-<!--       1 		 tzij nak’ut: ciertamente -->
-<!--       1 		 rumal nak’ut che: porque así como -->
-<!--       1 		 qastzij nak’ut: en todo caso -->
-<!--       1 		 qastzij nak’ut: de hecho -->
-<!--       1 		 qastzij nak’ut: ciertamente -->
-<!--       1 		 qastzij nak’ut: aunque -->
-<!--       1 		 qastzij nak’ut: ahora bien -->
-<!--       1 		 jeri’ nak’ut: y así -->
-<!--       1 		 jeri’ nak’ut: por tanto -->
-<!--       1 		 jeri’ nak’ut: por lo tanto -->
-<!--       1 		 jeri’ nak’ut: en efecto -->
-<!--       1 		 jeri’ nak’ut: como -->
-<!--       1 		 jeri’ nak’ut: así que -->
-<!--       1 		 jeri’ nak’ut: así como -->
-<!--       1 		 je’ nak’ut: ciertamente -->
-<!--       1 		 chuwach nak’ut weri’: por lo tanto -->
+<!--       4 		 nakʼut: pues -->
+<!--       2 		 xoqujeʼ ejeriʼ nakʼut: de la misma manera -->
+<!--       2 		 qastzij nakʼut: en efecto -->
+<!--       1 		 xoqujeʼ nakʼut: así también -->
+<!--       1 		 xa jeriʼ nakʼut: así -->
+<!--       1 		 xa jekʼuriʼ: entonces -->
+<!--       1 		 xa jekʼuriʼ: así que -->
+<!--       1 		 tzij nakʼut: ciertamente -->
+<!--       1 		 rumal nakʼut che: porque así como -->
+<!--       1 		 qastzij nakʼut: en todo caso -->
+<!--       1 		 qastzij nakʼut: de hecho -->
+<!--       1 		 qastzij nakʼut: ciertamente -->
+<!--       1 		 qastzij nakʼut: aunque -->
+<!--       1 		 qastzij nakʼut: ahora bien -->
+<!--       1 		 jeriʼ nakʼut: y así -->
+<!--       1 		 jeriʼ nakʼut: por tanto -->
+<!--       1 		 jeriʼ nakʼut: por lo tanto -->
+<!--       1 		 jeriʼ nakʼut: en efecto -->
+<!--       1 		 jeriʼ nakʼut: como -->
+<!--       1 		 jeriʼ nakʼut: así que -->
+<!--       1 		 jeriʼ nakʼut: así como -->
+<!--       1 		 jeʼ nakʼut: ciertamente -->
+<!--       1 		 chuwach nakʼut weriʼ: por lo tanto -->
 <!-- e pa ukʼabʼ : pero -->
 <!--
 !charchatej ubik:charchatej ub V-IV ; ! "drag away (child who doesnʼt want to go)"
@@ -159,6 +160,13 @@
                 <r>xaq<b/>wuj<s n="n"/></r>
             </p>
         </e>
+
+        <e lm="xa ta neʼ" c="subsuelo"><p>
+                <l>xa<s n="adv"/><j/>taj<s n="neg"/><j/>neʼ<s n="n"/><j/></l>
+                <r>xa<b/>ta<b/>neʼ<s n="cnjsub"/></r>
+            </p>
+        </e>
+
 
         <e lm="xeʼ ja" c="subsuelo"><p>
                 <l>xeʼ<s n="n"/><t/><j/>ja<s n="n"/><j/></l>

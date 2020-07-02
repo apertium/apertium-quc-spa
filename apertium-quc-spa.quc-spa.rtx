@@ -474,6 +474,7 @@
        <chunk name="n">
         <tags>
          <tag><lit-tag v="SN"/></tag>
+         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>
@@ -488,10 +489,12 @@
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="2"/></let>
       <out>
        <chunk name="n">
         <tags>
          <tag><lit-tag v="N"/></tag>
+         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>

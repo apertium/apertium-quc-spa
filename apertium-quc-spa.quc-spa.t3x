@@ -8,6 +8,12 @@
   </section-def-cats>
 
   <section-def-attrs>
+    <def-attr n="a_nbr">
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+    </def-attr>
     <def-attr n="a_gen">
       <attr-item tags="mf"/>
       <attr-item tags="GD"/>
@@ -30,6 +36,16 @@
             <lit-tag v="m"/>
           </let></when>
       </choose>
+<!--
+      <choose>
+        <when><test><equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="ND"/></equal></test>
+          <let>
+            <clip pos="1" side="sl" part="a_nbr"/>
+            <lit-tag v="sg"/>
+          </let></when>
+      </choose>-->
+
+
     </def-macro>
 
   </section-def-macros>

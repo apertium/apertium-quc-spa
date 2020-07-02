@@ -224,6 +224,11 @@
 
     <!-- Syntactic phrases -->
 
+    <def-cat n="V-TV">
+      <cat-item tags="V.tv.*"/>
+      <cat-item tags="V.tv"/>
+    </def-cat>
+
     <def-cat n="SA">
       <cat-item tags="SA.*"/>
       <cat-item tags="SA"/>
@@ -237,6 +242,12 @@
     <def-cat n="Pr">
       <cat-item tags="Pr.*"/>
       <cat-item tags="Pr"/>
+    </def-cat>
+
+
+    <def-cat n="SV">
+      <cat-item tags="SV.*"/>
+      <cat-item tags="SV"/>
     </def-cat>
 
 
@@ -294,11 +305,18 @@
      <attr-item tags="p3"/>
     </def-attr>
 
-    <def-attr n="a_nbr">
+    <def-attr n="a_nbr_sp">
      <attr-item tags="ND"/>
      <attr-item tags="sg"/>
      <attr-item tags="pl"/>
      <attr-item tags="sp"/>
+    </def-attr>
+
+
+    <def-attr n="a_nbr">
+     <attr-item tags="ND"/>
+     <attr-item tags="sg"/>
+     <attr-item tags="pl"/>
     </def-attr>
 
     <def-attr n="a_agr_obj">
@@ -437,18 +455,142 @@
 
     <def-macro n="f_set_chunk_name1" npar="1">  
       <choose>
-      <when><test><equal><clip pos="1" side="tl" part="lem"/><lit v=""/></equal></test>
-        <let><var n="chunkName"/><clip pos="1" side="sl" part="lem"/></let></when>
-      <otherwise>
-        <let><var n="chunkName"/><clip pos="1" side="tl" part="lem"/></let>
-      </otherwise>
+        <when><test><equal><clip pos="1" side="tl" part="lem"/><lit v=""/></equal></test>
+              <let><var n="chunkName"/><clip pos="1" side="sl" part="lem"/></let></when>
+        <otherwise>
+               <let><var n="chunkName"/><clip pos="1" side="tl" part="lem"/></let>
+        </otherwise>
       </choose>
       <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
     </def-macro>
 
+    <def-macro n="f_concord1" npar="1">
+      <let><var n="chunkGenero"/><clip pos="1" side="tl" part="a_gen"/></let>
+      <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="2"/></let>
+      <let><var n="chunkNumero"/><clip pos="1" side="tl" part="a_nbr"/></let>
+      <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="3"/></let>
+    </def-macro>
+
+    <def-macro n="f_concord2" npar="2">
+      <!-- pos 1: head, pos 2: dependent -->
+      <choose> <!-- When the head is m/f and the dependent is GD, let the gender of the dependent be that of the head -->
+        <when><test><and><equal><clip pos="2" side="tl" part="a_gen_mf"/><lit-tag v="GD"/></equal>
+                         <!--<not><equal><clip pos="1" side="tl" part="a_gen_mf"/><lit-tag v="GD"/></equal></not>-->
+                         <not><equal><clip pos="1" side="tl" part="a_gen_mf"/><lit-tag v="mf"/></equal></not></and></test>
+        <let><clip pos="2" side="tl" part="a_gen_mf"/><lit-tag v="2"/></let></when><!--<clip pos="1" side="tl" part="a_gen_mf"/>-->
+      </choose> 
+      <choose> <!-- When the head is sg/pl and the dependent is ND, let the gender of the dependent be that of the head -->
+        <when><test><and><equal><clip pos="2" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal>
+                         <!--<not><equal><clip pos="1" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal></not>-->
+                         <not><equal><clip pos="1" side="tl" part="a_nbr_sp"/><lit-tag v="sp"/></equal></not></and></test>
+        <let><clip pos="2" side="tl" part="a_nbr_sp"/><lit-tag v="3"/></let></when><!--<clip pos="1" side="tl" part="a_nbr_sp"/>-->
+      </choose> 
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+    </def-macro>
+
+    <def-macro n="f_concord_obj2" npar="2">
+      <!-- Concord an object with its verb -->
+      <choose>
+        <when><test><and><equal><clip pos="2" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal>
+                         <or><equal><clip pos="1" side="tl" part="a_agr_obj"/><lit-tag v="o_sg1"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_obj"/><lit-tag v="o_sg2"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_obj"/><lit-tag v="o_sg3"/></equal></or></and></test>
+        <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sg"/></let></when>
+        <when><test><and><equal><clip pos="2" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal>
+                         <or><equal><clip pos="1" side="tl" part="a_agr_obj"/><lit-tag v="o_pl1"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_obj"/><lit-tag v="o_pl2"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_obj"/><lit-tag v="o_pl3"/></equal></or></and></test>
+        <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="pl"/></let></when>
+      </choose> 
+    </def-macro>
+
+    <def-macro n="f_concord_subj2" npar="2">
+      <!-- Concord an subject with its verb -->
+      <choose>
+        <when><test><and><equal><clip pos="2" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal>
+                         <or><equal><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="s_sg1"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="s_sg2"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="s_sg3"/></equal></or></and></test>
+        <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sg"/></let></when>
+        <when><test><and><equal><clip pos="2" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal>
+                         <or><equal><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="s_pl1"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="s_pl2"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="s_pl3"/></equal></or></and></test>
+        <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="pl"/></let></when>
+      </choose> 
+    </def-macro>
+
+
   </section-def-macros>
 
   <section-rules>
+
+
+  <rule comment="SD SV" firstChunk="S">
+   <pattern>
+    <pattern-item n="SD"/>
+    <pattern-item n="SV"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_concord_subj2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="S.tv"/></tag>
+         <tag><clip pos="2" side="sl" part="a_agr_subj"/></tag>
+         <tag><clip pos="2" side="sl" part="a_agr_obj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="V-TV SD" firstChunk="SV">
+   <pattern>
+    <pattern-item n="V-TV"/>
+    <pattern-item n="SD"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord_obj2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SV.tv"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_subj"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_obj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="v_tv" firstChunk="V">
+   <pattern>
+    <pattern-item n="v_tv"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="V.tv"/></tag>
+         <tag><clip pos="1" side="sl" part="a_agr_subj"/></tag>
+         <tag><clip pos="1" side="sl" part="a_agr_obj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
 
   <rule comment="det_def SN" firstChunk="SD">
    <pattern>
@@ -457,10 +599,13 @@
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
       <out>
-       <chunk name="def_n">
+       <chunk namefrom="chunkName">
         <tags>
          <tag><lit-tag v="SD"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
         <b/>
@@ -477,10 +622,7 @@
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <let><var n="chunkGenero"/><clip pos="1" side="tl" part="a_gen"/></let>
-      <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="2"/></let>
-      <let><var n="chunkNumero"/><clip pos="1" side="tl" part="a_nbr"/></let>
-      <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="3"/></let>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
       <out>
        <chunk name="n">
         <tags>
@@ -501,10 +643,7 @@
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <let><var n="chunkGenero"/><clip pos="1" side="tl" part="a_gen"/></let>
-      <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="2"/></let>
-      <let><var n="chunkNumero"/><clip pos="1" side="tl" part="a_nbr"/></let>
-      <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="3"/></let>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
       <out>
        <chunk name="n">
         <tags>

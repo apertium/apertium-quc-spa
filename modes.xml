@@ -29,6 +29,10 @@
       <program name="rtx-proc -a">
         <file name="quc-spa.rtx.bin"/>
       </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-quc-spa.quc-spa.t3x"/>
+        <file name="quc-spa.t3x.bin"/>
+      </program>
       <program name="apertium-posttransfer"/>
       <program name="lsx-proc">
         <file name="quc-spa.revautoseq.bin"/>
@@ -248,6 +252,40 @@
     </pipeline>
   </mode>
 
+  <mode name="quc-spa-postchunk">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="quc-spa.automorf.hfst"/>
+      </program>
+
+      <program name="cg-proc -w -1 -n">
+        <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc">
+        <file name="quc-spa.autoseq.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="quc-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="quc-spa.autolex.bin"/>
+      </program>
+      <program name="apertium-anaphora">
+        <file name="apertium-quc-spa.quc-spa.arx"/>
+      </program>
+
+      <program name="rtx-proc -a">
+        <file name="quc-spa.rtx.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-quc-spa.quc-spa.t3x"/>
+        <file name="quc-spa.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
 
   <mode name="quc-spa-pregen">
     <pipeline>
@@ -274,6 +312,10 @@
 
       <program name="rtx-proc -a">
         <file name="quc-spa.rtx.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-quc-spa.quc-spa.t3x"/>
+        <file name="quc-spa.t3x.bin"/>
       </program>
       <program name="lsx-proc">
         <file name="quc-spa.revautoseq.bin"/>
@@ -312,6 +354,10 @@
 
       <program name="rtx-proc -a">
         <file name="quc-spa.rtx.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-quc-spa.quc-spa.t3x"/>
+        <file name="quc-spa.t3x.bin"/>
       </program>
       <program name="lsx-proc" debug-suff="revautoseq">
         <file name="quc-spa.revautoseq.bin"/>

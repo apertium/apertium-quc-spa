@@ -20,6 +20,7 @@ TARGETS_COMMON =		\
 	$(PREFIX1).autoseq.bin	\
 	$(PREFIX1).revautoseq.bin	\
 	$(PREFIX1).rtx.bin	\
+	$(PREFIX1).t3x.bin	\
 	$(PREFIX2).automorf.bin	\
 	$(PREFIX2).prob		\
 	$(PREFIX2).rlx.bin	\
@@ -153,6 +154,11 @@ $(PREFIX2).revautoseq.bin: $(BASENAME).$(PREFIX1).lsx
 
 $(PREFIX1).rtx.bin: $(BASENAME).$(PREFIX1).rtx
 	trx-comp $@ $<
+
+$(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
+	apertium-validate-transfer $<
+	apertium-preprocess-transfer $< $@
+
 
 #$(PREFIX2).rtx.bin: $(BASENAME).$(PREFIX2).rtx
 #	trx-comp $< $@

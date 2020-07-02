@@ -269,8 +269,15 @@
      <attr-item tags="GD"/>
      <attr-item tags="m"/>
      <attr-item tags="f"/>
+    </def-attr>
+
+    <def-attr n="a_gen_mf">
+     <attr-item tags="GD"/>
+     <attr-item tags="m"/>
+     <attr-item tags="f"/>
      <attr-item tags="mf"/>
     </def-attr>
+
   
     <def-attr n="a_poss">
      <attr-item tags="px1sg"/>
@@ -470,6 +477,8 @@
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <let><var n="chunkGenero"/><clip pos="1" side="tl" part="a_gen"/></let>
+      <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="2"/></let>
       <out>
        <chunk name="n">
         <tags>
@@ -489,12 +498,13 @@
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <let><var n="chunkGenero"/><clip pos="1" side="tl" part="a_gen"/></let>
       <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="2"/></let>
       <out>
        <chunk name="n">
         <tags>
          <tag><lit-tag v="N"/></tag>
-         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+         <tag><var n="chunkGenero"/></tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>

@@ -464,7 +464,25 @@
   </rule>
 
 
-  <rule comment="n" firstChunk="SN">
+  <rule comment="N" firstChunk="SN">
+   <pattern>
+    <pattern-item n="N"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk name="n">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="n" firstChunk="N">
    <pattern>
     <pattern-item n="n"/>
    </pattern>
@@ -473,7 +491,7 @@
       <out>
        <chunk name="n">
         <tags>
-         <tag><lit-tag v="SN"/></tag>
+         <tag><lit-tag v="N"/></tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>

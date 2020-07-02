@@ -10,6 +10,14 @@
       <cat-item tags="n"/>
     </def-cat>
 
+    <def-cat n="det_def">
+      <cat-item lemma="ri" tags="det.*"/>
+      <cat-item lemma="ri" tags="det"/>
+      <cat-item lemma="le" tags="det.*"/>
+      <cat-item lemma="le" tags="det"/>
+      <cat-item lemma="we" tags="det.*"/>
+      <cat-item lemma="we" tags="det"/>
+    </def-cat>
     <def-cat n="det">
       <cat-item tags="det.*"/>
       <cat-item tags="det"/>
@@ -434,6 +442,44 @@
   </section-def-macros>
 
   <section-rules>
+
+  <rule comment="det_def SN" firstChunk="SD">
+   <pattern>
+    <pattern-item n="det_def"/>
+    <pattern-item n="SN"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk name="def_n">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="n" firstChunk="SN">
+   <pattern>
+    <pattern-item n="n"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk name="n">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
 
 
   <rule comment="sent" firstChunk="Punct">

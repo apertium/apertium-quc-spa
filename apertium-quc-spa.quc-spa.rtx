@@ -444,11 +444,18 @@
     <!-- "Anaphora tracking": Last seen values must be m/f sg/pl -->
     <def-var n="genero"/>
     <def-var n="numero"/>
+
+    <!-- !!!! Verb chunk internal !!!! -->
     <!-- Chunk values, can be GD/ND -->
     <def-var n="chunkGenero"/>
     <def-var n="chunkNumero"/>
     <!-- Name of the current chunk -->
     <def-var n="chunkName"/>
+    <!-- Chunk agreement -->
+    <def-var n="chunkAgrObj"/>
+    <def-var n="chunkAgrSubj"/>
+    <!-- Negation -->
+    <def-var n="negación"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -520,6 +527,64 @@
       </choose> 
     </def-macro>
 
+    <def-macro n="f_agr_fin_verb1" npar="1">
+        <choose><when><test><and><equal><clip pos="1" side="tl" part="a_inv"/><lit-tag v="inv"/></equal>
+                                 <not><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit v=""/></equal></not></and></test>
+                      <let><var n="chunkAgrSubj"/><clip pos="1" side="sl" part="a_agr_obj"/></let> <!-- prol doesn't work -->
+                      <let><var n="chunkAgrObj"/><clip pos="1" side="sl" part="a_agr_subj"/></let>
+                      <choose>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_sg1"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.sg"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_sg2"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.sg"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_sg3"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.sg"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_pl1"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.pl"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_pl2"/></equal></test>
+                                    <!--<let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.pl"/></let></when>-->
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.pl"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_pl3"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.pl"/></let></when>
+                      </choose>
+                </when>
+                <otherwise>
+                      <let><var n="chunkAgrObj"/><clip pos="1" side="sl" part="a_agr_obj"/></let>
+                      <let><var n="chunkAgrSubj"/><clip pos="1" side="sl" part="a_agr_subj"/></let>
+                      <choose>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg1"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.sg"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg2"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.sg"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg3"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.sg"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl1"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.pl"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl2"/></equal></test>
+                                    <!--<let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p2.pl"/></let></when>-->
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.pl"/></let></when>
+                        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl3"/></equal></test>
+                                    <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p3.pl"/></let></when>
+                      </choose>
+                </otherwise>
+      </choose>
+      <let><clip pos="1" side="tl" part="a_inv"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_agr_obj"/><lit v=""/></let>
+    </def-macro>
+
+    <def-macro n="f_conj_fin_verb1" npar="1"> <!-- Do something with determiners -->
+      <choose>
+        <when><test><equal><clip pos="1" side="sl" part="a_asp"/><lit-tag v="impf"/></equal></test>
+                    <let><clip pos="1" side="tl" part="a_asp"/><lit-tag v="pri"/></let></when>
+        <when><test><equal><clip pos="1" side="sl" part="a_asp"/><lit-tag v="perf"/></equal></test>
+                    <let><clip pos="1" side="tl" part="a_asp"/><lit-tag v="ifi"/></let></when>
+        <when><test><equal><clip pos="1" side="sl" part="a_imp"/><lit-tag v="imp.neg"/></equal></test>
+                    <let><var n="negación"/><concat><lit v="no"/><lit-tag v="adv"/></concat></let>
+                    <let><clip pos="1" side="tl" part="a_imp"/><lit-tag v="prs"/></let></when>
+      </choose>
+      <let><clip pos="1" side="tl" part="a_mov"/><lit v=""/></let>
+    </def-macro>
+
 
   </section-def-macros>
 
@@ -579,12 +644,14 @@
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
          <tag><lit-tag v="V.tv"/></tag>
-         <tag><clip pos="1" side="sl" part="a_agr_subj"/></tag>
-         <tag><clip pos="1" side="sl" part="a_agr_obj"/></tag>
+         <tag><var n="chunkAgrSubj"/></tag>
+         <tag><var n="chunkAgrObj"/></tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>

@@ -2,75 +2,78 @@
 <rules>
 <!--ixim ulew = tierra dura-->
 
-  <rule><!--ukʼojol ri kʼaslik Dyos-->
+  <rule weight="1.0"><!--ukʼojol ri kʼaslik Dyos-->
     <match lemma="kʼojolaxel" tags="n.*"> <select lemma="hijo" tags="n.*"/> </match>
     <match/> <match lemma="kʼaslik"/>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <or><match lemma="opanik"/><match lemma="kʼatekʼut"/></or>
     <match/>
     <match lemma="kajbʼal" tags="n.*"> <select lemma="tiempo"/> </match>
   </rule>
-  <rule>
+  <rule weight="1.0">
+    <match lemma="ech" tags="n.*"> <select lemma="a"/></match>
+  </rule>
+  <rule weight="1.0">
     <match lemma="komon" tags="n"> <select lemma="comunidad"/></match>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <match lemma="teʼ" tags="adv"> <select lemma="ahora"/> </match>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <match lemma="tuj" tags="n"> <select lemma="temazcal"/> </match>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <match lemma="kux" tags="n.px3sg"> <select lemma="talón"/> </match>
     <match lemma="aqan"/>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <match lemma="kʼaslik" tags="adj"> <select lemma="viviente"/> </match>
     <match lemma="dyos"/>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <match lemma="polow" tags="n"> <select lemma="mar"/> </match>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <match lemma="kʼojolaxel" tags="n.*"> <select lemma="hijo"/> </match>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <match lemma="nan²" tags="n.*"> <select lemma="madre"/> </match>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <match lemma="cheʼ" tags="n"> <select lemma="árbol"/> </match>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <match lemma="majij" tags="v.*"> <select lemma="comenzar"/> </match>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <match lemma="tzij"> <select lemma="palabra"/> </match>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <match lemma="tzij" tags="n.*"> <select lemma="palabra"/> </match>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <match lemma="chʼichʼ" tags="n"> <select lemma="coche"/> </match>
   </rule>
-  <rule>
+  <rule weight="1.0">
     <match lemma="Luʼ" tags="np.*"> <select lemma="Pedro"/> </match>
   </rule>
-  <rule><!-- taq we tzij ri’ -->
+  <rule weight="1.0"><!-- taq we tzij ri’ -->
     <match lemma="taq"/>
     <match/>
     <match lemma="tzij"> <select lemma="palabra" tags="n.*"/> </match>
   </rule>
-  <rule><!-- Ri Utzij ri Ajawxel -->
+  <rule weight="1.0"><!-- Ri Utzij ri Ajawxel -->
     <match lemma="tzij"> <select lemma="palabra" tags="n.*"/> </match>
     <match/>
     <match lemma="Ajawaxel"/>
   </rule>
-  <rule><!-- ri utoqʼobʼ ri Ajawxel  -->
+  <rule weight="1.0"><!-- ri utoqʼobʼ ri Ajawxel  -->
     <match lemma="toqʼobʼ"> <select lemma="gracia" tags="n.*"/> </match>
     <match/>
     <match lemma="Ajawaxel"/>
   </rule>
-  <rule><!-- sipanik ri Ajawaxel -->
+  <rule weight="1.0"><!-- sipanik ri Ajawaxel -->
     <match lemma="sipanik"> <select lemma="gracia" tags="n.*"/> </match>
     <match/>
     <match lemma="Ajawaxel"/>

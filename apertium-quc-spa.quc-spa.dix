@@ -540,8 +540,9 @@
 
 <e><p><l>amen<s n="ij"/></l><r>amén<s n="ij"/></r></p></e>
 <e><p><l>ay<s n="ij"/></l><r>ay<s n="ij"/></r></p></e>
-<e><p><l>jat<s n="ij"/></l><r>fuera<s n="adv"/></r></p></e>
-<e><p><l>jat<s n="ij"/></l><r>váyanse<s n="ij"/></r></p></e>
+<!--<e><p><l>jat<s n="ij"/></l><r>fuera<s n="adv"/></r></p></e>-->
+<!--<e><p><l>jat<s n="ij"/></l><r>váyanse<s n="ij"/></r></p></e>-->
+<e><p><l>jat<s n="ij"/></l><r>vete<s n="ij"/></r></p></e>
 <e><p><l>aaa<s n="ij"/></l><r>ah<s n="ij"/></r></p></e>
 <e><p><l>bʼaʼ<s n="mod"/></l><r></r></p></e> <!-- qué es eso? -->
 
@@ -631,6 +632,7 @@
 
       <!-- de -->
       <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/></l><r>para<s n="pr"/></r></p></e>
+      <e r="LR"><par n="N"/><p><l>ech<s n="n"/><s n="rel"/></l><r>a<s n="pr"/></r></p></e>
 
       <!-- UKʼ: con -->
       <e><par n="N"/><p><l>ukʼ<s n="n"/><s n="rel"/></l><r>con<s n="pr"/></r></p></e>
@@ -1846,6 +1848,7 @@
 <e><par n="N"/><p><l>wonobʼam<s n="adj"/></l><r>abandonado<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼatom<s n="adj"/></l><r>cortar<s n="vblex"/><s n="pp"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼän<s n="adj"/></l><r>amarillo<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>qʼeqqʼoj<s n="adj"/></l><r>prieto<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>mebʼaʼ<s n="adj"/></l><r>huérfano<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chaʼtal<s n="adj"/></l><r>elegir<s n="vblex"/><s n="pp"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 
@@ -1957,6 +1960,8 @@
       <e><par n="IV"/><p><l>kowin<s n="v"/><s n="iv"/></l><r>poder<s n="vbmod"/></r></p></e>
 
       <e><par n="TV"/><p><l>kʼut<s n="v"/><s n="tv"/></l><r>enseñar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>kol<s n="v"/><s n="tv"/></l><r>sanar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>kol<s n="v"/><s n="tv"/></l><r>salvar<s n="vblex"/></r></p></e>
       <e><par n="TV"/><p><l>il<s n="v"/><s n="tv"/></l><r>ver<s n="vblex"/></r></p></e>
       <e><par n="TV"/><p><l>ya<s n="v"/><s n="tv"/></l><r>dar<s n="vblex"/></r></p></e>
       <e><par n="TV"/><p><l>ya<s n="v"/><s n="tv"/></l><r>permitir<s n="vblex"/></r></p></e>

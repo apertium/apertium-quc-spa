@@ -230,11 +230,6 @@
       <cat-item tags="A.*"/>
       <cat-item tags="A"/>
     </def-cat>
-    
-    <def-cat n="Dem.@det">
-      <cat-item tags="Dem.@det.*"/>
-      <cat-item tags="Dem.@det"/>
-    </def-cat>
 
     <!-- Syntactic phrases -->
 

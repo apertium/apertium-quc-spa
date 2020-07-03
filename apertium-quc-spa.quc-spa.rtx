@@ -717,6 +717,30 @@
   <section-rules>
 
 
+  <rule comment="SV SD" firstChunk="S">
+   <pattern>
+    <pattern-item n="SV"/>
+    <pattern-item n="SD"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord_subj2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="S.tv"/></tag>
+         <tag><clip pos="1" side="sl" part="a_agr_subj"/></tag>
+         <tag><clip pos="1" side="sl" part="a_agr_obj"/></tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
   <rule comment="SD SV" firstChunk="S">
    <pattern>
     <pattern-item n="SD"/>

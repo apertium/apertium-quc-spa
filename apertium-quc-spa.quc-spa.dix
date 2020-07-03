@@ -534,7 +534,7 @@
 <e><p><l>jat<s n="ij"/></l><r>fuera<s n="adv"/></r></p></e>
 <e><p><l>jat<s n="ij"/></l><r>váyanse<s n="ij"/></r></p></e>
 <e><p><l>aaa<s n="ij"/></l><r>ah<s n="ij"/></r></p></e>
-<e><p><l>bʼaʼ<s n="ij"/></l><r></r></p></e> <!-- qué es eso? -->
+<e><p><l>bʼaʼ<s n="mod"/></l><r></r></p></e> <!-- qué es eso? -->
 
       <!-- SECTION: Conjunciones -->
 
@@ -806,6 +806,7 @@
       <e><par n="N"/><p><l>kʼulel<s n="n"/></l><r>enemigo<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>itzel<s n="n"/></l><r>mal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>aqil<s n="n"/></l><r>mal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>kʼax<s n="n"/></l><r>mal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>aqil<s n="n"/></l><r>malo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chʼumilal<s n="n"/></l><r>destino<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>lemoʼ<s n="n"/></l><r>espejo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -2389,6 +2390,7 @@
 <!--<e><par n="IV"/><p><l>chojoj<s n="v"/><s n="iv"/></l><r>@<s n="vblex"/></r></p></e>-->
 <e><par n="TV"/><p><l>chʼay<s n="v"/><s n="tv"/></l><r>pegar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>chʼij<s n="v"/><s n="tv"/></l><r>obligar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>chʼij<s n="v"/><s n="tv"/></l><r>sufrir<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>jol<s n="v"/><s n="tv"/></l><r>quitar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>keʼj<s n="v"/><s n="tv"/></l><r>moler<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>keʼn<s n="v"/><s n="iv"/></l><r>moler<s n="vblex"/></r></p></e>

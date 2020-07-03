@@ -1016,6 +1016,7 @@
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_poss_to_pron1"><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
@@ -1023,6 +1024,8 @@
          <tag> <clip pos="1" side="sl" part="tags"/> </tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <var n="prepPron"/>
        </chunk>
       </out>
    </action>

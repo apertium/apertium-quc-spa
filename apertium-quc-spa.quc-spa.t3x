@@ -2,6 +2,12 @@
 <!-- -*- nxml -*- -->
 <transfer>
   <section-def-cats>
+    <def-cat n="con">
+      <cat-item lemma="con" tags="pr"/>
+    </def-cat>
+    <def-cat n="ti">
+      <cat-item lemma="ti" tags="prn.*"/>
+    </def-cat>
     <def-cat n="default">
       <cat-item tags="*"/>
     </def-cat>
@@ -52,6 +58,19 @@
 
 
   <section-rules>
+
+    <rule comment="">
+      <pattern>
+        <pattern-item n="con"/>
+        <pattern-item n="ti"/>
+      </pattern>
+      <action>
+        <out>
+          <lu><get-case-from pos="1"><lit v="contigo"/></get-case-from><lit-tag v="prn.tn.p2.mf.sg"/></lu>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="">
       <pattern>

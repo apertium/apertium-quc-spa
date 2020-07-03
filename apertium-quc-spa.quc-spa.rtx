@@ -198,11 +198,6 @@
       <cat-item tags="Cog"/>
     </def-cat>
 
-    <def-cat n="Ant">
-      <cat-item tags="Ant.*"/>
-      <cat-item tags="Ant"/>
-    </def-cat>
-
     <def-cat n="Det">
       <cat-item tags="Det.*"/>
       <cat-item tags="Det"/>
@@ -284,6 +279,10 @@
     <def-cat n="Pl">
       <cat-item tags="Pl.*"/>
       <cat-item tags="Pl"/>
+    </def-cat>
+
+    <def-cat n="Ant">
+      <cat-item lemma="ant" tags="SD.*"/>
     </def-cat>
 
     <def-cat n="SD">
@@ -973,6 +972,49 @@
         <tags>
          <tag><lit-tag v="Pr"/></tag>
          <tag> <clip pos="1" side="sl" part="tags"/> </tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="np_ant Ant" firstChunk="SD">
+   <pattern>
+    <pattern-item n="np_ant"/>
+    <pattern-item n="Ant"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk name="ant">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+         <tag><lit-tag v="sg"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+
+  <rule comment="np_ant" firstChunk="SD">
+   <pattern>
+    <pattern-item n="np_ant"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk name="ant">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="1" side="sl" part="a_gen"/></tag>
+         <tag><lit-tag v="sg"/></tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>

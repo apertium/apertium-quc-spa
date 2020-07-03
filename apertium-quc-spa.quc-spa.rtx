@@ -278,11 +278,6 @@
       <cat-item tags="SN"/>
     </def-cat>
 
-    <def-cat n="SDPsor">
-      <cat-item tags="SD.*.px3sg"/>
-      <cat-item tags="SD.*.px3sg"/>
-    </def-cat>
-
     <def-cat n="Pl">
       <cat-item tags="Pl.*"/>
       <cat-item tags="Pl"/>
@@ -296,6 +291,15 @@
       <cat-item tags="SD.*"/>
       <cat-item tags="SD"/>
     </def-cat>
+
+    <def-cat n="CI">
+      <cat-item lemma="a" tags="SP.*"/>
+    </def-cat>
+
+    <def-cat n="SP">
+      <cat-item tags="SP.*"/>
+    </def-cat>
+
 
 
 
@@ -757,6 +761,29 @@
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
         <b/>
         <lu><var n="copula"/></lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="V-TV CI" firstChunk="SV">
+   <pattern>
+    <pattern-item n="V-TV"/>
+    <pattern-item n="CI"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord_obj2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SV.tv"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_subj"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_obj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
         <b/>
         <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>

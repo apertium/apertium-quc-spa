@@ -487,6 +487,7 @@
     <def-var n="copula"/>
 
     <def-var n="prepPron"/>
+    <def-var n="refPron"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -685,6 +686,29 @@
     </def-macro>
 
 
+    <def-macro n="f_gen_ref_pron1" npar="1">
+      <let><var n="refPron"/><lit v=""/></let>
+      <choose><when><test><equal><clip pos="1" side="tl" part="a_pron"/><lit-tag v="pron"/></equal></test>
+      <choose>
+        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg1"/></equal></test>
+                    <let><var n="refPron"/><concat><lit v="me"/><lit-tag v="prn.pro.p1.mf.sg"/></concat></let></when>
+        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg2"/></equal></test>
+                    <let><var n="refPron"/><concat><lit v="te"/><lit-tag v="prn.pro.p2.mf.sg"/></concat></let></when>
+        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl1"/></equal></test>
+                    <let><var n="refPron"/><concat><lit v="nos"/><lit-tag v="prn.pro.p1.mf.pl"/></concat></let></when>
+        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl2"/></equal></test>
+                    <!--<let><var n="refPron"/><concat><lit v="os"/><lit-tag v="prn.pro.p2.mf.pl"/></concat></let></when>-->
+                    <!--<let><var n="refPron"/><concat><lit v="le"/><lit-tag v="prn.pro.p3.mf.pl"/></concat></let></when>-->
+                    <let><var n="refPron"/><concat><lit v="se"/><lit-tag v="prn.pro.ref.p3.mf.sp"/></concat></let></when>
+        <otherwise>
+                    <let><var n="refPron"/><concat><lit v="se"/><lit-tag v="prn.pro.ref.p3.mf.sp"/></concat></let>
+        </otherwise>
+      </choose></when></choose>
+      <let><clip pos="1" side="tl" part="a_pron"/><lit v=""/></let>
+    </def-macro>
+
+
+
   </section-def-macros>
 
   <section-rules>
@@ -807,6 +831,7 @@
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
       <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
@@ -814,6 +839,8 @@
          <tag><var n="chunkAgrSubj"/></tag>
          <tag><var n="chunkAgrObj"/></tag>
         </tags>
+        <lu> <var n="negación"/></lu><b/>
+        <lu> <var n="refPron"/></lu><b/>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
@@ -828,12 +855,15 @@
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
       <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
          <tag><lit-tag v="V.iv"/></tag>
          <tag><var n="chunkAgrSubj"/></tag>
         </tags>
+        <lu> <var n="negación"/></lu><b/>
+        <lu> <var n="refPron"/></lu><b/>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>
       </out>

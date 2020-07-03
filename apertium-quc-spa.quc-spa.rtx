@@ -696,7 +696,9 @@
 
     <def-macro n="f_gen_ref_pron1" npar="1">
       <let><var n="refPron"/><lit v=""/></let>
-      <choose><when><test><equal><clip pos="1" side="tl" part="a_pron"/><lit-tag v="pron"/></equal></test>
+      <choose><when>
+                <test><or><equal><clip pos="1" side="tl" part="a_pron"/><lit-tag v="pron"/></equal>
+                          <equal><clip pos="1" side="tl" part="a_pass"/><lit-tag v="pass"/></equal></or></test>
       <choose>
         <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg1"/></equal></test>
                     <let><var n="refPron"/><concat><lit v="me"/><lit-tag v="prn.pro.p1.mf.sg"/></concat></let></when>
@@ -713,6 +715,7 @@
         </otherwise>
       </choose></when></choose>
       <let><clip pos="1" side="tl" part="a_pron"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_pass"/><lit v=""/></let>
     </def-macro>
 
 
@@ -1009,6 +1012,8 @@
          <tag><var n="chunkGenero"/></tag>
          <tag><var n="chunkNumero"/></tag>
         </tags>
+        <lu><lit v="el"/><lit-tag v="det.def.2.3"/></lu>
+        <b/>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
         <b/>
         <lu><lit v="de"/><lit-tag v="pr"/></lu>
@@ -1134,6 +1139,32 @@
        <chunk namefrom="chunkName">
         <tags>
          <tag><lit-tag v="SD"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><var n="chunkPoss"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="A SN" firstChunk="SN">
+   <pattern>
+    <pattern-item n="SN"/>
+    <pattern-item n="A"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_concord2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk name="n_a">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
          <tag><var n="chunkGenero"/></tag>
          <tag><var n="chunkNumero"/></tag>
          <tag><var n="chunkPoss"/></tag>
@@ -1432,6 +1463,28 @@
       </out>
    </action>
   </rule>
+  <rule comment="Ant np_cog" firstChunk="SD">
+   <pattern>
+    <pattern-item n="Ant"/>
+    <pattern-item n="np_cog"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk name="ant">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+         <tag><lit-tag v="sg"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
 
 
 

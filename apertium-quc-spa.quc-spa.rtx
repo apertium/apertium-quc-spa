@@ -63,10 +63,15 @@
     <def-cat n="v_tv">
       <cat-item tags="v.tv.*"/>
     </def-cat>
+    <def-cat n="dir">
+      <cat-item tags="adv.dir"/>
+    </def-cat>
+
     <def-cat n="adv">
       <cat-item tags="adv.*"/>
       <cat-item tags="adv"/>
     </def-cat>
+
     <def-cat n="pl">
       <cat-item tags="pl.*"/>
       <cat-item tags="pl"/>
@@ -855,6 +860,24 @@
    </action>
   </rule>
 
+  <rule comment="V dir" firstChunk="V">
+   <pattern>
+    <pattern-item n="V"/>
+    <pattern-item n="dir"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><clip pos="1" side="tl" part="tags"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
   <rule comment="V mark" firstChunk="V">
    <pattern>
     <pattern-item n="V"/>
@@ -1025,11 +1048,35 @@
    </action>
   </rule>
 
-
   <rule comment="Pr SD" firstChunk="SP">
    <pattern>
     <pattern-item n="Pr"/>
     <pattern-item n="SD"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SP"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="lem"/><lit-tag v="pr"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+
+  <rule comment="Pr SN" firstChunk="SP">
+   <pattern>
+    <pattern-item n="Pr"/>
+    <pattern-item n="SN"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>

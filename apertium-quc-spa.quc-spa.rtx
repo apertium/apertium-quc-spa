@@ -94,6 +94,10 @@
       <cat-item tags="cnjsub.*"/>
       <cat-item tags="cnjsub"/>
     </def-cat>
+    <def-cat n="neg_fin">
+      <cat-item tags="neg.fin.*"/>
+      <cat-item tags="neg.fin"/>
+    </def-cat>
     <def-cat n="neg">
       <cat-item tags="neg.*"/>
       <cat-item tags="neg"/>
@@ -156,6 +160,10 @@
     <def-cat n="adv_itg">
       <cat-item tags="adv.itg.*"/>
       <cat-item tags="adv.itg"/>
+    </def-cat>
+    <def-cat n="tajin">
+      <cat-item lemma="tajin" tags="aux.*"/>
+      <cat-item lemma="tajin" tags="aux"/>
     </def-cat>
     <def-cat n="aux">
       <cat-item tags="aux.*"/>
@@ -870,6 +878,44 @@
    </action>
   </rule>
 
+  <rule comment="V neg_fin" firstChunk="V">
+   <pattern>
+    <pattern-item n="V"/>
+    <pattern-item n="neg_fin"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><clip pos="1" side="tl" part="tags"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="neg V" firstChunk="V">
+   <pattern>
+    <pattern-item n="neg"/>
+    <pattern-item n="V"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><clip pos="2" side="tl" part="tags"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
   <rule comment="V mod" firstChunk="V">
    <pattern>
     <pattern-item n="V"/>
@@ -965,6 +1011,34 @@
          <tag><var n="chunkAgrObj"/></tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+
+  <rule comment="tajin v_tv" firstChunk="V">
+   <pattern>
+    <pattern-item n="tajin"/>
+    <pattern-item n="v_tv"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_agr_fin_verb1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_conj_fin_verb1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_gen_ref_pron1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="V.tv"/></tag>
+         <tag><var n="chunkAgrSubj"/></tag>
+         <tag><var n="chunkAgrObj"/></tag>
+        </tags>
+        <lu> <var n="negación"/></lu><b/>
+        <lu> <var n="refPron"/></lu><b/>
+        <lu> <lit v="estar"/><clip pos="2" side="tl" part="tags"/></lu><b/>
+        <lu> <clip pos="2" side="tl" part="lem"/><lit-tag v="vblex.ger"/></lu>
        </chunk>
       </out>
    </action>

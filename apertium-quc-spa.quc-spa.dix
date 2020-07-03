@@ -1449,6 +1449,8 @@
 
       <e><p><l>Nela<s n="np"/><s n="ant"/><s n="f"/></l><r>Manuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Pabʼlo<s n="np"/><s n="ant"/><s n="m"/></l><r>Pablo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Tiʼx<s n="np"/><s n="ant"/><s n="m"/></l><r>Tiʼx<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Paʼtz<s n="np"/><s n="ant"/><s n="m"/></l><r>Paʼtz<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Juʼl<s n="np"/><s n="ant"/><s n="m"/></l><r>Juʼl<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Jesus<s n="np"/><s n="ant"/><s n="m"/></l><r>Jesús<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Jesuskristo<s n="np"/><s n="ant"/><s n="m"/></l><r>Jesucristo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1458,7 +1460,9 @@
       <e><p><l>Abʼraham<s n="np"/><s n="ant"/><s n="m"/></l><r>Abraham<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Bʼeliʼar<s n="np"/><s n="ant"/><s n="m"/></l><r>Belial<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Jerusalem<s n="np"/><s n="top"/></l><r>Jerusalén<s n="np"/><s n="loc"/></r></p></e>
+      <e><p><l>Chwikabʼyok<s n="np"/><s n="top"/></l><r>Chwikabʼyok<s n="np"/><s n="loc"/></r></p></e>
       <e><p><l>Xechpup<s n="np"/><s n="top"/></l><r>Xechpup<s n="np"/><s n="loc"/></r></p></e>
+      <e><p><l>Xeʼwenabʼaj<s n="np"/><s n="top"/></l><r>Xeʼwenabʼaj<s n="np"/><s n="loc"/></r></p></e>
       <e><p><l>Jeriko<s n="np"/><s n="top"/></l><r>Jericó<s n="np"/><s n="loc"/></r></p></e>
       <e><p><l>Perez<s n="np"/><s n="cog"/></l><r>Pérez<s n="np"/><s n="ant"/></r></p></e>
       <e><p><l>Joppe<s n="np"/><s n="top"/></l><r>Jope<s n="np"/><s n="loc"/></r></p></e>

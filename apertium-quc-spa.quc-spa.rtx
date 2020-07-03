@@ -1101,6 +1101,30 @@
    </action>
   </rule>
 
+  <rule comment="Pl SD" firstChunk="SD">
+   <pattern>
+    <pattern-item n="Pl"/>
+    <pattern-item n="SD"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_plural1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk name="n">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><var n="chunkPoss"/></tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
   <rule comment="Pl SN" firstChunk="SN">
    <pattern>
     <pattern-item n="Pl"/>

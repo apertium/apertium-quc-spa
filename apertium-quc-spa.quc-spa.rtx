@@ -227,7 +227,6 @@
 
     <def-cat n="V-TV">
       <cat-item tags="V.tv.*"/>
-      <cat-item tags="V.tv"/>
     </def-cat>
 
     <def-cat n="V-IV">
@@ -1124,6 +1123,28 @@
       </out>
    </action>
   </rule>
+
+  <rule comment="prn_dem" firstChunk="SD"> <!-- We probably want to save the determiner info somewhere --> 
+   <pattern>
+    <pattern-item n="prn_dem"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><clip pos="1" side="tl" part="a_pers"/> </tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
 
   <rule comment="prn_pers" firstChunk="SD"> <!-- We probably want to save the determiner info somewhere --> 
    <pattern>

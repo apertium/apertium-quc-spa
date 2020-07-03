@@ -159,12 +159,21 @@
         <e r="RL"><p><l></l><r><s n="f"/><s n="pl"/></r></p></e>
       </pardef>
       <pardef n="IV">
+        <!-- Participles -->
+        <e r="LR"><p><l><s n="s_sg1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="s_sg2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="s_sg3"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="s_pl1"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="s_pl2"/></l><r></r></p></e>
+        <e r="LR"><p><l><s n="s_pl3"/></l><r></r></p></e>
+
         <e r="LR"><p><l><s n="perf"/><s n="s_sg1"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="perf"/><s n="s_sg2"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="perf"/><s n="s_sg3"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="perf"/><s n="s_pl1"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="perf"/><s n="s_pl2"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="perf"/><s n="s_pl3"/></l><r></r></p></e>
+
         <e r="LR"><p><l><s n="impf"/><s n="s_sg1"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="impf"/><s n="s_sg2"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="impf"/><s n="s_sg3"/></l><r></r></p></e>
@@ -1999,6 +2008,7 @@
       <e><par n="TV"/><p><l>etzelaj<s n="v"/><s n="tv"/></l><r>odiar<s n="vblex"/></r></p></e>
       <e><par n="TV"/><p><l>kʼam<s n="v"/><s n="tv"/></l><r>recibir<s n="vblex"/></r></p></e>
       <e><par n="IV"/><p><l>waʼ<s n="v"/><s n="iv"/></l><r>comer<s n="vblex"/></r></p></e>
+      <e><par n="IV"/><p><l>woʼq<s n="v"/><s n="iv"/></l><r>comer<s n="vblex"/></r></p></e>
       <e><par n="IV"/><p><l>kʼastaj<s n="v"/><s n="iv"/></l><r>resucitar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>sach<s n="v"/><s n="tv"/></l><r>olvidar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>kʼol<s n="v"/><s n="tv"/></l><r>guardar<s n="vblex"/></r></p></e>

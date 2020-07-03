@@ -1240,6 +1240,7 @@
 <e><par n="N"/><p><l>kan<s n="n"/></l><r>serpiente<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>sabʼado<s n="n"/></l><r>sábado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chiʼ<s n="n"/></l><r>orilla<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>siʼ<s n="n"/></l><r>leña<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>achoch<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chomabʼal<s n="n"/></l><r>actitud<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chomabʼal<s n="n"/></l><r>pensamiento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1676,7 +1677,7 @@
 <e><p><l>nim<s n="adj"/></l><r>principal<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>nim<s n="adj"/><s n="pl"/></l><r>principal<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>junam<s n="adj"/></l><r>equivalente<s n="adj"/></r></p><par n="mf_ND"/></e>
-<e><p><l>juyubʼ<s n="n"/></l><r>monte<s n="adj"/></r></p><par n="mf_ND"/></e>
+<e><p><l>juyubʼ<s n="n"/></l><r>monte<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><p><l>junam<s n="adj"/></l><r>igual<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>tuqar<s n="adj"/></l><r>débil<s n="adj"/></r></p><par n="mf_ND"/></e>
 <e><p><l>tuqeʼr<s n="adj"/></l><r>débil<s n="adj"/></r></p><par n="mf_ND"/></e>
@@ -2012,6 +2013,7 @@
 <e><par n="TV"/><p><l>tzij<s n="v"/><s n="tv"/></l><r>encender<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>chʼobʼ<s n="v"/><s n="tv"/></l><r>comprender<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>sach<s n="v"/><s n="tv"/></l><r>perder<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>sach<s n="v"/><s n="tv"/></l><r>engañar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>riqʼ<s n="v"/><s n="tv"/></l><r>lamer<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>tij<s n="v"/><s n="tv"/></l><r>comer<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>kʼol<s n="v"/><s n="tv"/></l><r>tener<s n="vblex"/></r></p></e>
@@ -2318,7 +2320,8 @@
 <e><par n="IV"/><p><l>achiʼl<s n="v"/><s n="iv"/></l><r>junto<s n="adj"/><s n="pred"/><s n="GD"/></r></p></e>
 <!--<e><par n="IV"/><p><l>bʼison<s n="v"/><s n="iv"/></l><r>lamentar<s n="vblex"/></r></p></e>-->
 <e><par n="IV"/><p><l>bʼison<s n="v"/><s n="iv"/></l><r>triste<s n="adj"/><s n="pred"/><s n="mf"/></r></p></e>
-<e><par n="IV"/><p><l>sach<s n="v"/><s n="iv"/></l><r>perdido<s n="adj"/><s n="pred"/><s n="GD"/></r></p></e>
+<e><par n="IV"/><p><l>sach<s n="v"/><s n="iv"/></l><r>engañar<s n="vblex"/><s n="pron"/></r></p></e>
+<!--<e><par n="IV"/><p><l>sach<s n="v"/><s n="iv"/></l><r>perdido<s n="adj"/><s n="pred"/><s n="GD"/></r></p></e>-->
 <!--<e><par n="IV"/><p><l>niman<s n="v"/><s n="iv"/></l><r>ser obediente<s n="vblex"/></r></p></e>-->
 <e><par n="IV"/><p><l>niman<s n="v"/><s n="iv"/></l><r>someter<s n="vblex"/><s n="pron"/></r></p></e>
 <!--<e><par n="IV"/><p><l>patanaj<s n="v"/><s n="iv"/></l><r>ser útil<s n="vblex"/></r></p></e>-->

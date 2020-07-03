@@ -1154,6 +1154,24 @@
    </action>
   </rule>
 
+  <rule comment="pr" firstChunk="Pr">
+   <pattern>
+    <pattern-item n="pr"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="Pr"/></tag>
+         <tag> <clip pos="1" side="sl" part="tags"/> </tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
 
   <rule comment="n_rel" firstChunk="Pr">
    <pattern>

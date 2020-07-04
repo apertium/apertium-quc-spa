@@ -1,13 +1,28 @@
 <transfer>
   <section-def-cats>
     <!-- Part of speech categories -->
+
     <def-cat n="n_rel">
       <cat-item tags="n.rel.*"/>
       <cat-item tags="n.rel"/>
     </def-cat>
+
     <def-cat n="n">
       <cat-item tags="n.*"/>
       <cat-item tags="n"/>
+    </def-cat>
+
+    <def-cat n="det_def">
+      <cat-item lemma="ri" tags="det.*"/>
+      <cat-item lemma="ri" tags="det"/>
+      <cat-item lemma="le" tags="det.*"/>
+      <cat-item lemma="le" tags="det"/>
+      <cat-item lemma="we" tags="det.*"/>
+      <cat-item lemma="we" tags="det"/>
+    </def-cat>
+    <def-cat n="det_ind">
+      <cat-item lemma="jun" tags="num.*"/>
+      <cat-item lemma="jun" tags="num"/>
     </def-cat>
 
     <def-cat n="det">
@@ -33,27 +48,53 @@
     <def-cat n="v_iv_inf">
       <cat-item tags="v.iv.inf.*"/>
       <cat-item tags="v.iv.inf"/>
+      <cat-item tags="v.iv.*.inf.*"/>
+      <cat-item tags="v.iv.*.inf"/>
     </def-cat>
     <def-cat n="v_tv_inf">
       <cat-item tags="v.tv.inf.*"/>
       <cat-item tags="v.tv.inf"/>
+      <cat-item tags="v.tv.*.inf.*"/>
+      <cat-item tags="v.tv.*.inf"/>
     </def-cat>
 
     <def-cat n="v_iv_pp">
       <cat-item tags="v.iv.pp.*"/>
       <cat-item tags="v.iv.pp"/>
+      <cat-item tags="v.iv.*.pp.*"/>
+      <cat-item tags="v.iv.*.pp"/>
     </def-cat>
     <def-cat n="v_tv_pp">
       <cat-item tags="v.tv.pp.*"/>
       <cat-item tags="v.tv.pp"/>
+      <cat-item tags="v.tv.*.pp.*"/>
+      <cat-item tags="v.tv.*.pp"/>
     </def-cat>
-    <def-cat n="v_tv">
-      <cat-item tags="v.tv.*"/>
+    <def-cat n="v_tv_fin">
+      <cat-item tags="v.tv.*.impf.*"/>
+      <cat-item tags="v.tv.*.imp.*"/>
+      <cat-item tags="v.tv.*.perf.*"/>
+      <cat-item tags="v.tv.impf.*"/>
+      <cat-item tags="v.tv.imp.*"/>
+      <cat-item tags="v.tv.perf.*"/>
     </def-cat>
+    <def-cat n="v_iv_fin">
+      <cat-item tags="v.iv.*.impf.*"/>
+      <cat-item tags="v.iv.*.imp.*"/>
+      <cat-item tags="v.iv.*.perf.*"/>
+      <cat-item tags="v.iv.impf.*"/>
+      <cat-item tags="v.iv.imp.*"/>
+      <cat-item tags="v.iv.perf.*"/>
+    </def-cat>
+    <def-cat n="dir">
+      <cat-item tags="adv.dir"/>
+    </def-cat>
+
     <def-cat n="adv">
       <cat-item tags="adv.*"/>
       <cat-item tags="adv"/>
     </def-cat>
+
     <def-cat n="pl">
       <cat-item tags="pl.*"/>
       <cat-item tags="pl"/>
@@ -65,9 +106,6 @@
       <cat-item tags="part.*"/>
       <cat-item tags="part"/>
     </def-cat>
-    <def-cat n="v_iv">
-      <cat-item tags="v.iv.*"/>
-    </def-cat>
     <def-cat n="prn_dem">
       <cat-item tags="prn.dem.*"/>
       <cat-item tags="prn.dem"/>
@@ -75,6 +113,10 @@
     <def-cat n="cnjsub">
       <cat-item tags="cnjsub.*"/>
       <cat-item tags="cnjsub"/>
+    </def-cat>
+    <def-cat n="neg_fin">
+      <cat-item tags="neg.fin.*"/>
+      <cat-item tags="neg.fin"/>
     </def-cat>
     <def-cat n="neg">
       <cat-item tags="neg.*"/>
@@ -118,6 +160,7 @@
     <def-cat n="cnjcoo">
       <cat-item tags="cnjcoo.*"/>
       <cat-item tags="cnjcoo"/>
+      <cat-item lemma="e" tags="pl"/> <!-- frequent disambiguation error -->
     </def-cat>
     <def-cat n="np_top">
       <cat-item tags="np.top.*"/>
@@ -137,6 +180,10 @@
     <def-cat n="adv_itg">
       <cat-item tags="adv.itg.*"/>
       <cat-item tags="adv.itg"/>
+    </def-cat>
+    <def-cat n="tajin">
+      <cat-item lemma="tajin" tags="aux.*"/>
+      <cat-item lemma="tajin" tags="aux"/>
     </def-cat>
     <def-cat n="aux">
       <cat-item tags="aux.*"/>
@@ -166,9 +213,7 @@
       <cat-item tags="np.cog.*"/>
       <cat-item tags="np.cog"/>
     </def-cat>
-    <def-cat n="@det">
-      <cat-item tags="prn.dem.@det"/>
-    </def-cat>
+
     <!-- Syntactic categories -->
 
     <def-cat n="Num">
@@ -185,11 +230,6 @@
     <def-cat n="Cog">
       <cat-item tags="Cog.*"/>
       <cat-item tags="Cog"/>
-    </def-cat>
-
-    <def-cat n="Ant">
-      <cat-item tags="Ant.*"/>
-      <cat-item tags="Ant"/>
     </def-cat>
 
     <def-cat n="Det">
@@ -210,13 +250,24 @@
       <cat-item tags="A.*"/>
       <cat-item tags="A"/>
     </def-cat>
-    
-    <def-cat n="Dem.@det">
-      <cat-item tags="Dem.@det.*"/>
-      <cat-item tags="Dem.@det"/>
-    </def-cat>
 
     <!-- Syntactic phrases -->
+
+    <def-cat n="V-TV">
+      <cat-item tags="V.tv.*"/>
+    </def-cat>
+
+    <def-cat n="V-IV">
+      <cat-item tags="V.iv.*"/>
+      <cat-item tags="V.iv"/>
+    </def-cat>
+
+    <def-cat n="V">
+      <cat-item tags="V.*"/>
+      <cat-item tags="V"/>
+    </def-cat>
+
+
 
     <def-cat n="SA">
       <cat-item tags="SA.*"/>
@@ -224,8 +275,16 @@
     </def-cat>
 
     <def-cat n="Pers">
-      <cat-item tags="Pers.*"/>
-      <cat-item tags="Pers"/>
+      <cat-item lemma="yo" tags="SD.*"/>
+      <cat-item lemma="tú" tags="SD.*"/>
+      <cat-item lemma="nosotros" tags="SD.*"/>
+      <cat-item lemma="vosotros" tags="SD.*"/>
+      <cat-item lemma="usted" tags="SD.*"/>
+    </def-cat>
+
+    <def-cat n="Todo">
+      <cat-item lemma="todo" tags="Pr.*"/>
+      <cat-item lemma="todo" tags="Pr"/>
     </def-cat>
 
     <def-cat n="Pr">
@@ -234,14 +293,21 @@
     </def-cat>
 
 
+    <def-cat n="SV">
+      <cat-item tags="SV.*"/>
+      <cat-item tags="SV"/>
+    </def-cat>
+
+
+    <def-cat n="CN">
+      <cat-item tags="CN.*"/>
+      <cat-item tags="CN"/>
+    </def-cat>
+
+
     <def-cat n="SN">
       <cat-item tags="SN.*"/>
       <cat-item tags="SN"/>
-    </def-cat>
-
-    <def-cat n="SDPsor">
-      <cat-item tags="SD.*.px3sg"/>
-      <cat-item tags="SD.*.px3sg"/>
     </def-cat>
 
     <def-cat n="Pl">
@@ -249,10 +315,23 @@
       <cat-item tags="Pl"/>
     </def-cat>
 
+    <def-cat n="Ant">
+      <cat-item lemma="ant" tags="SD.*"/>
+    </def-cat>
+
     <def-cat n="SD">
       <cat-item tags="SD.*"/>
       <cat-item tags="SD"/>
     </def-cat>
+
+    <def-cat n="CI">
+      <cat-item lemma="a" tags="SP.*"/>
+    </def-cat>
+
+    <def-cat n="SP">
+      <cat-item tags="SP.*"/>
+    </def-cat>
+
 
 
 
@@ -263,8 +342,15 @@
      <attr-item tags="GD"/>
      <attr-item tags="m"/>
      <attr-item tags="f"/>
+    </def-attr>
+
+    <def-attr n="a_gen_mf">
+     <attr-item tags="GD"/>
+     <attr-item tags="m"/>
+     <attr-item tags="f"/>
      <attr-item tags="mf"/>
     </def-attr>
+
   
     <def-attr n="a_poss">
      <attr-item tags="px1sg"/>
@@ -281,11 +367,24 @@
      <attr-item tags="p3"/>
     </def-attr>
 
-    <def-attr n="a_nbr">
+    <def-attr n="a_nbr_sp">
      <attr-item tags="ND"/>
      <attr-item tags="sg"/>
      <attr-item tags="pl"/>
      <attr-item tags="sp"/>
+    </def-attr>
+
+
+    <def-attr n="a_adv_pr">
+     <attr-item tags="pr"/>
+     <attr-item tags="adv"/>
+    </def-attr>
+
+
+    <def-attr n="a_nbr">
+     <attr-item tags="ND"/>
+     <attr-item tags="sg"/>
+     <attr-item tags="pl"/>
     </def-attr>
 
     <def-attr n="a_agr_obj">
@@ -375,6 +474,10 @@
      <attr-item tags="anti.agfoc"/>
     </def-attr>
 
+    <def-attr n="a_attr">
+     <attr-item tags="attr"/>
+    </def-attr>
+
     <def-attr n="a_pron">
      <attr-item tags="pron"/>
     </def-attr>
@@ -410,127 +513,145 @@
   </section-def-attrs>
 
   <section-def-vars>
-    <!-- Last seen values must be m/f sg/pl -->
+    <!-- "Anaphora tracking": Last seen values must be m/f sg/pl -->
     <def-var n="genero"/>
     <def-var n="numero"/>
+
+    <!-- !!!! Verb chunk internal !!!! -->
     <!-- Chunk values, can be GD/ND -->
     <def-var n="chunkGenero"/>
     <def-var n="chunkNumero"/>
+    <def-var n="chunkPoss"/>
+    <!-- Name of the current chunk -->
     <def-var n="chunkName"/>
-    <def-var n="concPrimero"/>
-    <def-var n="concSegundo"/>
-    <def-var n="predAdj"/>
-    <def-var n="refPron"/>
-    <def-var n="prepPron"/>
+    <!-- Chunk agreement -->
+    <def-var n="chunkAgrObj"/>
+    <def-var n="chunkAgrSubj"/>
+    <!-- Negation -->
     <def-var n="negación"/>
+    <!-- Copula -->
+    <def-var n="copula"/>
+
+    <def-var n="prepPron"/>
+    <def-var n="refPron"/>
+    <def-var n="auxVerb"/>
+    <def-var n="predicate"/>
+    <def-var n="prepDe"/>
   </section-def-vars>
 
   <section-def-macros>
-    <def-macro n="f_reset_verb1" npar="1">  
-      <let><var n="negación"/><lit v=""/></let>
-      <let><var n="refPron"/><lit v=""/></let>
-      <let><var n="prepPron"/><lit v=""/></let>
+
+    <def-macro n="f_build_copula1" npar="1">  
+      <let><var n="copula"/><concat><lit v="ser"/><lit-tag v="vbser.pri"/>
+                                    <clip pos="1" side="tl" part="a_pers"/>
+                                    <clip pos="1" side="tl" part="a_nbr"/> </concat></let>
     </def-macro>
 
-    <def-macro n="f_reset_vars1" npar="1">  
-      <let><var n="numero"/><lit v=""/></let>
-      <let><var n="genero"/><lit v=""/></let>
-    </def-macro>
 
     <def-macro n="f_set_chunk_name1" npar="1">  
       <choose>
-      <when><test><equal><clip pos="1" side="tl" part="lem"/><lit v=""/></equal></test>
-        <let><var n="chunkName"/><clip pos="1" side="sl" part="lem"/></let></when>
-      <otherwise>
-        <let><var n="chunkName"/><clip pos="1" side="tl" part="lem"/></let>
-      </otherwise>
+        <when><test><equal><clip pos="1" side="tl" part="lem"/><lit v=""/></equal></test>
+              <let><var n="chunkName"/><clip pos="1" side="sl" part="lem"/></let></when>
+        <otherwise>
+               <let><var n="chunkName"/><clip pos="1" side="tl" part="lem"/></let>
+        </otherwise>
       </choose>
       <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
     </def-macro>
 
-    <def-macro n="f_link_concord1" npar="1">
-      <!-- If we reached SA and we still don't know the gender, set it to m.sg, until variables work again -->
-      <choose><when><test><equal><clip pos="1" side="tl" part="a_phrase"/><lit-tag v="SA"/></equal></test>
-        <choose>
-            <when><test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="ND"/></equal></test>
-              <let><var n="chunkNumero"/><lit-tag v="sg"/></let>
-            </when>
-        </choose>
-       <choose>
-            <when><test><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="GD"/></equal></test>
-              <let><var n="chunkGenero"/><lit-tag v="m"/></let>
-            </when>
-        </choose>
+    <def-macro n="f_set_chunk_poss1" npar="1">  
+      <let><var n="chunkPoss"/><clip pos="1" side="tl" part="a_poss"/></let>
+      <let><clip pos="1" side="tl" part="a_poss"/><lit v=""/></let>
+    </def-macro>
+
+    <def-macro n="f_concord1" npar="1">
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_gen_mf"/><lit-tag v="mf"/></equal></test>
+              <let><var n="chunkGenero"/><lit-tag v="GD"/></let>
         </when>
         <otherwise>
-      <let><var n="chunkNumero"/><lit-tag v="ND"/></let><!--<clip pos="1" side="tl" part="a_nbr"/></let>-->
-      <let><var n="chunkGenero"/><lit-tag v="GD"/></let><!--<clip pos="1" side="tl" part="a_gen"/></let>-->
-          <choose>
-            <when><test><and><not><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sp"/></equal></not>
-                             <not><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="ND"/></equal></not></and></test>
-                        <let><var n="chunkNumero"/><clip pos="1" side="tl" part="a_nbr"/></let>
-                        <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="3"/></let>
-            </when>
-            <when><test><not><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sp"/></equal></not></test>
-                        <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="3"/></let>
-            </when>
-          </choose> 
-          <choose>
-            <when><test><and><not><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mf"/></equal></not>
-                             <not><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="GD"/></equal></not></and></test>
-                        <let><var n="chunkGenero"/><clip pos="1" side="tl" part="a_gen"/></let>
-                        <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="2"/></let>
-            </when>
-                <when><test><not><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mf"/></equal></not></test>
-                        <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="2"/></let></when>
-          </choose> 
+              <let><var n="chunkGenero"/><clip pos="1" side="tl" part="a_gen"/></let>
+              <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="2"/></let>
         </otherwise>
       </choose>
-    </def-macro>
-
-    <def-macro n="f_link_concord2" npar="2">
-      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_link_concord1"><with-param pos="2"/></call-macro>
-    </def-macro>
-
-    <def-macro n="f_set_determiner2" npar="2">
-      <!-- 1: SN -->
-      <!-- 2: Det -->
       <choose>
-        <when><test><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px1sg"/></equal></test>
-                    <let><clip pos="2" side="tl" part="whole"/><concat><lit v="mío"/><lit-tag v="det.pos.mf.3"/></concat></let></when>
-        <when><test><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px2sg"/></equal></test>
-                    <let><clip pos="2" side="tl" part="whole"/><concat><lit v="tuyo"/><lit-tag v="det.pos.mf.3"/></concat></let></when>
-        <when><test><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px1pl"/></equal></test>
-                    <let><clip pos="2" side="tl" part="whole"/><concat><lit v="nuestro"/><lit-tag v="det.pos.GD.3"/></concat></let></when>
-        <when><test><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px2pl"/></equal></test>
-                    <let><clip pos="2" side="tl" part="whole"/><concat><lit v="vuestro"/><lit-tag v="det.pos.GD.3"/></concat></let></when>
-        <when><test><or><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px3sg"/></equal>
-                        <equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px3pl"/></equal></or></test>
-                    <let><clip pos="2" side="tl" part="whole"/><concat><lit v="suyo"/><lit-tag v="det.pos.mf.3"/></concat></let></when>
-      </choose>
-    </def-macro>
-
-    <def-macro n="f_gen_ref_pron1" npar="1">
-      <choose>
-        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg1"/></equal></test>
-                    <let><var n="refPron"/><concat><lit v="me"/><lit-tag v="prn.pro.p1.mf.sg"/></concat></let></when>
-        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg2"/></equal></test>
-                    <let><var n="refPron"/><concat><lit v="te"/><lit-tag v="prn.pro.p2.mf.sg"/></concat></let></when>
-        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl1"/></equal></test>
-                    <let><var n="refPron"/><concat><lit v="nos"/><lit-tag v="prn.pro.p1.mf.pl"/></concat></let></when>
-        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl2"/></equal></test>
-                    <!--<let><var n="refPron"/><concat><lit v="os"/><lit-tag v="prn.pro.p2.mf.pl"/></concat></let></when>-->
-                    <let><var n="refPron"/><concat><lit v="le"/><lit-tag v="prn.pro.p3.mf.pl"/></concat></let></when>
+        <when><test><equal><clip pos="1" side="tl" part="a_nbr_sp"/><lit-tag v="sp"/></equal></test>
+              <let><var n="chunkNumero"/><lit-tag v="ND"/></let>
+        </when>
         <otherwise>
-                    <let><var n="refPron"/><concat><lit v="se"/><lit-tag v="prn.pro.ref.p3.mf.sp"/></concat></let>
+              <let><var n="chunkNumero"/><clip pos="1" side="tl" part="a_nbr"/></let>
+              <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="3"/></let>
         </otherwise>
       </choose>
+    </def-macro>
+
+    <def-macro n="f_concord2" npar="2">
+      <!-- pos 1: head, pos 2: dependent -->
+      <choose> <!-- When the head is m/f and the dependent is GD, let the gender of the dependent be that of the head -->
+        <when><test><and><equal><clip pos="2" side="tl" part="a_gen_mf"/><lit-tag v="GD"/></equal>
+                         <not><equal><clip pos="1" side="tl" part="a_gen_mf"/><lit v=""/></equal></not>
+                         <not><equal><clip pos="1" side="tl" part="a_gen_mf"/><lit-tag v="mf"/></equal></not></and></test>
+        <let><clip pos="2" side="tl" part="a_gen_mf"/><lit-tag v="2"/></let></when><!--<clip pos="1" side="tl" part="a_gen_mf"/>-->
+      </choose> 
+      <choose> <!-- When the head is sg/pl and the dependent is ND, let the gender of the dependent be that of the head -->
+        <when><test><and><equal><clip pos="2" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal>
+                         <!--<not><equal><clip pos="1" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal></not>-->
+                         <not><equal><clip pos="1" side="tl" part="a_nbr_sp"/><lit v=""/></equal></not>
+                         <not><equal><clip pos="1" side="tl" part="a_nbr_sp"/><lit-tag v="sp"/></equal></not></and></test>
+        <let><clip pos="2" side="tl" part="a_nbr_sp"/><lit-tag v="3"/></let></when><!--<clip pos="1" side="tl" part="a_nbr_sp"/>-->
+      </choose> 
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+    </def-macro>
+
+    <def-macro n="f_set_plural1" npar="1">
+      <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></let>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <choose> <!-- When the head is sg/pl and the dependent is ND, let the gender of the dependent be that of the head -->
+        <when><test><and><equal><clip pos="1" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal>
+                         <!--<not><equal><clip pos="1" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal></not>-->
+                         <not><equal><clip pos="1" side="tl" part="a_nbr_sp"/><lit-tag v="sp"/></equal></not></and></test>
+        <let><clip pos="1" side="tl" part="a_nbr_sp"/><lit-tag v="3"/></let></when><!--<clip pos="1" side="tl" part="a_nbr_sp"/>-->
+      </choose> 
+    </def-macro>
+
+
+    <def-macro n="f_concord_obj2" npar="2">
+      <!-- Concord an object with its verb -->
+      <choose>
+        <when><test><and><equal><clip pos="2" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal>
+                         <or><equal><clip pos="1" side="tl" part="a_agr_obj"/><lit-tag v="o_sg1"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_obj"/><lit-tag v="o_sg2"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_obj"/><lit-tag v="o_sg3"/></equal></or></and></test>
+        <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sg"/></let></when>
+        <when><test><and><equal><clip pos="2" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal>
+                         <or><equal><clip pos="1" side="tl" part="a_agr_obj"/><lit-tag v="o_pl1"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_obj"/><lit-tag v="o_pl2"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_obj"/><lit-tag v="o_pl3"/></equal></or></and></test>
+        <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="pl"/></let></when>
+      </choose> 
+    </def-macro>
+
+    <def-macro n="f_concord_subj2" npar="2">
+      <!-- Concord an subject with its verb -->
+      <choose>
+        <when><test><and><equal><clip pos="2" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal>
+                         <or><equal><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="s_sg1"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="s_sg2"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="s_sg3"/></equal></or></and></test>
+        <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sg"/></let></when>
+        <when><test><and><equal><clip pos="2" side="tl" part="a_nbr_sp"/><lit-tag v="ND"/></equal>
+                         <or><equal><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="s_pl1"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="s_pl2"/></equal>
+                             <equal><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="s_pl3"/></equal></or></and></test>
+        <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="pl"/></let></when>
+      </choose> 
     </def-macro>
 
     <def-macro n="f_agr_fin_verb1" npar="1">
         <choose><when><test><and><equal><clip pos="1" side="tl" part="a_inv"/><lit-tag v="inv"/></equal>
                                  <not><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit v=""/></equal></not></and></test>
+                      <let><var n="chunkAgrSubj"/><clip pos="1" side="sl" part="a_agr_obj"/></let> <!-- prol doesn't work -->
+                      <let><var n="chunkAgrObj"/><clip pos="1" side="sl" part="a_agr_subj"/></let>
                       <choose>
                         <when><test><equal><clip pos="1" side="sl" part="a_agr_obj"/><lit-tag v="o_sg1"/></equal></test>
                                     <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.sg"/></let></when>
@@ -548,6 +669,8 @@
                       </choose>
                 </when>
                 <otherwise>
+                      <let><var n="chunkAgrObj"/><clip pos="1" side="sl" part="a_agr_obj"/></let>
+                      <let><var n="chunkAgrSubj"/><clip pos="1" side="sl" part="a_agr_subj"/></let>
                       <choose>
                         <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg1"/></equal></test>
                                     <let><clip pos="1" side="tl" part="a_agr_subj"/><lit-tag v="p1.sg"/></let></when>
@@ -569,7 +692,20 @@
       <let><clip pos="1" side="tl" part="a_agr_obj"/><lit v=""/></let>
     </def-macro>
 
-    <def-macro n="f_conv_poss1" npar="1">
+    <def-macro n="f_conj_fin_verb1" npar="1"> <!-- Do something with determiners -->
+      <choose>
+        <when><test><equal><clip pos="1" side="sl" part="a_asp"/><lit-tag v="impf"/></equal></test>
+                    <let><clip pos="1" side="tl" part="a_asp"/><lit-tag v="pri"/></let></when>
+        <when><test><equal><clip pos="1" side="sl" part="a_asp"/><lit-tag v="perf"/></equal></test>
+                    <let><clip pos="1" side="tl" part="a_asp"/><lit-tag v="ifi"/></let></when>
+        <when><test><equal><clip pos="1" side="sl" part="a_imp"/><lit-tag v="imp.neg"/></equal></test>
+                    <let><var n="negación"/><concat><lit v="no"/><lit-tag v="adv"/></concat></let>
+                    <let><clip pos="1" side="tl" part="a_imp"/><lit-tag v="prs"/></let></when>
+      </choose>
+      <let><clip pos="1" side="tl" part="a_mov"/><lit v=""/></let>
+    </def-macro>
+
+    <def-macro n="f_poss_to_pron1" npar="1">
 <!--
       <e r="LR"><par n="N"/><p><l>pam<s n="n"/><s n="rel"/><s n="px1sg"/></l><r>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><par n="N"/><p><l>pam<s n="n"/><s n="rel"/><s n="px1pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
@@ -584,13 +720,13 @@
               <when><test><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px2sg"/></equal></test>
                     <let><var n="prepPron"/><concat><lit v="ti"/><lit-tag v="prn.tn.p2.mf.sg"/></concat></let></when>
               <when><test><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px3sg"/></equal></test>
-                    <let><var n="prepPron"/><concat><lit v="él"/><lit-tag v="prn.tn.p3.m.sg"/></concat></let></when>
+                    <let><var n="prepPron"/><concat><lit v="él"/><lit-tag v="prn.tn.p3.GD.sg"/></concat></let></when>
               <when><test><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px1pl"/></equal></test>
-                    <let><var n="prepPron"/><concat><lit v="nosotros"/><lit-tag v="prn.tn.p1.m.pl"/></concat></let></when>
+                    <let><var n="prepPron"/><concat><lit v="nosotros"/><lit-tag v="prn.tn.p1.GD.pl"/></concat></let></when>
               <when><test><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px2pl"/></equal></test>
                     <let><var n="prepPron"/><concat><lit v="usted"/><lit-tag v="prn.tn.p3.mf.pl"/></concat></let></when>
               <when><test><equal><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px3pl"/></equal></test>
-                    <let><var n="prepPron"/><concat><lit v="él"/><lit-tag v="prn.tn.p3.m.pl"/></concat></let></when>
+                    <let><var n="prepPron"/><concat><lit v="él"/><lit-tag v="prn.tn.p3.GD.pl"/></concat></let></when>
               <otherwise>
                     <let><var n="prepPron"/><lit v=""/></let>
               </otherwise>
@@ -598,489 +734,628 @@
       <let><clip pos="1" side="tl" part="a_poss"/><lit v=""/></let>
     </def-macro>
 
-    <def-macro n="f_conj_fin_verb1" npar="1">
+
+    <def-macro n="f_gen_ref_pron1" npar="1">
+      <let><var n="refPron"/><lit v=""/></let>
+      <choose><when>
+                <test><or><equal><clip pos="1" side="tl" part="a_pron"/><lit-tag v="pron"/></equal>
+                          <equal><clip pos="1" side="tl" part="a_pass"/><lit-tag v="pass"/></equal></or></test>
       <choose>
-        <when><test><equal><clip pos="1" side="sl" part="a_asp"/><lit-tag v="impf"/></equal></test>
-                    <let><clip pos="1" side="tl" part="a_asp"/><lit-tag v="pri"/></let></when>
-        <when><test><equal><clip pos="1" side="sl" part="a_asp"/><lit-tag v="perf"/></equal></test>
-                    <let><clip pos="1" side="tl" part="a_asp"/><lit-tag v="ifi"/></let></when>
-        <when><test><equal><clip pos="1" side="sl" part="a_imp"/><lit-tag v="imp.neg"/></equal></test>
-                    <let><var n="negación"/><concat><lit v="no"/><lit-tag v="adv"/></concat></let>
-                    <let><clip pos="1" side="tl" part="a_imp"/><lit-tag v="prs"/></let></when>
-      </choose>
-      <let><clip pos="1" side="tl" part="a_mov"/><lit v=""/></let>
+        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg1"/></equal></test>
+                    <let><var n="refPron"/><concat><lit v="me"/><lit-tag v="prn.pro.p1.mf.sg"/></concat></let></when>
+        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_sg2"/></equal></test>
+                    <let><var n="refPron"/><concat><lit v="te"/><lit-tag v="prn.pro.p2.mf.sg"/></concat></let></when>
+        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl1"/></equal></test>
+                    <let><var n="refPron"/><concat><lit v="nos"/><lit-tag v="prn.pro.p1.mf.pl"/></concat></let></when>
+        <when><test><equal><clip pos="1" side="sl" part="a_agr_subj"/><lit-tag v="s_pl2"/></equal></test>
+                    <!--<let><var n="refPron"/><concat><lit v="os"/><lit-tag v="prn.pro.p2.mf.pl"/></concat></let></when>-->
+                    <!--<let><var n="refPron"/><concat><lit v="le"/><lit-tag v="prn.pro.p3.mf.pl"/></concat></let></when>-->
+                    <let><var n="refPron"/><concat><lit v="se"/><lit-tag v="prn.pro.ref.p3.mf.sp"/></concat></let></when>
+        <otherwise>
+                    <let><var n="refPron"/><concat><lit v="se"/><lit-tag v="prn.pro.ref.p3.mf.sp"/></concat></let>
+        </otherwise>
+      </choose></when></choose>
+      <let><clip pos="1" side="tl" part="a_pron"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_pass"/><lit v=""/></let>
     </def-macro>
 
-    <def-macro n="f_concord1" npar="1">
-    <choose>
-      <!--To determine value of variables of gender and       
-          number and propagate to other rules.  Variables are  
-          not used again in this rule -->
-      <when><test><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="m"/></equal></test>
-            <let><var n="genero"/><lit-tag v="m"/></let></when>
-      <when><test><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="f"/></equal></test>
-            <let><var n="genero"/><lit-tag v="f"/></let></when>
-    </choose>
-    <choose>
-      <when><test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal></test>
-            <let><var n="numero"/><lit-tag v="sg"/></let></when>
-      <when><test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></test>
-            <let><var n="numero"/><lit-tag v="pl"/></let></when>
-    </choose>
-    <choose>
-      <when><test>
-      <!-- If word has GD or ND, we try to assign the
-           gender or number of the previous rule. If there is no
-           value for the gender or number variable from previous
-           rules, gender will be masculine and number singular.-->
-           <equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="GD"/></equal></test>
-           <choose><when><test><equal><var n="genero"/><lit-tag v="f"/></equal></test>
-                         <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="f"/></let></when>
-                   <otherwise><let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="m"/></let></otherwise></choose>
-      </when>
-    </choose>
-    <choose>
-      <when><test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="ND"/></equal></test>
-            <choose><when><test><equal><var n="numero"/><lit-tag v="pl"/></equal></test>
-                          <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></let></when>
-                    <otherwise><let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></let></otherwise></choose>
-      </when>
-    </choose>
-    <choose>
-      <when><test><or><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal>
-                      <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></or></test>
-            <let><var n="numero"/><clip pos="1" side="tl" part="a_nbr"/></let>
-      </when>
-    </choose>
-  </def-macro>
+    <def-macro n="f_build_verb1" npar="1">
+      <let><var n="predicate"/><lit v=""/></let>
+      <let><var n="auxVerb"/><lit v=""/></let>
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_pred"/><lit-tag v="adj.pred"/></equal></test>
+     
+          <let><var n="auxVerb"/><concat><lit v="estar"/><lit-tag v="vblex"/>
+                                           <clip pos="1" side="tl" part="a_temps"/>
+                                           <clip pos="1" side="tl" part="a_agr"/></concat></let>
+          <let><var n="predicate"/><concat><clip pos="1" side="tl" part="lem"/>
+                                           <lit-tag v="adj"/><clip pos="1" side="tl" part="a_gen_mf"/><lit-tag v="ND"/></concat></let>
+        </when>
+        <otherwise>
+          <let><var n="predicate"/><clip pos="1" side="tl" part="whole"/></let>
+        </otherwise>
+      </choose>
+    </def-macro>
 
-  <def-macro n="f_concord2" npar="2">
-    <choose>
-      <when><test><!-- do the main and second parameter gender agree?-->
-              <and><or><equal><clip pos="2" side="sl" part="a_gen"/><clip pos="1" side="sl" part="a_gen"/></equal>
-                       <equal><clip pos="2" side="sl" part="a_gen"/><lit-tag v="mf"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_gen"/><lit-tag v="mf"/></equal></or>
-                   <!-- do the main and second parameter number agree?-->
-                   <or><equal><clip pos="2" side="sl" part="a_nbr"/><clip pos="1" side="sl" part="a_nbr"/></equal>
-                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sp"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sp"/></equal></or></and></test>
-       <let><var n="concPrimero"/><lit v="true"/></let><!-- there is gender and number agreement--></when>
-      <otherwise>
-        <let><var n="concPrimero"/><lit v="false"/></let><!-- there isn't gender and number agreement-->
-      </otherwise>
-    </choose>
-    <choose>
-      <when><test><!-- Propagate the main parameter gender if it has been modified during the translation  -->
-              <and><not><equal><clip pos="1" side="tl" part="a_gen"/><clip pos="1" side="sl" part="a_gen"/></equal></not>
-                   <not><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mf"/></equal></not>
-                   <not><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="GD"/></equal></not></and></test>
-              <choose><when><test><and><not><equal><clip pos="2" side="tl" part="a_gen"/><lit-tag v="mf"/></equal></not>
-                                       <not><and><equal><clip pos="2" side="sl" part="a_gen"/><lit-tag v="mf"/></equal>
-                                                 <not><equal><clip pos="2" side="tl" part="a_gen"/><lit-tag v="GD"/></equal></not></and></not>
-                                       <equal><var n="concPrimero"/><lit v="true"/></equal></and></test>
-                      <let><clip pos="2" side="tl" part="a_gen"/><clip pos="1" side="tl" part="a_gen"/></let></when>
-              </choose></when>
-    </choose>
-    <choose>
-      <when><test><!-- Propagate the main parameter number if it has been modified during the translation  -->
-              <and><not><equal><clip pos="1" side="tl" part="a_nbr"/><clip pos="1" side="sl" part="a_nbr"/></equal></not>
-                   <not><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sp"/></equal></not>
-                   <not><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="ND"/></equal></not></and></test>
-              <choose><when><test><and><not><equal><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sp"/></equal></not>
-                                       <not><and><equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sp"/></equal>
-                                                 <not><equal><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="ND"/></equal></not></and></not>
-                                       <equal><var n="concPrimero"/><lit v="true"/></equal></and></test>
-                      <let><clip pos="2" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let></when>
-              </choose></when>
-    </choose>
-    <choose>
-      <when><test><!-- Which is the rule general gender? --><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="m"/></equal></test>
-       <let><var n="genero"/><lit-tag v="m"/></let></when>
-      <when><test><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="f"/></equal></test>
-       <let><var n="genero"/><lit-tag v="f"/></let></when>
-      <when><test><equal><clip pos="2" side="tl" part="a_gen"/><lit-tag v="m"/></equal></test>
-       <let><var n="genero"/><lit-tag v="m"/></let></when>
-      <when><test><equal><clip pos="2" side="tl" part="a_gen"/><lit-tag v="f"/></equal></test>
-       <let><var n="genero"/><lit-tag v="f"/></let></when>
-      <when><test><and><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mf"/></equal>
-                       <not><equal><clip pos="1" side="sl" part="a_gen"/><lit-tag v="mf"/></equal></not></and></test>
-       <let><var n="genero"/><clip pos="1" side="sl" part="a_gen"/></let></when>
-      <when><test><and><equal><clip pos="2" side="tl" part="a_gen"/><lit-tag v="mf"/></equal>
-                       <not><equal><clip pos="2" side="sl" part="a_gen"/><lit-tag v="mf"/></equal></not></and></test>
-       <let><var n="genero"/><clip pos="2" side="sl" part="a_gen"/></let></when>
-      <otherwise>
-        <let> <var n="genero"/> <lit-tag v="m"/> </let>
-      </otherwise>
-    </choose>
-    <choose>
-      <when><!-- Which is the rule general number? --><test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal></test>
-       <let><var n="numero"/><lit-tag v="sg"/></let></when>
-      <when><test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></test>
-       <let><var n="numero"/><lit-tag v="pl"/></let></when>
-      <when><test><equal><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal></test>
-       <let><var n="numero"/><lit-tag v="sg"/></let></when>
-      <when><test><equal><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></test>
-       <let><var n="numero"/><lit-tag v="pl"/></let></when>
-      <when><test><and><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sp"/></equal>
-                       <not><equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sp"/></equal></not></and></test>
-       <let><var n="numero"/><clip pos="1" side="sl" part="a_nbr"/></let></when>
-      <when><test><and><equal><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sp"/></equal>
-                       <not><equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sp"/></equal></not></and></test>
-       <let><var n="numero"/><clip pos="2" side="sl" part="a_nbr"/></let></when>
-      <when><test><and><equal><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sp"/></equal>
-              <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="ND"/></equal>
-              <equal><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="num"/></equal></and></test>
-       <let><var n="numero"/><lit-tag v="pl"/></let></when>
-      <otherwise>
-        <let> <var n="numero"/> <lit-tag v="sg"/> </let>
-      </otherwise>
-    </choose>
-    <choose>
-      <!-- Determine gender and number value if they are undetermined -->
-      <when><test><equal><clip pos="1" side="tl" part="a_gen"/><lit-tag v="GD"/></equal></test>
-       <let><clip pos="1" side="tl" part="a_gen"/><var n="genero"/></let></when>
-    </choose>
-    <choose>
-      <when><test><equal><clip pos="2" side="tl" part="a_gen"/><lit-tag v="GD"/></equal></test>
-       <let><clip pos="2" side="tl" part="a_gen"/><var n="genero"/></let></when>
-    </choose>
-    <choose>
-      <when><test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="ND"/></equal></test>
-       <let><clip pos="1" side="tl" part="a_nbr"/><var n="numero"/></let></when>
-    </choose>
-    <choose>
-      <when><test><equal><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="ND"/></equal></test>
-       <let><clip pos="2" side="tl" part="a_nbr"/><var n="numero"/></let></when>
-    </choose>
-  </def-macro>
-
-
+    <def-macro n="f_apply_prep1" npar="1">
+      <let><var n="prepDe"/><lit v=""/></let>
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_adv_pr"/><lit-tag v="adv"/></equal></test>
+              <let><var n="prepDe"/><concat><lit v="de"/><lit-tag v="pr"/></concat></let>
+        </when>
+      </choose>
+    </def-macro>
   </section-def-macros>
 
   <section-rules>
 
-  <rule comment="SD Dem.@det" firstChunk="SD">
+
+  <rule comment="SV SD" firstChunk="S">
    <pattern>
+    <pattern-item n="SV"/>
     <pattern-item n="SD"/>
-    <pattern-item n="Dem.@det"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord_subj2"><with-param pos="1"/><with-param pos="2"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="SD"/></tag>
-         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
-         <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-         <tag><clip pos="1" side="tl" part="a_poss"/></tag>
+         <tag><lit-tag v="S.tv"/></tag>
+         <tag><clip pos="1" side="sl" part="a_agr_subj"/></tag>
+         <tag><clip pos="1" side="sl" part="a_agr_obj"/></tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
 
-  <rule comment="Pl SN" firstChunk="SN">
+
+  <rule comment="SD SV" firstChunk="S">
    <pattern>
-    <pattern-item n="Pl"/>
-    <pattern-item n="SN"/>
+    <pattern-item n="SD"/>
+    <pattern-item n="SV"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
-      <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="pl"/></let>
-      <call-macro n="f_link_concord1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_concord_subj2"><with-param pos="2"/><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="SN"/></tag>
-         <tag><var n="chunkGenero"/></tag>
-         <tag><var n="chunkNumero"/></tag>
-         <tag><clip pos="2" side="tl" part="a_poss"/></tag>
+         <tag><lit-tag v="S.tv"/></tag>
+         <tag><clip pos="2" side="sl" part="a_agr_subj"/></tag>
+         <tag><clip pos="2" side="sl" part="a_agr_obj"/></tag>
         </tags>
-        <lu><clip pos="2" side="tl" part="whole"/></lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
 
-<!--
-  <rule comment="Pl SD" firstChunk="SD">
+  <rule comment="Pers SD" firstChunk="SV">
    <pattern>
-    <pattern-item n="Pl"/>
-    <pattern-item n="SD"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
-      <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="pl"/></let>
-      <call-macro n="f_link_concord1"><with-param pos="2"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="SD"/></tag>
-         <tag><clip pos="2" side="tl" part="a_gen"/></tag>
-         <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
-         <tag><clip pos="2" side="tl" part="a_poss"/></tag>
-        </tags>
-        <lu><clip pos="2" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
--->
-  <rule comment="SDPsor SD" firstChunk="SD">
-   <pattern>
-    <pattern-item n="SDPsor"/>
-    <pattern-item n="SD"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-<!--      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>-->
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="SD"/></tag>
-         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
-         <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-        <b/>
-        <lu><lit v="de"/><lit-tag v="pr"/></lu>
-        <b/>
-        <lu><clip pos="2" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-  
-  <rule comment="det Pers" firstChunk="SD">
-   <pattern>
-    <pattern-item n="det"/>
     <pattern-item n="Pers"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
-      <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-      <call-macro n="f_link_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-<!--      <call-macro n="f_set_determiner2"><with-param pos="2"/><with-param pos="1"/></call-macro>-->
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="SD"/></tag>
-         <tag><var n="chunkGenero"/></tag>
-         <tag><var n="chunkNumero"/></tag>
-         <tag><clip pos="2" side="tl" part="a_poss"/></tag>
-        </tags>
-        <lu><clip pos="2" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-
-<!--
-  <rule comment="det SN" firstChunk="SD">
-   <pattern>
-    <pattern-item n="det"/>
-    <pattern-item n="SN"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
-      <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-      <call-macro n="f_link_concord1"><with-param pos="2"/></call-macro>
-      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_set_determiner2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-                    <let><var n="chunkNumero"/><clip pos="2" side="tl" part="a_nbr"/></let>
-                    <let><var n="chunkGenero"/><clip pos="2" side="tl" part="a_gen"/></let>
-      <choose>
-        <when><test><not><equal><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sp"/></equal></not></test>
-                    <let><var n="chunkNumero"/><clip pos="2" side="tl" part="a_nbr"/></let>
-                    <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="3"/></let>
-        </when>
-        <otherwise>
-            <let><var n="chunkNumero"/><lit-tag v="ND"/></let><clip pos="2" side="tl" part="a_nbr"/></let>
-        </otherwise>
-      </choose> 
-      <choose>
-        <when><test><not><equal><clip pos="2" side="tl" part="a_gen"/><lit-tag v="mf"/></equal></not></test>
-                    <let><var n="chunkGenero"/><clip pos="2" side="tl" part="a_gen"/></let>
-                    <let><clip pos="2" side="tl" part="a_gen"/><lit-tag v="2"/></let>
-        </when>
-        <otherwise>
-             <let><var n="chunkGenero"/><lit-tag v="GD"/></let><clip pos="2" side="tl" part="a_gen"/></let>
-        </otherwise>
-      </choose> 
-
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="SD"/></tag>
-         <tag><var n="chunkGenero"/></tag>
-         <tag><var n="chunkNumero"/></tag>
-         <tag><clip pos="2" side="tl" part="a_poss"/></tag>
-        </tags>
-<var n="numero"/><var n="genero"/><var n="chunkNumero"/><var n="chunkGenero"/>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-        <b/>
-        <lu><clip pos="2" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
--->
-
-  <rule comment="Num SN" firstChunk="SN">
-   <pattern>
-    <pattern-item n="Num"/>
-    <pattern-item n="SN"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
-      <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-      <call-macro n="f_link_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="SN"/></tag>
-         <tag><var n="chunkGenero"/></tag>
-         <tag><var n="chunkNumero"/></tag>
-         <tag><clip pos="2" side="tl" part="a_poss"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-        <b/>
-        <lu><clip pos="2" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
- 
- 
-  <rule comment="SN" firstChunk="SN">
-   <pattern>
-    <pattern-item n="Ant"/>
+    <pattern-item n="SD"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_build_copula1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord2"><with-param pos="1"/><with-param pos="2"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="SN"/></tag>
-         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
-         <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-         <tag><clip pos="1" side="tl" part="a_poss"/></tag>
+         <tag><lit-tag v="SV.GD"/></tag> <!-- lol this needs to be fixed -->
+         <tag><var n="chunkNumero"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_subj"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_obj"/></tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu><var n="copula"/></lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
- 
-  <rule comment="SN" firstChunk="SN">
+
+  <rule comment="V-TV CI" firstChunk="SV">
    <pattern>
-    <pattern-item n="N"/>
+    <pattern-item n="V-TV"/>
+    <pattern-item n="CI"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord_obj2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SV.tv"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_subj"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_obj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="V-IV SP" firstChunk="SV">
+   <pattern>
+    <pattern-item n="V-IV"/>
+    <pattern-item n="SP"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <!--<call-macro n="f_concord_obj2"><with-param pos="1"/><with-param pos="2"/></call-macro>-->
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SV.tv"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_subj"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_obj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="V-TV SD" firstChunk="SV">
+   <pattern>
+    <pattern-item n="V-TV"/>
+    <pattern-item n="SD"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord_obj2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SV.tv"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_subj"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_obj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="V neg_fin" firstChunk="V">
+   <pattern>
+    <pattern-item n="V"/>
+    <pattern-item n="neg_fin"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><clip pos="1" side="tl" part="tags"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="neg V" firstChunk="V">
+   <pattern>
+    <pattern-item n="neg"/>
+    <pattern-item n="V"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><clip pos="2" side="tl" part="tags"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="V mod" firstChunk="V">
+   <pattern>
+    <pattern-item n="V"/>
+    <pattern-item n="mod"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><clip pos="1" side="tl" part="tags"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="V dir" firstChunk="V">
+   <pattern>
+    <pattern-item n="V"/>
+    <pattern-item n="dir"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><clip pos="1" side="tl" part="tags"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="V mark" firstChunk="V">
+   <pattern>
+    <pattern-item n="V"/>
+    <pattern-item n="mark"/>
+   </pattern>
+   <action>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><clip pos="1" side="tl" part="tags"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="v_tv_pp" firstChunk="A">
+   <pattern>
+    <pattern-item n="v_tv_pp"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
+      <!--<call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>-->
+      <!--<call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>-->
+      <let><clip pos="1" side="tl" part="a_agr"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better here -->
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="A.GD.ND"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/><lit-tag v="2.3"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="v_iv_pp" firstChunk="A">
+   <pattern>
+    <pattern-item n="v_iv_pp"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
+      <!--<call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>-->
+      <!--<call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>-->
+      <let><clip pos="1" side="tl" part="a_agr"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better here -->
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="A.GD.ND"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/><lit-tag v="2.3"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="v_iv_inf" firstChunk="V">
+   <pattern>
+    <pattern-item n="v_iv_inf"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
+      <!--<call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>-->
+      <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
+      <let><clip pos="1" side="tl" part="a_agr"/><lit v=""/></let>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="V.iv.inf"/></tag>
+         <tag><var n="chunkAgrSubj"/></tag>
+         <tag><var n="chunkAgrObj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <lu> <var n="refPron"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="v_tv_inf" firstChunk="V">
+   <pattern>
+    <pattern-item n="v_tv_inf"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
+      <!--<call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>-->
+      <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
+      <let><clip pos="1" side="tl" part="a_agr"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better here -->
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="V.tv.inf"/></tag>
+         <tag><var n="chunkAgrSubj"/></tag>
+         <tag><var n="chunkAgrObj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <lu> <var n="refPron"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+
+  <rule comment="tajin v_tv" firstChunk="V">
+   <pattern>
+    <pattern-item n="tajin"/>
+    <pattern-item n="v_tv_fin"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_agr_fin_verb1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_conj_fin_verb1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_gen_ref_pron1"><with-param pos="2"/></call-macro>
+      <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better here -->
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="V.tv"/></tag>
+         <tag><var n="chunkAgrSubj"/></tag>
+         <tag><var n="chunkAgrObj"/></tag>
+        </tags>
+        <lu> <var n="negación"/></lu><b/>
+        <lu> <var n="refPron"/></lu><b/>
+        <lu> <lit v="estar"/><clip pos="2" side="tl" part="tags"/></lu><b/>
+        <lu> <clip pos="2" side="tl" part="lem"/><lit-tag v="vblex.ger"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+
+  <rule comment="v_tv_fin" firstChunk="V">
+   <pattern>
+    <pattern-item n="v_tv_fin"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
+      <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better here -->
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="V.tv"/></tag>
+         <tag><var n="chunkAgrSubj"/></tag>
+         <tag><var n="chunkAgrObj"/></tag>
+        </tags>
+        <lu> <var n="negación"/></lu><b/>
+        <lu> <var n="refPron"/></lu><b/>
+        <lu> <clip pos="1" side="tl" part="lemh"/> 
+         <clip pos="1" side="tl" part="tags"/> 
+         <clip pos="1" side="tl" part="lemq"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="v_iv_fin" firstChunk="V">
+   <pattern>
+    <pattern-item n="v_iv_fin"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_build_verb1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="V.iv"/></tag>
+         <tag><var n="chunkAgrSubj"/></tag>
+        </tags>
+        <lu> <var n="negación"/></lu><b/>
+        <lu> <var n="refPron"/></lu><b/>
+        <lu> <var n="auxVerb"/></lu><b/>
+        <lu> <var n="predicate"/></lu><b/>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="det_ind SN" firstChunk="SD">
+   <pattern>
+    <pattern-item n="det_ind"/>
+    <pattern-item n="SN"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><var n="chunkPoss"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="SN SD" firstChunk="SD">
+   <pattern>
+    <pattern-item n="SN"/>
+    <pattern-item n="SD"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="SN"/></tag>
+         <tag><lit-tag v="SD"/></tag>
          <tag><var n="chunkGenero"/></tag>
          <tag><var n="chunkNumero"/></tag>
-         <tag><clip pos="1" side="tl" part="a_poss"/></tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="SN" firstChunk="SN">
-   <pattern>
-    <pattern-item n="A"/>
-    <pattern-item n="SN"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
-      <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-      <call-macro n="f_link_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="SN"/></tag>
-         <tag><var n="chunkGenero"/></tag>
-         <tag><var n="chunkNumero"/></tag>
-         <tag><clip pos="2" side="tl" part="a_poss"/></tag>
-        </tags>
-        <lu><clip pos="2" side="tl" part="whole"/></lu>
+        <lu><lit v="el"/><lit-tag v="det.def.2.3"/></lu>
         <b/>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu><lit v="de"/><lit-tag v="pr"/></lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
 
-  <rule comment="SA" firstChunk="SA">
+
+  <rule comment="SD CN" firstChunk="SP">
    <pattern>
-    <pattern-item n="A"/>
+    <pattern-item n="SD"/>
+    <pattern-item n="CN"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <!--<call-macro n="f_concord1"><with-param pos="1"/></call-macro>-->
-      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="SA"/></tag>
+         <tag><lit-tag v="SD"/></tag>
          <tag><var n="chunkGenero"/></tag>
          <tag><var n="chunkNumero"/></tag>
+         <tag><var n="chunkPoss"/></tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
-   
 
-  <rule comment="Pr SN" firstChunk="SP">
+
+
+  <rule comment="cnjcoo SD" firstChunk="CN">
    <pattern>
-    <pattern-item n="Pr"/>
-    <pattern-item n="SN"/>
+    <pattern-item n="cnjcoo"/>
+    <pattern-item n="SD"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
-      <call-macro n="f_conv_poss1"><with-param pos="2"/></call-macro>
-      <choose>
-        <when><test><equal><clip pos="1" side="tl" part="a_prep"/><lit-tag v="adv"/></equal></test>
-            <out>
-             <chunk namefrom="chunkName">
-              <tags>
-               <tag><lit-tag v="SP"/></tag>
-               <tag><clip pos="2" side="tl" part="a_poss"/></tag>
-              </tags>
-              <lu><clip pos="1" side="tl" part="lemh"/><lit-tag v="adv"/></lu>
-              <b/>
-              <lu><lit v="de"/><lit-tag v="pr"/></lu>
-              <b/>
-               <lu><clip pos="2" side="tl" part="whole"/></lu>
-             </chunk>
-           </out>
-        </when>
-        <otherwise>
-            <out>
-             <chunk namefrom="chunkName">
-              <tags>
-               <tag><lit-tag v="SP"/></tag>
-               <tag><clip pos="2" side="tl" part="a_poss"/></tag>
-              </tags>
-              <lu><clip pos="1" side="tl" part="lemh"/><lit-tag v="pr"/></lu>
-              <b/>
-               <lu><clip pos="2" side="tl" part="whole"/></lu>
-             </chunk>
-            </out>
-        </otherwise>
-      </choose>
+      <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="CN"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><var n="chunkPoss"/></tag>
+        </tags>
+        <lu><lit v="y"/><lit-tag v="cnjcoo"/></lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="Todo SD" firstChunk="SP">
+   <pattern>
+    <pattern-item n="Todo"/>
+    <pattern-item n="SD"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SP"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="lem"/><lit-tag v="predet.2.3"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="Todo SN" firstChunk="SP">
+   <pattern>
+    <pattern-item n="Todo"/>
+    <pattern-item n="SN"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SP"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="lem"/><lit-tag v="predet.2.3"/> </lu>
+        <b/>
+        <lu><lit v="el"/><lit-tag v="det.def.2.3"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
    </action>
   </rule>
 
@@ -1091,248 +1366,200 @@
     <pattern-item n="SD"/>
    </pattern>
    <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
-      <call-macro n="f_conv_poss1"><with-param pos="2"/></call-macro>
-      <choose>
-        <when><test><equal><clip pos="1" side="tl" part="a_prep"/><lit-tag v="adv"/></equal></test>
-            <out>
-             <chunk namefrom="chunkName">
-              <tags>
-               <tag><lit-tag v="SP"/></tag>
-               <tag><clip pos="2" side="tl" part="a_poss"/></tag>
-              </tags>
-              <lu><clip pos="1" side="tl" part="lemh"/><lit-tag v="adv"/></lu>
-              <b/>
-              <lu><lit v="de"/><lit-tag v="pr"/></lu>
-              <b/>
-               <lu><clip pos="2" side="tl" part="whole"/></lu>
-             </chunk>
-           </out>
-        </when>
-        <otherwise>
-            <out>
-             <chunk namefrom="chunkName">
-              <tags>
-               <tag><lit-tag v="SP"/></tag>
-               <tag><clip pos="2" side="tl" part="a_poss"/></tag>
-              </tags>
-              <lu><clip pos="1" side="tl" part="lemh"/><lit-tag v="pr"/></lu>
-              <b/>
-               <lu><clip pos="2" side="tl" part="whole"/></lu>
-             </chunk>
-            </out>
-        </otherwise>
-      </choose>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_apply_prep1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SP"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="lem"/><clip pos="1" side="tl" part="a_adv_pr"/>  </lu><b/>
+        <lu><var n="prepDe"/></lu><b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
    </action>
   </rule>
 
-  <rule comment="Pr Pers" firstChunk="SP">
+  <rule comment="Pr SN" firstChunk="SP">
    <pattern>
     <pattern-item n="Pr"/>
-    <pattern-item n="Pers"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
-      <call-macro n="f_conv_poss1"><with-param pos="2"/></call-macro>
-      <choose>
-        <when><test><equal><clip pos="1" side="tl" part="a_prep"/><lit-tag v="adv"/></equal></test>
-            <out>
-             <chunk namefrom="chunkName">
-              <tags>
-               <tag><lit-tag v="SP"/></tag>
-               <tag><clip pos="2" side="tl" part="a_poss"/></tag>
-              </tags>
-              <lu><clip pos="1" side="tl" part="lemh"/><lit-tag v="adv"/></lu>
-              <b/>
-              <lu><lit v="de"/><lit-tag v="pr"/></lu>
-              <b/>
-               <lu><clip pos="2" side="tl" part="whole"/></lu>
-             </chunk>
-           </out>
-        </when>
-        <otherwise>
-            <out>
-             <chunk namefrom="chunkName">
-              <tags>
-               <tag><lit-tag v="SP"/></tag>
-               <tag><clip pos="2" side="tl" part="a_poss"/></tag>
-              </tags>
-              <lu><clip pos="1" side="tl" part="lemh"/><lit-tag v="pr"/></lu>
-              <b/>
-               <lu><clip pos="2" side="tl" part="whole"/></lu>
-             </chunk>
-            </out>
-        </otherwise>
-      </choose>
-   </action>
-  </rule>
-
-
-
-
-
-  <rule comment="Rel" firstChunk="Pr">
-   <pattern>
-    <pattern-item n="Rel"/>
+    <pattern-item n="SN"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_conv_poss1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_apply_prep1"><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="Pr"/></tag>
-         <tag><clip pos="1" side="tl" part="tags"/></tag>
+         <tag><lit-tag v="SP"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-        <b/><var n="prepPron"/>
+        <lu> <clip pos="1" side="tl" part="lem"/><clip pos="1" side="tl" part="a_adv_pr"/>  </lu>
+        <lu><var n="prepDe"/></lu><b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
 
 
-
-
-  <rule comment="pr Rel" firstChunk="Pr">
+  <rule comment="det_def SN" firstChunk="SD">
    <pattern>
-    <pattern-item n="pr"/>
-    <pattern-item n="Rel"/>
+    <pattern-item n="det_def"/>
+    <pattern-item n="SN"/>
    </pattern>
    <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
-      <call-macro n="f_conv_poss1"><with-param pos="2"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Pr"/></tag>
-         <tag><clip pos="2" side="tl" part="tags"/></tag>
-        </tags>
-        <lu><clip pos="2" side="tl" part="whole"/></lu>
-        <b/><var n="prepPron"/>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-
-  <rule comment="det Ant" firstChunk="Ant">
-   <pattern>
-    <pattern-item n="det"/>
-    <pattern-item n="Ant"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="2"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
          <tag><lit-tag v="SD"/></tag>
-         <tag><clip pos="2" side="tl" part="a_gen"/></tag>
-         <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><var n="chunkPoss"/></tag>
         </tags>
-        <lu><clip pos="2" side="tl" part="whole"/></lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
 
 
-
-  <rule comment="Ant Cog" firstChunk="Ant">
+  <rule comment="A SN" firstChunk="SN">
    <pattern>
-    <pattern-item n="Ant"/>
-    <pattern-item n="Cog"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Ant"/></tag>
-         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
-         <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu><b/>
-        <lu><clip pos="2" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-
-
-  <rule comment="Clf Ant" firstChunk="Ant">
-   <pattern>
-    <pattern-item n="Clf"/>
-    <pattern-item n="Ant"/>
+    <pattern-item n="SN"/>
+    <pattern-item n="A"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_concord2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="1"/></call-macro>
       <out>
-       <chunk namefrom="chunkName">
+       <chunk name="n_a">
         <tags>
-         <tag><lit-tag v="Ant"/></tag>
-         <tag><clip pos="2" side="tl" part="a_gen"/></tag>
-         <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
-        </tags>
-        <lu><clip pos="2" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-
-
-
-  <!-- Rules for individual parts of speech -->
-
-  <rule comment="rel" firstChunk="Rel">
-   <pattern>
-    <pattern-item n="n_rel"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_conv_poss1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Rel"/></tag>
-        <tag><clip pos="1" side="tl" part="tags"/></tag>
-        <tag><clip pos="1" side="sl" part="a_poss"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="n" firstChunk="N">
-   <pattern>
-    <pattern-item n="n"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-<!--      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>-->
-      <call-macro n="f_conv_poss1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="N"/></tag>
+         <tag><lit-tag v="SN"/></tag>
          <tag><var n="chunkGenero"/></tag>
          <tag><var n="chunkNumero"/></tag>
-         <tag><clip pos="1" side="sl" part="a_poss"/></tag>
+         <tag><var n="chunkPoss"/></tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
 
-  <rule comment="@det" firstChunk="Dem.@det">
+
+  <rule comment="A SN" firstChunk="SN">
    <pattern>
-    <pattern-item n="@det"/>
+    <pattern-item n="A"/>
+    <pattern-item n="SN"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk name="a_n">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><var n="chunkPoss"/></tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="Pl SD" firstChunk="SD">
+   <pattern>
+    <pattern-item n="Pl"/>
+    <pattern-item n="SD"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_plural1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk name="n">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><var n="chunkPoss"/></tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="Pl SN" firstChunk="SN">
+   <pattern>
+    <pattern-item n="Pl"/>
+    <pattern-item n="SN"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_plural1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk name="n">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><var n="chunkPoss"/></tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+
+  <rule comment="N" firstChunk="SN">
+   <pattern>
+    <pattern-item n="N"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk name="n">
+        <tags>
+         <tag><lit-tag v="SN"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><var n="chunkPoss"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="prn_dem" firstChunk="SD"> <!-- We probably want to save the determiner info somewhere --> 
+   <pattern>
+    <pattern-item n="prn_dem"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
@@ -1340,17 +1567,45 @@
       <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="Dem.@det"/></tag>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><clip pos="1" side="tl" part="a_pers"/> </tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
 
-  <rule comment="det" firstChunk="Det">
+
+  <rule comment="prn_pers" firstChunk="SD"> <!-- We probably want to save the determiner info somewhere --> 
    <pattern>
-    <pattern-item n="det"/>
+    <pattern-item n="det_def"/>
+    <pattern-item n="prn_pers"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+        <let> <clip pos="2" side="tl" part="lem"/><get-case-from pos="1"><clip pos="2" side="tl" part="lem"/></get-case-from> </let>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><clip pos="1" side="tl" part="a_pers"/> </tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="prn_pers" firstChunk="SD"> <!-- Ajawxel, ri in kinwilo che ri at, at jun qʼaxal utzij ri Dyos. -->
+   <!-- Maybe we want to say that this second 'at' is a proclitic agreement pronoun ? -->
+   <pattern>
+    <pattern-item n="prn_pers"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
@@ -1358,14 +1613,57 @@
       <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="Det"/></tag>
-         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
-         <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><clip pos="1" side="tl" part="a_pers"/> </tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="a_det"/>
-            <clip pos="1" side="tl" part="a_gen" link-to="2"/>
-            <clip pos="1" side="tl" part="a_nbr" link-to="3"/></lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+
+  <rule comment="adj" firstChunk="A">
+   <pattern>
+    <pattern-item n="adj"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <let><clip pos="1" side="tl" part="a_ints"/><lit v=""/></let> <!-- do something better here -->
+      <let><clip pos="1" side="tl" part="a_attr"/><lit v=""/></let> <!-- do something better here -->
+      <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let> <!-- do something better here -->
+      <out>
+       <chunk name="a">
+        <tags>
+         <tag><lit-tag v="A"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="pr Pr" firstChunk="Pr">
+   <pattern>
+    <pattern-item n="pr"/>
+    <pattern-item n="Pr"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <!--<call-macro n="f_poss_to_pron1"><with-param pos="2"/></call-macro>-->
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="Pr"/></tag>
+         <tag> <clip pos="2" side="tl" part="tags"/> </tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
@@ -1381,391 +1679,160 @@
        <chunk namefrom="chunkName">
         <tags>
          <tag><lit-tag v="Pr"/></tag>
+         <tag> <clip pos="1" side="sl" part="tags"/> </tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
 
-  <rule comment="adj" firstChunk="A">
+
+  <rule comment="n_rel" firstChunk="Pr">
    <pattern>
-    <pattern-item n="adj"/>
+    <pattern-item n="n_rel"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <!--<call-macro n="f_concord1"><with-param pos="1"/></call-macro>-->
-      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
-      <let><clip pos="1" side="tl" part="a_ints"/><lit v=""/></let> <!-- do something better 'muy' -->
+      <call-macro n="f_poss_to_pron1"><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="A"/></tag>
-         <tag><var n="chunkGenero"/></tag>
-         <tag><var n="chunkNumero"/></tag>
+         <tag><lit-tag v="Pr"/></tag>
+         <tag> <clip pos="1" side="tl" part="tags"/> </tag>
+         <tag> <clip pos="1" side="sl" part="tags"/> </tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <var n="prepPron"/>
        </chunk>
       </out>
    </action>
   </rule>
 
-
-  <rule comment="v_iv_pp" firstChunk="A">
+  <rule comment="det_def Ant" firstChunk="SD">
    <pattern>
-    <pattern-item n="v_iv_pp"/>
-   </pattern>
-   <action>
-      <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="whole"/><lit-tag v="GD.ND"/></concat></let>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="A"/></tag>
-         <tag><var n="chunkGenero"/></tag>
-         <tag><var n="chunkNumero"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-
-  <rule comment="v_tv_pp" firstChunk="A">
-   <pattern>
-    <pattern-item n="v_tv_pp"/>
-   </pattern>
-   <action>
-      <let><clip pos="1" side="tl" part="a_agr_subj"/><lit v=""/></let><!-- pronoun? ujya'om = nos ha dado -->
-      <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="whole"/><lit-tag v="GD.ND"/></concat></let>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="A"/></tag>
-         <tag><var n="chunkGenero"/></tag>
-         <tag><var n="chunkNumero"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="v_iv_inf" firstChunk="V">
-   <pattern>
-    <pattern-item n="v_iv_inf"/>
-   </pattern>
-   <action>
-      <let><clip pos="1" side="tl" part="a_agr_subj"/><lit v=""/></let><!-- pronoun? -->
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="V.iv.inf"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-
-  <rule comment="v_tv_inf" firstChunk="V">
-   <pattern>
-    <pattern-item n="v_tv_inf"/>
-   </pattern>
-   <action>
-      <let><clip pos="1" side="tl" part="a_agr_subj"/><lit v=""/></let><!-- pronoun? -->
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="V.tv.inf"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-
-  <rule comment="aux v_tv" firstChunk="V">
-   <pattern>
-    <pattern-item n="aux"/>
-    <pattern-item n="v_tv"/>
+    <pattern-item n="det_def"/> <!-- record the determiner somewhere -->
+    <pattern-item n="Ant"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
-      <let><clip pos="2" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better -->
-      <choose>
-       <when><test><or><equal><clip pos="2" side="tl" part="a_pass"/><lit-tag v="pass"/></equal>
-                       <equal><clip pos="2" side="tl" part="a_pass"/><lit-tag v="pass.stat"/></equal>
-                       <equal><clip pos="2" side="tl" part="a_pron"/><lit-tag v="pron"/></equal></or></test>
-         <let><clip pos="2" side="tl" part="a_pass"/><lit v=""/></let>
-         <let><clip pos="2" side="tl" part="a_pron"/><lit v=""/></let>
-         <call-macro n="f_gen_ref_pron1"><with-param pos="2"/></call-macro>
-         <call-macro n="f_agr_fin_verb1"><with-param pos="2"/></call-macro>
-         <call-macro n="f_conj_fin_verb1"><with-param pos="2"/></call-macro>
-         <out>
-          <chunk namefrom="chunkName">
-           <tags>
-            <tag><lit-tag v="V.tv.pass"/></tag>
-            <tag><clip pos="2" side="tl" part="a_temps"/></tag>
-            <tag><clip pos="2" side="tl" part="a_pers"/></tag>
-            <tag><clip pos="2" side="tl" part="a_gen"/></tag>
-            <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
-           </tags>
-           <var n="negación"/><b/>
-           <lu><lit v="estar"/><clip pos="2" side="tl" part="tags"/></lu><b/>
-           <lu><clip pos="2" side="tl" part="lem"/><lit-tag v="vblex.ger"/></lu>
-           <lu><var n="refPron"/></lu><b/>
-          </chunk>
-        </out>
-      </when>
-      <otherwise>
-      <call-macro n="f_agr_fin_verb1"><with-param pos="2"/></call-macro>
-      <call-macro n="f_conj_fin_verb1"><with-param pos="2"/></call-macro>
       <out>
-       <chunk namefrom="chunkName">
+       <chunk name="ant">
         <tags>
-         <tag><lit-tag v="V.tv"/></tag>
-         <tag><clip pos="2" side="tl" part="tags"/></tag>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+         <tag><lit-tag v="sg"/></tag>
         </tags>
-        <var n="negación"/><b/>
-        <lu><lit v="estar"/><clip pos="2" side="tl" part="tags"/></lu><b/>
-        <lu><clip pos="2" side="tl" part="lemh"/>
-             <lit-tag v="vblex.ger"/>
-            <clip pos="2" side="tl" part="lemq"/></lu>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
-      </otherwise>
-     </choose>
-      <call-macro n="f_reset_verb1"><with-param pos="2"/></call-macro>
    </action>
   </rule>
 
-
-
-  <rule comment="v_tv" firstChunk="VT">
+  <rule comment="clf Ant" firstChunk="SD">
    <pattern>
-    <pattern-item n="v_tv"/>
+    <pattern-item n="clf"/>
+    <pattern-item n="Ant"/>
    </pattern>
    <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better -->
-      <choose>
-       <when><test><or><equal><clip pos="1" side="tl" part="a_pass"/><lit-tag v="pass"/></equal>
-                       <equal><clip pos="1" side="tl" part="a_pass"/><lit-tag v="pass.stat"/></equal>
-                       <equal><clip pos="1" side="tl" part="a_pron"/><lit-tag v="pron"/></equal></or></test>
-         <let><clip pos="1" side="tl" part="a_pass"/><lit v=""/></let>
-         <let><clip pos="1" side="tl" part="a_pron"/><lit v=""/></let>
-         <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
-         <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
-         <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
-         <out>
-          <chunk namefrom="chunkName">
-           <tags>
-            <tag><lit-tag v="V.tv.pass"/></tag>
-            <tag><clip pos="1" side="tl" part="a_temps"/></tag>
-            <tag><clip pos="1" side="tl" part="a_pers"/></tag>
-            <tag><clip pos="1" side="tl" part="a_gen"/></tag>
-            <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-           </tags>
-           <var n="negación"/><b/>
-           <lu><var n="refPron"/></lu><b/>
-           <lu><clip pos="1" side="tl" part="whole"/></lu>
-          </chunk>
-        </out>
-      </when>
-      <otherwise>
-      <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
       <out>
-       <chunk namefrom="chunkName">
+       <chunk name="ant">
         <tags>
-         <tag><lit-tag v="V.tv"/></tag>
-         <tag><clip pos="1" side="tl" part="tags"/></tag>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+         <tag><lit-tag v="sg"/></tag>
         </tags>
-        <var n="negación"/><b/>
-        <lu><clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="tags"/>
-            <clip pos="1" side="tl" part="lemq"/></lu>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
-      </otherwise>
-     </choose>
-      <call-macro n="f_reset_verb1"><with-param pos="1"/></call-macro>
    </action>
   </rule>
 
-  <rule comment="aux v_iv" firstChunk="V">
+  <rule comment="np_ant Ant" firstChunk="SD">
    <pattern>
-    <pattern-item n="aux"/>
-    <pattern-item n="v_iv"/>
-   </pattern>
-   <action>
-     <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
-     <choose>
-       <when><test><equal><clip pos="2" side="tl" part="a_pred"/><lit-tag v="adj.pred"/></equal></test>
-        <let><clip pos="2" side="tl" part="a_pred"/><lit-tag v="adj"/></let>
-        <call-macro n="f_agr_fin_verb1"><with-param pos="2"/></call-macro>
-        <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
-        <let><var n="predAdj"/><concat><clip pos="2" side="tl" part="lem"/>
-                                       <clip pos="2" side="tl" part="a_pred"/><lit-tag v="5.6"/></concat></let>
-        <call-macro n="f_conj_fin_verb1"><with-param pos="2"/></call-macro>
-        <out>
-         <chunk namefrom="chunkName">
-          <tags>
-           <tag><lit-tag v="V.iv"/></tag>
-           <tag><clip pos="2" side="tl" part="a_temps"/></tag>
-           <tag><clip pos="2" side="tl" part="a_pers"/></tag>
-           <tag><clip pos="2" side="tl" part="a_gen"/></tag>
-           <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
-          </tags>
-          <var n="negación"/><b/>
-          <lu><lit v="estar"/><lit-tag v="vblex"/><clip pos="2" side="tl" part="a_temps"/><clip pos="2" side="tl" part="a_agr"/></lu><b/>
-          <lu><var n="predAdj"/></lu>
-         </chunk>
-        </out>
-      </when>
-       <when><test><equal><clip pos="2" side="tl" part="a_pron"/><lit-tag v="pron"/></equal></test>
-         <let><clip pos="2" side="tl" part="a_pron"/><lit v=""/></let>
-         <call-macro n="f_gen_ref_pron1"><with-param pos="2"/></call-macro>
-         <call-macro n="f_agr_fin_verb1"><with-param pos="2"/></call-macro>
-         <call-macro n="f_conj_fin_verb1"><with-param pos="2"/></call-macro>
-         <out>
-          <chunk namefrom="chunkName">
-           <tags>
-            <tag><lit-tag v="V.iv"/></tag>
-            <tag><clip pos="2" side="tl" part="a_temps"/></tag>
-            <tag><clip pos="2" side="tl" part="a_pers"/></tag>
-            <tag><clip pos="2" side="tl" part="a_gen"/></tag>
-            <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
-           </tags>
-           <var n="negación"/><b/>
-           <lu><lit v="estar"/><clip pos="2" side="tl" part="tags"/></lu><b/>
-           <lu><clip pos="2" side="tl" part="lem"/><lit-tag v="vblex.ger"/></lu>
-           <lu><var n="refPron"/></lu><b/>
-          </chunk>
-        </out>
-      </when>
-      <otherwise> 
-        <call-macro n="f_agr_fin_verb1"><with-param pos="2"/></call-macro>
-        <call-macro n="f_conj_fin_verb1"><with-param pos="2"/></call-macro>
-        <out>
-         <chunk namefrom="chunkName">
-          <tags>
-           <tag><lit-tag v="V.iv"/></tag>
-           <tag><clip pos="2" side="tl" part="tags"/></tag>
-          </tags>
-        <var n="negación"/><b/>
-        <lu><lit v="estar"/><clip pos="2" side="tl" part="tags"/></lu><b/>
-        <lu><clip pos="2" side="tl" part="lemh"/>
-             <lit-tag v="vblex.ger"/>
-            <clip pos="2" side="tl" part="lemq"/></lu>
-         </chunk>
-        </out>
-       </otherwise>
-     </choose>
-      <call-macro n="f_reset_verb1"><with-param pos="1"/></call-macro>
-   </action>
-  </rule>
-
-
-
-  <rule comment="v_iv" firstChunk="VI">
-   <pattern>
-    <pattern-item n="v_iv"/>
-   </pattern>
-   <action>
-     <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-     <choose>
-       <when><test><equal><clip pos="1" side="tl" part="a_pred"/><lit-tag v="adj.pred"/></equal></test>
-        <let><clip pos="1" side="tl" part="a_pred"/><lit-tag v="adj"/></let>
-        <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
-        <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
-        <let><var n="predAdj"/><concat><clip pos="1" side="tl" part="lem"/>
-                                       <clip pos="1" side="tl" part="a_pred"/><lit-tag v="5.6"/></concat></let>
-        <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
-        <out>
-         <chunk namefrom="chunkName">
-          <tags>
-           <tag><lit-tag v="V.iv"/></tag>
-           <tag><clip pos="1" side="tl" part="a_temps"/></tag>
-           <tag><clip pos="1" side="tl" part="a_pers"/></tag>
-           <tag><clip pos="1" side="tl" part="a_gen"/></tag>
-           <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-          </tags>
-          <var n="negación"/><b/>
-          <lu><lit v="estar"/><lit-tag v="vblex"/><clip pos="1" side="tl" part="a_temps"/><clip pos="1" side="tl" part="a_agr"/></lu><b/>
-          <lu><var n="predAdj"/></lu>
-         </chunk>
-        </out>
-      </when>
-       <when><test><equal><clip pos="1" side="tl" part="a_pron"/><lit-tag v="pron"/></equal></test>
-         <let><clip pos="1" side="tl" part="a_pron"/><lit v=""/></let>
-         <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
-         <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
-         <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
-         <out>
-          <chunk namefrom="chunkName">
-           <tags>
-            <tag><lit-tag v="V.iv"/></tag>
-            <tag><clip pos="1" side="tl" part="a_temps"/></tag>
-            <tag><clip pos="1" side="tl" part="a_pers"/></tag>
-            <tag><clip pos="1" side="tl" part="a_gen"/></tag>
-            <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-           </tags>
-           <var n="negación"/><b/>
-           <lu><var n="refPron"/></lu><b/>
-           <lu><clip pos="1" side="tl" part="whole"/></lu>
-          </chunk>
-        </out>
-      </when>
-      <otherwise> 
-        <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
-        <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
-        <out>
-         <chunk namefrom="chunkName">
-          <tags>
-           <tag><lit-tag v="V.iv"/></tag>
-           <tag><clip pos="1" side="tl" part="tags"/></tag>
-          </tags>
-        <var n="negación"/><b/>
-        <lu><clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="tags"/>
-            <clip pos="1" side="tl" part="lemq"/></lu>
-         </chunk>
-        </out>
-       </otherwise>
-     </choose>
-      <call-macro n="f_reset_verb1"><with-param pos="1"/></call-macro>
-   </action>
-  </rule>
-
-
-  <rule comment="adv" firstChunk="Adv">
-   <pattern>
-    <pattern-item n="adv"/>
+    <pattern-item n="np_ant"/>
+    <pattern-item n="Ant"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <out>
+       <chunk name="ant">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+         <tag><lit-tag v="sg"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="Ant np_cog" firstChunk="SD">
+   <pattern>
+    <pattern-item n="Ant"/>
+    <pattern-item n="np_cog"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk name="ant">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+         <tag><lit-tag v="sg"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="np_ant" firstChunk="SD">
+   <pattern>
+    <pattern-item n="np_ant"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk name="ant">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="1" side="sl" part="a_gen"/></tag>
+         <tag><lit-tag v="sg"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+
+  <rule comment="n" firstChunk="N">
+   <pattern>
+    <pattern-item n="n"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="1"/></call-macro>
+      <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="Adv"/></tag>
+         <tag><lit-tag v="N"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><var n="chunkPoss"/></tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
@@ -1781,525 +1848,32 @@
        <chunk namefrom="chunkName">
         <tags>
          <tag><lit-tag v="Pl"/></tag>
-         <tag><clip pos="1" side="sl" part="tags"/></tag>
+         <tag> <clip pos="1" side="sl" part="tags"/> </tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="prn_pers" firstChunk="Pers">
-   <pattern>
-    <pattern-item n="prn_pers"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Pers"/></tag>
-         <tag><clip pos="1" side="tl" part="tags"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="part" firstChunk="Part">
-   <pattern>
-    <pattern-item n="part"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Part"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="prn_dem" firstChunk="Dem">
-   <pattern>
-    <pattern-item n="prn_dem"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Dem"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="cnjsub" firstChunk="CS">
-   <pattern>
-    <pattern-item n="cnjsub"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="CS"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="neg" firstChunk="Neg">
-   <pattern>
-    <pattern-item n="neg"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Neg"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="np_ant" firstChunk="Ant">
-   <pattern>
-    <pattern-item n="np_ant"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Ant"/></tag>
-         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
-         <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="mark" firstChunk="Mark">
-   <pattern>
-    <pattern-item n="mark"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Mark"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="mod" firstChunk="Mod">
-   <pattern>
-    <pattern-item n="mod"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Mod"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
 
 
-  <rule comment="adv_dir" firstChunk="Dir">
-   <pattern>
-    <pattern-item n="adv_dir"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Dir"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
 
-  <rule comment="prn_itg" firstChunk="Itg">
-   <pattern>
-    <pattern-item n="prn_itg"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Itg"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="ij" firstChunk="Intj">
-   <pattern>
-    <pattern-item n="ij"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Intj"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="cnjcoo" firstChunk="CC">
-   <pattern>
-    <pattern-item n="cnjcoo"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="CC"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="np_top" firstChunk="Top">
-   <pattern>
-    <pattern-item n="np_top"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Top"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="num" firstChunk="Num">
-   <pattern>
-    <pattern-item n="num"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_link_concord1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Num"/></tag>
-         <tag><var n="chunkGenero"/></tag>
-         <tag><var n="chunkNumero"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="prn_pro" firstChunk="Pro">
-   <pattern>
-    <pattern-item n="prn_pro"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Pro"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="adv_itg" firstChunk="Itg">
-   <pattern>
-    <pattern-item n="adv_itg"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Itg"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-<!--
-  <rule comment="aux" firstChunk="Aux">
-   <pattern>
-    <pattern-item n="aux"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Aux"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
--->
-
-  <rule comment="clf" firstChunk="Clf">
-   <pattern>
-    <pattern-item n="clf"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Clf"/></tag>
-         <tag><clip pos="1" side="sl" part="tags"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="num_ord" firstChunk="Ord">
-   <pattern>
-    <pattern-item n="num_ord"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Ord"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="np_al" firstChunk="Prop">
-   <pattern>
-    <pattern-item n="np_al"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Prop"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="emph" firstChunk="Emph">
-   <pattern>
-    <pattern-item n="emph"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Emph"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="np_cog" firstChunk="Cog">
-   <pattern>
-    <pattern-item n="np_cog"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Cog"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <!-- Punctuación -->
-
-  <rule comment="par" firstChunk="Par">
-   <pattern>
-    <pattern-item n="par"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Par"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="cm" firstChunk="Cm">
-   <pattern>
-    <pattern-item n="cm"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Cm"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="sent" firstChunk="Sent">
+  <rule comment="sent" firstChunk="Punct">
    <pattern>
     <pattern-item n="sent"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <call-macro n="f_reset_vars1"><with-param pos="1"/></call-macro>
       <out>
-       <chunk namefrom="chunkName">
+       <chunk name="sent">
         <tags>
-         <tag><lit-tag v="Sent"/></tag>
+         <tag><lit-tag v="Punct"/></tag>
         </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
-
-  <rule comment="guio" firstChunk="Guio">
-   <pattern>
-    <pattern-item n="guio"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Guio"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="lquot" firstChunk="Quot">
-   <pattern>
-    <pattern-item n="lquot"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Quot"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="rquot" firstChunk="Quot">
-   <pattern>
-    <pattern-item n="rquot"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Quot"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-  <rule comment="lquest" firstChunk="Quest">
-   <pattern>
-    <pattern-item n="lquest"/>
-   </pattern>
-   <action>
-      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
-      <out>
-       <chunk namefrom="chunkName">
-        <tags>
-         <tag><lit-tag v="Quest"/></tag>
-        </tags>
-        <lu><clip pos="1" side="tl" part="whole"/></lu>
-       </chunk>
-      </out>
-   </action>
-  </rule>
-
-
-
 
   </section-rules>
 </transfer>

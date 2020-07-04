@@ -8,6 +8,7 @@
 <sdef n="cnjsub"/>
 <sdef n="def"/>
 <sdef n="pp"/>
+<sdef n="p2"/>
 <sdef n="det"/>
 <sdef n="dir"/>
 <sdef n="enc"/>
@@ -109,6 +110,10 @@
       <p><l>aún<s n="adv"/><j/>no<s n="adv"/><j/></l><r>aún<b/>no<s n="adv"/><j/></r></p>
     </e>
     <e lm="estrella polar" c="">
+      <p><l>estrella<s n="n"/><s n="f"/><s n="pl"/><j/>polar<s n="adj"/><s n="mf"/><s n="pl"/><j/></l>
+      <r>estrella<b/>polar<s n="n"/><s n="f"/><s n="pl"/><j/></r></p>
+    </e>
+    <e lm="estrella polar" c="">
       <p><l>estrella<s n="n"/><s n="f"/><s n="sg"/><j/>polar<s n="adj"/><s n="mf"/><s n="sg"/><j/></l>
       <r>estrella<b/>polar<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
     </e>
@@ -116,6 +121,13 @@
       <p><l>estación<s n="n"/><s n="f"/><s n="sg"/><j/>seco<s n="adj"/><s n="f"/><s n="sg"/><j/></l>
       <r>estación<b/>seca<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
     </e>
+
+    <e lm="pasado mañana" c="">
+      <p><l>pasado<s n="adj"/><s n="m"/><s n="sg"/><j/>mañana<s n="n"/><s n="m"/><s n="sg"/><j/></l>
+      <r>pasado<b/>mañana<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
+
+
     <e lm="hoja de maguey" c="">
       <p><l>hoja<s n="n"/><s n="f"/><s n="sg"/><j/>de<s n="pr"/><j/>maguey<s n="n"/><s n="m"/><s n="sg"/><j/></l>
       <r>hoja<b/>de<b/>maguey<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
@@ -124,6 +136,12 @@
       <p><l>hoja<s n="n"/><s n="f"/><s n="pl"/><j/>de<s n="pr"/><j/>maguey<s n="n"/><s n="m"/><s n="sg"/><j/></l>
       <r>hoja<b/>de<b/>maguey<s n="n"/><s n="f"/><s n="pl"/><j/></r></p>
     </e>
+
+        <e lm="vete" c=""><p>
+                <l>ir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/>+te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></l>
+                <r>vete<s n="ij"/><j/></r>
+            </p>
+        </e>
 
         <e lm="váyanse" c=""><p>
                 <l>ir<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/>+se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></l>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -*- nxml -*- -->
+<transfer>
+  <section-def-cats>
+    <def-cat n="con">
+      <cat-item lemma="con" tags="pr"/>
+    </def-cat>
+    <def-cat n="ti">
+      <cat-item lemma="ti" tags="prn.*"/>
+    </def-cat>
+    <def-cat n="default">
+      <cat-item tags="*"/>
+    </def-cat>
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="a_nbr">
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+    </def-attr>
+    <def-attr n="a_gen">
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+    </def-attr>
+    <def-attr n="a_func">
+      <attr-item tags="@det"/>
+      <attr-item tags="@acl"/>
+    </def-attr>
+
+
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="varstub"/>
+  </section-def-vars>
+
+
+  <section-def-macros>
+    <def-macro n="f_default1" npar="1">
+      <choose>
+        <when><test><equal><clip pos="1" side="sl" part="a_gen"/><lit-tag v="GD"/></equal></test>
+          <let>
+            <clip pos="1" side="sl" part="a_gen"/>
+            <lit-tag v="m"/>
+          </let></when>
+      </choose>
+      <choose>
+        <when><test><equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="ND"/></equal></test>
+          <let>
+            <clip pos="1" side="sl" part="a_nbr"/>
+            <lit-tag v="sg"/>
+          </let></when>
+      </choose>
+
+      <let><clip pos="1" side="sl" part="a_func"/><lit v=""/></let>
+    </def-macro>
+
+  </section-def-macros>
+
+
+  <section-rules>
+
+    <rule comment="">
+      <pattern>
+        <pattern-item n="con"/>
+        <pattern-item n="ti"/>
+      </pattern>
+      <action>
+        <out>
+          <lu><get-case-from pos="1"><lit v="contigo"/></get-case-from><lit-tag v="prn.tn.p2.mf.sg"/></lu>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="">
+      <pattern>
+        <pattern-item n="default"/>
+      </pattern>
+      <action>
+      <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu><clip pos="1" side="sl" part="whole"/></lu>
+        </out>
+      </action>
+    </rule>
+
+
+
+
+  </section-rules>
+
+</transfer>

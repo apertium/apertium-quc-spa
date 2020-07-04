@@ -20,6 +20,7 @@ TARGETS_COMMON =		\
 	$(PREFIX1).autoseq.bin	\
 	$(PREFIX1).revautoseq.bin	\
 	$(PREFIX1).rtx.bin	\
+	$(PREFIX1).t3x.bin	\
 	$(PREFIX2).automorf.bin	\
 	$(PREFIX2).prob		\
 	$(PREFIX2).rlx.bin	\
@@ -44,8 +45,8 @@ TARGETS_COMMON =		\
 # -------------------
 
 .deps/$(PREFIX1).autobil.prefixes: $(PREFIX1).autobil.bin .deps/.d
-	lt-print $(PREFIX1).autobil.bin | sed 's/ /@_SPACE_@/g' > .deps/$(PREFIX1).autobil.att
-	hfst-txt2fst -e ε <  .deps/$(PREFIX1).autobil.att > .deps/$(PREFIX1).autobil.hfst
+	lt-print -H $(PREFIX1).autobil.bin > .deps/$(PREFIX1).autobil.att
+	hfst-txt2fst <  .deps/$(PREFIX1).autobil.att > .deps/$(PREFIX1).autobil.hfst
 	hfst-project -p upper .deps/$(PREFIX1).autobil.hfst > .deps/$(PREFIX1).autobil.upper
 	echo " ?* " | hfst-regexp2fst > .deps/any-symbol.hfst
 	hfst-concatenate -1 .deps/$(PREFIX1).autobil.upper -2 .deps/any-symbol.hfst -o .deps/$(PREFIX1).autobil.prefixes
@@ -153,6 +154,11 @@ $(PREFIX2).revautoseq.bin: $(BASENAME).$(PREFIX1).lsx
 
 $(PREFIX1).rtx.bin: $(BASENAME).$(PREFIX1).rtx
 	trx-comp $@ $<
+
+$(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
+	apertium-validate-transfer $<
+	apertium-preprocess-transfer $< $@
+
 
 #$(PREFIX2).rtx.bin: $(BASENAME).$(PREFIX2).rtx
 #	trx-comp $< $@

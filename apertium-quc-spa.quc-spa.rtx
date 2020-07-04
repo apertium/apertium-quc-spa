@@ -1079,7 +1079,7 @@
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
       <!--<call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>-->
-      <!--<call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>-->
+      <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
       <let><clip pos="1" side="tl" part="a_agr"/><lit v=""/></let>
       <out>
        <chunk namefrom="chunkName">
@@ -1089,6 +1089,7 @@
          <tag><var n="chunkAgrObj"/></tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <lu> <var n="refPron"/></lu>
        </chunk>
       </out>
    </action>
@@ -1310,15 +1311,14 @@
    </action>
   </rule>
 
-  <rule comment="Pr SD" firstChunk="SP">
+  <rule comment="Todo SD" firstChunk="SP">
    <pattern>
-    <pattern-item n="Pr"/>
+    <pattern-item n="Todo"/>
     <pattern-item n="SD"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
-      <call-macro n="f_apply_prep1"><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
@@ -1326,8 +1326,8 @@
          <tag><var n="chunkGenero"/></tag>
          <tag><var n="chunkNumero"/></tag>
         </tags>
-        <lu> <clip pos="1" side="tl" part="lem"/><clip pos="1" side="tl" part="a_adv_pr"/>  </lu><b/>
-        <lu><var n="prepDe"/></lu><b/>
+        <lu> <clip pos="1" side="tl" part="lem"/><lit-tag v="predet.2.3"/> </lu>
+        <b/>
         <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
@@ -1353,6 +1353,31 @@
         <b/>
         <lu><lit v="el"/><lit-tag v="det.def.2.3"/> </lu>
         <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="Pr SD" firstChunk="SP">
+   <pattern>
+    <pattern-item n="Pr"/>
+    <pattern-item n="SD"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_apply_prep1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SP"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="lem"/><clip pos="1" side="tl" part="a_adv_pr"/>  </lu><b/>
+        <lu><var n="prepDe"/></lu><b/>
         <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>

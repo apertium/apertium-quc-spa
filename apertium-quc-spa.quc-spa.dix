@@ -906,6 +906,7 @@
 <e><par n="N"/><p><l>Tatxel<s n="n"/></l><r>padre<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>anjel<s n="n"/></l><r>ángel<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>cheʼ<s n="n"/></l><r>árbol<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>cheʼ<s n="n"/></l><r>cárcel<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kaxlanwa<s n="n"/></l><r>pan<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼabʼ<s n="n"/></l><r>posesión<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼabʼ<s n="n"/></l><r>mano<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -1491,6 +1492,7 @@
       <e><p><l>Nela<s n="np"/><s n="ant"/><s n="f"/></l><r>Manuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Pabʼlo<s n="np"/><s n="ant"/><s n="m"/></l><r>Pablo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Tiʼx<s n="np"/><s n="ant"/><s n="m"/></l><r>Tiʼx<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Kuʼ<s n="np"/><s n="ant"/><s n="m"/></l><r>Kuʼ<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Paʼtz<s n="np"/><s n="ant"/><s n="m"/></l><r>Paʼtz<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Juʼl<s n="np"/><s n="ant"/><s n="m"/></l><r>Juʼl<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Jesus<s n="np"/><s n="ant"/><s n="m"/></l><r>Jesús<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2314,7 +2316,7 @@
 <e><par n="IV"/><p><l>nabʼej<s n="v"/><s n="iv"/></l><r>empezar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>noj<s n="v"/><s n="iv"/></l><r>llenar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>chaqiʼj<s n="v"/><s n="iv"/></l><r>secar<s n="vblex"/><s n="pron"/></r></p></e>
-<e><par n="IV"/><p><l>jilil<s n="v"/><s n="iv"/></l><r>resbalizar<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>jilil<s n="v"/><s n="iv"/></l><r>resbalar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>kʼul<s n="v"/><s n="iv"/></l><r>encontrar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>num<s n="v"/><s n="iv"/></l><r>tener<b/>hambre<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>an<s n="v"/><s n="iv"/></l><r>correr<s n="vblex"/></r></p></e>

@@ -18,6 +18,9 @@
     <match lemma="komon" tags="n"> <select lemma="comunidad"/></match>
   </rule>
   <rule weight="1.0">
+    <match lemma="komon" tags="n"> <select lemma="comunidad"/></match>
+  </rule>
+  <rule weight="1.0">
     <match lemma="teʼ" tags="adv"> <select lemma="ahora"/> </match>
   </rule>
   <rule weight="1.0">
@@ -39,6 +42,13 @@
   </rule>
   <rule weight="1.0">
     <match lemma="nan²" tags="n.*"> <select lemma="madre"/> </match>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="koj"/>
+    <match/>
+    <match tags="np.ant.*"/>
+    <match tags="pr"/>
+    <match lemma="cheʼ" tags="n"> <select lemma="cárcel"/> </match>
   </rule>
   <rule weight="1.0">
     <match lemma="cheʼ" tags="n"> <select lemma="árbol"/> </match>

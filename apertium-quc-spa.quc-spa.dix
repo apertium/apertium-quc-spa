@@ -560,6 +560,7 @@
       <e r="LR"><p><l>na<s n="neg"/></l><r>no<s n="adv"/></r></p></e>
       <e r="LR"><p><l>ma<s n="neg"/></l><r>no<s n="adv"/></r></p></e>
       <e r="LR"><p><l>man<s n="neg"/></l><r>no<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>maj<s n="part"/><s n="neg"/></l><r>no<s n="adv"/></r></p></e>
       <e r="LR"><p><l>taj<s n="neg"/><s n="fin"/></l><r></r></p></e>
       <e r="LR"><p><l>taj<s n="neg"/></l><r></r></p></e>
 
@@ -896,7 +897,7 @@
       <e><par n="N"/><p><l>pixabʼ<s n="n"/></l><r>mandamiento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>pixabʼ<s n="n"/></l><r>ley<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>qʼatbʼaltzij<s n="n"/></l><r>juez<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
-      <e><par n="N"/><p><l>qʼatbʼaltzij<s n="n"/></l><r>gobernador<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <!--<e><par n="N"/><p><l>qʼatbʼaltzij<s n="n"/></l><r>gobernador<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>-->
       <e><par n="N"/><p><l>qʼatbʼaltzij<s n="n"/></l><r>justicia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>sinagoga<s n="n"/></l><r>sinagoga<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chuqʼabʼ<s n="n"/></l><r>fuerza<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>

@@ -1559,7 +1559,7 @@
        <chunk namefrom="chunkName">
         <tags>
          <tag><lit-tag v="Pr"/></tag>
-         <tag> <clip pos="2" side="sl" part="tags"/> </tag>
+         <tag> <clip pos="2" side="tl" part="tags"/> </tag>
         </tags>
         <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>

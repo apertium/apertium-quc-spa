@@ -474,6 +474,10 @@
      <attr-item tags="anti.agfoc"/>
     </def-attr>
 
+    <def-attr n="a_attr">
+     <attr-item tags="attr"/>
+    </def-attr>
+
     <def-attr n="a_pron">
      <attr-item tags="pron"/>
     </def-attr>
@@ -1166,7 +1170,9 @@
         </tags>
         <lu> <var n="negación"/></lu><b/>
         <lu> <var n="refPron"/></lu><b/>
-        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <lu> <clip pos="1" side="tl" part="lemh"/> 
+         <clip pos="1" side="tl" part="tags"/> 
+         <clip pos="1" side="tl" part="lemq"/> </lu>
        </chunk>
       </out>
    </action>
@@ -1603,6 +1609,7 @@
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
       <let><clip pos="1" side="tl" part="a_ints"/><lit v=""/></let> <!-- do something better here -->
+      <let><clip pos="1" side="tl" part="a_attr"/><lit v=""/></let> <!-- do something better here -->
       <out>
        <chunk name="a">
         <tags>

@@ -499,6 +499,8 @@
 
     <def-var n="prepPron"/>
     <def-var n="refPron"/>
+    <def-var n="auxVerb"/>
+    <def-var n="predicate"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -721,8 +723,23 @@
       <let><clip pos="1" side="tl" part="a_pass"/><lit v=""/></let>
     </def-macro>
 
-
-
+    <def-macro n="f_build_verb1" npar="1">
+      <let><var n="predicate"/><lit v=""/></let>
+      <let><var n="auxVerb"/><lit v=""/></let>
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_pred"/><lit-tag v="adj.pred"/></equal></test>
+     
+          <let><var n="auxVerb"/><concat><lit v="estar"/><lit-tag v="vblex"/>
+                                           <clip pos="1" side="tl" part="a_temps"/>
+                                           <clip pos="1" side="tl" part="a_agr"/></concat></let>
+          <let><var n="predicate"/><concat><clip pos="1" side="tl" part="lem"/>
+                                           <lit-tag v="adj"/><clip pos="1" side="tl" part="a_gen_mf"/><lit-tag v="ND"/></concat></let>
+        </when>
+        <otherwise>
+          <let><var n="predicate"/><clip pos="1" side="tl" part="whole"/></let>
+        </otherwise>
+      </choose>
+    </def-macro>
   </section-def-macros>
 
   <section-rules>
@@ -1074,6 +1091,7 @@
       <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
       <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
       <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_build_verb1"><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
@@ -1082,7 +1100,8 @@
         </tags>
         <lu> <var n="negación"/></lu><b/>
         <lu> <var n="refPron"/></lu><b/>
-        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <lu> <var n="auxVerb"/></lu><b/>
+        <lu> <var n="predicate"/></lu><b/>
        </chunk>
       </out>
    </action>
@@ -1560,6 +1579,26 @@
    </action>
   </rule>
 
+  <rule comment="clf Ant" firstChunk="SD">
+   <pattern>
+    <pattern-item n="clf"/>
+    <pattern-item n="Ant"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk name="ant">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+         <tag><lit-tag v="sg"/></tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
   <rule comment="np_ant Ant" firstChunk="SD">
    <pattern>
     <pattern-item n="np_ant"/>
@@ -1581,6 +1620,7 @@
       </out>
    </action>
   </rule>
+
   <rule comment="Ant np_cog" firstChunk="SD">
    <pattern>
     <pattern-item n="Ant"/>
@@ -1602,8 +1642,6 @@
       </out>
    </action>
   </rule>
-
-
 
 
   <rule comment="np_ant" firstChunk="SD">

@@ -1404,6 +1404,7 @@
 <e><par n="N"/><p><l>roxox<s n="n"/></l><r>rosa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kumatz<s n="n"/></l><r>serpiente<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼeyaʼ<s n="n"/></l><r>valle<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>chim<s n="n"/></l><r>morral<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>jäbʼ<s n="n"/></l><r>lluvia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>nonochʼ<s n="n"/></l><r>sombra<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼatzʼ<s n="n"/></l><r>mono<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1483,7 +1484,11 @@
 <e><p><l>Mariy<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Migueʼl<s n="np"/><s n="ant"/><s n="m"/></l><r>Miguel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Vicente<s n="np"/><s n="ant"/><s n="m"/></l><r>Vicente<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>Ajpu<s n="np"/><s n="ant"/><s n="m"/></l><r>Ajpu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<!--<e><p><l>Ajpu<s n="np"/><s n="ant"/><s n="m"/></l><r>Ajpu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>-->
+<e><p><l>Ajpu<s n="np"/><s n="ant"/><s n="m"/></l><r>Ahpú<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Jun<s n="np"/><s n="ant"/><s n="m"/></l><r>Hun<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Jun<b/>Ajpu<s n="np"/><s n="ant"/><s n="m"/></l><r>Hunahpú<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Jun<b/>Jun<b/>Ajpu<s n="np"/><s n="ant"/><s n="m"/></l><r>Hun-Hunahpú<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Rubʼen<s n="np"/><s n="ant"/><s n="m"/></l><r>Rubén<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Samson<s n="np"/><s n="ant"/><s n="m"/></l><r>Sansón<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>Saʼul<s n="np"/><s n="ant"/><s n="m"/></l><r>Saulo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2046,7 +2051,7 @@
 <e><par n="IV"/><p><l>kaʼy<s n="v"/><s n="iv"/></l><r>observar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>kaʼy<s n="v"/><s n="iv"/></l><r>ver<s n="vblex"/></r></p></e>
 
-<e><par n="TV"/><p><l>riqaʼ<s n="v"/><s n="tv"/></l><r>llegar<s n="vblex"/></r></p></e> <!-- FIXME-->
+<e><par n="TV"/><p><l>riqaʼ<s n="v"/><s n="tv"/></l><r>encontrar<s n="vblex"/></r></p></e> <!-- FIXME: broken ~riq~  ?-->
 
 <e><par n="TV"/><p><l>kʼot<s n="v"/><s n="tv"/></l><r>ahondar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>mak<s n="v"/><s n="tv"/></l><r>cosechar<s n="vblex"/></r></p></e>

@@ -673,6 +673,7 @@
 
       <!-- UMAL: por -->
       <e><par n="N"/><p><l>umal<s n="n"/><s n="rel"/></l><r>por<s n="pr"/></r></p></e>
+      <e><p><l>umal<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>porque<s n="cnjadv"/></r></p></e> <!-- check -->
 
       <!-- XEʼ chi +E+ –xe: bajo-->
       <e><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/></l><r>abajo<s n="adv"/></r></p></e>
@@ -946,6 +947,8 @@
 <e><par n="N"/><p><l>jukubʼ<s n="n"/></l><r>barca<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>makaj<s n="n"/></l><r>pecado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>mak<s n="n"/></l><r>pecado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>sachabʼal<s n="n"/></l><r>confusión<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>sachabʼal<b/>mak<s n="n"/></l><r>perdón<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>uwachulew<s n="n"/></l><r>mundo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>pam<s n="n"/></l><r>estómago<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ajjudiʼo<s n="n"/></l><r>judío<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -2046,6 +2049,7 @@
       <e><par n="IV"/><p><l>tzaq<s n="v"/><s n="iv"/></l><r>caer<s n="vblex"/></r></p></e>
       <e><par n="IV"/><p><l>tzaq<s n="v"/><s n="iv"/></l><r>perder<s n="vblex"/></r></p></e>
       <e><par n="TV"/><p><l>taʼ<s n="v"/><s n="tv"/></l><r>preguntar<s n="vblex"/></r></p></e>
+      <e><par n="TV"/><p><l>taʼ<s n="v"/><s n="tv"/></l><r>pedir<s n="vblex"/></r></p></e>
       <e><par n="IV"/><p><l>bʼix<s n="v"/><s n="iv"/></l><r>cantar<s n="vblex"/></r></p></e>
       <e><par n="IV"/><p><l>taqan<s n="v"/><s n="iv"/></l><r>mandar<s n="vblex"/></r></p></e>
       <e><par n="TV"/><p><l>taq<s n="v"/><s n="tv"/></l><r>mandar<s n="vblex"/></r></p></e>
@@ -2494,6 +2498,7 @@
 <e><par n="IV"/><p><l>xibʼin<s n="v"/><s n="iv"/></l><r>atemorizar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>xibʼin<s n="v"/><s n="iv"/></l><r>dar<b/>miedo<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>sikʼix<s n="v"/><s n="iv"/></l><r>llamar<s n="vblex"/><s n="pron"/></r></p></e>
+<e><par n="IV"/><p><l>kotiʼ<s n="v"/><s n="iv"/></l><r>echar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>yaj<s n="v"/><s n="iv"/></l><r>regañar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>paqʼ<s n="v"/><s n="iv"/></l><r>partir<s n="vblex"/></r></p></e>
 

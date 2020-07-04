@@ -26,6 +26,12 @@
       <attr-item tags="m"/>
       <attr-item tags="f"/>
     </def-attr>
+    <def-attr n="a_func">
+      <attr-item tags="@det"/>
+      <attr-item tags="@acl"/>
+    </def-attr>
+
+
   </section-def-attrs>
 
   <section-def-vars>
@@ -50,7 +56,7 @@
           </let></when>
       </choose>
 
-
+      <let><clip pos="1" side="sl" part="a_func"/><lit v=""/></let>
     </def-macro>
 
   </section-def-macros>

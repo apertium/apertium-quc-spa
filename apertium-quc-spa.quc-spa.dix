@@ -796,6 +796,8 @@
       <e><par n="N"/><p><l>achalaxik<s n="n"/></l><r>familia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>achalaxik<s n="n"/></l><r>hermano<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><par n="N"/><p><l>achalal<s n="n"/></l><r>hermano<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>chaqʼ¹<s n="n"/></l><r>hermano<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>chaqʼ²<s n="n"/></l><r>hermano<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>sipanik<s n="n"/></l><r>regalo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>sipanik<s n="n"/></l><r>gracia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ja<s n="n"/></l><r>edificio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1491,6 +1493,7 @@
       <!-- SECTION: Nombres propios -->
 
       <e><p><l>Nela<s n="np"/><s n="ant"/><s n="f"/></l><r>Manuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Choʼn<s n="np"/><s n="ant"/><s n="f"/></l><r>Choʼn<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Pabʼlo<s n="np"/><s n="ant"/><s n="m"/></l><r>Pablo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Tiʼx<s n="np"/><s n="ant"/><s n="m"/></l><r>Tiʼx<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Kuʼ<s n="np"/><s n="ant"/><s n="m"/></l><r>Kuʼ<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>

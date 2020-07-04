@@ -587,6 +587,7 @@
       <e><p><l>tekʼut<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e>
       <e><p><l>on<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
       <e><p><l>aretaq<b/>chiʼ<s n="cnjsub"/></l><r>cuando<s n="rel"/><s n="adv"/></r></p></e>
+<e><p><l>kneʼbʼaʼ<s n="cnjsub"/></l><r>aunque<s n="cnjadv"/></r></p></e>
       <e><p><l>chi<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
       <e><p><l>weta<s n="cnjsub"/></l><r>si<s n="cnjadv"/></r></p></e>
       <e><p><l>we<s n="cnjsub"/></l><r>si<s n="cnjadv"/></r></p></e>
@@ -1428,7 +1429,7 @@
 <e><par n="N"/><p><l>jupuq<s n="n"/></l><r>basura<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>poʼr<s n="n"/></l><r>pipa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼayes<s n="n"/></l><r>hierba<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>qʼayes<s n="n"/></l><r>cesped<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>qʼayes<s n="n"/></l><r>césped<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼis<s n="n"/></l><r>tristeza<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>alaʼs<s n="n"/></l><r>muñeca<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chʼat<s n="n"/></l><r>cama<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -1898,6 +1899,7 @@
 
 <e><p><l>jampaʼ<s n="adv"/><s n="itg"/></l><r>cuándo<s n="adv"/><s n="itg"/></r></p></e>
 <e><p><l>jawi<s n="adv"/><s n="itg"/></l><r>dónde<s n="adv"/><s n="itg"/></r></p></e>
+<e><p><l>jawichiʼ<s n="adv"/><s n="itg"/></l><r>dónde<s n="adv"/><s n="itg"/></r></p></e>
 <e><p><l>jawijeʼ<s n="adv"/><s n="itg"/></l><r>dónde<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>jas<b/>che<s n="adv"/><s n="itg"/></l><r>por<b/>qué<s n="adv"/><s n="itg"/></r></p></e>
 
@@ -1932,7 +1934,7 @@
 <e><p><l>jeriʼ<b/>nakʼut<s n="adv"/></l><r>sí<s n="adv"/></r></p></e>
 <e><p><l>jeriʼ<b/>nakʼut<s n="adv"/></l><r>por<b/>tanto<s n="adv"/></r></p></e>
 <e><p><l>jeriʼ<b/>nakʼut<s n="adv"/></l><r>en<b/>efecto<s n="adv"/></r></p></e>
-<e><p><l>qastzij<b/>nakʼut<s n="adv"/></l><r>aunque<s n="adv"/></r></p></e>
+<e><p><l>qastzij<b/>nakʼut<s n="adv"/></l><r>aunque<s n="cnjadv"/></r></p></e>
 <e><p><l>qastzij<b/>nakʼut<s n="adv"/></l><r>ciertamente<s n="adv"/></r></p></e>
 
       <e><p><l>kʼatekʼuriʼ<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>

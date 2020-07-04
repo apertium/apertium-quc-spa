@@ -48,22 +48,43 @@
     <def-cat n="v_iv_inf">
       <cat-item tags="v.iv.inf.*"/>
       <cat-item tags="v.iv.inf"/>
+      <cat-item tags="v.iv.*.inf.*"/>
+      <cat-item tags="v.iv.*.inf"/>
     </def-cat>
     <def-cat n="v_tv_inf">
       <cat-item tags="v.tv.inf.*"/>
       <cat-item tags="v.tv.inf"/>
+      <cat-item tags="v.tv.*.inf.*"/>
+      <cat-item tags="v.tv.*.inf"/>
     </def-cat>
 
     <def-cat n="v_iv_pp">
       <cat-item tags="v.iv.pp.*"/>
       <cat-item tags="v.iv.pp"/>
+      <cat-item tags="v.iv.*.pp.*"/>
+      <cat-item tags="v.iv.*.pp"/>
     </def-cat>
     <def-cat n="v_tv_pp">
       <cat-item tags="v.tv.pp.*"/>
       <cat-item tags="v.tv.pp"/>
+      <cat-item tags="v.tv.*.pp.*"/>
+      <cat-item tags="v.tv.*.pp"/>
     </def-cat>
-    <def-cat n="v_tv">
-      <cat-item tags="v.tv.*"/>
+    <def-cat n="v_tv_fin">
+      <cat-item tags="v.tv.*.impf.*"/>
+      <cat-item tags="v.tv.*.imp.*"/>
+      <cat-item tags="v.tv.*.perf.*"/>
+      <cat-item tags="v.tv.impf.*"/>
+      <cat-item tags="v.tv.imp.*"/>
+      <cat-item tags="v.tv.perf.*"/>
+    </def-cat>
+    <def-cat n="v_iv_fin">
+      <cat-item tags="v.iv.*.impf.*"/>
+      <cat-item tags="v.iv.*.imp.*"/>
+      <cat-item tags="v.iv.*.perf.*"/>
+      <cat-item tags="v.iv.impf.*"/>
+      <cat-item tags="v.iv.imp.*"/>
+      <cat-item tags="v.iv.perf.*"/>
     </def-cat>
     <def-cat n="dir">
       <cat-item tags="adv.dir"/>
@@ -84,9 +105,6 @@
     <def-cat n="part">
       <cat-item tags="part.*"/>
       <cat-item tags="part"/>
-    </def-cat>
-    <def-cat n="v_iv">
-      <cat-item tags="v.iv.*"/>
     </def-cat>
     <def-cat n="prn_dem">
       <cat-item tags="prn.dem.*"/>
@@ -1003,6 +1021,51 @@
    </action>
   </rule>
 
+  <rule comment="v_tv_pp" firstChunk="A">
+   <pattern>
+    <pattern-item n="v_tv_pp"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
+      <!--<call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>-->
+      <!--<call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>-->
+      <let><clip pos="1" side="tl" part="a_agr"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better here -->
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="A.GD.ND"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/><lit-tag v="2.3"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="v_iv_pp" firstChunk="A">
+   <pattern>
+    <pattern-item n="v_iv_pp"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
+      <!--<call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>-->
+      <!--<call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>-->
+      <let><clip pos="1" side="tl" part="a_agr"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better here -->
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="A.GD.ND"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/><lit-tag v="2.3"/></lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
 
   <rule comment="v_iv_inf" firstChunk="V">
    <pattern>
@@ -1036,8 +1099,9 @@
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
       <!--<call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>-->
-      <!--<call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>-->
+      <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
       <let><clip pos="1" side="tl" part="a_agr"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better here -->
       <out>
        <chunk namefrom="chunkName">
         <tags>
@@ -1046,6 +1110,7 @@
          <tag><var n="chunkAgrObj"/></tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <lu> <var n="refPron"/></lu>
        </chunk>
       </out>
    </action>
@@ -1056,13 +1121,14 @@
   <rule comment="tajin v_tv" firstChunk="V">
    <pattern>
     <pattern-item n="tajin"/>
-    <pattern-item n="v_tv"/>
+    <pattern-item n="v_tv_fin"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
       <call-macro n="f_agr_fin_verb1"><with-param pos="2"/></call-macro>
       <call-macro n="f_conj_fin_verb1"><with-param pos="2"/></call-macro>
       <call-macro n="f_gen_ref_pron1"><with-param pos="2"/></call-macro>
+      <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better here -->
       <out>
        <chunk namefrom="chunkName">
         <tags>
@@ -1081,15 +1147,16 @@
 
 
 
-  <rule comment="v_tv" firstChunk="V">
+  <rule comment="v_tv_fin" firstChunk="V">
    <pattern>
-    <pattern-item n="v_tv"/>
+    <pattern-item n="v_tv_fin"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
       <call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>
       <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
+      <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better here -->
       <out>
        <chunk namefrom="chunkName">
         <tags>
@@ -1105,9 +1172,9 @@
    </action>
   </rule>
 
-  <rule comment="v_iv" firstChunk="V">
+  <rule comment="v_iv_fin" firstChunk="V">
    <pattern>
-    <pattern-item n="v_iv"/>
+    <pattern-item n="v_iv_fin"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
@@ -1535,6 +1602,7 @@
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <let><clip pos="1" side="tl" part="a_ints"/><lit v=""/></let> <!-- do something better here -->
       <out>
        <chunk name="a">
         <tags>

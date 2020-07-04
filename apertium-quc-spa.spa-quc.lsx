@@ -117,6 +117,13 @@
       <p><l>estación<s n="n"/><s n="f"/><s n="sg"/><j/>seco<s n="adj"/><s n="f"/><s n="sg"/><j/></l>
       <r>estación<b/>seca<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
     </e>
+
+    <e lm="pasado mañana" c="">
+      <p><l>pasado<s n="adj"/><s n="m"/><s n="sg"/><j/>mañana<s n="n"/><s n="m"/><s n="sg"/><j/></l>
+      <r>pasado<b/>mañana<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+    </e>
+
+
     <e lm="hoja de maguey" c="">
       <p><l>hoja<s n="n"/><s n="f"/><s n="sg"/><j/>de<s n="pr"/><j/>maguey<s n="n"/><s n="m"/><s n="sg"/><j/></l>
       <r>hoja<b/>de<b/>maguey<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>

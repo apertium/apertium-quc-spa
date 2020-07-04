@@ -1,10 +1,12 @@
 <transfer>
   <section-def-cats>
     <!-- Part of speech categories -->
+
     <def-cat n="n_rel">
       <cat-item tags="n.rel.*"/>
       <cat-item tags="n.rel"/>
     </def-cat>
+
     <def-cat n="n">
       <cat-item tags="n.*"/>
       <cat-item tags="n"/>
@@ -262,6 +264,11 @@
       <cat-item lemma="usted" tags="SD.*"/>
     </def-cat>
 
+    <def-cat n="Todo">
+      <cat-item lemma="todo" tags="Pr.*"/>
+      <cat-item lemma="todo" tags="Pr"/>
+    </def-cat>
+
     <def-cat n="Pr">
       <cat-item tags="Pr.*"/>
       <cat-item tags="Pr"/>
@@ -347,6 +354,12 @@
      <attr-item tags="sg"/>
      <attr-item tags="pl"/>
      <attr-item tags="sp"/>
+    </def-attr>
+
+
+    <def-attr n="a_adv_pr">
+     <attr-item tags="pr"/>
+     <attr-item tags="adv"/>
     </def-attr>
 
 
@@ -501,6 +514,7 @@
     <def-var n="refPron"/>
     <def-var n="auxVerb"/>
     <def-var n="predicate"/>
+    <def-var n="prepDe"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -738,6 +752,15 @@
         <otherwise>
           <let><var n="predicate"/><clip pos="1" side="tl" part="whole"/></let>
         </otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_apply_prep1" npar="1">
+      <let><var n="prepDe"/><lit v=""/></let>
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_adv_pr"/><lit-tag v="adv"/></equal></test>
+              <let><var n="prepDe"/><concat><lit v="de"/><lit-tag v="pr"/></concat></let>
+        </when>
       </choose>
     </def-macro>
   </section-def-macros>
@@ -983,7 +1006,7 @@
 
   <rule comment="v_iv_inf" firstChunk="V">
    <pattern>
-    <pattern-item n="v_tv_inf"/>
+    <pattern-item n="v_iv_inf"/>
    </pattern>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
@@ -1222,6 +1245,7 @@
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_apply_prep1"><with-param pos="1"/></call-macro>
       <out>
        <chunk namefrom="chunkName">
         <tags>
@@ -1229,19 +1253,17 @@
          <tag><var n="chunkGenero"/></tag>
          <tag><var n="chunkNumero"/></tag>
         </tags>
-        <lu> <clip pos="1" side="tl" part="lem"/><lit-tag v="pr"/> </lu>
-        <b/>
+        <lu> <clip pos="1" side="tl" part="lem"/><clip pos="1" side="tl" part="a_adv_pr"/>  </lu><b/>
+        <lu><var n="prepDe"/></lu><b/>
         <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
    </action>
   </rule>
 
-
-
-  <rule comment="Pr SN" firstChunk="SP">
+  <rule comment="Todo SN" firstChunk="SP">
    <pattern>
-    <pattern-item n="Pr"/>
+    <pattern-item n="Todo"/>
     <pattern-item n="SN"/>
    </pattern>
    <action>
@@ -1254,8 +1276,34 @@
          <tag><var n="chunkGenero"/></tag>
          <tag><var n="chunkNumero"/></tag>
         </tags>
-        <lu> <clip pos="1" side="tl" part="lem"/><lit-tag v="pr"/> </lu>
+        <lu> <clip pos="1" side="tl" part="lem"/><lit-tag v="predet.2.3"/> </lu>
         <b/>
+        <lu><lit v="el"/><lit-tag v="det.def.2.3"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="Pr SN" firstChunk="SP">
+   <pattern>
+    <pattern-item n="Pr"/>
+    <pattern-item n="SN"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_apply_prep1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SP"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="lem"/><clip pos="1" side="tl" part="a_adv_pr"/>  </lu>
+        <lu><var n="prepDe"/></lu><b/>
         <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
       </out>
@@ -1549,6 +1597,7 @@
        <chunk namefrom="chunkName">
         <tags>
          <tag><lit-tag v="Pr"/></tag>
+         <tag> <clip pos="1" side="tl" part="tags"/> </tag>
          <tag> <clip pos="1" side="sl" part="tags"/> </tag>
         </tags>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>

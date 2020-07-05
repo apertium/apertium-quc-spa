@@ -589,6 +589,7 @@
       <e><p><l>on<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
       <e><p><l>aretaq<b/>chiʼ<s n="cnjsub"/></l><r>cuando<s n="rel"/><s n="adv"/></r></p></e>
 <e><p><l>kneʼbʼaʼ<s n="cnjsub"/></l><r>aunque<s n="cnjadv"/></r></p></e>
+<e><p><l>pine<s n="cnjsub"/></l><r>aunque<s n="cnjadv"/></r></p></e>
       <e><p><l>chi<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
       <e><p><l>weta<s n="cnjsub"/></l><r>si<s n="cnjadv"/></r></p></e>
       <e><p><l>we<s n="cnjsub"/></l><r>si<s n="cnjadv"/></r></p></e>
@@ -773,6 +774,7 @@
       <e><par n="N"/><p><l>ala<s n="n"/></l><r>niño<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ala<s n="n"/></l><r>chico<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>jastaq<s n="n"/></l><r>cosa<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><par n="N"/><p><l>jastaq<s n="n"/></l><r>ropa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>qʼij<s n="n"/></l><r>día<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>qʼij<s n="n"/></l><r>sol<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>Ajawaxel<s n="n"/></l><r>señor<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -859,6 +861,7 @@
       <e><par n="N"/><p><l>aqil<s n="n"/></l><r>malo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chʼumilal<s n="n"/></l><r>destino<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>lemoʼ<s n="n"/></l><r>espejo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>ilbʼal<s n="n"/></l><r>espejo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>yakik<s n="n"/></l><r>dedicación<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>mexaʼ<s n="n"/></l><r>mesa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ikʼ<s n="n"/></l><r>luna<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -947,6 +950,7 @@
 <e><par n="N"/><p><l>jukubʼ<s n="n"/></l><r>barca<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>makaj<s n="n"/></l><r>pecado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>mak<s n="n"/></l><r>pecado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>mak<s n="n"/></l><r>culpa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>sachabʼal<s n="n"/></l><r>confusión<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>sachabʼal<b/>mak<s n="n"/></l><r>perdón<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>uwachulew<s n="n"/></l><r>mundo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1447,6 +1451,7 @@
 <e><par n="N"/><p><l>kumatz<s n="n"/></l><r>serpiente<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼeyaʼ<s n="n"/></l><r>valle<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chim<s n="n"/></l><r>morral<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>chim<s n="n"/></l><r>mochila<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>jäbʼ<s n="n"/></l><r>lluvia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>nonochʼ<s n="n"/></l><r>sombra<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼatzʼ<s n="n"/></l><r>mono<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1493,6 +1498,11 @@
 <e><par n="N"/><p><l>joʼq<s n="n"/></l><r>doblador<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ikan¹<s n="n"/></l><r>tío<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>abʼix<s n="n"/></l><r>milpa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>chʼawebʼal<s n="n"/></l><r>teléfono<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kaʼyibʼal<s n="n"/></l><r>mercado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>atz<s n="n"/></l><r>hermano<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>anabʼ<s n="n"/></l><r>hermano<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>poʼt<s n="n"/></l><r>huipil<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 
 
       <!-- SECTION: Nombres propios -->
@@ -2109,6 +2119,7 @@
 <e><par n="TV"/><p><l>tzʼibʼaj<s n="v"/><s n="tv"/></l><r>escribir<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>chakun<s n="v"/><s n="iv"/></l><r>trabajar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>kaʼy<s n="v"/><s n="iv"/></l><r>observar<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>kaʼy<s n="v"/><s n="iv"/></l><r>mirar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>kaʼy<s n="v"/><s n="iv"/></l><r>ver<s n="vblex"/></r></p></e>
 
 <e><par n="TV"/><p><l>riqaʼ<s n="v"/><s n="tv"/></l><r>encontrar<s n="vblex"/></r></p></e> <!-- FIXME: broken ~riq~  ?-->
@@ -2257,6 +2268,7 @@
 <e><par n="TV"/><p><l>tzoqopij<s n="v"/><s n="tv"/></l><r>liberar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>tor<s n="v"/><s n="tv"/></l><r>liberar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>eyej<s n="v"/><s n="tv"/></l><r>esperar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>iyeʼj<s n="v"/><s n="tv"/></l><r>esperar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>oqʼej<s n="v"/><s n="tv"/></l><r>llorar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>loqʼoj<s n="v"/><s n="tv"/></l><r>comprar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>kʼas<s n="v"/><s n="tv"/></l><r>comprar<s n="vblex"/></r></p></e>

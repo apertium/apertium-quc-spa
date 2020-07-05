@@ -5,6 +5,9 @@
     <def-cat n="con">
       <cat-item lemma="con" tags="pr"/>
     </def-cat>
+    <def-cat n="mí">
+      <cat-item lemma="mí" tags="prn.*"/>
+    </def-cat>
     <def-cat n="ti">
       <cat-item lemma="ti" tags="prn.*"/>
     </def-cat>
@@ -63,6 +66,18 @@
 
 
   <section-rules>
+
+    <rule comment="">
+      <pattern>
+        <pattern-item n="con"/>
+        <pattern-item n="mí"/>
+      </pattern>
+      <action>
+        <out>
+          <lu><get-case-from pos="1"><lit v="conmigo"/></get-case-from><lit-tag v="prn.tn.p1.mf.sg"/></lu>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="">
       <pattern>

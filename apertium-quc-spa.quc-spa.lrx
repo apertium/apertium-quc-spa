@@ -15,6 +15,12 @@
     <match lemma="ech" tags="n.*"> <select lemma="a"/></match>
   </rule>
   <rule weight="1.0">
+    <match lemma="tinamit" tags="n"> <select lemma="tierra"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tinamit" tags="n.*"> <select lemma="pueblo"/></match>
+  </rule>
+  <rule weight="1.0">
     <match lemma="komon" tags="n"> <select lemma="comunidad"/></match>
   </rule>
   <rule weight="1.0">

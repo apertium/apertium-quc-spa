@@ -837,6 +837,34 @@
    </action>
   </rule>
 
+  <rule comment="Pers SN" firstChunk="SV">
+   <pattern>
+    <pattern-item n="Pers"/>
+    <pattern-item n="SN"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_build_copula1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SV.GD"/></tag> <!-- lol this needs to be fixed -->
+         <tag><var n="chunkNumero"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_subj"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_obj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu><var n="copula"/></lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
   <rule comment="Pers SD" firstChunk="SV">
    <pattern>
     <pattern-item n="Pers"/>
@@ -886,6 +914,30 @@
       </out>
    </action>
   </rule>
+
+
+  <rule comment="V-IV SD" firstChunk="SV">
+   <pattern>
+    <pattern-item n="V-IV"/>
+    <pattern-item n="SD"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord_subj2"><with-param pos="1"/><with-param pos="2"/></call-macro>-->
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SV.iv"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_subj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
 
 
   <rule comment="V-IV SP" firstChunk="SV">

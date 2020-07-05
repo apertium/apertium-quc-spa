@@ -674,7 +674,6 @@
 
       <!-- UMAL: por -->
       <e><par n="N"/><p><l>umal<s n="n"/><s n="rel"/></l><r>por<s n="pr"/></r></p></e>
-      <e><p><l>umal<s n="n"/><s n="rel"/><s n="px3sg"/></l><r>porque<s n="cnjadv"/></r></p></e> <!-- check -->
 
       <!-- XEʼ chi +E+ –xe: bajo-->
       <e><par n="N"/><p><l>xeʼ<s n="n"/><s n="rel"/></l><r>abajo<s n="adv"/></r></p></e>
@@ -1295,6 +1294,7 @@
 <e><par n="N"/><p><l>kan<s n="n"/></l><r>serpiente<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>sabʼado<s n="n"/></l><r>sábado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chiʼ<s n="n"/></l><r>orilla<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>chiʼaj<s n="n"/></l><r>pregunta<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>siʼ<s n="n"/></l><r>leña<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>achoch<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chomabʼal<s n="n"/></l><r>actitud<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -1492,6 +1492,7 @@
 <e><par n="N"/><p><l>aqʼäbʼ<s n="n"/></l><r>noche<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>joʼq<s n="n"/></l><r>doblador<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ikan¹<s n="n"/></l><r>tío<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>abʼix<s n="n"/></l><r>milpa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 
 
       <!-- SECTION: Nombres propios -->
@@ -1524,6 +1525,7 @@
 <e><p><l>Sara<s n="np"/><s n="ant"/><s n="f"/></l><r>Sara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Nela<s n="np"/><s n="ant"/><s n="f"/></l><r>Nela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Skaʼ<s n="np"/><s n="ant"/><s n="f"/></l><r>Skaʼ<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Skaʼ<s n="np"/><s n="ant"/><s n="f"/></l><r>Francisca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Rebʼeka<s n="np"/><s n="ant"/><s n="f"/></l><r>Rebeca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Prissilla<s n="np"/><s n="ant"/><s n="f"/></l><r>Prisila<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Xper<s n="np"/><s n="ant"/><s n="f"/></l><r>Elisabet<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1605,6 +1607,7 @@
 <e><p><l>Luʼ<s n="np"/><s n="ant"/><s n="m"/></l><r>Pedro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Peter" -->
 <e><p><l>Max<s n="np"/><s n="ant"/><s n="m"/></l><r>Max<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Thomas" -->
 <e><p><l>Siʼs<s n="np"/><s n="ant"/><s n="m"/></l><r>Siʼs<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Francisco" -->
+<e><p><l>Siʼs<s n="np"/><s n="ant"/><s n="m"/></l><r>Francisco<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Francisco" -->
 <e><p><l>Teʼk<s n="np"/><s n="ant"/><s n="m"/></l><r>Teʼk<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Diego" -->
 <e><p><l>Teʼk<s n="np"/><s n="ant"/><s n="m"/></l><r>Diego<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Diego" -->
 <e><p><l>Xwan<s n="np"/><s n="ant"/><s n="m"/></l><r>Juan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Juan" -->
@@ -1626,14 +1629,20 @@
 <e><p><l>Sikaʼ<s n="np"/><s n="ant"/><s n="f"/></l><r>Sikaʼ<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Francisca" -->
 <e><p><l>Tebʼuʼr<s n="np"/><s n="ant"/><s n="f"/></l><r>Tebʼuʼr<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Tiburcia" -->
 <e><p><l>Tun<s n="np"/><s n="ant"/><s n="m"/></l><r>Tun<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Antonio" -->
+<e><p><l>Tun<s n="np"/><s n="ant"/><s n="m"/></l><r>Antonio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Antonio" -->
 <e><p><l>Toʼn<s n="np"/><s n="ant"/><s n="f"/></l><r>Toʼn<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Antonia" -->
+<e><p><l>Toʼn<s n="np"/><s n="ant"/><s n="f"/></l><r>Antonia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Antonia" -->
 <e><p><l>Tin<s n="np"/><s n="ant"/><s n="m"/></l><r>Tin<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Martín" -->
+<e><p><l>Tin<s n="np"/><s n="ant"/><s n="m"/></l><r>Martín<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Martín" -->
 <e><p><l>Wel<s n="np"/><s n="ant"/><s n="m"/></l><r>Wel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Manuel" -->
+<e><p><l>Wel<s n="np"/><s n="ant"/><s n="m"/></l><r>Manuel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Manuel" -->
 <e><p><l>Xtuʼp<s n="np"/><s n="ant"/><s n="m"/></l><r>Xtuʼp<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Cristóbal" -->
 <e><p><l>Xwan<s n="np"/><s n="ant"/><s n="m"/></l><r>Xwan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Juan" -->
 <e><p><l>Xwaʼn<s n="np"/><s n="ant"/><s n="f"/></l><r>Xwaʼn<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Juana" -->
 <e><p><l>Weʼl<s n="np"/><s n="ant"/><s n="f"/></l><r>Weʼl<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Manuela" -->
+<e><p><l>Weʼl<s n="np"/><s n="ant"/><s n="f"/></l><r>Manuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Manuela" -->
 <e><p><l>Tuʼr<s n="np"/><s n="ant"/><s n="m"/></l><r>Tuʼr<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Venturo" -->
+<e><p><l>Tuʼr<s n="np"/><s n="ant"/><s n="m"/></l><r>Venturo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Venturo" -->
 <e><p><l>Totonicap<s n="np"/><s n="top"/></l><r>Totonicap<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Chwitzʼaq<s n="np"/><s n="top"/></l><r>Totonicapán<s n="np"/><s n="loc"/></r></p></e>
 <e><p><l>Chirijquiac<s n="np"/><s n="top"/></l><r>Chirijquiac<s n="np"/><s n="loc"/></r></p></e>
@@ -1937,6 +1946,7 @@
 
 <e><p><l>je<s n="adv"/></l><r>como<s n="rel"/><s n="adv"/></r></p></e>
 <e><p><l>jeʼ<s n="adv"/></l><r>sí<s n="adv"/></r></p></e>
+<e><p><l>jeʼ<s n="ij"/></l><r>sí<s n="adv"/></r></p></e>
 <e><p><l>jeʼ<b/>nakʼut<s n="adv"/></l><r>sí<s n="adv"/></r></p></e>
 <e><p><l>jeʼ<b/>nakʼut<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
 <e><p><l>jeʼ<b/>nakʼut<s n="adv"/></l><r>por<b/>eso<s n="adv"/></r></p></e>
@@ -1985,6 +1995,7 @@
 <e><p><l>chaqʼabʼ<s n="adv"/></l><r>de<b/>noche<s n="adv"/></r></p></e>
 <e><p><l>aninaq<s n="adv"/></l><r>rápidamente<s n="adv"/></r></p></e>
 <e><p><l>aninaq<s n="adv"/></l><r>inmediatemente<s n="adv"/></r></p></e>
+<e><p><l>iwir<s n="adv"/></l><r>ayer<s n="adv"/></r></p></e>
 <e><p><l>jelaʼ<s n="adv"/></l><r>ahí<s n="adv"/></r></p></e>
 <e><p><l>jelaʼ<s n="adv"/></l><r>así<s n="adv"/></r></p></e>
 <e><p><l>jubʼiqʼ<s n="adv"/></l><r>un<b/>poco<s n="adv"/></r></p></e>
@@ -2090,6 +2101,7 @@
 <e><par n="TV"/><p><l>chʼobʼ<s n="v"/><s n="tv"/></l><r>comprender<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>sach<s n="v"/><s n="tv"/></l><r>perder<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>sach<s n="v"/><s n="tv"/></l><r>engañar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>sach<s n="v"/><s n="tv"/></l><r>equivocar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>riqʼ<s n="v"/><s n="tv"/></l><r>lamer<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>tij<s n="v"/><s n="tv"/></l><r>comer<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>kʼol<s n="v"/><s n="tv"/></l><r>tener<s n="vblex"/></r></p></e>
@@ -2397,6 +2409,8 @@
 <!--<e><par n="IV"/><p><l>bʼison<s n="v"/><s n="iv"/></l><r>lamentar<s n="vblex"/></r></p></e>-->
 <e><par n="IV"/><p><l>bʼison<s n="v"/><s n="iv"/></l><r>triste<s n="adj"/><s n="pred"/><s n="mf"/></r></p></e>
 <e><par n="IV"/><p><l>sach<s n="v"/><s n="iv"/></l><r>engañar<s n="vblex"/><s n="pron"/></r></p></e>
+<e><par n="IV"/><p><l>sach<s n="v"/><s n="iv"/></l><r>equivocar<s n="vblex"/><s n="pron"/></r></p></e>
+<e><par n="IV"/><p><l>sach<s n="v"/><s n="iv"/></l><r>perder<s n="vblex"/><s n="pron"/></r></p></e>
 <!--<e><par n="IV"/><p><l>sach<s n="v"/><s n="iv"/></l><r>perdido<s n="adj"/><s n="pred"/><s n="GD"/></r></p></e>-->
 <!--<e><par n="IV"/><p><l>niman<s n="v"/><s n="iv"/></l><r>ser obediente<s n="vblex"/></r></p></e>-->
 <e><par n="IV"/><p><l>niman<s n="v"/><s n="iv"/></l><r>someter<s n="vblex"/><s n="pron"/></r></p></e>

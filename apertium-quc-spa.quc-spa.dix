@@ -920,11 +920,14 @@
 <e><par n="N"/><p><l>qʼabʼ<s n="n"/></l><r>mano<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ixoq<s n="n"/></l><r>mujer<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼuʼx²<s n="n"/></l><r>ser<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kʼuʼx²<s n="n"/></l><r>centro<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼuʼx²<s n="n"/></l><r>ánima<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼuʼx²<s n="n"/></l><r>alma<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼuʼx¹<s n="n"/></l><r>ser<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kʼuʼx¹<s n="n"/></l><r>centro<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼuʼx¹<s n="n"/></l><r>ánima<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼuʼx¹<s n="n"/></l><r>alma<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+
 <e><par n="N"/><p><l>uxlabʼal<s n="n"/></l><r>espíritu<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼatojtzij<s n="n"/></l><r>juez<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <!--<e><par n="N"/><p><l>aqan<s n="n"/></l><r>concha<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>-->
@@ -2480,6 +2483,7 @@
 <!--<e><par n="TV"/><p><l>bʼij<b/>ri<b/>tzij<s n="v"/><s n="iv"/></l><r>decir<b/>la<b/>verdad<s n="vblex"/></r></p></e>-->
 
 <e><par n="IV"/><p><l>el<s n="v"/><s n="iv"/></l><r>ir<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>el<s n="v"/><s n="iv"/></l><r>salir<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>el<b/>ubʼik<s n="v"/><s n="iv"/></l><r>salir<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>el<b/>ubʼik<s n="v"/><s n="iv"/></l><r>ir<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>el<b/>uloq<s n="v"/><s n="iv"/></l><r>venir<s n="vblex"/></r></p></e>

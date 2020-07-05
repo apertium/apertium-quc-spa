@@ -20,6 +20,7 @@ TARGETS_COMMON =		\
 	$(PREFIX1).autoseq.bin	\
 	$(PREFIX1).revautoseq.bin	\
 	$(PREFIX1).rtx.bin	\
+	$(PREFIX1).prob		\
 	$(PREFIX1).t3x.bin	\
 	$(PREFIX2).automorf.bin	\
 	$(PREFIX2).prob		\

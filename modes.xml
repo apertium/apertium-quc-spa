@@ -9,9 +9,13 @@
         <file name="quc-spa.automorf.hfst"/>
       </program>
 
-      <program name="cg-proc -w -1 -n">
+      <program name="cg-proc -w">
         <file name="quc-spa.rlx.bin"/>
       </program>
+      <program name="apertium-tagger -g -u 2">
+        <file name="quc-spa.prob"/>
+      </program>
+
       <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
         <file name="quc-spa.autoseq.bin"/>
@@ -61,8 +65,11 @@
       <program name="hfst-proc -w">
         <file name="quc-spa.automorf.hfst"/>
       </program>
-      <program name="cg-proc -1 -n">
+      <program name="cg-proc -w">
         <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g -u 2">
+        <file name="quc-spa.prob"/>
       </program>
     </pipeline>
   </mode>
@@ -87,8 +94,11 @@
         <file name="quc-spa.automorf.hfst"/>
       </program>
 
-      <program name="cg-proc -w -1 -n">
+      <program name="cg-proc -w">
         <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g -u 2">
+        <file name="quc-spa.prob"/>
       </program>
       <program name="lsx-proc">
         <file name="quc-spa.autoseq.bin"/>
@@ -104,8 +114,11 @@
         <file name="quc-spa.automorf.hfst"/>
       </program>
 
-      <program name="cg-proc -w -1 -n">
+      <program name="cg-proc -w">
         <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g -u 2">
+        <file name="quc-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
@@ -133,8 +146,11 @@
         <file name="quc-spa.automorf.hfst"/>
       </program>
 
-      <program name="cg-proc -w -1 -n">
+      <program name="cg-proc -w">
         <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g -u 2">
+        <file name="quc-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
@@ -161,8 +177,11 @@
         <file name="quc-spa.automorf.hfst"/>
       </program>
 
-      <program name="cg-proc -w -1 -n">
+      <program name="cg-proc -w">
         <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g -u 2">
+        <file name="quc-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
@@ -186,8 +205,11 @@
         <file name="quc-spa.automorf.hfst"/>
       </program>
 
-      <program name="cg-proc -1 -n">
+      <program name="cg-proc -w">
         <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g -u 2">
+        <file name="quc-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
@@ -205,8 +227,11 @@
         <file name="quc-spa.automorf.hfst"/>
       </program>
 
-      <program name="cg-proc -w -1 -n">
+      <program name="cg-proc -w">
         <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g -u 2">
+        <file name="quc-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
@@ -229,8 +254,11 @@
         <file name="quc-spa.automorf.hfst"/>
       </program>
 
-      <program name="cg-proc -w -1 -n">
+      <program name="cg-proc -w">
         <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g -u 2">
+        <file name="quc-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
@@ -258,8 +286,11 @@
         <file name="quc-spa.automorf.hfst"/>
       </program>
 
-      <program name="cg-proc -w -1 -n">
+      <program name="cg-proc -w">
         <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g -u 2">
+        <file name="quc-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
@@ -293,8 +324,11 @@
         <file name="quc-spa.automorf.hfst"/>
       </program>
 
-      <program name="cg-proc -w -1 -n">
+      <program name="cg-proc -w">
         <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g -u 2">
+        <file name="quc-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
@@ -335,8 +369,11 @@
         <file name="quc-spa.automorf.hfst"/>
       </program>
 
-      <program name="cg-proc -w -1 -n">
+      <program name="cg-proc -w">
         <file name="quc-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g -u 2">
+        <file name="quc-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lsx-proc">

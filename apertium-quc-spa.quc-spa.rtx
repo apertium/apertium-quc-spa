@@ -277,6 +277,7 @@
     <def-cat n="Pers">
       <cat-item lemma="yo" tags="SD.*"/>
       <cat-item lemma="tú" tags="SD.*"/>
+      <cat-item lemma="él" tags="SD.*"/>
       <cat-item lemma="nosotros" tags="SD.*"/>
       <cat-item lemma="vosotros" tags="SD.*"/>
       <cat-item lemma="usted" tags="SD.*"/>
@@ -317,6 +318,10 @@
 
     <def-cat n="Dem">
       <cat-item tags="Dem.*"/>
+    </def-cat>
+
+    <def-cat n="Top">
+      <cat-item lemma="top" tags="SD.*"/>
     </def-cat>
 
     <def-cat n="Ant">
@@ -854,7 +859,7 @@
    </action>
   </rule>
 
-  <rule comment="Pers SN" firstChunk="SV">
+  <rule comment="Pers SN" firstChunk="S">
    <pattern>
     <pattern-item n="Pers"/>
     <pattern-item n="SN"/>
@@ -866,7 +871,7 @@
       <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="SV.GD"/></tag> <!-- lol this needs to be fixed -->
+         <tag><lit-tag v="S.GD"/></tag> <!-- lol this needs to be fixed -->
          <tag><var n="chunkNumero"/></tag>
          <tag><clip pos="1" side="tl" part="a_agr_subj"/></tag>
          <tag><clip pos="1" side="tl" part="a_agr_obj"/></tag>
@@ -882,7 +887,7 @@
   </rule>
 
 
-  <rule comment="Pers SD" firstChunk="SV">
+  <rule comment="Pers SD" firstChunk="S">
    <pattern>
     <pattern-item n="Pers"/>
     <pattern-item n="SD"/>
@@ -894,7 +899,7 @@
       <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="SV.GD"/></tag> <!-- lol this needs to be fixed -->
+         <tag><lit-tag v="S.GD"/></tag> <!-- lol this needs to be fixed -->
          <tag><var n="chunkNumero"/></tag>
          <tag><clip pos="1" side="tl" part="a_agr_subj"/></tag>
          <tag><clip pos="1" side="tl" part="a_agr_obj"/></tag>
@@ -1102,7 +1107,7 @@
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
       <!--<call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>-->
-      <!--<call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>-->
+      <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
       <let><clip pos="1" side="tl" part="a_agr"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better here -->
       <out>
@@ -1125,7 +1130,7 @@
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_agr_fin_verb1"><with-param pos="1"/></call-macro>
       <!--<call-macro n="f_conj_fin_verb1"><with-param pos="1"/></call-macro>-->
-      <!--<call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>-->
+      <call-macro n="f_gen_ref_pron1"><with-param pos="1"/></call-macro>
       <let><clip pos="1" side="tl" part="a_agr"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_anti"/><lit v=""/></let> <!-- do something better here -->
       <out>
@@ -1350,6 +1355,35 @@
       </out>
    </action>
   </rule>
+
+  <rule comment="SD SN" firstChunk="SD"> <!-- ambiguous between SD de SN // SD ser SN -->
+   <!-- SD de SN: Ri ekinimal tinimit kketzʼabʼej uwach ri areʼ kkibʼij: -->
+   <!-- SD ser SN: Ri nan Toʼn nim winaq chik, saq uwiʼ -->
+   <pattern>
+    <pattern-item n="SD"/>
+    <pattern-item n="SN"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu><lit v="de"/><lit-tag v="pr"/></lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
 
   <rule comment="SN SD" firstChunk="SD">
    <pattern>
@@ -1739,7 +1773,7 @@
          <tag><lit-tag v="SD"/></tag>
          <tag><var n="chunkGenero"/></tag>
          <tag><var n="chunkNumero"/></tag>
-         <tag><clip pos="1" side="tl" part="a_pers"/> </tag>
+         <tag><clip pos="2" side="tl" part="a_pers"/> </tag>
         </tags>
         <lu> <clip pos="2" side="tl" part="whole"/> </lu>
        </chunk>
@@ -1855,6 +1889,26 @@
    </action>
   </rule>
 
+  <rule comment="det_def Top" firstChunk="SD">
+   <pattern>
+    <pattern-item n="det_def"/> <!-- record the determiner somewhere -->
+    <pattern-item n="Top"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk name="top">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+         <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
   <rule comment="det_def Ant" firstChunk="SD">
    <pattern>
     <pattern-item n="det_def"/> <!-- record the determiner somewhere -->
@@ -1938,6 +1992,27 @@
       </out>
    </action>
   </rule>
+
+
+  <rule comment="np_top" firstChunk="SD">
+   <pattern>
+    <pattern-item n="np_top"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk name="top">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+         <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
 
 
   <rule comment="np_ant" firstChunk="SD">

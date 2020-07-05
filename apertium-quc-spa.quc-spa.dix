@@ -1513,6 +1513,7 @@
       <e><p><l>Nela<s n="np"/><s n="ant"/><s n="f"/></l><r>Manuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Choʼn<s n="np"/><s n="ant"/><s n="f"/></l><r>Choʼn<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Pabʼlo<s n="np"/><s n="ant"/><s n="m"/></l><r>Pablo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Natanaʼel<s n="np"/><s n="ant"/><s n="m"/></l><r>Natanael<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Tiʼx<s n="np"/><s n="ant"/><s n="m"/></l><r>Tiʼx<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Kuʼ<s n="np"/><s n="ant"/><s n="m"/></l><r>Kuʼ<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Paʼtz<s n="np"/><s n="ant"/><s n="m"/></l><r>Paʼtz<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1919,7 +1920,7 @@
 <e><par n="N"/><p><l>loqʼ<s n="adj"/></l><r>querido<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chʼuʼj<s n="adj"/></l><r>loco<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>amaʼ<s n="adj"/></l><r>masculino<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>wonobʼam<s n="adj"/></l><r>abandonado<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>wonobʼam<s n="adj"/></l><r>abandonado<s n="vblex"/><s n="pp"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼatom<s n="adj"/></l><r>cortar<s n="vblex"/><s n="pp"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼän<s n="adj"/></l><r>amarillo<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼeqqʼoj<s n="adj"/></l><r>prieto<s n="adj"/><s n="GD"/></r></p><par n="pl_ND"/></e>
@@ -2533,6 +2534,7 @@
 <e><par n="IV"/><p><l>paqʼ<s n="v"/><s n="iv"/></l><r>partir<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>pax<s n="v"/><s n="iv"/></l><r>quebrar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="TV"/><p><l>xeʼj<s n="v"/><s n="tv"/></l><r>temer<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>etzʼabʼej<s n="v"/><s n="tv"/></l><r>jugar<s n="vblex"/></r></p></e>
 
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>

@@ -1503,6 +1503,8 @@
 <e><par n="N"/><p><l>atz<s n="n"/></l><r>hermano<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>anabʼ<s n="n"/></l><r>hermano<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>poʼt<s n="n"/></l><r>huipil<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>ajqʼij<s n="n"/></l><r>sacerdote<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>bʼoʼj<s n="n"/></l><r>olla<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 
 
       <!-- SECTION: Nombres propios -->
@@ -2528,6 +2530,8 @@
 <e><par n="IV"/><p><l>kotiʼ<s n="v"/><s n="iv"/></l><r>echar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>yaj<s n="v"/><s n="iv"/></l><r>regañar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>paqʼ<s n="v"/><s n="iv"/></l><r>partir<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>pax<s n="v"/><s n="iv"/></l><r>quebrar<s n="vblex"/><s n="pron"/></r></p></e>
+<e><par n="TV"/><p><l>xeʼj<s n="v"/><s n="tv"/></l><r>temer<s n="vblex"/></r></p></e>
 
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>

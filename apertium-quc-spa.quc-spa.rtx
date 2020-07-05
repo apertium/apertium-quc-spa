@@ -315,6 +315,10 @@
       <cat-item tags="Pl"/>
     </def-cat>
 
+    <def-cat n="Dem">
+      <cat-item tags="Dem.*"/>
+    </def-cat>
+
     <def-cat n="Ant">
       <cat-item lemma="ant" tags="SD.*"/>
     </def-cat>
@@ -785,7 +789,20 @@
         </when>
       </choose>
     </def-macro>
+
+    <def-macro n="f_set_demonstrative1" npar="1">
+      <choose>
+        <when><test><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="ése"/></equal></test>
+              <let><clip pos="1" side="tl" part="lem"/><lit v="ese"/></let>
+        </when>
+        <when><test><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="éste"/></equal></test>
+              <let><clip pos="1" side="tl" part="lem"/><lit v="este"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
   </section-def-macros>
+
 
   <section-rules>
 
@@ -1282,6 +1299,58 @@
    </action>
   </rule>
 
+<!--
+  <rule comment="Dem SD" firstChunk="SD">
+   <pattern>
+    <pattern-item n="Dem"/>
+    <pattern-item n="SD"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+        </tags>
+        <lu><clip pos="1" side="tl" part="lem"/><lit-tag v="det.dem.2.3"/></lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+-->
+
+
+  <rule comment="SN Dem" firstChunk="SD">
+   <pattern>
+    <pattern-item n="SN"/>
+    <pattern-item n="Dem"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_demonstrative1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+        </tags>
+        <lu><clip pos="2" side="tl" part="lem"/><lit-tag v="det.dem.2.3"/></lu>
+        <b/>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
   <rule comment="SN SD" firstChunk="SD">
    <pattern>
     <pattern-item n="SN"/>
@@ -1461,6 +1530,30 @@
   </rule>
 
 
+  <rule comment="det_def SD" firstChunk="SD">
+   <pattern>
+    <pattern-item n="det_def"/>
+    <pattern-item n="SD"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_set_chunk_poss1"><with-param pos="2"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SD"/></tag>
+         <tag><var n="chunkGenero"/></tag>
+         <tag><var n="chunkNumero"/></tag>
+         <tag><var n="chunkPoss"/></tag>
+        </tags>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
   <rule comment="det_def SN" firstChunk="SD">
    <pattern>
     <pattern-item n="det_def"/>
@@ -1609,7 +1702,7 @@
    </action>
   </rule>
 
-  <rule comment="prn_dem" firstChunk="SD"> <!-- We probably want to save the determiner info somewhere --> 
+  <rule comment="prn_dem" firstChunk="Dem"> <!-- We probably want to save the determiner info somewhere --> 
    <pattern>
     <pattern-item n="prn_dem"/>
    </pattern>
@@ -1619,7 +1712,7 @@
       <out>
        <chunk namefrom="chunkName">
         <tags>
-         <tag><lit-tag v="SD"/></tag>
+         <tag><lit-tag v="Dem"/></tag>
          <tag><var n="chunkGenero"/></tag>
          <tag><var n="chunkNumero"/></tag>
          <tag><clip pos="1" side="tl" part="a_pers"/> </tag>

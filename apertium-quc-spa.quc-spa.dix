@@ -847,6 +847,7 @@
       <e><par n="N"/><p><l>achiʼl<s n="n"/></l><r>amigo<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>qasnaʼ<s n="n"/></l><r>bautismo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>ajchak<s n="n"/></l><r>campesino<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>ajchak<s n="n"/></l><r>obrero<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>juqʼat<s n="n"/></l><r>equipo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>juqʼat<s n="n"/></l><r>tribu<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>juqʼat<s n="n"/></l><r>grupo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1514,12 +1515,16 @@
 <e><par n="N"/><p><l>anabʼ<s n="n"/></l><r>hermano<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>poʼt<s n="n"/></l><r>huipil<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ajqʼij<s n="n"/></l><r>sacerdote<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>juqubʼ<s n="n"/></l><r>trago<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼoʼj<s n="n"/></l><r>olla<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>ajtʼisoʼmanel<s n="n"/></l><r>sastre<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>tʼisoʼmanel<s n="n"/></l><r>sastre<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 
 
       <!-- SECTION: Nombres propios -->
 
       <e><p><l>Nela<s n="np"/><s n="ant"/><s n="f"/></l><r>Manuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Naʼ<s n="np"/><s n="ant"/><s n="f"/></l><r>Naʼ<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Choʼn<s n="np"/><s n="ant"/><s n="f"/></l><r>Choʼn<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Pabʼlo<s n="np"/><s n="ant"/><s n="m"/></l><r>Pablo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Natanaʼel<s n="np"/><s n="ant"/><s n="m"/></l><r>Natanael<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1774,6 +1779,7 @@
 <e><p><l>nim<s n="adj"/></l><r>grande<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>mayabʼ<s n="adj"/></l><r>maya<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>rax<s n="adj"/></l><r>verde<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>jalajoj<s n="adj"/></l><r>diferente<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>kʼokʼ<s n="adj"/></l><r>fragrante<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>kʼokʼ<s n="adj"/></l><r>aromático<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>nim<s n="adj"/><s n="pl"/></l><r>grande<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -2274,6 +2280,7 @@
 <e><par n="TV"/><p><l>poroj<s n="v"/><s n="tv"/></l><r>quemar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>tur<s n="v"/><s n="tv"/></l><r>desarmar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>wok<s n="v"/><s n="tv"/></l><r>formar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>wok<s n="v"/><s n="tv"/></l><r>construir<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>xutuj<s n="v"/><s n="tv"/></l><r>abandonar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>kuy<s n="v"/><s n="tv"/></l><r>perdonar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>kuy<s n="v"/><s n="tv"/></l><r>soportar<s n="vblex"/></r></p></e>
@@ -2550,6 +2557,8 @@
 <e><par n="IV"/><p><l>pax<s n="v"/><s n="iv"/></l><r>quebrar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="TV"/><p><l>xeʼj<s n="v"/><s n="tv"/></l><r>temer<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>etzʼabʼej<s n="v"/><s n="tv"/></l><r>jugar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>qʼil<s n="v"/><s n="tv"/></l><r>impedir<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>qʼil<s n="v"/><s n="tv"/></l><r>prevenir<s n="vblex"/></r></p></e>
 
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>

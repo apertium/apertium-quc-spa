@@ -312,6 +312,10 @@
       <cat-item tags="SN"/>
     </def-cat>
 
+    <def-cat n="S">
+      <cat-item tags="S.*"/>
+    </def-cat>
+
     <def-cat n="Pl">
       <cat-item tags="Pl.*"/>
       <cat-item tags="Pl"/>
@@ -1083,6 +1087,30 @@
    </action>
   </rule>
 
+
+  <rule comment="V-TV S" firstChunk="S">
+   <pattern>
+    <pattern-item n="V-TV"/>
+    <pattern-item n="S"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="S.tv"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_subj"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_obj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu><lit v="que"/><lit-tag v="cnjsub"/></lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
 
   <rule comment="V-TV V-TV" firstChunk="SV">
    <pattern>

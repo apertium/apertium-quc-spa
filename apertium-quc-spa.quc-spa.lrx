@@ -12,6 +12,17 @@
     <match lemma="kajbʼal" tags="n.*"> <select lemma="tiempo"/> </match>
   </rule>
   <rule weight="1.0">
+    <match lemma="jeʼl" tags="adj"> <select lemma="bonito"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="wok" tags="v.*"> <select lemma="construir"/></match>
+    <match/>
+    <match lemma="ja"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="kotzʼiʼj" tags="n"> <select lemma="flor"/></match>
+  </rule>
+  <rule weight="1.0">
     <match lemma="ech" tags="n.*"> <select lemma="a"/></match>
   </rule>
   <rule weight="1.0">

@@ -1339,6 +1339,7 @@
 <e><par n="N"/><p><l>tabʼal<s n="n"/></l><r>ofrenda<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>tabʼal<s n="n"/></l><r>sacrificio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼaqil<s n="n"/></l><r>cuerpo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>bʼaqil<s n="n"/></l><r>hueso<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>amajaʼ<s n="n"/></l><r>vino<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>rayibʼal<s n="n"/></l><r>deseo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>rayibʼal<s n="n"/></l><r>pasión<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -1522,6 +1523,7 @@
       <e><p><l>Choʼn<s n="np"/><s n="ant"/><s n="f"/></l><r>Choʼn<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Pabʼlo<s n="np"/><s n="ant"/><s n="m"/></l><r>Pablo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Natanaʼel<s n="np"/><s n="ant"/><s n="m"/></l><r>Natanael<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Lol<s n="np"/><s n="ant"/><s n="m"/></l><r>Lol<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Tiʼx<s n="np"/><s n="ant"/><s n="m"/></l><r>Tiʼx<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Kuʼ<s n="np"/><s n="ant"/><s n="m"/></l><r>Kuʼ<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Paʼtz<s n="np"/><s n="ant"/><s n="m"/></l><r>Paʼtz<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1639,6 +1641,7 @@
 <e><p><l>Kulaʼx<s n="np"/><s n="ant"/><s n="f"/></l><r>Kulaʼx<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Nicolasa" -->
 <e><p><l>Luʼ<s n="np"/><s n="ant"/><s n="m"/></l><r>Luʼ<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Pedro" -->
 <e><p><l>Luʼs<s n="np"/><s n="ant"/><s n="f"/></l><r>Luʼs<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Lucía" -->
+<e><p><l>Siʼl<s n="np"/><s n="ant"/><s n="f"/></l><r>Siʼl<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>Max<s n="np"/><s n="ant"/><s n="m"/></l><r>Tomás<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e><!-- "Tomás" -->
 <e><p><l>Maʼx<s n="np"/><s n="ant"/><s n="f"/></l><r>Maʼx<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "Tomasa" -->
 <e><p><l>Mariʼy<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e><!-- "María" -->
@@ -2276,7 +2279,9 @@
 <e><par n="TV"/><p><l>kuy<s n="v"/><s n="tv"/></l><r>soportar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>achiʼlaj<s n="v"/><s n="tv"/></l><r>acompañar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>tijoj<s n="v"/><s n="tv"/></l><r>enseñar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>matzʼej<s n="v"/><s n="tv"/></l><r>abrazar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>qʼaj<s n="v"/><s n="tv"/></l><r>quebrar<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>qʼaj<s n="v"/><s n="iv"/></l><r>quebrar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="TV"/><p><l>kʼiyisaj<s n="v"/><s n="tv"/></l><r>sembrar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>tzoqopij<s n="v"/><s n="tv"/></l><r>liberar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>tor<s n="v"/><s n="tv"/></l><r>liberar<s n="vblex"/></r></p></e>

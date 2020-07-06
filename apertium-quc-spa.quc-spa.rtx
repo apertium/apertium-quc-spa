@@ -346,6 +346,12 @@
       <cat-item lemma="a" tags="SP.*"/>
     </def-cat>
 
+    <def-cat n="Punct">
+      <cat-item tags="Punct.*"/>
+      <cat-item tags="Punct"/>
+    </def-cat>
+
+
     <def-cat n="SP">
       <cat-item tags="SP.*"/>
     </def-cat>
@@ -820,12 +826,34 @@
 
   <section-rules>
 
+  <rule comment="S Punct" firstChunk="V">
+   <pattern>
+    <pattern-item n="S"/>
+    <pattern-item n="Punct"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><clip pos="1" side="tl" part="tags"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
 
   <rule comment="SV SD" firstChunk="S">
    <pattern>
     <pattern-item n="SV"/>
     <pattern-item n="SD"/>
    </pattern>
+   <assert>
+     <equal><clip pos="1" part="a_agr_subj"/><clip pos="2" part="a_agr_subj"/></equal>
+   </assert>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_concord_subj2"><with-param pos="1"/><with-param pos="2"/></call-macro>

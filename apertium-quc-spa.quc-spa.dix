@@ -792,6 +792,7 @@
       <e><par n="N"/><p><l>tat<s n="n"/></l><r>antepasado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>tijoxel<s n="n"/></l><r>estudiante<s n="n"/><s n="mf"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>tijoxel<s n="n"/></l><r>discípulo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>ajtijoxel<s n="n"/></l><r>estudiante<s n="n"/><s n="mf"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>animaʼ<s n="n"/></l><r>ánima<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>animaʼ<s n="n"/></l><r>corazón<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chak<s n="n"/></l><r>trabajo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -970,6 +971,7 @@
 <e><par n="N"/><p><l>bʼe<s n="n"/></l><r>camino<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼe<s n="n"/></l><r>viaje<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼe<s n="n"/></l><r>senda<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kʼamal<b/>bʼe<s n="n"/></l><r>guía<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>alkʼuwaʼl<s n="n"/></l><r>niño<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>alkʼuwaʼl<s n="n"/></l><r>hijo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>atzʼyaq<s n="n"/></l><r>trapo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1014,6 +1016,7 @@
 <e><par n="N"/><p><l>tzijobʼelil<s n="n"/></l><r>cuento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>palaj<s n="n"/></l><r>cara<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>anim<s n="n"/></l><r>prisa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>anim<s n="n"/></l><r>carerra<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>etaʼmabʼal<s n="n"/></l><r>herramienta<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>etaʼmabʼal<s n="n"/></l><r>sabiduría<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>nimaqʼij<s n="n"/></l><r>fiesta<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -1434,6 +1437,7 @@
 <e><par n="N"/><p><l>winaqil<s n="n"/></l><r>comunidad<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>mebʼaʼil<s n="n"/></l><r>pobreza<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>imul<s n="n"/></l><r>conejo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>kök<s n="n"/></l><r>tortuga<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>waʼkatem<s n="n"/></l><r>vuelta<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>qʼoxom<s n="n"/></l><r>dolor<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>tzʼikin<s n="n"/></l><r>pájaro<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>

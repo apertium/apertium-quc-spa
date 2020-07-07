@@ -807,6 +807,7 @@
      
           <let><var n="auxVerb"/><concat><get-case-from pos="1"><lit v="estar"/></get-case-from><lit-tag v="vblex.3"/>
                                            <clip pos="1" side="tl" part="a_agr"/></concat></let>
+          <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
           <let><var n="predicate"/><concat><clip pos="1" side="tl" part="lem"/>
                                            <lit-tag v="adj"/><clip pos="1" side="tl" part="a_gen_mf"/><lit-tag v="ND"/></concat></let>
         </when>

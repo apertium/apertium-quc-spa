@@ -6,8 +6,16 @@
     <match lemma="kʼojolaxel" tags="n.*"> <select lemma="hijo" tags="n.*"/> </match>
     <match/> <match lemma="kʼaslik"/>
   </rule>
+  <rule weight="2.0">
+    <match lemma="chʼichʼ" tags="n"><select lemma="cuchillo"/></match>
+    <match/>
+    <match lemma="yuk"/>
+  </rule>
   <rule weight="1.0">
-    <or><match lemma="opanik"/><match lemma="kʼatekʼut"/></or>
+    <match lemma="chʼichʼ" tags="n"> <select lemma="coche"/> </match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="opanik"/><match lemma="kʼatekʼut"/>
     <match/>
     <match lemma="kajbʼal" tags="n.*"> <select lemma="tiempo"/> </match>
   </rule>
@@ -78,9 +86,6 @@
   </rule>
   <rule weight="1.0">
     <match lemma="tzij" tags="n.*"> <select lemma="palabra"/> </match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="chʼichʼ" tags="n"> <select lemma="coche"/> </match>
   </rule>
   <rule weight="1.0">
     <match lemma="Luʼ" tags="np.*"> <select lemma="Pedro"/> </match>

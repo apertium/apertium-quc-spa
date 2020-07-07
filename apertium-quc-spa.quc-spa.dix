@@ -838,6 +838,7 @@
       <e><par n="N"/><p><l>chʼichʼ<s n="n"/></l><r>coche<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chʼichʼ<s n="n"/></l><r>vehículo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chʼichʼ<s n="n"/></l><r>autobús<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>chʼichʼ<s n="n"/></l><r>cuchillo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chʼichʼ<s n="n"/></l><r>espada<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>nimal<s n="n"/></l><r>líder<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>nimal<s n="n"/></l><r>jefe<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1526,6 +1527,7 @@
 <e><par n="N"/><p><l>ajtʼisoʼmanel<s n="n"/></l><r>sastre<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>tʼisoʼmanel<s n="n"/></l><r>sastre<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>awas<b/>qʼij<s n="n"/></l><r>Semana<b/>Santa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><par n="N"/><p><l>yuk<s n="n"/></l><r>cicatriz<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 
 
       <!-- SECTION: Nombres propios -->
@@ -1982,6 +1984,8 @@
       <e><p><l>chik<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
       <e><p><l>lo<s n="adv"/></l><r>aquí<s n="adv"/></r></p></e> <!-- hacía aquí -->
 
+<e><p><l>xa<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
+
 <e><p><l>sibʼalaj<s n="adv"/></l><r>muy<s n="preadv"/></r></p></e>
 <e><p><l>sibʼalaj<s n="adv"/></l><r>mucho<s n="adv"/></r></p></e>
 
@@ -2389,6 +2393,7 @@
 <e><par n="IV"/><p><l>an<s n="v"/><s n="iv"/></l><r>correr<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>choman<s n="v"/><s n="iv"/></l><r>pensar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>abʼan<s n="v"/><s n="iv"/></l><r>inventar<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>abʼan<s n="v"/><s n="iv"/></l><r>construir<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>rapin<s n="v"/><s n="iv"/></l><r>volar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>atin<s n="v"/><s n="iv"/></l><r>bañar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>tzijon<s n="v"/><s n="iv"/></l><r>hablar<s n="vblex"/></r></p></e>

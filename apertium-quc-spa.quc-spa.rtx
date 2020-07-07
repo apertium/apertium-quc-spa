@@ -216,6 +216,10 @@
 
     <!-- Syntactic categories -->
 
+    <def-cat n="Rech">
+      <cat-item lemma="a" tags="Pr.pr.n.rel.px3sg"/>
+    </def-cat>
+
 
     <def-cat n="Num">
       <cat-item tags="Num.*"/>
@@ -268,6 +272,11 @@
       <cat-item tags="V"/>
     </def-cat>
 
+
+    <def-cat n="SAdv">
+      <cat-item tags="SAdv.*"/>
+      <cat-item tags="SAdv"/>
+    </def-cat>
 
 
     <def-cat n="SA">
@@ -895,6 +904,73 @@
   </rule>
 
 
+  <rule comment="V-IV" firstChunk="SV">
+   <pattern>
+    <pattern-item n="V-IV"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SV.tv"/></tag>
+         <tag><clip pos="1" side="sl" part="a_agr_subj"/></tag>
+         <tag><clip pos="1" side="sl" part="a_agr_obj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+  <rule comment="V-TV" firstChunk="SV">
+   <pattern>
+    <pattern-item n="V-TV"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_propagate_temps1"><with-param pos="1"/></call-macro>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SV.tv"/></tag>
+         <tag><var n="chunkTemps"/></tag>
+         <tag><clip pos="1" side="sl" part="a_agr_subj"/></tag>
+         <tag><clip pos="1" side="sl" part="a_agr_obj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
+  <rule comment="Rech SV" firstChunk="SAdv">
+   <pattern>
+    <pattern-item n="Rech"/>
+    <pattern-item n="SV"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="2"/></call-macro>
+      <call-macro n="f_propagate_temps1"><with-param pos="2"/></call-macro>
+      <let><clip pos="2" side="tl" part="a_temps"/><lit-tag v="inf"/></let>
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SAdv"/></tag>
+         <tag><var n="chunkTemps"/></tag>
+         <tag><clip pos="2" side="sl" part="a_agr_subj"/></tag>
+         <tag><clip pos="2" side="sl" part="a_agr_obj"/></tag>
+        </tags>
+        <lu><get-case-from pos="1"><lit v="para"/></get-case-from><lit-tag v="pr"/></lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
+
+
   <rule comment="SD SV" firstChunk="S">
    <pattern>
     <pattern-item n="SD"/>
@@ -1123,6 +1199,29 @@
    </action>
   </rule>
 
+
+
+  <rule comment="V-IV SAdv" firstChunk="SV">
+   <pattern>
+    <pattern-item n="V-IV"/>
+    <pattern-item n="SAdv"/>
+   </pattern>
+   <action>
+      <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
+      <!--<call-macro n="f_concord_obj2"><with-param pos="1"/><with-param pos="2"/></call-macro>-->
+      <out>
+       <chunk namefrom="chunkName">
+        <tags>
+         <tag><lit-tag v="SV.iv"/></tag>
+         <tag><clip pos="1" side="tl" part="a_agr_subj"/></tag>
+        </tags>
+        <lu> <clip pos="1" side="tl" part="whole"/> </lu>
+        <b/>
+        <lu> <clip pos="2" side="tl" part="whole"/> </lu>
+       </chunk>
+      </out>
+   </action>
+  </rule>
 
 
   <rule comment="V-IV Adv" firstChunk="SV">

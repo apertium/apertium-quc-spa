@@ -593,6 +593,7 @@
       <e><p><l>chi<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
       <e><p><l>weta<s n="cnjsub"/></l><r>si<s n="cnjadv"/></r></p></e>
       <e><p><l>we<s n="cnjsub"/></l><r>si<s n="cnjadv"/></r></p></e>
+      <e><p><l>taq<s n="cnjsub"/></l><r>cuando<s n="rel"/><s n="adv"/></r></p></e>
       <e><p><l>arechiʼ<s n="cnjsub"/></l><r>cuando<s n="rel"/><s n="adv"/></r></p></e>
       <e><p><l>arech<s n="cnjsub"/></l><r>para<b/>que<s n="cnjadv"/></r></p></e>
       <e><p><l>arechaʼ<s n="cnjsub"/></l><r>para<b/>que<s n="cnjadv"/></r></p></e>
@@ -956,6 +957,7 @@
 <e><par n="N"/><p><l>jukubʼ<s n="n"/></l><r>barca<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>makaj<s n="n"/></l><r>pecado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>mak<s n="n"/></l><r>pecado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>awas<s n="n"/></l><r>pecado<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>mak<s n="n"/></l><r>culpa<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>sachabʼal<s n="n"/></l><r>confusión<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>sachabʼal<b/>mak<s n="n"/></l><r>perdón<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1517,8 +1519,10 @@
 <e><par n="N"/><p><l>ajqʼij<s n="n"/></l><r>sacerdote<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>juqubʼ<s n="n"/></l><r>trago<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼoʼj<s n="n"/></l><r>olla<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>aj<s n="n"/></l><r>caña<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ajtʼisoʼmanel<s n="n"/></l><r>sastre<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>tʼisoʼmanel<s n="n"/></l><r>sastre<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>awas<b/>qʼij<s n="n"/></l><r>Semana<b/>Santa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 
 
       <!-- SECTION: Nombres propios -->
@@ -1796,6 +1800,7 @@
 <e><p><l>chʼoʼj<s n="adj"/></l><r>enfadar<s n="vblex"/><s n="pp"/></r></p><par n="GD_ND"/></e>
 <e><p><l>juyubʼ<s n="adj"/></l><r>inclinado<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>yaʼtal<s n="adj"/></l><r>permitido<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>awas<s n="adj"/></l><r>prohibido<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>cho<s n="adj"/></l><r>profundo<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>komon<s n="adj"/></l><r>todo<s n="predet"/></r></p><par n="GD_ND"/></e>
 <e><par n="N"/><p><l>cho<s n="n"/></l><r>lago<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -2559,6 +2564,7 @@
 <e><par n="TV"/><p><l>etzʼabʼej<s n="v"/><s n="tv"/></l><r>jugar<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>qʼil<s n="v"/><s n="tv"/></l><r>impedir<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>qʼil<s n="v"/><s n="tv"/></l><r>prevenir<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>terneʼbʼej<s n="v"/><s n="tv"/></l><r>seguir<s n="vblex"/></r></p></e>
 
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>

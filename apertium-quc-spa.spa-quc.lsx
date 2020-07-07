@@ -109,10 +109,16 @@
     <e lm="aún no" c="">
       <p><l>aún<s n="adv"/><j/>no<s n="adv"/><j/></l><r>aún<b/>no<s n="adv"/><j/></r></p>
     </e>
+    <e lm="semana santa" c="">
+      <p><l>semana<s n="n"/><s n="f"/><s n="sg"/><j/>santo<s n="adj"/><s n="f"/><s n="sg"/><j/></l>
+      <r>semana<b/>santa<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+    </e>
+
     <e lm="estrella polar" c="">
       <p><l>estrella<s n="n"/><s n="f"/><s n="pl"/><j/>polar<s n="adj"/><s n="mf"/><s n="pl"/><j/></l>
       <r>estrella<b/>polar<s n="n"/><s n="f"/><s n="pl"/><j/></r></p>
     </e>
+
     <e lm="estrella polar" c="">
       <p><l>estrella<s n="n"/><s n="f"/><s n="sg"/><j/>polar<s n="adj"/><s n="mf"/><s n="sg"/><j/></l>
       <r>estrella<b/>polar<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>

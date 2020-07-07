@@ -11,6 +11,9 @@
     <def-cat n="ti">
       <cat-item lemma="ti" tags="prn.*"/>
     </def-cat>
+    <def-cat n="inf">
+      <cat-item tags="vblex.inf.*"/>
+    </def-cat>
     <def-cat n="default">
       <cat-item tags="*"/>
     </def-cat>
@@ -79,7 +82,7 @@
       </action>
     </rule>
 
-    <rule comment="">
+    <rule comment="con ti → contigo">
       <pattern>
         <pattern-item n="con"/>
         <pattern-item n="ti"/>
@@ -87,6 +90,20 @@
       <action>
         <out>
           <lu><get-case-from pos="1"><lit v="contigo"/></get-case-from><lit-tag v="prn.tn.p2.mf.sg"/></lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="inf">
+      <pattern>
+        <pattern-item n="inf"/>
+      </pattern>
+      <action>
+      <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu><clip pos="1" side="sl" part="lemh"/>
+              <lit-tag v="vblex.inf"/> 
+          <clip pos="1" side="sl" part="lemq"/></lu>
         </out>
       </action>
     </rule>

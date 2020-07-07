@@ -25,6 +25,7 @@
     <sdef n="ND"             c=""/>
     <sdef n="tn"             c=""/>
     <sdef n="inv"             c=""/>
+    <sdef n="lquest"             c=""/>
     <sdef n="an"             c=""/>
     <sdef n="abl"             c=""/>
     <sdef n="preadv"             c=""/>
@@ -603,6 +604,7 @@
 <e><p><l>xaneʼ<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e>
 <e><p><l>xaneʼ<s n="cnjcoo"/></l><r>sino<s n="cnjcoo"/></r></p></e>
 <e><p><l>tekʼuriʼ<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
+<e><p><l>e<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
 
 
       <!-- SECTION: Adpositions -->
@@ -633,6 +635,8 @@
 <e><p><l>weriʼ<s n="prn"/><s n="dem"/></l><r>éste<s n="prn"/><s n="tn"/></r></p><par n="GD_ND"/></e>
 
 <e><p><l>ri<s n="prn"/><s n="rel"/></l><r>que<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>we<s n="prn"/><s n="rel"/></l><r>que<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>le<s n="prn"/><s n="rel"/></l><r>que<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
 
       <!-- Set B agreement markers on non-verbal predicates -->
       <e r="LR"><p><l>in<s n="prn"/><s n="pro"/><s n="p1"/><s n="sg"/></l><r></r></p></e>
@@ -863,6 +867,8 @@
       <e><par n="N"/><p><l>jasche<s n="n"/></l><r>motivo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>kʼulel<s n="n"/></l><r>enemigo<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>itzel<s n="n"/></l><r>mal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>etzalal<s n="n"/></l><r>mal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>etzelal<s n="n"/></l><r>mal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>aqil<s n="n"/></l><r>mal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>kʼax<s n="n"/></l><r>mal<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>aqil<s n="n"/></l><r>malo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1115,6 +1121,7 @@
 <e><par n="N"/><p><l>kosik<s n="n"/></l><r>fatiga<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kʼayibʼal<s n="n"/></l><r>plaza<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>etamabʼal<s n="n"/></l><r>conocimiento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>tikibʼalil<s n="n"/></l><r>cimiento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kaqiqʼ<s n="n"/></l><r>viento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>aninäqil<s n="n"/></l><r>momento<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>sachom<s n="n"/></l><r>gasto<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1820,7 +1827,6 @@
 <e><p><l>alaj<s n="adj"/></l><r>pequeño<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>nitzʼ<s n="adj"/></l><r>pequeño<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>qastzij<s n="adj"/></l><r>verdadero<s n="adj"/></r></p><par n="GD_ND"/></e>
-<e><p><l>nabe<s n="adj"/></l><r>primero<s n="adj"/><s n="ord"/></r></p><par n="GD_ND"/></e>
 <e><p><l>qas<s n="adj"/></l><r>seguro<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>kʼax<s n="adj"/></l><r>doloroso<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>sukʼ<s n="adj"/></l><r>recto<s n="adj"/></r></p><par n="GD_ND"/></e>
@@ -1984,7 +1990,6 @@
       <e><p><l>chik<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
       <e><p><l>lo<s n="adv"/></l><r>aquí<s n="adv"/></r></p></e> <!-- hacía aquí -->
 
-<e><p><l>xa<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
 
 <e><p><l>sibʼalaj<s n="adv"/></l><r>muy<s n="preadv"/></r></p></e>
 <e><p><l>sibʼalaj<s n="adv"/></l><r>mucho<s n="adv"/></r></p></e>
@@ -2000,14 +2005,17 @@
 <e><p><l>jeriʼ<b/>nakʼut<s n="adv"/></l><r>por<b/>tanto<s n="adv"/></r></p></e>
 <e><p><l>jeriʼ<b/>nakʼut<s n="adv"/></l><r>en<b/>efecto<s n="adv"/></r></p></e>
 <e><p><l>qastzij<b/>nakʼut<s n="adv"/></l><r>aunque<s n="cnjadv"/></r></p></e>
+<e><p><l>puch<s n="adv"/></l><r>aunque<s n="cnjadv"/></r></p></e>
 <e><p><l>qastzij<b/>nakʼut<s n="adv"/></l><r>ciertamente<s n="adv"/></r></p></e>
 
+      <e><p><l>jekʼuriʼ<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
       <e><p><l>kʼatekʼuriʼ<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
       <e><p><l>kʼatekʼut<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
       <e><p><l>kʼatekʼu<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
       <e><p><l>ubʼik<s n="adv"/></l><r>fuera<s n="adv"/></r></p></e>
       <e><p><l>xaq<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
       <e><p><l>xu<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
+<e><p><l>xa<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
       <e><p><l>xu<s n="adv"/></l><r>únicamente<s n="adv"/></r></p></e>
       <e><p><l>xaq<s n="adv"/></l><r>solamente<s n="adv"/></r></p></e>
 
@@ -2575,10 +2583,14 @@
 <e><par n="TV"/><p><l>qʼil<s n="v"/><s n="tv"/></l><r>impedir<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>qʼil<s n="v"/><s n="tv"/></l><r>prevenir<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>terneʼbʼej<s n="v"/><s n="tv"/></l><r>seguir<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>tas<s n="v"/><s n="tv"/></l><r>separar<s n="vblex"/></r></p></e>
+<e><par n="TV"/><p><l>echbʼej<s n="v"/><s n="tv"/></l><r>heredar<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>chʼäkan<s n="v"/><s n="tv"/></l><r>ganar<s n="vblex"/></r></p></e>
 
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+      <e><re>¿</re>          <p><l><s n="lquest"/></l>  <r><s n="lquest"/></r></p></e>
 <!--      <e><re>[0-9.]+</re>    <p><l><s n="num"/></l>  <r><s n="num"/></r></p></e>-->
 
 

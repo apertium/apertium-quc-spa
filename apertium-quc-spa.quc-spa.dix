@@ -661,7 +661,8 @@
       <e><p><l>jas<s n="prn"/><s n="itg"/></l><r>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>su<s n="prn"/><s n="itg"/></l><r>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>joropaʼ<s n="num"/></l><r>cuánto<s n="adj"/><s n="itg"/><s n="GD"/><s n="ND"/></r></p></e>
-      <e><p><l>jachke<s n="prn"/><s n="itg"/></l><r>cuál<s n="det"/><s n="itg"/><s n="mf"/><s n="ND"/></r></p></e>
+      <e><p><l>jachke<s n="prn"/><s n="itg"/></l><r>cuál<s n="prn"/><s n="itg"/><s n="mf"/><s n="ND"/></r></p></e>
+      <e><p><l>jachike<s n="prn"/><s n="itg"/></l><r>cuál<s n="prn"/><s n="itg"/><s n="mf"/><s n="ND"/></r></p></e>
 
       <!-- SECTION: Sustantivos relacionales -->
 
@@ -2561,6 +2562,7 @@
 <e><par n="IV"/><p><l>kotiʼ<s n="v"/><s n="iv"/></l><r>echar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="IV"/><p><l>yaj<s n="v"/><s n="iv"/></l><r>regañar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>paqʼ<s n="v"/><s n="iv"/></l><r>partir<s n="vblex"/></r></p></e>
+<e><par n="IV"/><p><l>kʼotochin<s n="v"/><s n="iv"/></l><r>imaginar<s n="vblex"/></r></p></e>
 <e><par n="IV"/><p><l>pax<s n="v"/><s n="iv"/></l><r>quebrar<s n="vblex"/><s n="pron"/></r></p></e>
 <e><par n="TV"/><p><l>xeʼj<s n="v"/><s n="tv"/></l><r>temer<s n="vblex"/></r></p></e>
 <e><par n="TV"/><p><l>etzʼabʼej<s n="v"/><s n="tv"/></l><r>jugar<s n="vblex"/></r></p></e>

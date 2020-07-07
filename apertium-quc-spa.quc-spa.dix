@@ -588,6 +588,7 @@
       <e><p><l>tekʼut<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e>
       <e><p><l>on<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
       <e><p><l>aretaq<b/>chiʼ<s n="cnjsub"/></l><r>cuando<s n="rel"/><s n="adv"/></r></p></e>
+      <e><p><l>aretaq<s n="cnjsub"/></l><r>cuando<s n="rel"/><s n="adv"/></r></p></e>
 <e><p><l>kneʼbʼaʼ<s n="cnjsub"/></l><r>aunque<s n="cnjadv"/></r></p></e>
 <e><p><l>pine<s n="cnjsub"/></l><r>aunque<s n="cnjadv"/></r></p></e>
       <e><p><l>chi<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
@@ -1832,6 +1833,7 @@
 <e><p><l>ukabʼ<s n="adj"/></l><r>segundo<s n="adj"/><s n="ord"/></r></p><par n="GD_ND"/></e>
 <e><p><l>moy<s n="adj"/></l><r>ciego<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>saq<s n="adj"/></l><r>limpio<s n="adj"/></r></p><par n="GD_ND"/></e>
+<e><p><l>tzʼil<s n="adj"/></l><r>sucio<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>nojinaq<s n="adj"/></l><r>lleno<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>chʼutiʼn<s n="adj"/></l><r>pequeño<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>saq<s n="adj"/></l><r>claro<s n="adj"/></r></p><par n="GD_ND"/></e>
@@ -2003,7 +2005,6 @@
       <e><p><l>xu<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
       <e><p><l>xu<s n="adv"/></l><r>únicamente<s n="adv"/></r></p></e>
       <e><p><l>xaq<s n="adv"/></l><r>solamente<s n="adv"/></r></p></e>
-      <e><p><l>aretaq<s n="adv"/></l><r>mientras<s n="adv"/></r></p></e>
 
 <e><p><l>xuqeʼ<s n="adv"/></l><r>también<s n="adv"/></r></p></e>
 <e><p><l>xuquje<s n="adv"/></l><r>también<s n="adv"/></r></p></e>

@@ -160,6 +160,12 @@
         </e>
 -->
 
+        <e lm="aretaq" c="cuando"><p>
+                <l>are<t/><j/>taq<t/><j/></l>
+                <r>aretaq<s n="cnjsub"/></r>
+            </p>
+        </e>
+
         <e lm="awas qʼij" c="semana santa"><p>
                 <l>awas<s n="adj"/><j/>qʼij<s n="n"/><j/></l>
                 <r>awas<b/>qʼij<s n="n"/></r>

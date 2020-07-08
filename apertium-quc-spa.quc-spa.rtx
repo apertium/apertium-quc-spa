@@ -1904,6 +1904,9 @@
     <pattern-item n="SN"/>
     <pattern-item n="SD"/>
    </pattern>
+   <assert>
+     <not><equal><clip pos="1" side="tl" part="a_poss"/><lit v=""/></equal></not>
+   </assert>
    <action>
       <call-macro n="f_set_chunk_name1"><with-param pos="1"/></call-macro>
       <call-macro n="f_concord1"><with-param pos="1"/></call-macro>
@@ -1915,7 +1918,7 @@
          <tag><var n="chunkGenero"/></tag>
          <tag><var n="chunkNumero"/></tag>
         </tags>
-        <lu><lit v="el"/><lit-tag v="det.def.2.3"/></lu>
+        <lu><get-case-from pos="1"><lit v="el"/></get-case-from><lit-tag v="det.def.2.3"/></lu>
         <b/>
         <lu> <clip pos="1" side="tl" part="whole"/> </lu>
         <b/>

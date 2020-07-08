@@ -12,6 +12,9 @@
     <match lemma="yuk"/>
   </rule>
   <rule weight="1.0">
+    <match lemma="qʼatojtzij" tags="n"> <select lemma="ley"/> </match>
+  </rule>
+  <rule weight="1.0">
     <match lemma="chʼichʼ" tags="n"> <select lemma="coche"/> </match>
   </rule>
   <rule weight="1.0">
@@ -243,10 +246,10 @@
 <match lemma="petik" tags="v.tv.*"><select lemma="venir"/></match>
 </rule>
 <rule weight="1.3750"><!-- condenar<vblex>/criticar<vblex>/juzgar<vblex> -->
-<match lemma="bʼan_qʼatojtzij" tags="v.iv.*"><select lemma="juzgar"/></match>
+<match lemma="bʼan qʼatojtzij" tags="v.iv.*"><select lemma="juzgar"/></match>
 </rule>
 <rule weight="1.1625"><!-- condenar<vblex>/criticar<vblex>/juzgar<vblex> -->
-<match lemma="bʼan_qʼatojtzij" tags="v.iv.*"><select lemma="condenar"/></match>
+<match lemma="bʼan qʼatojtzij" tags="v.iv.*"><select lemma="condenar"/></match>
 </rule>
 <rule weight="1.4333"><!-- llevar<vblex>/empezar<vblex>/comenzar<vblex> -->
 <match lemma="majij" tags="v.tv.*"><select lemma="comenzar"/></match>

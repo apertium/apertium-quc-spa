@@ -918,9 +918,12 @@
       <e><par n="N"/><p><l>sinagoga<s n="n"/></l><r>sinagoga<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>chuqʼabʼ<s n="n"/></l><r>fuerza<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>choqʼabʼ<s n="n"/></l><r>fuerza<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>chuqʼabʼ<s n="n"/></l><r>poder<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+      <e><par n="N"/><p><l>choqʼabʼ<s n="n"/></l><r>poder<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
       <e><par n="N"/><p><l>qʼaxal<b/>tzij<b/>ri<b/>Dyos<s n="n"/></l><r>profeta<s n="n"/><s n="mf"/></r></p><par n="pl_ND"/></e>
 
 <e><par n="N"/><p><l>qʼatojtzij<s n="n"/></l><r>alcalde<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>qʼatojtzij<s n="n"/></l><r>ley<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼantajik<s n="n"/></l><r>ser<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼantajik<s n="n"/></l><r>importancia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>achij<s n="n"/></l><r>hombre<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
@@ -1372,6 +1375,7 @@
 <e><par n="N"/><p><l>bʼaqʼ<s n="n"/></l><r>pepita<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>bʼixik<s n="n"/></l><r>anuncio<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chuqʼabʼalil<s n="n"/></l><r>fuerza<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>chuqʼabʼalil<s n="n"/></l><r>poder<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>chʼimiʼyal<s n="n"/></l><r>bastón<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>junamtajil<s n="n"/></l><r>parecer<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kiʼil<s n="n"/></l><r>dulzura<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
@@ -1569,6 +1573,7 @@
 <e><par n="N"/><p><l>xibʼal<s n="n"/></l><r>hermano<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>tzʼuʼm<s n="n"/></l><r>seno<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>wokaj<s n="n"/></l><r>grupo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>choqʼbʼal<s n="n"/></l><r>aguijón<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 
 
       <!-- SECTION: Nombres propios -->
@@ -2035,6 +2040,7 @@
 <e><p><l>jeʼ<s n="adv"/></l><r>sí<s n="adv"/></r></p></e>
 <e><p><l>jeʼ<s n="ij"/></l><r>sí<s n="adv"/></r></p></e>
 <e><p><l>jeʼ<b/>nakʼut<s n="adv"/></l><r>sí<s n="adv"/></r></p></e>
+<e><p><l>entonses<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
 <e><p><l>jeʼ<b/>nakʼut<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
 <e><p><l>xa<b/>jekʼuriʼ<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
 <e><p><l>jeʼ<b/>nakʼut<s n="adv"/></l><r>por<b/>eso<s n="adv"/></r></p></e>

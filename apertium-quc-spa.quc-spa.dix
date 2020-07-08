@@ -1582,6 +1582,7 @@
       <e><p><l>Naʼ<s n="np"/><s n="ant"/><s n="f"/></l><r>Naʼ<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Choʼn<s n="np"/><s n="ant"/><s n="f"/></l><r>Choʼn<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Pabʼlo<s n="np"/><s n="ant"/><s n="m"/></l><r>Pablo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Estebʼan<s n="np"/><s n="ant"/><s n="m"/></l><r>Esteban<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Natanaʼel<s n="np"/><s n="ant"/><s n="m"/></l><r>Natanael<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Lol<s n="np"/><s n="ant"/><s n="m"/></l><r>Lol<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Tiʼx<s n="np"/><s n="ant"/><s n="m"/></l><r>Tiʼx<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1807,6 +1808,95 @@
 <e><p><l>Wisconsin<s n="np"/><s n="top"/></l><r>Wisconsin<s n="np"/><s n="loc"/></r></p></e><!-- "" -->
 <e><p><l>Xkanul<s n="n"/></l><r>Xcanul<s n="np"/><s n="loc"/></r></p></e>
 
+
+<e><p><l>Abʼaddon<s n="np"/><s n="top"/></l><r>Abadón<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Abʼdi<s n="np"/><s n="ant"/><s n="m"/></l><r>Adí<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Abʼilene<s n="np"/><s n="top"/></l><r>Abilene<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Abʼiʼatar<s n="np"/><s n="ant"/><s n="m"/></l><r>Abiatar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Amos<s n="np"/><s n="ant"/><s n="m"/></l><r>Amós<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Antipas<s n="np"/><s n="top"/></l><r>Antipas<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Apfiʼa<s n="np"/><s n="top"/></l><r>Apia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Apoliʼon<s n="np"/><s n="top"/></l><r>Apolión<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Apoloniʼa<s n="np"/><s n="ant"/><s n="f"/></l><r>Apolonia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Aretas<s n="np"/><s n="ant"/><s n="m"/></l><r>Aretas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Arfaxad<s n="np"/><s n="ant"/><s n="m"/></l><r>Arfaxad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Arkelaʼo<s n="np"/><s n="ant"/><s n="m"/></l><r>Arquelao<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Artemas<s n="np"/><s n="ant"/><s n="m"/></l><r>Artemas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Aʼugusto<s n="np"/><s n="ant"/><s n="m"/></l><r>Augusto<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bʼalak<s n="np"/><s n="ant"/><s n="m"/></l><r>Balac<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bʼarak<s n="np"/><s n="ant"/><s n="m"/></l><r>Barac<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bʼaʼal<s n="np"/><s n="ant"/><s n="m"/></l><r>Baal<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Bʼetesda<s n="np"/><s n="top"/></l><r>Betzatá<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Dalmasiʼa<s n="np"/><s n="top"/></l><r>Dalmacia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Diʼonisiʼo<s n="np"/><s n="ant"/><s n="m"/></l><r>Dionisio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Eliseʼo<s n="np"/><s n="ant"/><s n="m"/></l><r>Eliseo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Eliʼeser<s n="np"/><s n="ant"/><s n="m"/></l><r>Eliezer<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Elmadan<s n="np"/><s n="ant"/><s n="m"/></l><r>Elmadán<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Emmanueʼl<s n="np"/><s n="ant"/><s n="m"/></l><r>Emanuel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Emmaʼus<s n="np"/><s n="top"/></l><r>Emaús<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Enos<s n="np"/><s n="ant"/><s n="m"/></l><r>Enós<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Er<s n="np"/><s n="ant"/><s n="m"/></l><r>Er<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Etiʼopiʼa<s n="np"/><s n="top"/></l><r>Etiopía<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Eʼubʼulo<s n="np"/><s n="ant"/><s n="m"/></l><r>Eubulo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Falek<s n="np"/><s n="ant"/><s n="m"/></l><r>Péleg<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Figelo<s n="np"/><s n="ant"/><s n="m"/></l><r>Figelo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Filemon<s n="np"/><s n="ant"/><s n="m"/></l><r>Filemón<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Fortunato<s n="np"/><s n="ant"/><s n="m"/></l><r>Fortunato<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Gad<s n="np"/><s n="ant"/><s n="m"/></l><r>Gad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Gasa<s n="np"/><s n="top"/></l><r>Gaza<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Gedeʼon<s n="np"/><s n="ant"/><s n="m"/></l><r>Gedeón<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Hakeldama<s n="np"/><s n="top"/></l><r>Acéldama<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Hermogenes<s n="np"/><s n="ant"/><s n="m"/></l><r>Hermógenes<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Hiʼerapolis<s n="np"/><s n="top"/></l><r>Hierápolis<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Iliriko<s n="np"/><s n="top"/></l><r>Iliria<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Isakar<s n="np"/><s n="ant"/><s n="m"/></l><r>Isacar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Itureʼa<s n="np"/><s n="top"/></l><r>Iturea<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Jamor<s n="np"/><s n="top"/></l><r>Jamor<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Jaret<s n="np"/><s n="ant"/><s n="m"/></l><r>Jared<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Jefte<s n="np"/><s n="ant"/><s n="m"/></l><r>Jefté<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Jesabʼel<s n="np"/><s n="ant"/><s n="f"/></l><r>Jezabel<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Jonam<s n="np"/><s n="ant"/><s n="m"/></l><r>Jonán<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Jorim<s n="np"/><s n="ant"/><s n="m"/></l><r>Jorín<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Josek<s n="np"/><s n="ant"/><s n="m"/></l><r>Josec<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Joʼanan<s n="np"/><s n="ant"/><s n="m"/></l><r>Yojanán<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Juliʼa<s n="np"/><s n="ant"/><s n="f"/></l><r>Julía<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Kandase<s n="np"/><s n="ant"/><s n="f"/></l><r>Candace<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Klaʼudiʼa<s n="np"/><s n="ant"/><s n="f"/></l><r>Claudia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Klemente<s n="np"/><s n="ant"/><s n="m"/></l><r>Clemente<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Kloʼe<s n="np"/><s n="ant"/><s n="f"/></l><r>Cloé<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Kolosa<s n="np"/><s n="top"/></l><r>Colosas<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Lamek<s n="np"/><s n="ant"/><s n="m"/></l><r>Lamec<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Lisaniʼas<s n="np"/><s n="ant"/><s n="m"/></l><r>Lisanias<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Madiʼan<s n="np"/><s n="top"/></l><r>Madián<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Maleleʼel<s n="np"/><s n="ant"/><s n="m"/></l><r>Malalel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Mattata<s n="np"/><s n="ant"/><s n="m"/></l><r>Matata<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Matusalem<s n="np"/><s n="ant"/><s n="m"/></l><r>Matusalén<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Maʼaz<s n="np"/><s n="ant"/><s n="m"/></l><r>Máat<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Meleʼa<s n="np"/><s n="ant"/><s n="m"/></l><r>Melea<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Molok<s n="np"/><s n="ant"/><s n="m"/></l><r>Moloc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Natan<s n="np"/><s n="ant"/><s n="m"/></l><r>Natán<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Naʼim<s n="np"/><s n="top"/></l><r>Naín<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Ninfas<s n="np"/><s n="ant"/><s n="f"/></l><r>Ninfas<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Partos<s n="np"/><s n="top"/></l><r>Partos<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Patmos<s n="np"/><s n="top"/></l><r>Patmos<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Narsiso<s n="np"/><s n="ant"/><s n="m"/></l><r>Narciso<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Prokoro<s n="np"/><s n="ant"/><s n="m"/></l><r>Prócoro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Ragaʼu<s n="np"/><s n="ant"/><s n="m"/></l><r>Ragau<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Rakel<s n="np"/><s n="ant"/><s n="f"/></l><r>Raquel<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Salim<s n="np"/><s n="top"/></l><r>Salín<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Samotrasiʼa<s n="np"/><s n="top"/></l><r>Samotracia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Sarepta<s n="np"/><s n="top"/></l><r>Sarepta<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Saron<s n="np"/><s n="ant"/><s n="m"/></l><r>Sarón<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Sem<s n="np"/><s n="ant"/><s n="m"/></l><r>Sem<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Semeʼin<s n="np"/><s n="ant"/><s n="m"/></l><r>Semeí<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Sergiʼo<s n="np"/><s n="ant"/><s n="m"/></l><r>Sergio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Serug<s n="np"/><s n="ant"/><s n="m"/></l><r>Serug<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Sintike<s n="np"/><s n="top"/></l><r>Síntique<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Sirino<s n="np"/><s n="ant"/><s n="m"/></l><r>Cirenio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Talita<s n="np"/><s n="top"/></l><r>Talita<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>Tibʼeriʼo<s n="np"/><s n="ant"/><s n="m"/></l><r>Tiberio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Timon<s n="np"/><s n="ant"/><s n="m"/></l><r>Timón<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Uriʼas<s n="np"/><s n="ant"/><s n="m"/></l><r>Urías<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
 
 

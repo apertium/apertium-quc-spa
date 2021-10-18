@@ -50,18 +50,18 @@
 
   <pardefs>
     <pardef n="adj">
-      <e><i><w/><s n="adj"/><j/></i></e>
-      <e><i><w/><s n="adj"/><t/><j/></i></e>
+      <e><i><w/><s n="adj"/><d/></i></e>
+      <e><i><w/><s n="adj"/><t/><d/></i></e>
     </pardef>
     <pardef n="adv">
-      <e><i><w/><s n="adv"/><j/></i></e>
-      <e><i><w/><s n="adv"/><t/><j/></i></e>
+      <e><i><w/><s n="adv"/><d/></i></e>
+      <e><i><w/><s n="adv"/><t/><d/></i></e>
     </pardef>
     <pardef n="n">
-      <e><i><w/><s n="n"/><t/><j/></i></e>
+      <e><i><w/><s n="n"/><t/><d/></i></e>
     </pardef>
     <pardef n="det">
-      <e><i><w/><s n="det"/><t/><j/></i></e>
+      <e><i><w/><s n="det"/><t/><d/></i></e>
     </pardef>
     <pardef n="SN">
       <e><par n="n"/></e>
@@ -83,75 +83,75 @@
   -->
 
     <e lm="en el cielo" c="">
-      <p><l>a<s n="pr"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/>otro<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/><j/>lado<s n="n"/><s n="m"/><s n="sg"/><j/></l>
-         <r>al<b/>otro<b/>lado<s n="adv"/><j/></r></p>
+      <p><l>a<s n="pr"/><d/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/>otro<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/><d/>lado<s n="n"/><s n="m"/><s n="sg"/><d/></l>
+         <r>al<b/>otro<b/>lado<s n="adv"/><d/></r></p>
     </e>
     <e lm="en el cielo" c="">
-      <p><l>en<s n="pr"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/>cielo<s n="n"/><s n="m"/><s n="sg"/><j/></l>
-         <r>en<b/>el<b/>cielo<s n="adv"/><j/></r></p>
+      <p><l>en<s n="pr"/><d/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><d/>cielo<s n="n"/><s n="m"/><s n="sg"/><d/></l>
+         <r>en<b/>el<b/>cielo<s n="adv"/><d/></r></p>
     </e>
     <e lm="dos veces" c="">
-      <p><l>dos<s n="num"/><s n="mf"/><s n="sp"/><j/>vez<s n="n"/><s n="f"/><s n="pl"/><j/></l><r>dos<b/>veces<s n="adv"/><j/></r></p>
+      <p><l>dos<s n="num"/><s n="mf"/><s n="sp"/><d/>vez<s n="n"/><s n="f"/><s n="pl"/><d/></l><r>dos<b/>veces<s n="adv"/><d/></r></p>
     </e>
     <e lm="tres veces" c="">
-      <p><l>tres<s n="num"/><s n="mf"/><s n="sp"/><j/>vez<s n="n"/><s n="f"/><s n="pl"/><j/></l><r>tres<b/>veces<s n="adv"/><j/></r></p>
+      <p><l>tres<s n="num"/><s n="mf"/><s n="sp"/><d/>vez<s n="n"/><s n="f"/><s n="pl"/><d/></l><r>tres<b/>veces<s n="adv"/><d/></r></p>
     </e>
     <e lm="de noche" c="">
-      <p><l>de<s n="pr"/><j/>noche<s n="n"/><s n="f"/><s n="sg"/><j/></l><r>de<b/>noche<s n="adv"/><j/></r></p>
+      <p><l>de<s n="pr"/><d/>noche<s n="n"/><s n="f"/><s n="sg"/><d/></l><r>de<b/>noche<s n="adv"/><d/></r></p>
     </e>
     <e lm="todavía no" c="">
-      <p><l>todavía<s n="adv"/><j/>no<s n="adv"/><j/></l><r>todavía<b/>no<s n="adv"/><j/></r></p>
+      <p><l>todavía<s n="adv"/><d/>no<s n="adv"/><d/></l><r>todavía<b/>no<s n="adv"/><d/></r></p>
     </e>
     <e lm="curado" c="">
       <p><l>curar<s n="vblex"/><s n="pp"/></l><r>curado<s n="adj"/></r></p>
-      <i><t/><j/></i>
+      <i><t/><d/></i>
     </e>
     <e lm="aún no" c="">
-      <p><l>aún<s n="adv"/><j/>no<s n="adv"/><j/></l><r>aún<b/>no<s n="adv"/><j/></r></p>
+      <p><l>aún<s n="adv"/><d/>no<s n="adv"/><d/></l><r>aún<b/>no<s n="adv"/><d/></r></p>
     </e>
     <e lm="semana santa" c="">
-      <p><l>semana<s n="n"/><s n="f"/><s n="sg"/><j/>santo<s n="adj"/><s n="f"/><s n="sg"/><j/></l>
-      <r>semana<b/>santa<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l>semana<s n="n"/><s n="f"/><s n="sg"/><d/>santo<s n="adj"/><s n="f"/><s n="sg"/><d/></l>
+      <r>semana<b/>santa<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
     <e lm="estrella polar" c="">
-      <p><l>estrella<s n="n"/><s n="f"/><s n="pl"/><j/>polar<s n="adj"/><s n="mf"/><s n="pl"/><j/></l>
-      <r>estrella<b/>polar<s n="n"/><s n="f"/><s n="pl"/><j/></r></p>
+      <p><l>estrella<s n="n"/><s n="f"/><s n="pl"/><d/>polar<s n="adj"/><s n="mf"/><s n="pl"/><d/></l>
+      <r>estrella<b/>polar<s n="n"/><s n="f"/><s n="pl"/><d/></r></p>
     </e>
 
     <e lm="estrella polar" c="">
-      <p><l>estrella<s n="n"/><s n="f"/><s n="sg"/><j/>polar<s n="adj"/><s n="mf"/><s n="sg"/><j/></l>
-      <r>estrella<b/>polar<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l>estrella<s n="n"/><s n="f"/><s n="sg"/><d/>polar<s n="adj"/><s n="mf"/><s n="sg"/><d/></l>
+      <r>estrella<b/>polar<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
     <e lm="estación seca" c="">
-      <p><l>estación<s n="n"/><s n="f"/><s n="sg"/><j/>seco<s n="adj"/><s n="f"/><s n="sg"/><j/></l>
-      <r>estación<b/>seca<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l>estación<s n="n"/><s n="f"/><s n="sg"/><d/>seco<s n="adj"/><s n="f"/><s n="sg"/><d/></l>
+      <r>estación<b/>seca<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
 
     <e lm="pasado mañana" c="">
-      <p><l>pasado<s n="adj"/><s n="m"/><s n="sg"/><j/>mañana<s n="n"/><s n="m"/><s n="sg"/><j/></l>
-      <r>pasado<b/>mañana<s n="n"/><s n="m"/><s n="sg"/><j/></r></p>
+      <p><l>pasado<s n="adj"/><s n="m"/><s n="sg"/><d/>mañana<s n="n"/><s n="m"/><s n="sg"/><d/></l>
+      <r>pasado<b/>mañana<s n="n"/><s n="m"/><s n="sg"/><d/></r></p>
     </e>
 
 
     <e lm="hoja de maguey" c="">
-      <p><l>hoja<s n="n"/><s n="f"/><s n="sg"/><j/>de<s n="pr"/><j/>maguey<s n="n"/><s n="m"/><s n="sg"/><j/></l>
-      <r>hoja<b/>de<b/>maguey<s n="n"/><s n="f"/><s n="sg"/><j/></r></p>
+      <p><l>hoja<s n="n"/><s n="f"/><s n="sg"/><d/>de<s n="pr"/><d/>maguey<s n="n"/><s n="m"/><s n="sg"/><d/></l>
+      <r>hoja<b/>de<b/>maguey<s n="n"/><s n="f"/><s n="sg"/><d/></r></p>
     </e>
     <e lm="hojas de maguey" c="">
-      <p><l>hoja<s n="n"/><s n="f"/><s n="pl"/><j/>de<s n="pr"/><j/>maguey<s n="n"/><s n="m"/><s n="sg"/><j/></l>
-      <r>hoja<b/>de<b/>maguey<s n="n"/><s n="f"/><s n="pl"/><j/></r></p>
+      <p><l>hoja<s n="n"/><s n="f"/><s n="pl"/><d/>de<s n="pr"/><d/>maguey<s n="n"/><s n="m"/><s n="sg"/><d/></l>
+      <r>hoja<b/>de<b/>maguey<s n="n"/><s n="f"/><s n="pl"/><d/></r></p>
     </e>
 
         <e lm="vete" c=""><p>
-                <l>ir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/>+te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></l>
-                <r>vete<s n="ij"/><j/></r>
+                <l>ir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/>+te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><d/></l>
+                <r>vete<s n="ij"/><d/></r>
             </p>
         </e>
 
         <e lm="váyanse" c=""><p>
-                <l>ir<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/>+se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></l>
-                <r>váyanse<s n="ij"/><j/></r>
+                <l>ir<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/>+se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><d/></l>
+                <r>váyanse<s n="ij"/><d/></r>
             </p>
         </e>
 
@@ -160,88 +160,88 @@
                 <l>cambiar<s n="vblex"/></l>
                 <r>cambiar<b/>de<b/>lugar<s n="vblex"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>de<s n="pr"/><j/>lugar<s n="n"/><s n="m"/><s n="sg"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>de<s n="pr"/><d/>lugar<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
         </e>
 
         <e lm="ir de prisa" c=""><p>
                 <l>ir<s n="vblex"/></l>
                 <r>ir<b/>de<b/>prisa<s n="vblex"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>de<s n="pr"/><j/>prisa<s n="n"/><s n="f"/><s n="sg"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>de<s n="pr"/><d/>prisa<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
         </e>
 
         <e lm="dar gracias" c=""><p>
                 <l>dar<s n="vblex"/></l>
                 <r>dar<b/>gracias<s n="vblex"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>gracia<s n="n"/><s n="f"/><s n="pl"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>gracia<s n="n"/><s n="f"/><s n="pl"/><d/></l><r></r></p>
         </e>
 
         <e lm="dar la bienvenida" c=""><p>
                 <l>dar<s n="vblex"/></l>
                 <r>dar<b/>la<b/>bienvenida<s n="vblex"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><j/>bienvenida<s n="n"/><s n="f"/><s n="sg"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><d/>bienvenida<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
         </e>
 
         <e lm="dar las gracias" c=""><p>
                 <l>dar<s n="vblex"/></l>
                 <r>dar<b/>las<b/>gracias<s n="vblex"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/><j/>gracia<s n="n"/><s n="f"/><s n="pl"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/><d/>gracia<s n="n"/><s n="f"/><s n="pl"/><d/></l><r></r></p>
         </e>
 
         <e lm="dejar caer" c=""><p>
                 <l>dejar<s n="vblex"/></l>
                 <r>dejar<b/>caer<s n="vblex"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>caer<s n="vblex"/><s n="inf"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>caer<s n="vblex"/><s n="inf"/><d/></l><r></r></p>
         </e>
 
         <e lm="volver loco" c=""><p>
                 <l>volver<s n="vblex"/></l>
                 <r>volver<b/>loco<s n="vblex"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>loco<s n="adj"/><s n="m"/><s n="sg"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>loco<s n="adj"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
         </e>
 
         <e lm="dar miedo" c=""><p>
                 <l>dar<s n="vblex"/></l>
                 <r>dar<b/>miedo<s n="vblex"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>miedo<s n="n"/><s n="m"/><s n="sg"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>miedo<s n="n"/><s n="m"/><s n="sg"/><d/></l><r></r></p>
         </e>
 
         <e lm="dar fuerza" c=""><p>
                 <l>dar<s n="vblex"/></l>
                 <r>dar<b/>fuerza<s n="vblex"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>fuerza<s n="n"/><s n="f"/><s n="sg"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>fuerza<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
         </e>
 
         <e lm="tener hambre" c=""><p>
                 <l>tener<s n="vblex"/></l>
                 <r>tener<b/>hambre<s n="vblex"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>hambre<s n="n"/><s n="f"/><s n="sg"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>hambre<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
         </e>
 
         <e lm="tener paciencia" c=""><p>
                 <l>tener<s n="vblex"/></l>
                 <r>tener<b/>paciencia<s n="vblex"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>paciencia<s n="n"/><s n="f"/><s n="sg"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>paciencia<s n="n"/><s n="f"/><s n="sg"/><d/></l><r></r></p>
         </e>
 
 

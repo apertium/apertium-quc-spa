@@ -112,208 +112,208 @@
 -->
 
         <e lm="kʼul taq ja" c="vecino"><p>
-                <l>kʼul<s n="n"/><s n="px3sg"/><j/>taq<s n="pl"/><j/>ja<s n="n"/></l>
+                <l>kʼul<s n="n"/><s n="px3sg"/><d/>taq<s n="pl"/><d/>ja<s n="n"/></l>
                 <r>kʼul<b/>ja<s n="n"/><s n="pl"/></r>
             </p><par n="poss"/>
-            <i><j/></i>
+            <i><d/></i>
         </e>
 
         <e lm="kʼul ja" c="vecino"><p>
-                <l>kʼul<s n="n"/><s n="px3sg"/><j/>ja<s n="n"/></l>
+                <l>kʼul<s n="n"/><s n="px3sg"/><d/>ja<s n="n"/></l>
                 <r>kʼul<b/>ja<s n="n"/></r>
             </p><par n="poss"/>
-            <i><j/></i>
+            <i><d/></i>
         </e>
 
 
         <e lm="wiʼ ri kowil" c="prepucio"><p>
-                <l>wiʼ<s n="n"/><s n="rel"/><s n="px3sg"/><j/>ri<s n="det"/><j/>kowil<s n="n"/></l>
+                <l>wiʼ<s n="n"/><s n="rel"/><s n="px3sg"/><d/>ri<s n="det"/><d/>kowil<s n="n"/></l>
                 <r>wiʼ<b/>ri<b/>kowil<s n="n"/></r>
             </p><par n="poss"/>
-            <i><j/></i>
+            <i><d/></i>
         </e>
 
         <e lm="qʼaxal tzij ri Dyos" c="profeta"><p>
-                <l>qʼaxal<s n="adj"/><j/>tzij<s n="n"/><s n="px3sg"/><j/>ri<s n="det"/><j/>dyos<s n="n"/><j/></l>
+                <l>qʼaxal<s n="adj"/><d/>tzij<s n="n"/><s n="px3sg"/><d/>ri<s n="det"/><d/>dyos<s n="n"/><d/></l>
                 <r>qʼaxal<b/>tzij<b/>ri<b/>Dyos<s n="n"/></r>
             </p>
         </e>
 
 <!--
         <e lm="qʼaxal tzij" c="traductor"><p>
-                <l>qʼaxal<s n="adj"/><j/>tzij<s n="n"/><t/><j/></l>
+                <l>qʼaxal<s n="adj"/><d/>tzij<s n="n"/><t/><d/></l>
                 <r>qʼaxal<b/>tzij<s n="n"/></r>
             </p>
         </e>
 
         <e lm="Jun Jun Ajpu" c=""><p>
-                <l>jun<s n="num"/><j/>jun<s n="num"/><j/>Ajpu<s n="np"/><s n="ant"/><s n="m"/><j/></l>
+                <l>jun<s n="num"/><d/>jun<s n="num"/><d/>Ajpu<s n="np"/><s n="ant"/><s n="m"/><d/></l>
                 <r>Jun<b/>Jun<b/>Ajpu<s n="np"/><s n="ant"/><s n="m"/></r>
             </p>
         </e>
 
 
         <e lm="Jun Ajpu" c=""><p>
-                <l>jun<s n="num"/><j/>ajpu<s n="np"/><s n="ant"/><s n="m"/><j/></l>
+                <l>jun<s n="num"/><d/>ajpu<s n="np"/><s n="ant"/><s n="m"/><d/></l>
                 <r>Jun<b/>Ajpu<s n="np"/><s n="ant"/><s n="m"/></r>
             </p>
         </e>
 -->
 
         <e lm="xa jekʼuriʼ" c="entonces"><p>
-                <l>xa<t/><j/>jekʼuriʼ<t/><j/></l>
+                <l>xa<t/><d/>jekʼuriʼ<t/><d/></l>
                 <r>xa<b/>jekʼuriʼ<s n="adv"/></r>
             </p>
         </e>
 
 
         <e lm="aretaq" c="cuando"><p>
-                <l>are<t/><j/>taq<t/><j/></l>
+                <l>are<t/><d/>taq<t/><d/></l>
                 <r>aretaq<s n="cnjsub"/></r>
             </p>
         </e>
 
         <e lm="awas qʼij" c="semana santa"><p>
-                <l>awas<s n="adj"/><j/>qʼij<s n="n"/><j/></l>
+                <l>awas<s n="adj"/><d/>qʼij<s n="n"/><d/></l>
                 <r>awas<b/>qʼij<s n="n"/></r>
             </p>
         </e>
 
         <e lm="kʼamal bʼe" c="guía"><p>
-                <l>kʼamal<s n="n"/><j/>bʼe<s n="n"/><j/></l>
+                <l>kʼamal<s n="n"/><d/>bʼe<s n="n"/><d/></l>
                 <r>kʼamal<b/>bʼe<s n="n"/></r>
             </p>
         </e>
 
         <e lm="sachabʼal mak" c="perdón"><p>
-                <l>sachabʼal<s n="n"/><j/>mak<s n="n"/><j/></l>
+                <l>sachabʼal<s n="n"/><d/>mak<s n="n"/><d/></l>
                 <r>sachabʼal<b/>mak<s n="n"/></r>
             </p>
         </e>
 
         <e lm="komon tyox" c="iglesia"><p>
-                <l>komon<s n="adj"/><j/>tyox<s n="n"/><j/></l>
+                <l>komon<s n="adj"/><d/>tyox<s n="n"/><d/></l>
                 <r>komon<b/>tyox<s n="n"/></r>
             </p>
         </e>
 
         <e lm="qʼatbʼal tzij" c="gobernador"><p>
-                <l>qʼatbʼal<s n="adj"/><j/>tzij<s n="n"/><j/></l>
+                <l>qʼatbʼal<s n="adj"/><d/>tzij<s n="n"/><d/></l>
                 <r>qʼatbʼal<b/>tzij<s n="n"/></r>
             </p>
         </e>
 
         <e lm="xaq wuj" c="página"><p>
-                <l>xaq<s n="n"/><t/><j/>wuj<s n="n"/><j/></l>
+                <l>xaq<s n="n"/><t/><d/>wuj<s n="n"/><d/></l>
                 <r>xaq<b/>wuj<s n="n"/></r>
             </p>
         </e>
 
         <e lm="xa ta neʼ" c="subsuelo"><p>
-                <l>xa<s n="adv"/><j/>taj<s n="neg"/><j/>neʼ<s n="n"/><j/></l>
+                <l>xa<s n="adv"/><d/>taj<s n="neg"/><d/>neʼ<s n="n"/><d/></l>
                 <r>xa<b/>ta<b/>neʼ<s n="cnjsub"/></r>
             </p>
         </e>
 
 
         <e lm="xeʼ ja" c="subsuelo"><p>
-                <l>xeʼ<s n="n"/><t/><j/>ja<s n="n"/><j/></l>
+                <l>xeʼ<s n="n"/><t/><d/>ja<s n="n"/><d/></l>
                 <r>xeʼ<b/>ja<s n="n"/></r>
             </p>
         </e>
 
         <e lm="jas che" c="por qué"><p>
-                <l>jeʼ<s n="adv"/><j/>jas<s n="prn"/><s n="itg"/><j/></l>
+                <l>jeʼ<s n="adv"/><d/>jas<s n="prn"/><s n="itg"/><d/></l>
                 <r>jeʼ<b/>jas<s n="adv"/></r>
             </p>
         </e>
 
         <e lm="jas che" c="por qué"><p>
-                <l>jas<s n="prn"/><s n="itg"/><j/>chi<s n="pr"/><j/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><j/></l>
+                <l>jas<s n="prn"/><s n="itg"/><d/>chi<s n="pr"/><d/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><d/></l>
                 <r>jas<b/>che<s n="adv"/><s n="itg"/></r>
             </p>
         </e>
 
         <e lm="aretaq chiʼ" c="cuando"><p>
-                <l>aretaq<s n="adv"/><j/>chiʼ<s n="adv"/><j/></l>
+                <l>aretaq<s n="adv"/><d/>chiʼ<s n="adv"/><d/></l>
                 <r>aretaq<b/>chiʼ<s n="cnjsub"/></r>
             </p>
         </e>
 
 
         <e lm="rumal che" c="porque"><p>
-                <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><j/>chi<s n="pr"/><j/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><j/></l>
+                <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><d/>chi<s n="pr"/><d/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><d/></l>
                 <r>rumal<b/>che<s n="cnjadv"/></r>
             </p>
         </e>
 
         <e lm="rumal rech che" c="porque"><p>
-                <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><j/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><j/>chi<s n="pr"/><j/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><j/></l>
+                <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><d/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><d/>chi<s n="pr"/><d/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><d/></l>
                 <r>rumal<b/>rech<b/>che<s n="cnjadv"/></r>
             </p>
         </e>
 
         <e lm="rumal rech" c="por cuanto"><p>
-                <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><j/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><j/></l>
+                <l>umal<s n="n"/><s n="rel"/><s n="px3sg"/><d/>ech<s n="n"/><s n="rel"/><s n="px3sg"/><d/></l>
                 <r>rumal<b/>rech<s n="cnjadv"/></r>
             </p>
         </e>
 
         <e lm="utz il" c="gustarse"><p>
-                <l>utz<s n="adj"/><j/>il<s n="v"/><s n="tv"/><s n="pass"/></l>
+                <l>utz<s n="adj"/><d/>il<s n="v"/><s n="tv"/><s n="pass"/></l>
                 <r>utz<b/>il<s n="v"/><s n="iv"/></r>
-            </p><i><t/><j/></i>
+            </p><i><t/><d/></i>
         </e>
 
         <e lm="ya jun rutzil" c="saludar">
 <p><l>ya<s n="v"/><s n="tv"/></l>
    <r>ya<b/>jun<b/>rutzil<s n="v"/><s n="iv"/></r></p>
-   <i><t/><j/></i>
-<p><l>jun<t/><j/>utzil<s n="n"/><s n="px3sg"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>jun<t/><d/>utzil<s n="n"/><s n="px3sg"/><d/></l><r></r></p>
 </e>
 
         <e lm="bʼan qʼatojtzij" c="juzgar">
 <p><l>bʼan<s n="v"/><s n="tv"/></l>
    <r>bʼan<b/>qʼatojtzij<s n="v"/><s n="iv"/></r></p>
-   <i><t/><j/></i>
-<p><l>qʼatojtzij<s n="n"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>qʼatojtzij<s n="n"/><d/></l><r></r></p>
 </e>
 
         <e lm="bʼan (ta) qʼatojtzij" c="juzgar">
 <p><l>bʼan<s n="v"/><s n="tv"/></l>
    <r>bʼan<b/>qʼatojtzij<s n="v"/><s n="iv"/></r></p>
-   <i><t/><j/></i>
-   <i><w/><t/><j/></i>
-<p><l>qʼatojtzij<s n="n"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+   <i><w/><t/><d/></i>
+<p><l>qʼatojtzij<s n="n"/><d/></l><r></r></p>
 </e>
 
         <e lm="el uloq" c=""><p>
                 <l>el<s n="v"/><s n="iv"/></l>
                 <r>el<b/>uloq<s n="v"/><s n="iv"/></r>
             </p>
-   <i><t/><j/></i> <p><l>uloq<s n="adv"/><s n="dir"/><j/></l><r></r></p>
+   <i><t/><d/></i> <p><l>uloq<s n="adv"/><s n="dir"/><d/></l><r></r></p>
         </e>
 
         <e lm="el wi" c=""><p>
                 <l>el<s n="v"/><s n="iv"/></l>
                 <r>el<b/>wi<s n="v"/><s n="iv"/></r>
             </p>
-   <i><t/><j/></i> <p><l>wi<s n="adv"/><s n="dir"/><j/></l><r></r></p>
+   <i><t/><d/></i> <p><l>wi<s n="adv"/><s n="dir"/><d/></l><r></r></p>
         </e>
 
         <e lm="el kubij" c=""><p>
                 <l>el<s n="v"/><s n="iv"/></l>
                 <r>el<b/>kubij<s n="v"/><s n="iv"/></r>
             </p>
-   <i><t/><j/></i> <p><l>bij<s n="v"/><s n="tv"/><s n="impf"/><s n="o_sg3"/><s n="s_sg3"/><j/></l><r></r></p>
+   <i><t/><d/></i> <p><l>bij<s n="v"/><s n="tv"/><s n="impf"/><s n="o_sg3"/><s n="s_sg3"/><d/></l><r></r></p>
         </e>
 
         <e lm="el ubʼik" c=""><p>
                 <l>el<s n="v"/><s n="iv"/></l>
                 <r>el<b/>ubik<s n="v"/><s n="iv"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>ubik<s n="adv"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>ubik<s n="adv"/><d/></l><r></r></p>
         </e>
 
 
@@ -321,8 +321,8 @@
                 <l>tzelejik<s n="v"/><s n="iv"/></l>
                 <r>tzelejik<b/>ubik<s n="v"/><s n="iv"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>ubik<s n="adv"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>ubik<s n="adv"/><d/></l><r></r></p>
         </e>
 
 <!--
@@ -330,8 +330,8 @@
                 <l>bij<s n="v"/><s n="tv"/></l>
                 <r>bij<b/>ri<b/>tzij<s n="v"/><s n="iv"/></r>
             </p>
-   <i><t/><j/></i>
-<p><l>ri<s n="det"/><j/>tzij<s n="n"/><j/></l><r></r></p>
+   <i><t/><d/></i>
+<p><l>ri<s n="det"/><d/>tzij<s n="n"/><d/></l><r></r></p>
         </e>
 -->
 

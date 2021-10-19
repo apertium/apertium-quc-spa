@@ -154,7 +154,7 @@ $(PREFIX2).revautoseq.bin: $(BASENAME).$(PREFIX1).lsx
 
 
 $(PREFIX1).rtx.bin: $(BASENAME).$(PREFIX1).rtx
-	trx-comp $@ $<
+	rtx-comp $@ $<
 
 $(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
 	apertium-validate-transfer $<
@@ -162,7 +162,7 @@ $(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
 
 
 #$(PREFIX2).rtx.bin: $(BASENAME).$(PREFIX2).rtx
-#	trx-comp $< $@
+#	rtx-comp $< $@
 
 ###############################################################################
 ## Postgeneration dictionaries

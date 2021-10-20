@@ -226,6 +226,7 @@
         <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="s_pl2"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="imp"/><s n="neg"/><s n="s_pl3"/></l><r></r></p></e>
         <e><p><l></l><r></r></p></e>
+        <e>       <p><l>EMPTY_LEFT_SIDE_HACK</l><r>EMPTY_LEFT_SIDE_HACK</r></p></e>
       </pardef>
 
       <pardef n="TV-Irr">
@@ -246,6 +247,7 @@
         <e r="LR"><p><l><s n="o_pl3"/><s n="s_pl1"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="o_pl3"/><s n="s_pl2"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="o_pl3"/><s n="s_pl3"/></l><r></r></p></e>
+        <e>       <p><l>EMPTY_LEFT_SIDE_HACK</l><r>EMPTY_LEFT_SIDE_HACK</r></p></e>
       </pardef>
 
       <pardef n="TV">
@@ -528,6 +530,7 @@
 
 
         <e><p><l></l><r></r></p></e>
+        <e>       <p><l>EMPTY_LEFT_SIDE_HACK</l><r>EMPTY_LEFT_SIDE_HACK</r></p></e>
       </pardef>
 
       <pardef n="N">
@@ -538,6 +541,7 @@
         <e r="LR"><p><l><s n="px2pl"/></l><r></r></p></e>
         <e r="LR"><p><l><s n="px3pl"/></l><r></r></p></e>
         <e><p><l></l><r></r></p></e>
+        <e>       <p><l>EMPTY_LEFT_SIDE_HACK</l><r>EMPTY_LEFT_SIDE_HACK</r></p></e>
       </pardef>
 
 
@@ -566,9 +570,9 @@
       <e r="LR"><p><l>taj<s n="neg"/></l><r></r></p></e>
 
       <e r="LR"><p><l>ali<s n="clf"/><s n="f"/></l><r></r></p></e>
-      <e r="LR"><p><l>ala<s n="clf"/><s n="m"/></l><r></r></p></e> 
+      <e r="LR"><p><l>ala<s n="clf"/><s n="m"/></l><r></r></p></e>
       <e r="LR"><p><l>nan<s n="clf"/><s n="f"/></l><r></r></p></e>
-      <e r="LR"><p><l>tat<s n="clf"/><s n="m"/></l><r></r></p></e> 
+      <e r="LR"><p><l>tat<s n="clf"/><s n="m"/></l><r></r></p></e>
 
       <e r="LR"><p><l>tajin<s n="aux"/></l><r></r></p></e>  <!-- progresivo -->
 
@@ -578,7 +582,9 @@
 <!--<e><p><l>jat<s n="ij"/></l><r>váyanse<s n="ij"/></r></p></e>-->
 <e><p><l>jat<s n="ij"/></l><r>vete<s n="ij"/></r></p></e>
 <e><p><l>aaa<s n="ij"/></l><r>ah<s n="ij"/></r></p></e>
-<e><p><l>bʼaʼ<s n="mod"/></l><r></r></p></e> <!-- qué es eso? -->
+
+<!-- empty right hand side needs LR! -->
+<e r="LR"><p><l>bʼaʼ<s n="mod"/></l><r></r></p></e> <!-- qué es eso? -->
 
       <!-- SECTION: Conjunciones -->
 
@@ -1016,7 +1022,7 @@
 <e><par n="N"/><p><l>amaqʼ<s n="n"/></l><r>nación<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>kolotajem<s n="n"/></l><r>salvación<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>noʼj<s n="n"/></l><r>opinión<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
-<e><par n="N"/><p><l>Tʼuyul<s n="n"/></l><r>estrella polar<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e><par n="N"/><p><l>Tʼuyul<s n="n"/></l><r>estrella<b/>polar<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>pataninel<s n="n"/></l><r>servidor<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>pataninel<s n="n"/></l><r>siervo<s n="n"/><s n="m"/></r></p><par n="pl_ND"/></e>
 <e><par n="N"/><p><l>ajtzʼibʼanel<s n="n"/></l><r>escritor<s n="n"/><s n="GD"/></r></p><par n="pl_ND"/></e>
@@ -1902,7 +1908,8 @@
 
       <!-- SECTION: Adjetivos -->
 
-      <e><p><l>qʼaxal<s n="adj"/></l><r></r></p></e> <!-- esto qué significa ? -->
+<!-- empty right hand side needs LR! -->
+      <e r="LR"><p><l>qʼaxal<s n="adj"/></l><r></r></p></e> <!-- esto qué significa ? -->
 
       <e><p><l>rajawaxik<s n="adj"/></l><r>necesario<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 
@@ -1981,7 +1988,7 @@
 <e><p><l>kʼaslik<s n="adj"/></l><r>vivo<s n="adj"/></r></p><par n="GD_ND"/></e>
 <e><p><l>kʼaslik<s n="adj"/></l><r>viviente<s n="adj"/></r></p><par n="mf_ND"/></e>
 
-<!--<e><p><l>apachike<s n="adj"/></l><r>que sea<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>-->
+<!-- <e><p><l>apachike<s n="adj"/></l><r>que<b/>sea<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e> -->
 <e><p><l>apachike<s n="adj"/></l><r>cualquiera<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>kiʼ<s n="adj"/></l><r>dulce<s n="adj"/><s n="mf"/></r></p><par n="pl_ND"/></e>
 <e><p><l>qʼalaj<s n="adj"/></l><r>visible<s n="adj"/><s n="mf"/></r></p><par n="pl_ND"/></e>
@@ -2101,16 +2108,21 @@
 
       <e><p><l>jeʼ<b/>jas<s n="adv"/></l><r>como<s n="pr"/></r></p></e>
 
-      <e><p><l>wi<s n="adv"/><s n="dir"/></l><r></r></p></e>
-      <e><p><l>uk<s n="adv"/><s n="dir"/></l><r></r></p></e>
-      <e><p><l>bʼi<s n="adv"/><s n="dir"/></l><r></r></p></e>
+      <!-- empty right hand side needs LR! -->
+      <e r="LR"><p><l>wi<s n="adv"/><s n="dir"/></l><r></r></p></e>
+      <e r="LR"><p><l>uk<s n="adv"/><s n="dir"/></l><r></r></p></e>
+      <e r="LR"><p><l>bʼi<s n="adv"/><s n="dir"/></l><r></r></p></e>
       <e><p><l>apan<s n="adv"/><s n="dir"/></l><r>cerca<s n="adv"/></r></p></e>
       <e><p><l>apan<s n="adv"/><s n="dir"/></l><r>fuera<s n="adv"/></r></p></e>
       <e><p><l>uloq<s n="adv"/><s n="dir"/></l><r>aquí<s n="adv"/></r></p></e>
-      <e><p><l>kan<s n="adv"/><s n="dir"/></l><r></r></p></e>
+
+      <!-- empty right hand side needs LR! -->
+      <e r="LR"><p><l>kan<s n="adv"/><s n="dir"/></l><r></r></p></e>
 
       <e><p><l>nakʼut<s n="adv"/></l><r>pues<s n="cnjadv"/></r></p></e>
-      <e><p><l>taj<s n="adv"/></l><r></r></p></e> <!--indicator of negativity or doubtfulness -->
+
+      <!-- empty right hand side needs LR! -->
+      <e r="LR"><p><l>taj<s n="adv"/></l><r></r></p></e> <!--indicator of negativity or doubtfulness -->
 
       <e><p><l>chiʼ<s n="adv"/></l><r>aquí<s n="adv"/></r></p></e>
       <e><p><l>chi<s n="adv"/></l><r>otra<b/>vez<s n="adv"/></r></p></e>

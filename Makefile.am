@@ -152,17 +152,9 @@ $(PREFIX2).revautoseq.bin: $(BASENAME).$(PREFIX1).lsx
 ## Structural transfer rules
 ###############################################################################
 
-
-$(PREFIX1).rtx.bin: $(BASENAME).$(PREFIX1).rtx
-	rtx-comp $@ $<
-
 $(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
-
-
-#$(PREFIX2).rtx.bin: $(BASENAME).$(PREFIX2).rtx
-#	rtx-comp $< $@
 
 ###############################################################################
 ## Postgeneration dictionaries
